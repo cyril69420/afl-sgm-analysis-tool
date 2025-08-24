@@ -1,0 +1,59 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+# ---- Edit these repo-local settings as needed ----
+export GIT_USER_NAME="cyril69429"
+export GIT_USER_EMAIL="mcdoet19@gmail.com"
+export ORIGIN_REPO="cyril69420/afl-sgm-analysis-tool"
+export FORK_OWNER="cyril69429"
+
+# <- IMPORTANT: do NOT hardcode your token here.
+: "${GITHUB_TOKEN:?Set GITHUB_TOKEN env var (PAT) before running}"
+
+# Optional: deterministic branch name or timestamped
+export BRANCH="${BRANCH:-feat/pipeline-hardening-$(date +%Y%m%d-%H%M%S)}"
+# --------------------------------------------------
+
+REPO_DIR="$(basename "$ORIGIN_REPO")"
+git config --global user.name  "$GIT_USER_NAME"
+git config --global user.email "$GIT_USER_EMAIL"
+
+rm -rf "$REPO_DIR"
+git clone "https://${GITHUB_TOKEN}@github.com/${ORIGIN_REPO}.git"
+cd "$REPO_DIR"
+git fetch origin --prune
+git checkout main
+git pull --ff-only
+git checkout -b "$BRANCH"
+
+# Ensure fork exists
+curl -sS -H "Authorization: Bearer ${GITHUB_TOKEN}" \
+     -H "Accept: application/vnd.github+json" \
+     -X POST "https://api.github.com/repos/${ORIGIN_REPO}/forks" \
+     -d "{\"name\":\"$(basename "$ORIGIN_REPO")\"}" >/dev/null
+
+FORK_REPO="${FORK_OWNER}/$(basename "$ORIGIN_REPO")"
+if git remote get-url fork >/dev/null 2>&1; then
+  git remote set-url fork "https://${GITHUB_TOKEN}@github.com/${FORK_REPO}.git"
+else
+  git remote add fork "https://${GITHUB_TOKEN}@github.com/${FORK_REPO}.git"
+fi
+
+git add -A || true
+git commit -m "chore: initial commit from agent bootstrap" || true
+git push -u fork "$BRANCH"
+
+# Open PR
+PR_PAYLOAD=$(cat <<JSON
+{
+  "title": "${BRANCH}",
+  "head":  "${FORK_OWNER}:${BRANCH}",
+  "base":  "main",
+  "body":  "Automated: see RUN.md and CHANGES.md for details."
+}
+JSON
+)
+curl -sS -H "Authorization: Bearer ${GITHUB_TOKEN}" \
+     -H "Accept: application/vnd.github+json" \
+     -X POST "https://api.github.com/repos/${ORIGIN_REPO}/pulls" \
+     -d "$PR_PAYLOAD" | jq -r '.html_url // "PR creation response did not include a URL"'
