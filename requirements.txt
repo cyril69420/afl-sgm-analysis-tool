@@ -1,5 +1,4 @@
-# Core dependencies for the AFL SGM analysis tool. When installing
-# dependencies ensure Python >= 3.10.
+# Core dependencies for the AFL SGM analysis tool. Requires Python ≥ 3.10.
 
 pydantic>=2.0
 duckdb>=0.10.1
@@ -12,7 +11,10 @@ python-dotenv>=1.0
 playwright>=1.41
 great_expectations>=0.18
 
-# Optional: you can uncomment the following line to pin a specific
-# version of python-lambda-test if you are writing tests against
-# LambdaTest. It is not required for ingestion.
+# Additional dependencies used in the enhanced pipeline
+numpy>=1.25          # correlation and numerical routines
+requests>=2.31       # optional HTTP client for weather/API calls
+
+# Optional: you can pin a specific version of python‑lambda‑test if you write
+# tests against LambdaTest. It is not required for ingestion.
 # lambdatest~=1.0

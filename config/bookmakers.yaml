@@ -1,28 +1,12 @@
 """
-Configuration for bookmaker scraping. Each bookmaker entry defines the starting
-URL for event discovery, CSS or XPath selectors used to locate event URLs,
-pagination controls and any special instructions for navigating historical
-fixtures. These values are consumed by the bronze_discover_event_urls script
-and can be extended or adjusted without modifying the code.
+Configuration for bookmaker scraping.
 
-The structure of this file is a mapping of bookmaker names to their
-configuration. Keys include:
-
-  start_url: The landing page used to initiate discovery. May include
-    placeholders such as {season} or {round} which are filled by the CLI.
-  event_selector: CSS selector that resolves to anchor elements for each
-    event. Required.
-  next_page_selector: Optional CSS selector for a pagination link or
-    button that loads the next page of events.
-  round_selector: Optional selector or description of a UI element used
-    to navigate between rounds (for historical scraping). The bronze
-    script interprets this based on the bookmaker’s website structure.
-  throttle_ms: Milliseconds to wait between page interactions. Scrapers
-    should respect this to avoid overloading the site.
-
-This file provides reasonable defaults for Sportsbet and PointsBet. Ladbrokes
-is included as a placeholder and may require adjustments. Feel free to add
-additional bookmakers following the same schema.
+Each bookmaker entry defines how the discovery and odds ingestion scripts
+should interact with the website. The `start_url` is used to initiate
+event discovery. CSS selectors identify event links and pagination
+controls. `throttle_ms` introduces a polite delay between page
+interactions. You can add additional fields (e.g. `fixture_selectors` or
+api endpoints) as needed – the scraping code reads keys dynamically.
 """
 
 sportsbet:

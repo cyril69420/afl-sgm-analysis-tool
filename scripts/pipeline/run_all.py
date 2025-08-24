@@ -1,91 +1,116 @@
 #!/usr/bin/env python
 """
-Orchestrate the full AFL SGM analysis tool pipeline.
+Pipeline orchestrator for the AFL SGM analysis tool.
 
-This script runs the Bronze ingestion scripts followed by the Silver and
-Gold builders to produce a complete set of data artefacts. It is
-designed to be idempotent: running it multiple times with the same
-parameters will not create duplicate records. Use this as the main
-entry point for automated workflows or local testing.
+This script coordinates the execution of all ingestion and modelling
+steps from Bronze through Gold.  It is designed to be idempotent and
+safe to run multiple times; each stage writes append‑only Parquet
+datasets partitioned by season and round.
 
-Usage:
-    python scripts/pipeline/run_all.py --season 2025 --rounds all --bookmakers sportsbet,pointsbet --include-weather
+By default the orchestrator discovers event URLs, ingests fixtures,
+scrapes live and historical odds, fetches weather (if enabled),
+constructs the Silver layer, builds the Gold SGMs and then runs QA on
+each layer.  Command line flags allow selective inclusion of
+bookmakers, seasons, rounds and weather.
 
-Flags:
-    --season: The AFL season year (e.g. 2025). Required.
-    --rounds: Comma or range separated rounds to ingest (default: all).
-    --bookmakers: Comma separated list of bookmakers to scrape (default from config).
-    --include-weather: Include weather ingestion (forecast and history).
-    --root: Project root directory (default: current directory).
-    --log-level: Logging level (default: INFO).
+Example usage:
 
-The Bronze scripts rely on stubbed data in this repo for demonstration.
-To ingest real data you will need to implement network calls in the
-Bronze scripts.
+    python scripts/pipeline/run_all.py --season 2025 --rounds 1-5 --bookmakers sportsbet --include-weather
+
+See also the Makefile target ``make pipeline`` which invokes this
+script with sensible defaults.
 """
 
 from __future__ import annotations
 
 import argparse
-import logging
 import subprocess
-import sys
+import logging
+import shlex
 from pathlib import Path
+from typing import List
 
 
-def run(cmd: list[str], cwd: Path) -> None:
-    """Execute a subprocess and raise on failure."""
-    logging.info("Running: %s", " ".join(cmd))
-    result = subprocess.run(cmd, cwd=cwd, capture_output=True, text=True)
+def run(cmd: str) -> None:
+    """Run a shell command and raise on failure.
+
+    The command string is split using ``shlex.split`` to avoid shell
+    injection.  Output and errors are streamed directly to the
+    terminal.  If the command exits with a non‑zero status a
+    ``RuntimeError`` is raised to abort the pipeline.
+    """
+    logging.info("Executing: %s", cmd)
+    result = subprocess.run(shlex.split(cmd), capture_output=False)
     if result.returncode != 0:
-        logging.error("Command failed with exit code %s: %s", result.returncode, result.stderr)
-        raise RuntimeError(f"Command {' '.join(cmd)} failed")
-    if result.stdout:
-        logging.debug(result.stdout)
-    if result.stderr:
-        logging.debug(result.stderr)
+        raise RuntimeError(f"Command failed: {cmd}")
 
 
-def main() -> None:
-    parser = argparse.ArgumentParser(description="Run Bronze, Silver and Gold ingestion steps")
+def main(argv: List[str] | None = None) -> None:
+    parser = argparse.ArgumentParser(description="Run the full AFL SGM pipeline")
     parser.add_argument("--root", default=".", help="Project root directory")
-    parser.add_argument("--season", type=int, required=True, help="AFL season year (e.g. 2025)")
-    parser.add_argument("--rounds", default="all", help="Comma or range separated rounds (e.g. '1-5' or 'all')")
-    parser.add_argument("--bookmakers", default="", help="Comma separated list of bookmakers (defaults from settings)")
-    parser.add_argument("--include-weather", action="store_true", help="Include weather ingestion (forecast & history)")
-    parser.add_argument("--log-level", default="INFO", help="Logging level")
-    args = parser.parse_args()
-    logging.basicConfig(level=getattr(logging, args.log_level.upper(), logging.INFO), format="%(asctime)s %(levelname)s %(message)s")
+    parser.add_argument("--season", type=int, required=True, help="Season year to process (e.g. 2025)")
+    parser.add_argument(
+        "--rounds",
+        type=str,
+        default="all",
+        help="Comma or range separated list of rounds to process (e.g. '1,2,3' or '1-5' or 'all')",
+    )
+    parser.add_argument(
+        "--bookmakers",
+        type=str,
+        default=None,
+        help="Comma separated list of bookmakers to scrape (default: all configured)",
+    )
+    parser.add_argument(
+        "--include-weather", action="store_true", help="Whether to fetch weather data for fixtures"
+    )
+    parser.add_argument("--headless", action="store_true", help="Run Playwright in headless mode for scraping")
+    parser.add_argument("--log-level", default="INFO", help="Logging level (DEBUG, INFO, WARNING, ERROR)")
+    args = parser.parse_args(argv)
+    logging.basicConfig(level=getattr(logging, args.log_level.upper(), logging.INFO), format="%(message)s")
     root = Path(args.root).resolve()
-
-    py_exec = sys.executable
-    bronze_dir = root / "scripts" / "bronze"
-    silver_dir = root / "scripts" / "silver"
-    gold_dir = root / "scripts" / "gold"
-
-    # Build argument lists
-    rounds_flag = ["--rounds", args.rounds] if args.rounds else []
-    bookmakers_flag = ["--bookmakers", args.bookmakers] if args.bookmakers else []
-
-    # Bronze: discover event URLs
-    run([py_exec, str(bronze_dir / "bronze_discover_event_urls.py"), "--season", str(args.season), "--root", str(root), *rounds_flag, *bookmakers_flag], root)
-    # Bronze: ingest games
-    run([py_exec, str(bronze_dir / "bronze_ingest_games.py"), "--season", str(args.season), "--root", str(root)], root)
-    # Bronze: ingest live odds snapshots
-    run([py_exec, str(bronze_dir / "bronze_ingest_odds_live.py"), "--season", str(args.season), "--root", str(root)], root)
-    # Bronze: ingest historic odds
-    run([py_exec, str(bronze_dir / "bronze_ingest_historic_odds.py"), "--season", str(args.season), "--root", str(root)], root)
-    # Bronze: ingest weather (optional)
+    season = args.season
+    # Bronze stage: discovery
+    discover_cmd = f"python scripts/bronze/bronze_discover_event_urls.py --root {root} --season {season}"
+    if args.rounds:
+        discover_cmd += f" --rounds {args.rounds}"
+    if args.bookmakers:
+        discover_cmd += f" --bookmakers {args.bookmakers}"
+    if args.headless:
+        discover_cmd += " --headless"
+    run(discover_cmd)
+    # Bronze stage: fixtures
+    fixtures_cmd = f"python scripts/bronze/bronze_ingest_games.py --root {root} --season {season}"
+    if args.rounds:
+        fixtures_cmd += f" --rounds {args.rounds}"
+    run(fixtures_cmd)
+    # Bronze stage: live odds
+    odds_live_cmd = f"python scripts/bronze/bronze_ingest_odds_live.py --root {root} --season {season}"
+    run(odds_live_cmd)
+    # Bronze stage: historical odds
+    odds_hist_cmd = f"python scripts/bronze/bronze_ingest_historic_odds.py --root {root} --season {season}"
+    run(odds_hist_cmd)
+    # Bronze stage: weather (optional)
     if args.include_weather:
-        run([py_exec, str(bronze_dir / "bronze_ingest_weather_forecast.py"), "--season", str(args.season), "--root", str(root)], root)
-        run([py_exec, str(bronze_dir / "bronze_ingest_weather_history.py"), "--season", str(args.season), "--root", str(root)], root)
-
-    # Silver: build from Bronze
-    run([py_exec, str(silver_dir / "build_silver.py"), "--season", str(args.season), "--root", str(root)], root)
-
-    # Gold: build SGMs
-    run([py_exec, str(gold_dir / "build_gold.py"), "--season", str(args.season), "--root", str(root)], root)
-
+        weather_fc_cmd = f"python scripts/bronze/bronze_ingest_weather_forecast.py --root {root} --season {season}"
+        run(weather_fc_cmd)
+        weather_hist_cmd = f"python scripts/bronze/bronze_ingest_weather_history.py --root {root} --season {season}"
+        run(weather_hist_cmd)
+    # Silver stage
+    silver_cmd = f"python scripts/silver/build_silver.py --root {root} --season {season}"
+    if args.include_weather:
+        silver_cmd += " --include-weather"
+    run(silver_cmd)
+    # Gold stage
+    gold_cmd = f"python scripts/gold/build_gold.py --root {root} --season {season}"
+    run(gold_cmd)
+    # Quality assurance
+    qa_bronze_cmd = f"python scripts/bronze/qa_bronze.py {root}"
+    run(qa_bronze_cmd)
+    qa_silver_cmd = f"python scripts/silver/qa_silver.py {root}"
+    run(qa_silver_cmd)
+    qa_gold_cmd = f"python scripts/gold/qa_gold.py {root}"
+    run(qa_gold_cmd)
     logging.info("Pipeline run completed successfully")
 
 

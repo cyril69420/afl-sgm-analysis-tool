@@ -1,123 +1,107 @@
 # AFL SGM Analysis Tool
 
-This repository contains a set of ingestion pipelines and utilities for
-collecting AFL (Australian Football League) data suitable for multi‑leg
-same game multis (SGM) analysis. The project is structured into three
-tiers of a modern data lake: **Bronze** (raw ingestion), **Silver**
-(cleansed and enriched) and **Gold** (analytics ready). This README
-documents the primary entrypoints for the Bronze layer and explains how
-to configure and run the pipelines.
+This repository contains an end‑to‑end pipeline for sourcing, cleaning and modelling
+AFL (Australian Football League) data for **same game multi** (SGM) analysis.
 
-## Repository Structure
+## What’s new in `feat/sgm‑enhancements`
 
-```
-afl-sgm-analysis-tool/
-  config/              # YAML configuration files
-    bookmakers.yaml    # Per‑bookmaker scraping selectors
-    settings.yaml      # Global ingestion settings
-  scripts/
-    bronze/            # Bronze ingestion scripts and helpers
-      _shared.py       # Shared helpers for all Bronze scripts
-      _duck.py         # DuckDB convenience functions
-      bronze_discover_event_urls.py
-      bronze_ingest_games.py
-      bronze_ingest_odds_live.py
-      bronze_ingest_historic_odds.py
-      bronze_ingest_weather_forecast.py
-      bronze_ingest_weather_history.py
-      qa_bronze.py     # Minimal Great Expectations suite
-    silver/
-      build_silver.py  # Construct the Silver layer (clean tables)
-      qa_silver.py     # Placeholder for Silver QA
-    gold/
-      build_gold.py    # Construct SGMs and compute EV/stakes
-    pipeline/
-      run_all.py       # Orchestrate Bronze→Silver→Gold end-to-end
-  schemas/
-    bronze.py          # Pydantic models defining Bronze rows
-  bronze/              # Data lake output partitioned by subject
-    event_urls/
-    fixtures/
-    odds/
-      snapshots/
-      history/
-    weather/
-      forecast/
-      history/
-    _rejects/
-    .checkpoints/
-  silver/              # Silver data (clean tables)
-  gold/                # Gold data (analytics ready)
-  misc/
-    powerquery_template.m
-  .gitattributes
-  requirements.txt
-  Makefile
-  .env.example
-```
+The `feat/sgm‑enhancements` branch replaces the stubbed ingestion logic with
+fully functional scrapers and processing steps. Major improvements include:
 
-## Getting Started
+* **Real bookmaker scraping** – Playwright scripts navigate Sportsbet and
+  PointsBet to discover upcoming and historic AFL event URLs and scrape
+  detailed markets (match result, line, totals and player props). The
+  selectors used for each site live in `config/bookmakers.yaml` and can be
+  customised without changing code. Scrapers respect polite throttling and
+  retry transient network errors.
+* **Fixture enrichment** – Fixtures are scraped from bookmaker event pages and
+  enriched with the venue’s latitude, longitude and timezone using
+  `config/venues.yaml`. Kick‑off times are normalised to UTC via
+  `zoneinfo`. A deterministic `game_key` allows idempotent upserts.
+* **Weather integration** – Both forecast and observed weather are fetched
+  from [Open‑Meteo](https://open‑meteo.com) using the venue coordinates. The
+  ingestion scripts normalise units (temperature in °C, wind speed in m/s,
+  rain probability as a fraction) and compute the lead time between model
+  run and valid time. See `scripts/bronze/bronze_ingest_weather_*.py` for
+  details.
+* **Enhanced Silver layer** – The Silver builder now derives `is_upcoming`
+  and `seen_span_s` for event URLs, joins season and round onto the odds
+  table, normalises text casing and attaches venue metadata to the
+  fixtures. Weather data are aligned to hourly bins around the scheduled
+  kick‑off.
+* **Richer SGMs** – The Gold layer supports additional markets (spread, total
+  points, alternate totals and player props) and calibrates implied
+  probabilities by removing bookmaker margin. A simple correlation factor
+  can be specified per market group to dampen optimistic independence
+  assumptions. The staking algorithm still respects a $5 bank per round and
+  allocates stakes in \$0.50 increments.
+* **Quality assurance** – Comprehensive [Great Expectations](https://great
+  expectations.io/) suites validate the Bronze, Silver and Gold outputs.
+  Run `make qa` to execute all checks. The QA scripts live under
+  `scripts/bronze/qa_bronze.py`, `scripts/silver/qa_silver.py` and
+  `scripts/gold/qa_gold.py`.
 
-1. **Install dependencies**
+Refer to the top‑level `scripts/pipeline/run_all.py` for orchestrating a
+complete Bronze→Silver→Gold run. Each ingestion script also exposes a
+`--help` flag describing available arguments (season, rounds, bookmakers,
+weather provider, headless mode etc.).
 
-   Create and activate a Python 3.10 environment, then install
-   requirements:
+## Running the pipeline
+
+1. **Create a Python environment**
+
+   This project requires Python 3.10+. Create and activate a virtual
+   environment and install dependencies:
 
    ```bash
    python3.10 -m venv .venv
    source .venv/bin/activate
    pip install -r requirements.txt
-   # install the Playwright browsers
    python -m playwright install chromium
    ```
 
-2. **Configure environment**
+2. **Configure environment variables**
 
-   Copy `.env.example` to `.env` and fill in any required API keys
-   (e.g. for your chosen weather provider).
+   Copy `.env.example` to `.env` and fill in any provider keys (e.g.
+   weather API keys). All secrets are read from the environment at runtime.
 
 3. **Run the pipeline**
 
-   The easiest way to run everything (Bronze discovery, Silver build and
-   Gold SGM generation) is via the orchestrator:
+   The orchestrator will discover events, scrape fixtures and odds,
+   enrich with weather, build Silver tables, construct SGMs and generate a
+   report:
 
    ```bash
-   # Runs Bronze→Silver→Gold for the 2025 season
-   python scripts/pipeline/run_all.py --season 2025
+   python scripts/pipeline/run_all.py --season 2025 --rounds all \
+     --bookmakers sportsbet,pointsbet --include-weather
    ```
 
-   This will populate `bronze/`, `silver/` and `gold/sgm/` with
-   Parquet and CSV files. You can inspect the results in
-   `gold/sgm/sgm_ranked.csv` and read the human‑readable report in
+   Outputs are written to the `bronze/`, `silver/` and `gold/` directories
+   within the project root. The human‑readable report lives at
    `gold/sgm/report.md`.
 
-   Individual steps can still be invoked via the Makefile. For
-   example, to rerun only the Silver build:
+4. **Run quality checks**
+
+   To validate the outputs, run the QA suite:
 
    ```bash
-   make silver
-   make gold
+   make qa
    ```
 
-   Each ingestion script supports `--help` for more options (season,
-   rounds, bookmaker selection, checkpoint directory etc.).
+## Development notes
 
-## Development Notes
-
-* All timestamps are normalised to UTC before being written to disk. A
-  `source_tz` column is preserved on fixture rows to capture the
-  original timezone of scheduled kickoffs.
-* The Bronze layer is append‑only and idempotent. Re‑running the
-  ingestion scripts with the same inputs will not create duplicate
-  records.
-* Data validation is enforced via Pydantic models in
-  `schemas/bronze.py` and a lightweight Great Expectations suite
-  (`qa_bronze.py`). Run `make qa-bronze` to execute the checks.
-* The `.gitattributes` file standardises line endings across operating
-  systems and prevents CRLF noise in diffs.
+* All timestamps are stored as timezone‑aware UTC datetimes. Local times are
+  converted using `zoneinfo` and preserved in the `source_tz` column when
+  appropriate.
+* The ingestion scripts are idempotent and append‑only. Re‑running with the
+  same inputs will not create duplicate records.
+* Configuration is YAML‑driven – new bookmakers or venues can be added
+  without code changes.
+* The `.gitattributes` file ensures consistent line endings on Windows and
+  UNIX systems.
 
 ## Licence
 
-This project is provided for educational purposes and does not include
-any betting advice. Use at your own risk and adhere to the terms of
-service for any data sources.
+This project is provided for educational purposes only and does not
+constitute betting advice. Use responsibly and adhere to the terms of
+service for any data sources utilised.

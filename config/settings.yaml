@@ -1,13 +1,13 @@
 """
-Global configuration for the AFL SGM analysis tool. These values control
-runtime defaults across ingestion scripts and may be overridden via CLI
-arguments or environment variables. Settings are loaded from this file via
-scripts/bronze/_shared.py::load_yaml().
+Global configuration for the AFL SGM analysis tool.
+
+Values in this file control runtime defaults across ingestion
+scripts. Most flags can be overridden on the CLI.
 
 Key sections include:
 
-  seasons: A list of AFL seasons available for scraping. When omitted the
-    current calendar year is used.
+  seasons: A list of AFL seasons available for scraping. When omitted
+    the current calendar year is used.
   default_rounds: Default rounds used when none are provided on the
     command line. Supports comma‑separated values or ranges (e.g. "1-5").
   bookmakers: Enabled bookmakers. Used by bronze_discover_event_urls.

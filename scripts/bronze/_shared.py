@@ -5,11 +5,11 @@ This module centralises common functionality used by the Bronze ingestion
 scripts, such as obtaining the current UTC time, converting between
 timezones, hashing rows, writing Parquet files in a partitioned layout
 and handling basic checkpointing. It also exposes convenience wrappers
-around tenacity for retrying operations.
+around tenacity for retrying operations and helpers for loading
+configuration files.
 
-The helpers are deliberately lightweight and free of any scraper or
-business logic. They can be imported by multiple scripts without
-introducing cyclic dependencies.
+Additional helpers have been added in the `feat/sgm‑enhancements` branch
+to support weather lookups and polite asynchronous delays.
 """
 
 from __future__ import annotations
@@ -21,7 +21,7 @@ import hashlib
 import logging
 from datetime import datetime, timezone
 from pathlib import Path
-from typing import Any, Iterable, List, Optional, Tuple
+from typing import Any, Iterable, List, Optional, Tuple, Dict
 
 from zoneinfo import ZoneInfo
 import yaml
@@ -35,7 +35,7 @@ def utc_now() -> datetime:
     """Return the current time as a timezone‑aware UTC datetime.
 
     All timestamps written to the Bronze layer should call this function
-    rather than datetime.utcnow() to ensure consistent timezone
+    rather than ``datetime.utcnow()`` to ensure consistent timezone
     semantics. The returned object is tz‑aware with tzinfo=UTC.
     """
     return datetime.now(timezone.utc)
@@ -49,7 +49,7 @@ def to_utc(dt: datetime | str, source_tz: str) -> datetime:
     dt : datetime | str
         A datetime object or ISO‑8601 formatted string representing
         local time. If a string is provided it will be parsed with
-        datetime.fromisoformat(). The input may be naive (no tzinfo)
+        :func:`datetime.fromisoformat`. The input may be naive (no tzinfo)
         or already timezone‑aware.
     source_tz : str
         An IANA timezone name (e.g. ``Australia/Melbourne``). When
@@ -179,16 +179,44 @@ def retryable(max_retries: int = 4, backoff: float = 1.8):
 
 
 def load_yaml(path: str | Path) -> dict[str, Any]:
-    """Load a YAML file into a Python dictionary.
-    """
+    """Load a YAML file into a Python dictionary."""
     with open(path, "r", encoding="utf-8") as f:
-        return yaml.safe_load(f)
+        return yaml.safe_load(f) or {}
 
 
-def load_env(dotenv_path: str | Path | None = None) -> None:
-    """Load environment variables from a .env file.
+def load_env(path: str | Path) -> None:
+    """Load environment variables from a .env file if present."""
+    if Path(path).exists():
+        load_dotenv(dotenv_path=path)
 
-    If ``dotenv_path`` is omitted the loader will search for a file named
-    `.env` in the current working directory or any parent directories.
+
+def load_venue_lookup(path: str | Path) -> Dict[str, Dict[str, Any]]:
+    """Load the venue lookup table containing lat/lon/timezone.
+
+    Parameters
+    ----------
+    path : str | Path
+        Path to the YAML file mapping venue names to metadata.
+
+    Returns
+    -------
+    dict
+        A mapping of venue names to dictionaries containing ``lat``, ``lon`` and
+        ``tz``. If the file does not exist or is empty an empty dict is
+        returned.
     """
-    load_dotenv(dotenv_path)
+    p = Path(path)
+    if not p.exists():
+        logging.warning("Venue lookup file not found at %s", p)
+        return {}
+    data = load_yaml(p)
+    return {str(k): v for k, v in data.items() if isinstance(v, dict)}
+
+
+async def async_sleep_ms(milliseconds: int) -> None:
+    """Asynchronous sleep helper expressed in milliseconds."""
+    seconds = milliseconds / 1000.0
+    # Use asyncio.sleep directly; import inside function to avoid an unconditional
+    # dependency on asyncio for synchronous callers.
+    import asyncio
+    await asyncio.sleep(seconds)

@@ -1,0 +1,64 @@
+"""
+Lookup table mapping AFL venues to their latitude, longitude and
+IANA timezone. This file is used to enrich fixtures and to query
+weather providers. Coordinates were sourced from publicly available
+databases such as latlong.net【362075062972248†L35-L37】【362075062972248†L71-L80】.
+
+New venues can be added here without code changes. The keys should
+match the `venue` field scraped from the fixture page.
+"""
+
+Melbourne Cricket Ground:
+  lat: -37.819954
+  lon: 144.983398
+  tz: Australia/Melbourne
+
+Marvel Stadium:
+  lat: -37.816528
+  lon: 144.947266
+  tz: Australia/Melbourne
+
+Optus Stadium:
+  lat: -31.951029
+  lon: 115.888138
+  tz: Australia/Perth
+
+Adelaide Oval:
+  lat: -34.915833
+  lon: 138.596389
+  tz: Australia/Adelaide
+
+Sydney Cricket Ground:
+  lat: -33.891525
+  lon: 151.224121
+  tz: Australia/Sydney
+
+The Gabba:
+  lat: -27.464867
+  lon: 153.029991
+  tz: Australia/Brisbane
+
+Giants Stadium:
+  lat: -33.845890
+  lon: 151.064500
+  tz: Australia/Sydney
+
+GMHBA Stadium:
+  lat: -38.150000
+  lon: 144.358000
+  tz: Australia/Melbourne
+
+UTAS Stadium:
+  lat: -41.436012
+  lon: 147.130142
+  tz: Australia/Hobart
+
+Mars Stadium:
+  lat: -37.551000
+  lon: 143.832000
+  tz: Australia/Melbourne
+
+TIO Stadium:
+  lat: -12.392620
+  lon: 130.883000
+  tz: Australia/Darwin
