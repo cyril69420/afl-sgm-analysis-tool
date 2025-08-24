@@ -1,10 +1,47 @@
-enabled:
-  - sportsbet
-  - pointsbet
-  #- tab
-  #- ladbrokes
+"""
+Configuration for bookmaker scraping. Each bookmaker entry defines the starting
+URL for event discovery, CSS or XPath selectors used to locate event URLs,
+pagination controls and any special instructions for navigating historical
+fixtures. These values are consumed by the bronze_discover_event_urls script
+and can be extended or adjusted without modifying the code.
 
-timeouts:
-  page_load_sec: 15
-  search_sec: 15
-  request_sec: 20
+The structure of this file is a mapping of bookmaker names to their
+configuration. Keys include:
+
+  start_url: The landing page used to initiate discovery. May include
+    placeholders such as {season} or {round} which are filled by the CLI.
+  event_selector: CSS selector that resolves to anchor elements for each
+    event. Required.
+  next_page_selector: Optional CSS selector for a pagination link or
+    button that loads the next page of events.
+  round_selector: Optional selector or description of a UI element used
+    to navigate between rounds (for historical scraping). The bronze
+    script interprets this based on the bookmaker’s website structure.
+  throttle_ms: Milliseconds to wait between page interactions. Scrapers
+    should respect this to avoid overloading the site.
+
+This file provides reasonable defaults for Sportsbet and PointsBet. Ladbrokes
+is included as a placeholder and may require adjustments. Feel free to add
+additional bookmakers following the same schema.
+"""
+
+sportsbet:
+  start_url: "https://www.sportsbet.com.au/betting/australian-rules/afl"
+  event_selector: "a.event-tile__link"
+  next_page_selector: "button.pagination__next"
+  round_selector: "select.round-dropdown"
+  throttle_ms: 500
+
+pointsbet:
+  start_url: "https://pointsbet.com/au/sports/aussie-rules/afl"
+  event_selector: "a.odds-card"
+  next_page_selector: null
+  round_selector: null
+  throttle_ms: 600
+
+ladbrokes:
+  start_url: "https://www.ladbrokes.com.au/sports/aussie-rules/afl"
+  event_selector: "a.market-card"
+  next_page_selector: null
+  round_selector: null
+  throttle_ms: 700
