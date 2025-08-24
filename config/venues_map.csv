@@ -1,0 +1,13 @@
+venue_raw,venue_std
+ALIASES.update({
+    "docklands": "marvel stadium",
+    "docklands stadium": "marvel stadium",
+    "m.c.g.": "melbourne cricket ground",
+    "sydney showground": "giants stadium",
+    "sydney showground stadium": "giants stadium",
+    "engie stadium": "giants stadium",
+    "gabba": "brisbane cricket ground",
+    "carrara": "heritage bank stadium",
+    "metricon stadium": "heritage bank stadium",
+    "people first stadium": "heritage bank stadium",
+})

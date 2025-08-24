@@ -1,0 +1,535 @@
+game_id,team,player_id,player_name_std,status,source,latest_snapshot_ts
+,Essendon,,X Duursma,in,afl_lineups_round_24,20250821_130613
+,Essendon,,L Lual,in,afl_lineups_round_24,20250821_130613
+,Essendon,,J Gresham,in,afl_lineups_round_24,20250821_130613
+,Essendon,,R Unwin,in,afl_lineups_round_24,20250821_130613
+,Essendon,,K Gerreyn,in,afl_lineups_round_24,20250821_130613
+,Essendon,,J Laverde,in,afl_lineups_round_24,20250821_130613
+,Essendon,,S Durham,in,afl_lineups_round_24,20250821_130613
+,Essendon,,D Shiel,in,afl_lineups_round_24,20250821_130613
+,Essendon,,Z Merrett,in,afl_lineups_round_24,20250821_130613
+,Essendon,,J Laverde,in,afl_lineups_round_24,20250821_130613
+,Essendon,,S Durham,in,afl_lineups_round_24,20250821_130613
+,Essendon,,B Hobbs,in,afl_lineups_round_24,20250821_130613
+,Essendon,,A McGrath,in,afl_lineups_round_24,20250821_130613
+,Essendon,,J Prior,in,afl_lineups_round_24,20250821_130613
+,Essendon,,J Nguyen,in,afl_lineups_round_24,20250821_130613
+,Carlton,,F Young,in,afl_lineups_round_24,20250821_130613
+,Carlton,,T De Koning,in,afl_lineups_round_24,20250821_130613
+,Carlton,,F Evans,in,afl_lineups_round_24,20250821_130613
+,Essendon,,M Redman,in,afl_lineups_round_24,20250821_130613
+,Essendon,,L Blakiston,in,afl_lineups_round_24,20250821_130613
+,Essendon,,A Roberts,in,afl_lineups_round_24,20250821_130613
+,Carlton,,Z Williams,in,afl_lineups_round_24,20250821_130613
+,Carlton,,H McKay,in,afl_lineups_round_24,20250821_130613
+,Carlton,,B Acres,in,afl_lineups_round_24,20250821_130613
+,Essendon,,S E-Hawli,in,afl_lineups_round_24,20250821_130613
+,Essendon,,Z Merrett,in,afl_lineups_round_24,20250821_130613
+,Essendon,,A Clarke,in,afl_lineups_round_24,20250821_130613
+,Carlton,,S Walsh,in,afl_lineups_round_24,20250821_130613
+,Carlton,,P Cripps,in,afl_lineups_round_24,20250821_130613
+,Carlton,,O Hollands,in,afl_lineups_round_24,20250821_130613
+,Essendon,,M Guelfi,in,afl_lineups_round_24,20250821_130613
+,Essendon,,P Wright,in,afl_lineups_round_24,20250821_130613
+,Essendon,,J Menzie,in,afl_lineups_round_24,20250821_130613
+,Carlton,,L Cowan,in,afl_lineups_round_24,20250821_130613
+,Carlton,,L Young,in,afl_lineups_round_24,20250821_130613
+,Carlton,,N Haynes,in,afl_lineups_round_24,20250821_130613
+,Essendon,,K Langford,in,afl_lineups_round_24,20250821_130613
+,Essendon,,L McMahon,in,afl_lineups_round_24,20250821_130613
+,Essendon,,I Kako,in,afl_lineups_round_24,20250821_130613
+,Carlton,,A Saad,in,afl_lineups_round_24,20250821_130613
+,Carlton,,J Weitering,in,afl_lineups_round_24,20250821_130613
+,Carlton,,M Carroll,in,afl_lineups_round_24,20250821_130613
+,Essendon,,T Goldstein,in,afl_lineups_round_24,20250821_130613
+,Essendon,,A Perkins,in,afl_lineups_round_24,20250821_130613
+,Essendon,,D Shiel,in,afl_lineups_round_24,20250821_130613
+,Carlton,,H O'Keeffe,in,afl_lineups_round_24,20250821_130613
+,Carlton,,G Hewett,in,afl_lineups_round_24,20250821_130613
+,Carlton,,C Durdin,in,afl_lineups_round_24,20250821_130613
+,Carlton,,B Wilson,in,afl_lineups_round_24,20250821_130613
+,Carlton,,J Motlop,in,afl_lineups_round_24,20250821_130613
+,Carlton,,W White,in,afl_lineups_round_24,20250821_130613
+,Carlton,,A Moir,in,afl_lineups_round_24,20250821_130613
+,Carlton,,B Camporeale,in,afl_lineups_round_24,20250821_130613
+,Carlton,,M Pittonet,in,afl_lineups_round_24,20250821_130613
+,Carlton,,M McGovern,in,afl_lineups_round_24,20250821_130613
+,Carlton,,W White,in,afl_lineups_round_24,20250821_130613
+,Carlton,,L Fogarty,in,afl_lineups_round_24,20250821_130613
+,Carlton,,C Lord,in,afl_lineups_round_24,20250821_130613
+,Collingwood,,P Lipinski,in,afl_lineups_round_24,20250821_130613
+,Collingwood,,D Houston,in,afl_lineups_round_24,20250821_130613
+,Collingwood,,S Pendlebury,in,afl_lineups_round_24,20250821_130613
+,Collingwood,,B Frampton,in,afl_lineups_round_24,20250821_130613
+,Collingwood,,B Mihocek,in,afl_lineups_round_24,20250821_130613
+,Collingwood,,W Parker,in,afl_lineups_round_24,20250821_130613
+,Collingwood,,E Allan,in,afl_lineups_round_24,20250821_130613
+,Collingwood,,M Cox,in,afl_lineups_round_24,20250821_130613
+,Collingwood,,J Howe,in,afl_lineups_round_24,20250821_130613
+,Collingwood,,R Steele,in,afl_lineups_round_24,20250821_130613
+,Collingwood,,W Parker,in,afl_lineups_round_24,20250821_130613
+,Collingwood,,E Allan,in,afl_lineups_round_24,20250821_130613
+,Collingwood,,B Maynard,in,afl_lineups_round_24,20250821_130613
+,Collingwood,,D Moore,in,afl_lineups_round_24,20250821_130613
+,Collingwood,,J Howe,in,afl_lineups_round_24,20250821_130613
+,Melbourne,,K Pickett,in,afl_lineups_round_24,20250821_130613
+,Melbourne,,J Van Rooyen,in,afl_lineups_round_24,20250821_130613
+,Melbourne,,T Sparrow,in,afl_lineups_round_24,20250821_130613
+,Collingwood,,H Perryman,in,afl_lineups_round_24,20250821_130613
+,Collingwood,,J Daicos,in,afl_lineups_round_24,20250821_130613
+,Collingwood,,I Quaynor,in,afl_lineups_round_24,20250821_130613
+,Melbourne,,J Culley,in,afl_lineups_round_24,20250821_130613
+,Melbourne,,B Fritsch,in,afl_lineups_round_24,20250821_130613
+,Melbourne,,K Chandler,in,afl_lineups_round_24,20250821_130613
+,Collingwood,,S Sidebottom,in,afl_lineups_round_24,20250821_130613
+,Collingwood,,J Crisp,in,afl_lineups_round_24,20250821_130613
+,Collingwood,,R Steele,in,afl_lineups_round_24,20250821_130613
+,Melbourne,,E Langdon,in,afl_lineups_round_24,20250821_130613
+,Melbourne,,C Petracca,in,afl_lineups_round_24,20250821_130613
+,Melbourne,,H Langford,in,afl_lineups_round_24,20250821_130613
+,Collingwood,,J De Goey,in,afl_lineups_round_24,20250821_130613
+,Collingwood,,T Membrey,in,afl_lineups_round_24,20250821_130613
+,Collingwood,,L Schultz,in,afl_lineups_round_24,20250821_130613
+,Melbourne,,J McVee,in,afl_lineups_round_24,20250821_130613
+,Melbourne,,T McDonald,in,afl_lineups_round_24,20250821_130613
+,Melbourne,,J Bowey,in,afl_lineups_round_24,20250821_130613
+,Collingwood,,J Elliott,in,afl_lineups_round_24,20250821_130613
+,Collingwood,,D McStay,in,afl_lineups_round_24,20250821_130613
+,Collingwood,,B McCreery,in,afl_lineups_round_24,20250821_130613
+,Melbourne,,D Turner,in,afl_lineups_round_24,20250821_130613
+,Melbourne,,S May,in,afl_lineups_round_24,20250821_130613
+,Melbourne,,C Salem,in,afl_lineups_round_24,20250821_130613
+,Collingwood,,D Cameron,in,afl_lineups_round_24,20250821_130613
+,Collingwood,,N Long,in,afl_lineups_round_24,20250821_130613
+,Collingwood,,N Daicos,in,afl_lineups_round_24,20250821_130613
+,Melbourne,,M Gawn,in,afl_lineups_round_24,20250821_130613
+,Melbourne,,C Oliver,in,afl_lineups_round_24,20250821_130613
+,Melbourne,,J Viney,in,afl_lineups_round_24,20250821_130613
+,Melbourne,,J Melksham,in,afl_lineups_round_24,20250821_130613
+,Melbourne,,B Howes,in,afl_lineups_round_24,20250821_130613
+,Melbourne,,T Rivers,in,afl_lineups_round_24,20250821_130613
+,Melbourne,,H Sharp,in,afl_lineups_round_24,20250821_130613
+,Melbourne,,H Petty,in,afl_lineups_round_24,20250821_130613
+,Melbourne,,B Laurie,in,afl_lineups_round_24,20250821_130613
+,Melbourne,,T Campbell,in,afl_lineups_round_24,20250821_130613
+,Melbourne,,A Johnson,in,afl_lineups_round_24,20250821_130613
+,Port Adelaide,,O Lord,in,afl_lineups_round_24,20250821_130613
+,Port Adelaide,,C Moraes,in,afl_lineups_round_24,20250821_130613
+,Port Adelaide,,H Ramm,in,afl_lineups_round_24,20250821_130613
+,Port Adelaide,,R Atkins,in,afl_lineups_round_24,20250821_130613
+,Port Adelaide,,E Mackinlay,in,afl_lineups_round_24,20250821_130613
+,Port Adelaide,,J Finlayson,in,afl_lineups_round_24,20250821_130613
+,Port Adelaide,,J Lai,in,afl_lineups_round_24,20250821_130613
+,Port Adelaide,,W Lorenz,in,afl_lineups_round_24,20250821_130613
+,Port Adelaide,,R Atkins,in,afl_lineups_round_24,20250821_130613
+,Port Adelaide,,H Ramm,in,afl_lineups_round_24,20250821_130613
+,Port Adelaide,,E Mackinlay,in,afl_lineups_round_24,20250821_130613
+,Port Adelaide,,O Wines,in,afl_lineups_round_24,20250821_130613
+,Port Adelaide,,J Sinn,in,afl_lineups_round_24,20250821_130613
+,Port Adelaide,,W Lorenz,in,afl_lineups_round_24,20250821_130613
+,Port Adelaide,,K Farrell,in,afl_lineups_round_24,20250821_130613
+,Port Adelaide,,B Z-Thatcher,in,afl_lineups_round_24,20250821_130613
+,Port Adelaide,,D B-Jones,in,afl_lineups_round_24,20250821_130613
+,Gold Coast,,B Long,in,afl_lineups_round_24,20250821_130613
+,Gold Coast,,J Farrar,in,afl_lineups_round_24,20250821_130613
+,Gold Coast,,B King,in,afl_lineups_round_24,20250821_130613
+,Port Adelaide,,J Mead,in,afl_lineups_round_24,20250821_130613
+,Port Adelaide,,A Aliir,in,afl_lineups_round_24,20250821_130613
+,Port Adelaide,,L Jones,in,afl_lineups_round_24,20250821_130613
+,Gold Coast,,T Miller,in,afl_lineups_round_24,20250821_130613
+,Gold Coast,,B Ainsworth,in,afl_lineups_round_24,20250821_130613
+,Gold Coast,,C Budarick,in,afl_lineups_round_24,20250821_130613
+,Port Adelaide,,J Berry,in,afl_lineups_round_24,20250821_130613
+,Port Adelaide,,W Drew,in,afl_lineups_round_24,20250821_130613
+,Port Adelaide,,M Liddy,in,afl_lineups_round_24,20250821_130613
+,Gold Coast,,L Weller,in,afl_lineups_round_24,20250821_130613
+,Gold Coast,,M Rowell,in,afl_lineups_round_24,20250821_130613
+,Gold Coast,,B Fiorini,in,afl_lineups_round_24,20250821_130613
+,Port Adelaide,,W Rioli,in,afl_lineups_round_24,20250821_130613
+,Port Adelaide,,J Whitlock,in,afl_lineups_round_24,20250821_130613
+,Port Adelaide,,T Boak,in,afl_lineups_round_24,20250821_130613
+,Gold Coast,,J Noble,in,afl_lineups_round_24,20250821_130613
+,Gold Coast,,B Uwland,in,afl_lineups_round_24,20250821_130613
+,Gold Coast,,J Jeffrey,in,afl_lineups_round_24,20250821_130613
+,Port Adelaide,,J McEntee,in,afl_lineups_round_24,20250821_130613
+,Port Adelaide,,M Georgiades,in,afl_lineups_round_24,20250821_130613
+,Port Adelaide,,J Richards,in,afl_lineups_round_24,20250821_130613
+,Gold Coast,,W Powell,in,afl_lineups_round_24,20250821_130613
+,Gold Coast,,M Andrew,in,afl_lineups_round_24,20250821_130613
+,Gold Coast,,S Collins,in,afl_lineups_round_24,20250821_130613
+,Port Adelaide,,J Sweet,in,afl_lineups_round_24,20250821_130613
+,Port Adelaide,,C Rozee,in,afl_lineups_round_24,20250821_130613
+,Port Adelaide,,Z Butters,in,afl_lineups_round_24,20250821_130613
+,Gold Coast,,J Witts,in,afl_lineups_round_24,20250821_130613
+,Gold Coast,,A Davies,in,afl_lineups_round_24,20250821_130613
+,Gold Coast,,N Anderson,in,afl_lineups_round_24,20250821_130613
+,Gold Coast,,S Flanders,in,afl_lineups_round_24,20250821_130613
+,Gold Coast,,A Sexton,in,afl_lineups_round_24,20250821_130613
+,Gold Coast,,E Read,in,afl_lineups_round_24,20250821_130613
+,Gold Coast,,L Gulbin,in,afl_lineups_round_24,20250821_130613
+,Gold Coast,,O Adams,in,afl_lineups_round_24,20250821_130613
+,Gold Coast,,N Holman,in,afl_lineups_round_24,20250821_130613
+,Gold Coast,,N Moyle,in,afl_lineups_round_24,20250821_130613
+,Gold Coast,,L Lombard,in,afl_lineups_round_24,20250821_130613
+,Gold Coast,,L Gulbin,in,afl_lineups_round_24,20250821_130613
+,Gold Coast,,N Holman,in,afl_lineups_round_24,20250821_130613
+,North Melbourne,,A Corr,in,afl_lineups_round_24,20250821_130613
+,North Melbourne,,B Scott,in,afl_lineups_round_24,20250821_130613
+,North Melbourne,,G Payne,in,afl_lineups_round_24,20250821_130613
+,North Melbourne,,C Harvey,in,afl_lineups_round_24,20250821_130613
+,North Melbourne,,Z Banch,in,afl_lineups_round_24,20250821_130613
+,North Melbourne,,T Goad,in,afl_lineups_round_24,20250821_130613
+,North Melbourne,,W Phillips,in,afl_lineups_round_24,20250821_130613
+,North Melbourne,,F Maley,in,afl_lineups_round_24,20250821_130613
+,North Melbourne,,A Corr,in,afl_lineups_round_24,20250821_130613
+,North Melbourne,,Z Banch,in,afl_lineups_round_24,20250821_130613
+,North Melbourne,,C Zurhaar,in,afl_lineups_round_24,20250821_130613
+,North Melbourne,,M Whitlock,in,afl_lineups_round_24,20250821_130613
+,North Melbourne,,C Comben,in,afl_lineups_round_24,20250821_130613
+,North Melbourne,,T Pink,in,afl_lineups_round_24,20250821_130613
+,North Melbourne,,G Logue,in,afl_lineups_round_24,20250821_130613
+,Adelaide,,S Draper,in,afl_lineups_round_24,20250821_130613
+,Adelaide,,T Walker,in,afl_lineups_round_24,20250821_130613
+,Adelaide,,D Fogarty,in,afl_lineups_round_24,20250821_130613
+,North Melbourne,,T Powell,in,afl_lineups_round_24,20250821_130613
+,North Melbourne,,C Daniel,in,afl_lineups_round_24,20250821_130613
+,North Melbourne,,F O'Sullivan,in,afl_lineups_round_24,20250821_130613
+,Adelaide,,B Keays,in,afl_lineups_round_24,20250821_130613
+,Adelaide,,R Thilthorpe,in,afl_lineups_round_24,20250821_130613
+,Adelaide,,A N-Bullen,in,afl_lineups_round_24,20250821_130613
+,North Melbourne,,D Stephens,in,afl_lineups_round_24,20250821_130613
+,North Melbourne,,L D-Uniacke,in,afl_lineups_round_24,20250821_130613
+,North Melbourne,,C McKercher,in,afl_lineups_round_24,20250821_130613
+,Adelaide,,I Cumming,in,afl_lineups_round_24,20250821_130613
+,Adelaide,,J Dawson,in,afl_lineups_round_24,20250821_130613
+,Adelaide,,D Curtin,in,afl_lineups_round_24,20250821_130613
+,North Melbourne,,P Curtis,in,afl_lineups_round_24,20250821_130613
+,North Melbourne,,C Trembath,in,afl_lineups_round_24,20250821_130613
+,North Melbourne,,J Simpkin,in,afl_lineups_round_24,20250821_130613
+,Adelaide,,W Milera,in,afl_lineups_round_24,20250821_130613
+,Adelaide,,N Murray,in,afl_lineups_round_24,20250821_130613
+,Adelaide,,R Laird,in,afl_lineups_round_24,20250821_130613
+,North Melbourne,,L Parker,in,afl_lineups_round_24,20250821_130613
+,North Melbourne,,J Darling,in,afl_lineups_round_24,20250821_130613
+,North Melbourne,,J Konstanty,in,afl_lineups_round_24,20250821_130613
+,Adelaide,,J Worrell,in,afl_lineups_round_24,20250821_130613
+,Adelaide,,M Keane,in,afl_lineups_round_24,20250821_130613
+,Adelaide,,H Bond,in,afl_lineups_round_24,20250821_130613
+,North Melbourne,,T Xerri,in,afl_lineups_round_24,20250821_130613
+,North Melbourne,,H Sheezel,in,afl_lineups_round_24,20250821_130613
+,North Melbourne,,G Wardlaw,in,afl_lineups_round_24,20250821_130613
+,Adelaide,,R O'Brien,in,afl_lineups_round_24,20250821_130613
+,Adelaide,,S Berry,in,afl_lineups_round_24,20250821_130613
+,Adelaide,,J Soligo,in,afl_lineups_round_24,20250821_130613
+,Adelaide,,J Peatling,in,afl_lineups_round_24,20250821_130613
+,Adelaide,,Z Taylor,in,afl_lineups_round_24,20250821_130613
+,Adelaide,,B Smith,in,afl_lineups_round_24,20250821_130613
+,Adelaide,,M Hinge,in,afl_lineups_round_24,20250821_130613
+,Adelaide,,B Dowling,in,afl_lineups_round_24,20250821_130613
+,Adelaide,,C Burgess,in,afl_lineups_round_24,20250821_130613
+,Adelaide,,L Murphy,in,afl_lineups_round_24,20250821_130613
+,Adelaide,,L Nankervis,in,afl_lineups_round_24,20250821_130613
+,Adelaide,,R Laird,in,afl_lineups_round_24,20250821_130613
+,Adelaide,,B Dowling,in,afl_lineups_round_24,20250821_130613
+,Adelaide,,S Draper,in,afl_lineups_round_24,20250821_130613
+,Adelaide,,L Murphy,in,afl_lineups_round_24,20250821_130613
+,Adelaide,,I Rankine,in,afl_lineups_round_24,20250821_130613
+,Adelaide,,H Schoenberg,in,afl_lineups_round_24,20250821_130613
+,Richmond,,H Armstrong,in,afl_lineups_round_24,20250821_130613
+,Richmond,,T Hotton,in,afl_lineups_round_24,20250821_130613
+,Richmond,,J Gibcus,in,afl_lineups_round_24,20250821_130613
+,Richmond,,T Sonsie,in,afl_lineups_round_24,20250821_130613
+,Richmond,,L Trainor,in,afl_lineups_round_24,20250821_130613
+,Richmond,,J Koschitzke,in,afl_lineups_round_24,20250821_130613
+,Richmond,,K Smith,in,afl_lineups_round_24,20250821_130613
+,Richmond,,S Green,in,afl_lineups_round_24,20250821_130613
+,Richmond,,J Gibcus,in,afl_lineups_round_24,20250821_130613
+,Richmond,,L Trainor,in,afl_lineups_round_24,20250821_130613
+,Richmond,,N Vlastuin,in,afl_lineups_round_24,20250821_130613
+,Richmond,,S Green,in,afl_lineups_round_24,20250821_130613
+,Richmond,,N Broad,in,afl_lineups_round_24,20250821_130613
+,Richmond,,B Miller,in,afl_lineups_round_24,20250821_130613
+,Richmond,,T Young,in,afl_lineups_round_24,20250821_130613
+,Geelong,,P Dangerfield,in,afl_lineups_round_24,20250821_130613
+,Geelong,,J Cameron,in,afl_lineups_round_24,20250821_130613
+,Geelong,,T Stengle,in,afl_lineups_round_24,20250821_130613
+,Richmond,,T Brown,in,afl_lineups_round_24,20250821_130613
+,Richmond,,S Banks,in,afl_lineups_round_24,20250821_130613
+,Richmond,,J Short,in,afl_lineups_round_24,20250821_130613
+,Geelong,,B Close,in,afl_lineups_round_24,20250821_130613
+,Geelong,,S Mannagh,in,afl_lineups_round_24,20250821_130613
+,Geelong,,G Miers,in,afl_lineups_round_24,20250821_130613
+,Richmond,,K McIntosh,in,afl_lineups_round_24,20250821_130613
+,Richmond,,D Prestia,in,afl_lineups_round_24,20250821_130613
+,Richmond,,J Trezise,in,afl_lineups_round_24,20250821_130613
+,Geelong,,M Blicavs,in,afl_lineups_round_24,20250821_130613
+,Geelong,,M Holmes,in,afl_lineups_round_24,20250821_130613
+,Geelong,,O Dempsey,in,afl_lineups_round_24,20250821_130613
+,Richmond,,S Campbell,in,afl_lineups_round_24,20250821_130613
+,Richmond,,J Ross,in,afl_lineups_round_24,20250821_130613
+,Richmond,,M Rioli,in,afl_lineups_round_24,20250821_130613
+,Geelong,,Z Guthrie,in,afl_lineups_round_24,20250821_130613
+,Geelong,,T Stewart,in,afl_lineups_round_24,20250821_130613
+,Geelong,,L Humphries,in,afl_lineups_round_24,20250821_130613
+,Richmond,,R Mansell,in,afl_lineups_round_24,20250821_130613
+,Richmond,,T Lynch,in,afl_lineups_round_24,20250821_130613
+,Richmond,,N Balta,in,afl_lineups_round_24,20250821_130613
+,Geelong,,J Henry,in,afl_lineups_round_24,20250821_130613
+,Geelong,,S De Koning,in,afl_lineups_round_24,20250821_130613
+,Geelong,,C O'Sullivan,in,afl_lineups_round_24,20250821_130613
+,Richmond,,T Nankervis,in,afl_lineups_round_24,20250821_130613
+,Richmond,,T Taranto,in,afl_lineups_round_24,20250821_130613
+,Richmond,,J Hopper,in,afl_lineups_round_24,20250821_130613
+,Geelong,,R Stanley,in,afl_lineups_round_24,20250821_130613
+,Geelong,,T Atkins,in,afl_lineups_round_24,20250821_130613
+,Geelong,,B Smith,in,afl_lineups_round_24,20250821_130613
+,Geelong,,M O'Connor,in,afl_lineups_round_24,20250821_130613
+,Geelong,,J Bews,in,afl_lineups_round_24,20250821_130613
+,Geelong,,J Martin,in,afl_lineups_round_24,20250821_130613
+,Geelong,,O Mullin,in,afl_lineups_round_24,20250821_130613
+,Geelong,,J Bowes,in,afl_lineups_round_24,20250821_130613
+,Geelong,,M Knevitt,in,afl_lineups_round_24,20250821_130613
+,Geelong,,J Clark,in,afl_lineups_round_24,20250821_130613
+,Geelong,,T Clohesy,in,afl_lineups_round_24,20250821_130613
+,Geelong,,J Bews,in,afl_lineups_round_24,20250821_130613
+,Geelong,,S Neale,in,afl_lineups_round_24,20250821_130613
+,West Coast,,N Long,in,afl_lineups_round_24,20250821_130613
+,West Coast,,B Williams,in,afl_lineups_round_24,20250821_130613
+,West Coast,,R Bazzo,in,afl_lineups_round_24,20250821_130613
+,West Coast,,T Dewar,in,afl_lineups_round_24,20250821_130613
+,West Coast,,J Newton,in,afl_lineups_round_24,20250821_130613
+,West Coast,,J Petruccelle,in,afl_lineups_round_24,20250821_130613
+,West Coast,,H Johnston,in,afl_lineups_round_24,20250821_130613
+,West Coast,,J Williams,in,afl_lineups_round_24,20250821_130613
+,West Coast,,T Dewar,in,afl_lineups_round_24,20250821_130613
+,West Coast,,L Grego,in,afl_lineups_round_24,20250821_130613
+,West Coast,,M Owies,in,afl_lineups_round_24,20250821_130613
+,West Coast,,R Maric,in,afl_lineups_round_24,20250821_130613
+,West Coast,,T Cole,in,afl_lineups_round_24,20250821_130613
+,West Coast,,S Brock,in,afl_lineups_round_24,20250821_130613
+,West Coast,,B Hough,in,afl_lineups_round_24,20250821_130613
+,Sydney,,W Hayward,in,afl_lineups_round_24,20250821_130613
+,Sydney,,J Buller,in,afl_lineups_round_24,20250821_130613
+,Sydney,,T Papley,in,afl_lineups_round_24,20250821_130613
+,West Coast,,L Grego,in,afl_lineups_round_24,20250821_130613
+,West Coast,,R Ginbey,in,afl_lineups_round_24,20250821_130613
+,West Coast,,L Baker,in,afl_lineups_round_24,20250821_130613
+,Sydney,,J Lloyd,in,afl_lineups_round_24,20250821_130613
+,Sydney,,H McLean,in,afl_lineups_round_24,20250821_130613
+,Sydney,,J Jordon,in,afl_lineups_round_24,20250821_130613
+,West Coast,,C Chesser,in,afl_lineups_round_24,20250821_130613
+,West Coast,,T Kelly,in,afl_lineups_round_24,20250821_130613
+,West Coast,,T McCarthy,in,afl_lineups_round_24,20250821_130613
+,Sydney,,O Florent,in,afl_lineups_round_24,20250821_130613
+,Sydney,,C Warner,in,afl_lineups_round_24,20250821_130613
+,Sydney,,E Gulden,in,afl_lineups_round_24,20250821_130613
+,West Coast,,E Hewett,in,afl_lineups_round_24,20250821_130613
+,West Coast,,L Ryan,in,afl_lineups_round_24,20250821_130613
+,West Coast,,H Davis,in,afl_lineups_round_24,20250821_130613
+,Sydney,,D Rampe,in,afl_lineups_round_24,20250821_130613
+,Sydney,,N Blakey,in,afl_lineups_round_24,20250821_130613
+,Sydney,,S Wicks,in,afl_lineups_round_24,20250821_130613
+,West Coast,,T Brockman,in,afl_lineups_round_24,20250821_130613
+,West Coast,,J Shanahan,in,afl_lineups_round_24,20250821_130613
+,West Coast,,J Cripps,in,afl_lineups_round_24,20250821_130613
+,Sydney,,C Mills,in,afl_lineups_round_24,20250821_130613
+,Sydney,,L Melican,in,afl_lineups_round_24,20250821_130613
+,Sydney,,T McCartin,in,afl_lineups_round_24,20250821_130613
+,West Coast,,M Flynn,in,afl_lineups_round_24,20250821_130613
+,West Coast,,J Graham,in,afl_lineups_round_24,20250821_130613
+,West Coast,,C Hall,in,afl_lineups_round_24,20250821_130613
+,Sydney,,B Grundy,in,afl_lineups_round_24,20250821_130613
+,Sydney,,I Heeney,in,afl_lineups_round_24,20250821_130613
+,Sydney,,A Sheldrick,in,afl_lineups_round_24,20250821_130613
+,Sydney,,H Cunningham,in,afl_lineups_round_24,20250821_130613
+,Sydney,,B Campbell,in,afl_lineups_round_24,20250821_130613
+,Sydney,,R Bice,in,afl_lineups_round_24,20250821_130613
+,Sydney,,J Rowbottom,in,afl_lineups_round_24,20250821_130613
+,Sydney,,C Warner,in,afl_lineups_round_24,20250821_130613
+,Sydney,,P Ladhams,in,afl_lineups_round_24,20250821_130613
+,Sydney,,M Roberts,in,afl_lineups_round_24,20250821_130613
+,Sydney,,C Cleary,in,afl_lineups_round_24,20250821_130613
+,Sydney,,B Grundy,in,afl_lineups_round_24,20250821_130613
+,Sydney,,C Warner,in,afl_lineups_round_24,20250821_130613
+,Sydney,,R Bice,in,afl_lineups_round_24,20250821_130613
+,Sydney,,P Ladhams,in,afl_lineups_round_24,20250821_130613
+,Sydney,,C Cleary,in,afl_lineups_round_24,20250821_130613
+,Sydney,,J Dattoli,in,afl_lineups_round_24,20250821_130613
+,GWS,,L Aleer,in,afl_lineups_round_24,20250821_130613
+,GWS,,H Rowston,in,afl_lineups_round_24,20250821_130613
+,GWS,,H Thomas,in,afl_lineups_round_24,20250821_130613
+,GWS,,M Gruzewski,in,afl_lineups_round_24,20250821_130613
+,GWS,,J Wehr,in,afl_lineups_round_24,20250821_130613
+,GWS,,J Fonti,in,afl_lineups_round_24,20250821_130613
+,GWS,,J Leake,in,afl_lineups_round_24,20250821_130613
+,GWS,,T Bedford,in,afl_lineups_round_24,20250821_130613
+,GWS,,B Daniels,in,afl_lineups_round_24,20250821_130613
+,GWS,,J Buckley,in,afl_lineups_round_24,20250821_130613
+,GWS,,J Leake,in,afl_lineups_round_24,20250821_130613
+,GWS,,C Idun,in,afl_lineups_round_24,20250821_130613
+,GWS,,S Taylor,in,afl_lineups_round_24,20250821_130613
+,GWS,,H Himmelberg,in,afl_lineups_round_24,20250821_130613
+,St Kilda,,J Higgins,in,afl_lineups_round_24,20250821_130613
+,St Kilda,,I Keeler,in,afl_lineups_round_24,20250821_130613
+,St Kilda,,C Sharman,in,afl_lineups_round_24,20250821_130613
+,GWS,,L Whitfield,in,afl_lineups_round_24,20250821_130613
+,GWS,,J Buckley,in,afl_lineups_round_24,20250821_130613
+,GWS,,L Ash,in,afl_lineups_round_24,20250821_130613
+,St Kilda,,M Hall,in,afl_lineups_round_24,20250821_130613
+,St Kilda,,H Garcia,in,afl_lineups_round_24,20250821_130613
+,St Kilda,,D Wilson,in,afl_lineups_round_24,20250821_130613
+,GWS,,X O'Halloran,in,afl_lineups_round_24,20250821_130613
+,GWS,,S Coniglio,in,afl_lineups_round_24,20250821_130613
+,GWS,,R Angwin,in,afl_lineups_round_24,20250821_130613
+,St Kilda,,M Wood,in,afl_lineups_round_24,20250821_130613
+,St Kilda,,H Boxshall,in,afl_lineups_round_24,20250821_130613
+,St Kilda,,B Hill,in,afl_lineups_round_24,20250821_130613
+,GWS,,B Daniels,in,afl_lineups_round_24,20250821_130613
+,GWS,,A Cadman,in,afl_lineups_round_24,20250821_130613
+,GWS,,D Jones,in,afl_lineups_round_24,20250821_130613
+,St Kilda,,L Stocker,in,afl_lineups_round_24,20250821_130613
+,St Kilda,,N W-Milera,in,afl_lineups_round_24,20250821_130613
+,St Kilda,,J Sinclair,in,afl_lineups_round_24,20250821_130613
+,GWS,,T Greene,in,afl_lineups_round_24,20250821_130613
+,GWS,,J Riccardi,in,afl_lineups_round_24,20250821_130613
+,GWS,,C Brown,in,afl_lineups_round_24,20250821_130613
+,St Kilda,,A Tauru,in,afl_lineups_round_24,20250821_130613
+,St Kilda,,C Wilkie,in,afl_lineups_round_24,20250821_130613
+,St Kilda,,A Caminiti,in,afl_lineups_round_24,20250821_130613
+,GWS,,K Briggs,in,afl_lineups_round_24,20250821_130613
+,GWS,,F Callaghan,in,afl_lineups_round_24,20250821_130613
+,GWS,,T Green,in,afl_lineups_round_24,20250821_130613
+,St Kilda,,R Marshall,in,afl_lineups_round_24,20250821_130613
+,St Kilda,,J Steele,in,afl_lineups_round_24,20250821_130613
+,St Kilda,,M Windhager,in,afl_lineups_round_24,20250821_130613
+,St Kilda,,Z Jones,in,afl_lineups_round_24,20250821_130613
+,St Kilda,,L Collard,in,afl_lineups_round_24,20250821_130613
+,St Kilda,,T Travaglia,in,afl_lineups_round_24,20250821_130613
+,St Kilda,,J Macrae,in,afl_lineups_round_24,20250821_130613
+,St Kilda,,J Carroll,in,afl_lineups_round_24,20250821_130613
+,St Kilda,,M Phillipou,in,afl_lineups_round_24,20250821_130613
+,St Kilda,,A Dodson,in,afl_lineups_round_24,20250821_130613
+,St Kilda,,L O'Connell,in,afl_lineups_round_24,20250821_130613
+,St Kilda,,J Carroll,in,afl_lineups_round_24,20250821_130613
+,St Kilda,,I Keeler,in,afl_lineups_round_24,20250821_130613
+,St Kilda,,L O'Connell,in,afl_lineups_round_24,20250821_130613
+,Western Bulldogs,,O Baker,in,afl_lineups_round_24,20250821_130613
+,Western Bulldogs,,J Busslinger,in,afl_lineups_round_24,20250821_130613
+,Western Bulldogs,,N Coffield,in,afl_lineups_round_24,20250821_130613
+,Western Bulldogs,,J Croft,in,afl_lineups_round_24,20250821_130613
+,Western Bulldogs,,A Jones,in,afl_lineups_round_24,20250821_130613
+,Western Bulldogs,,L Jones,in,afl_lineups_round_24,20250821_130613
+,Western Bulldogs,,L McNeil,in,afl_lineups_round_24,20250821_130613
+,Western Bulldogs,,R Sanders,in,afl_lineups_round_24,20250821_130613
+,Western Bulldogs,,L Jones,in,afl_lineups_round_24,20250821_130613
+,Western Bulldogs,,N Coffield,in,afl_lineups_round_24,20250821_130613
+,Western Bulldogs,,A Jones,in,afl_lineups_round_24,20250821_130613
+,Western Bulldogs,,L Bramble,in,afl_lineups_round_24,20250821_130613
+,Western Bulldogs,,J O'Donnell,in,afl_lineups_round_24,20250821_130613
+,Western Bulldogs,,B Dale,in,afl_lineups_round_24,20250821_130613
+,Fremantle,,L Jackson,in,afl_lineups_round_24,20250821_130613
+,Fremantle,,J Treacy,in,afl_lineups_round_24,20250821_130613
+,Fremantle,,M Frederick,in,afl_lineups_round_24,20250821_130613
+,Western Bulldogs,,L Cleary,in,afl_lineups_round_24,20250821_130613
+,Western Bulldogs,,R Lobb,in,afl_lineups_round_24,20250821_130613
+,Western Bulldogs,,J Johannisen,in,afl_lineups_round_24,20250821_130613
+,Fremantle,,S Switkowski,in,afl_lineups_round_24,20250821_130613
+,Fremantle,,P Voss,in,afl_lineups_round_24,20250821_130613
+,Fremantle,,S Bolton,in,afl_lineups_round_24,20250821_130613
+,Western Bulldogs,,J Freijah,in,afl_lineups_round_24,20250821_130613
+,Western Bulldogs,,E Richards,in,afl_lineups_round_24,20250821_130613
+,Western Bulldogs,,B Williams,in,afl_lineups_round_24,20250821_130613
+,Fremantle,,J O'Meara,in,afl_lineups_round_24,20250821_130613
+,Fremantle,,H Young,in,afl_lineups_round_24,20250821_130613
+,Fremantle,,C Wagner,in,afl_lineups_round_24,20250821_130613
+,Western Bulldogs,,S Davidson,in,afl_lineups_round_24,20250821_130613
+,Western Bulldogs,,A Naughton,in,afl_lineups_round_24,20250821_130613
+,Western Bulldogs,,M Kennedy,in,afl_lineups_round_24,20250821_130613
+,Fremantle,,H Chapman,in,afl_lineups_round_24,20250821_130613
+,Fremantle,,K Worner,in,afl_lineups_round_24,20250821_130613
+,Fremantle,,J Clark,in,afl_lineups_round_24,20250821_130613
+,Western Bulldogs,,R Garcia,in,afl_lineups_round_24,20250821_130613
+,Western Bulldogs,,S Darcy,in,afl_lineups_round_24,20250821_130613
+,Western Bulldogs,,R West,in,afl_lineups_round_24,20250821_130613
+,Fremantle,,L Ryan,in,afl_lineups_round_24,20250821_130613
+,Fremantle,,B Cox,in,afl_lineups_round_24,20250821_130613
+,Fremantle,,A Pearce,in,afl_lineups_round_24,20250821_130613
+,Western Bulldogs,,T English,in,afl_lineups_round_24,20250821_130613
+,Western Bulldogs,,M Bontempelli,in,afl_lineups_round_24,20250821_130613
+,Western Bulldogs,,T Liberatore,in,afl_lineups_round_24,20250821_130613
+,Fremantle,,S Darcy,in,afl_lineups_round_24,20250821_130613
+,Fremantle,,C Serong,in,afl_lineups_round_24,20250821_130613
+,Fremantle,,A Brayshaw,in,afl_lineups_round_24,20250821_130613
+,Fremantle,,N Fyfe,in,afl_lineups_round_24,20250821_130613
+,Fremantle,,M Reid,in,afl_lineups_round_24,20250821_130613
+,Fremantle,,O McDonald,in,afl_lineups_round_24,20250821_130613
+,Fremantle,,J Amiss,in,afl_lineups_round_24,20250821_130613
+,Fremantle,,N Erasmus,in,afl_lineups_round_24,20250821_130613
+,Fremantle,,N O'Driscoll,in,afl_lineups_round_24,20250821_130613
+,Fremantle,,B Walker,in,afl_lineups_round_24,20250821_130613
+,Fremantle,,B Banfield,in,afl_lineups_round_24,20250821_130613
+,Fremantle,,O McDonald,in,afl_lineups_round_24,20250821_130613
+,Fremantle,,H Young,in,afl_lineups_round_24,20250821_130613
+,Fremantle,,B Walker,in,afl_lineups_round_24,20250821_130613
+,Brisbane,,K Lohmann,in,afl_lineups_round_24,20250821_130613
+,Brisbane,,L Ashcroft,in,afl_lineups_round_24,20250821_130613
+,Brisbane,,L Beecken,in,afl_lineups_round_24,20250821_130613
+,Brisbane,,S Marshall,in,afl_lineups_round_24,20250821_130613
+,Brisbane,,T Gallop,in,afl_lineups_round_24,20250821_130613
+,Brisbane,,J Tunstill,in,afl_lineups_round_24,20250821_130613
+,Brisbane,,D Joyce,in,afl_lineups_round_24,20250821_130613
+,Brisbane,,O McInerney,in,afl_lineups_round_24,20250821_130613
+,Brisbane,,D Joyce,in,afl_lineups_round_24,20250821_130613
+,Brisbane,,O McInerney,in,afl_lineups_round_24,20250821_130613
+,Brisbane,,K Lohmann,in,afl_lineups_round_24,20250821_130613
+,Brisbane,,J Tunstill,in,afl_lineups_round_24,20250821_130613
+,Brisbane,,T Gallop,in,afl_lineups_round_24,20250821_130613
+,Brisbane,,E Hipwood,in,afl_lineups_round_24,20250821_130613
+,Brisbane,,J Berry,in,afl_lineups_round_24,20250821_130613
+,Brisbane,,D Zorko,in,afl_lineups_round_24,20250821_130613
+,Brisbane,,D Gardiner,in,afl_lineups_round_24,20250821_130613
+,Brisbane,,R Lester,in,afl_lineups_round_24,20250821_130613
+,Hawthorn,,J Gunston,in,afl_lineups_round_24,20250821_130613
+,Hawthorn,,M Lewis,in,afl_lineups_round_24,20250821_130613
+,Hawthorn,,C MacDonald,in,afl_lineups_round_24,20250821_130613
+,Brisbane,,D Wilmot,in,afl_lineups_round_24,20250821_130613
+,Brisbane,,H Andrews,in,afl_lineups_round_24,20250821_130613
+,Brisbane,,B Starcevich,in,afl_lineups_round_24,20250821_130613
+,Hawthorn,,M D'Ambrosio,in,afl_lineups_round_24,20250821_130613
+,Hawthorn,,M Chol,in,afl_lineups_round_24,20250821_130613
+,Hawthorn,,N Watson,in,afl_lineups_round_24,20250821_130613
+,Brisbane,,J Fletcher,in,afl_lineups_round_24,20250821_130613
+,Brisbane,,H McCluggage,in,afl_lineups_round_24,20250821_130613
+,Brisbane,,B Reville,in,afl_lineups_round_24,20250821_130613
+,Hawthorn,,K Amon,in,afl_lineups_round_24,20250821_130613
+,Hawthorn,,J Worpel,in,afl_lineups_round_24,20250821_130613
+,Hawthorn,,D Moore,in,afl_lineups_round_24,20250821_130613
+,Brisbane,,C Cameron,in,afl_lineups_round_24,20250821_130613
+,Brisbane,,S Day,in,afl_lineups_round_24,20250821_130613
+,Brisbane,,Z Bailey,in,afl_lineups_round_24,20250821_130613
+,Hawthorn,,J Impey,in,afl_lineups_round_24,20250821_130613
+,Hawthorn,,J Sicily,in,afl_lineups_round_24,20250821_130613
+,Hawthorn,,J Scrimshaw,in,afl_lineups_round_24,20250821_130613
+,Brisbane,,C Rayner,in,afl_lineups_round_24,20250821_130613
+,Brisbane,,L Morris,in,afl_lineups_round_24,20250821_130613
+,Brisbane,,C Ah Chee,in,afl_lineups_round_24,20250821_130613
+,Hawthorn,,J Battle,in,afl_lineups_round_24,20250821_130613
+,Hawthorn,,T Barrass,in,afl_lineups_round_24,20250821_130613
+,Hawthorn,,B Hardwick,in,afl_lineups_round_24,20250821_130613
+,Brisbane,,D Fort,in,afl_lineups_round_24,20250821_130613
+,Brisbane,,J Dunkley,in,afl_lineups_round_24,20250821_130613
+,Brisbane,,W Ashcroft,in,afl_lineups_round_24,20250821_130613
+,Hawthorn,,L Meek,in,afl_lineups_round_24,20250821_130613
+,Hawthorn,,J Newcombe,in,afl_lineups_round_24,20250821_130613
+,Hawthorn,,J Ward,in,afl_lineups_round_24,20250821_130613
+,Hawthorn,,C Jiath,in,afl_lineups_round_24,20250821_130613
+,Hawthorn,,C Nash,in,afl_lineups_round_24,20250821_130613
+,Hawthorn,,J Ginnivan,in,afl_lineups_round_24,20250821_130613
+,Hawthorn,,C Dear,in,afl_lineups_round_24,20250821_130613
+,Hawthorn,,L Breust,in,afl_lineups_round_24,20250821_130613
+,Hawthorn,,C Mackenzie,in,afl_lineups_round_24,20250821_130613
+,Hawthorn,,S Butler,in,afl_lineups_round_24,20250821_130613
+,Hawthorn,,N Reeves,in,afl_lineups_round_24,20250821_130613
+,Hawthorn,,N Reeves,in,afl_lineups_round_24,20250821_130613
+,Hawthorn,,S Butler,in,afl_lineups_round_24,20250821_130613
+,Hawthorn,,C Mackenzie,in,afl_lineups_round_24,20250821_130613

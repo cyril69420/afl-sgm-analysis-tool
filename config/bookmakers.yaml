@@ -1,0 +1,10 @@
+enabled:
+  - sportsbet
+  - pointsbet
+  #- tab
+  #- ladbrokes
+
+timeouts:
+  page_load_sec: 15
+  search_sec: 15
+  request_sec: 20

@@ -1,0 +1,433 @@
+game_id,season,round_raw,home,away,venue,kickoff_utc,kickoff_local_awst,status,home_score,away_score,source
+2024_ID35700,2024,0,Sydney,Melbourne,S.C.G.,2024-03-07T08:30:00+00:00,,final,86,64,squiggle
+2024_ID35701,2024,0,Brisbane Lions,Carlton,Gabba,2024-03-08T08:40:00+00:00,,final,85,86,squiggle
+2024_ID35702,2024,0,Gold Coast,Richmond,Carrara,2024-03-09T05:20:00+00:00,,final,99,60,squiggle
+2024_ID35703,2024,0,Greater Western Sydney,Collingwood,Sydney Showground,2024-03-09T08:30:00+00:00,,final,114,82,squiggle
+2024_ID35704,2024,1,Carlton,Richmond,M.C.G.,2024-03-14T08:30:00+00:00,,final,86,81,squiggle
+2024_ID35705,2024,1,Collingwood,Sydney,M.C.G.,2024-03-15T08:40:00+00:00,,final,69,102,squiggle
+2024_ID35706,2024,1,Essendon,Hawthorn,M.C.G.,2024-03-16T02:45:00+00:00,,final,107,83,squiggle
+2024_ID35707,2024,1,Greater Western Sydney,North Melbourne,Sydney Showground,2024-03-16T05:35:00+00:00,,final,121,82,squiggle
+2024_ID35708,2024,1,Geelong,St Kilda,Kardinia Park,2024-03-16T08:30:00+00:00,,final,76,68,squiggle
+2024_ID35709,2024,1,Gold Coast,Adelaide,Carrara,2024-03-16T09:10:00+00:00,,final,60,54,squiggle
+2024_ID35710,2024,1,Melbourne,Western Bulldogs,M.C.G.,2024-03-17T02:00:00+00:00,,final,109,64,squiggle
+2024_ID35711,2024,1,Port Adelaide,West Coast,Adelaide Oval,2024-03-17T05:00:00+00:00,,final,120,70,squiggle
+2024_ID35712,2024,1,Fremantle,Brisbane Lions,Perth Stadium,2024-03-17T07:50:00+00:00,,final,93,70,squiggle
+2024_ID35713,2024,2,St Kilda,Collingwood,M.C.G.,2024-03-21T08:30:00+00:00,,final,94,79,squiggle
+2024_ID35714,2024,2,Adelaide,Geelong,Adelaide Oval,2024-03-22T08:40:00+00:00,,final,77,96,squiggle
+2024_ID35715,2024,2,North Melbourne,Fremantle,Docklands,2024-03-23T02:45:00+00:00,,final,76,102,squiggle
+2024_ID35716,2024,2,Hawthorn,Melbourne,M.C.G.,2024-03-23T05:35:00+00:00,,final,38,93,squiggle
+2024_ID35717,2024,2,Sydney,Essendon,S.C.G.,2024-03-23T08:30:00+00:00,,final,131,101,squiggle
+2024_ID35718,2024,2,Western Bulldogs,Gold Coast,Eureka Stadium,2024-03-24T02:00:00+00:00,,final,115,67,squiggle
+2024_ID35719,2024,2,Richmond,Port Adelaide,M.C.G.,2024-03-24T05:00:00+00:00,,final,92,122,squiggle
+2024_ID35720,2024,2,West Coast,Greater Western Sydney,Perth Stadium,2024-03-24T07:50:00+00:00,,final,43,108,squiggle
+2024_ID35721,2024,3,Brisbane Lions,Collingwood,Gabba,2024-03-28T08:30:00+00:00,,final,72,92,squiggle
+2024_ID35722,2024,3,North Melbourne,Carlton,Docklands,2024-03-29T05:20:00+00:00,,final,81,137,squiggle
+2024_ID35723,2024,3,Fremantle,Adelaide,Perth Stadium,2024-03-29T08:30:00+00:00,,final,69,34,squiggle
+2024_ID35724,2024,3,Essendon,St Kilda,Docklands,2024-03-30T05:20:00+00:00,,final,71,67,squiggle
+2024_ID35725,2024,3,Port Adelaide,Melbourne,Adelaide Oval,2024-03-30T08:30:00+00:00,,final,89,96,squiggle
+2024_ID35726,2024,3,Western Bulldogs,West Coast,Docklands,2024-03-31T02:00:00+00:00,,final,106,30,squiggle
+2024_ID35727,2024,3,Richmond,Sydney,M.C.G.,2024-03-31T05:00:00+00:00,,final,82,77,squiggle
+2024_ID35728,2024,3,Hawthorn,Geelong,M.C.G.,2024-04-01T04:20:00+00:00,,final,70,106,squiggle
+2024_ID35729,2024,4,Adelaide,Melbourne,Adelaide Oval,2024-04-04T08:40:00+00:00,,final,63,78,squiggle
+2024_ID35730,2024,4,Brisbane Lions,North Melbourne,Norwood Oval,2024-04-05T06:10:00+00:00,,final,112,42,squiggle
+2024_ID35731,2024,4,Port Adelaide,Essendon,Adelaide Oval,2024-04-05T09:10:00+00:00,,final,111,42,squiggle
+2024_ID35732,2024,4,West Coast,Sydney,Adelaide Hills,2024-04-06T02:30:00+00:00,,final,78,104,squiggle
+2024_ID35733,2024,4,Fremantle,Carlton,Adelaide Oval,2024-04-06T05:20:00+00:00,,final,63,73,squiggle
+2024_ID35734,2024,4,Western Bulldogs,Geelong,Adelaide Oval,2024-04-06T09:10:00+00:00,,final,91,95,squiggle
+2024_ID35735,2024,4,Gold Coast,Greater Western Sydney,Adelaide Hills,2024-04-07T02:30:00+00:00,,final,89,117,squiggle
+2024_ID35736,2024,4,Richmond,St Kilda,Norwood Oval,2024-04-07T05:20:00+00:00,,final,60,67,squiggle
+2024_ID35737,2024,4,Collingwood,Hawthorn,Adelaide Oval,2024-04-07T07:10:00+00:00,,final,77,72,squiggle
+2024_ID35738,2024,5,Melbourne,Brisbane Lions,M.C.G.,2024-04-11T09:30:00+00:00,,final,60,82,squiggle
+2024_ID35739,2024,5,Western Bulldogs,Essendon,Docklands,2024-04-12T09:40:00+00:00,,final,67,96,squiggle
+2024_ID35740,2024,5,Greater Western Sydney,St Kilda,Manuka Oval,2024-04-13T03:45:00+00:00,,final,80,79,squiggle
+2024_ID35741,2024,5,Carlton,Adelaide,Docklands,2024-04-13T06:35:00+00:00,,final,98,100,squiggle
+2024_ID35742,2024,5,Gold Coast,Hawthorn,Carrara,2024-04-13T09:30:00+00:00,,final,109,56,squiggle
+2024_ID35743,2024,5,Port Adelaide,Fremantle,Adelaide Oval,2024-04-13T09:30:00+00:00,,final,66,63,squiggle
+2024_ID35744,2024,5,Geelong,North Melbourne,Kardinia Park,2024-04-14T03:00:00+00:00,,final,139,64,squiggle
+2024_ID35745,2024,5,West Coast,Richmond,Perth Stadium,2024-04-14T06:00:00+00:00,,final,109,70,squiggle
+2024_ID35746,2024,6,St Kilda,Western Bulldogs,Docklands,2024-04-18T09:30:00+00:00,,final,64,124,squiggle
+2024_ID35747,2024,6,Adelaide,Essendon,Adelaide Oval,2024-04-19T09:40:00+00:00,,final,75,78,squiggle
+2024_ID35748,2024,6,Collingwood,Port Adelaide,M.C.G.,2024-04-20T03:45:00+00:00,,final,123,81,squiggle
+2024_ID35749,2024,6,Carlton,Greater Western Sydney,Docklands,2024-04-20T06:35:00+00:00,,final,117,98,squiggle
+2024_ID35750,2024,6,Brisbane Lions,Geelong,Gabba,2024-04-20T09:30:00+00:00,,final,37,63,squiggle
+2024_ID35751,2024,6,West Coast,Fremantle,Perth Stadium,2024-04-20T10:10:00+00:00,,final,105,68,squiggle
+2024_ID35752,2024,6,Sydney,Gold Coast,S.C.G.,2024-04-21T03:05:00+00:00,,final,110,57,squiggle
+2024_ID35753,2024,6,North Melbourne,Hawthorn,Docklands,2024-04-21T06:05:00+00:00,,final,68,113,squiggle
+2024_ID35754,2024,7,Richmond,Melbourne,M.C.G.,2024-04-24T09:25:00+00:00,,final,42,85,squiggle
+2024_ID35755,2024,7,Essendon,Collingwood,M.C.G.,2024-04-25T05:20:00+00:00,,final,85,85,squiggle
+2024_ID35756,2024,7,Greater Western Sydney,Brisbane Lions,Manuka Oval,2024-04-25T09:35:00+00:00,,final,113,59,squiggle
+2024_ID35757,2024,7,Port Adelaide,St Kilda,Adelaide Oval,2024-04-26T09:40:00+00:00,,final,82,72,squiggle
+2024_ID35758,2024,7,North Melbourne,Adelaide,Bellerive Oval,2024-04-27T03:45:00+00:00,,final,81,138,squiggle
+2024_ID35759,2024,7,Geelong,Carlton,M.C.G.,2024-04-27T06:35:00+00:00,,final,118,105,squiggle
+2024_ID35760,2024,7,Fremantle,Western Bulldogs,Perth Stadium,2024-04-27T09:40:00+00:00,,final,95,71,squiggle
+2024_ID35761,2024,7,Gold Coast,West Coast,Carrara,2024-04-28T03:00:00+00:00,,final,112,75,squiggle
+2024_ID35762,2024,7,Hawthorn,Sydney,M.C.G.,2024-04-28T06:00:00+00:00,,final,42,118,squiggle
+2024_ID35763,2024,8,Adelaide,Port Adelaide,Adelaide Oval,2024-05-02T09:30:00+00:00,,final,78,48,squiggle
+2024_ID35764,2024,8,Carlton,Collingwood,M.C.G.,2024-05-03T09:40:00+00:00,,final,79,85,squiggle
+2024_ID35765,2024,8,Sydney,Greater Western Sydney,S.C.G.,2024-05-04T03:45:00+00:00,,final,98,69,squiggle
+2024_ID35766,2024,8,St Kilda,North Melbourne,Docklands,2024-05-04T06:35:00+00:00,,final,103,65,squiggle
+2024_ID35767,2024,8,Melbourne,Geelong,M.C.G.,2024-05-04T09:30:00+00:00,,final,74,66,squiggle
+2024_ID35768,2024,8,West Coast,Essendon,Perth Stadium,2024-05-04T10:10:00+00:00,,final,71,77,squiggle
+2024_ID35769,2024,8,Richmond,Fremantle,M.C.G.,2024-05-05T03:00:00+00:00,,final,49,103,squiggle
+2024_ID35770,2024,8,Western Bulldogs,Hawthorn,Docklands,2024-05-05T06:00:00+00:00,,final,91,98,squiggle
+2024_ID35771,2024,8,Brisbane Lions,Gold Coast,Gabba,2024-05-05T09:10:00+00:00,,final,79,45,squiggle
+2024_ID35772,2024,9,Carlton,Melbourne,M.C.G.,2024-05-09T09:30:00+00:00,,final,77,76,squiggle
+2024_ID35773,2024,9,Geelong,Port Adelaide,Kardinia Park,2024-05-10T09:10:00+00:00,,final,95,101,squiggle
+2024_ID35774,2024,9,Fremantle,Sydney,Perth Stadium,2024-05-10T10:30:00+00:00,,final,39,87,squiggle
+2024_ID35775,2024,9,Hawthorn,St Kilda,York Park,2024-05-11T03:45:00+00:00,,final,58,53,squiggle
+2024_ID35776,2024,9,Essendon,Greater Western Sydney,Docklands,2024-05-11T06:35:00+00:00,,final,82,62,squiggle
+2024_ID35778,2024,9,Gold Coast,North Melbourne,Marrara Oval,2024-05-11T09:30:00+00:00,,final,120,52,squiggle
+2024_ID35777,2024,9,Richmond,Western Bulldogs,M.C.G.,2024-05-11T09:30:00+00:00,,final,42,133,squiggle
+2024_ID35779,2024,9,Collingwood,West Coast,Docklands,2024-05-12T03:00:00+00:00,,final,103,37,squiggle
+2024_ID35780,2024,9,Adelaide,Brisbane Lions,Adelaide Oval,2024-05-12T06:00:00+00:00,,final,90,90,squiggle
+2024_ID35781,2024,10,Gold Coast,Geelong,Marrara Oval,2024-05-16T09:30:00+00:00,,final,164,100,squiggle
+2024_ID35782,2024,10,Sydney,Carlton,S.C.G.,2024-05-17T09:40:00+00:00,,final,117,65,squiggle
+2024_ID35783,2024,10,Collingwood,Adelaide,M.C.G.,2024-05-18T03:45:00+00:00,,final,78,74,squiggle
+2024_ID35784,2024,10,Greater Western Sydney,Western Bulldogs,Sydney Showground,2024-05-18T06:35:00+00:00,,final,43,70,squiggle
+2024_ID35786,2024,10,Brisbane Lions,Richmond,Gabba,2024-05-18T09:30:00+00:00,,final,163,44,squiggle
+2024_ID35785,2024,10,St Kilda,Fremantle,Docklands,2024-05-18T09:30:00+00:00,,final,55,72,squiggle
+2024_ID35787,2024,10,Essendon,North Melbourne,Docklands,2024-05-19T03:10:00+00:00,,final,106,66,squiggle
+2024_ID35788,2024,10,Port Adelaide,Hawthorn,Adelaide Oval,2024-05-19T05:20:00+00:00,,final,80,79,squiggle
+2024_ID35789,2024,10,West Coast,Melbourne,Perth Stadium,2024-05-19T08:20:00+00:00,,final,105,70,squiggle
+2024_ID35790,2024,11,Western Bulldogs,Sydney,Docklands,2024-05-23T09:30:00+00:00,,final,88,102,squiggle
+2024_ID35791,2024,11,Fremantle,Collingwood,Perth Stadium,2024-05-24T10:10:00+00:00,,final,75,75,squiggle
+2024_ID35793,2024,11,Carlton,Gold Coast,Docklands,2024-05-25T03:45:00+00:00,,final,102,73,squiggle
+2024_ID35792,2024,11,North Melbourne,Port Adelaide,Bellerive Oval,2024-05-25T03:45:00+00:00,,final,48,107,squiggle
+2024_ID35794,2024,11,Geelong,Greater Western Sydney,Kardinia Park,2024-05-25T06:35:00+00:00,,final,74,78,squiggle
+2024_ID35795,2024,11,Richmond,Essendon,M.C.G.,2024-05-25T09:40:00+00:00,,final,74,86,squiggle
+2024_ID35796,2024,11,Hawthorn,Brisbane Lions,Docklands,2024-05-26T03:10:00+00:00,,final,100,75,squiggle
+2024_ID35797,2024,11,Melbourne,St Kilda,M.C.G.,2024-05-26T05:20:00+00:00,,final,100,62,squiggle
+2024_ID35798,2024,11,Adelaide,West Coast,Adelaide Oval,2024-05-26T06:40:00+00:00,,final,137,38,squiggle
+2024_ID35799,2024,12,Port Adelaide,Carlton,Adelaide Oval,2024-05-30T09:30:00+00:00,,final,71,107,squiggle
+2024_ID35800,2024,12,Collingwood,Western Bulldogs,Docklands,2024-05-31T09:40:00+00:00,,final,82,100,squiggle
+2024_ID35801,2024,12,Hawthorn,Adelaide,M.C.G.,2024-06-01T03:45:00+00:00,,final,107,80,squiggle
+2024_ID35802,2024,12,West Coast,St Kilda,Perth Stadium,2024-06-01T06:35:00+00:00,,final,68,82,squiggle
+2024_ID35803,2024,12,Geelong,Richmond,Kardinia Park,2024-06-01T09:30:00+00:00,,final,99,69,squiggle
+2024_ID35804,2024,12,Melbourne,Fremantle,Traeger Park,2024-06-02T03:00:00+00:00,,final,49,141,squiggle
+2024_ID35805,2024,12,Gold Coast,Essendon,Carrara,2024-06-02T06:00:00+00:00,,final,91,80,squiggle
+2024_ID35806,2024,13,Adelaide,Richmond,Adelaide Oval,2024-06-06T09:30:00+00:00,,final,71,79,squiggle
+2024_ID35807,2024,13,Western Bulldogs,Brisbane Lions,Docklands,2024-06-07T09:40:00+00:00,,final,71,114,squiggle
+2024_ID35808,2024,13,Hawthorn,Greater Western Sydney,York Park,2024-06-08T03:45:00+00:00,,final,85,79,squiggle
+2024_ID35809,2024,13,West Coast,North Melbourne,Perth Stadium,2024-06-08T06:35:00+00:00,,final,65,74,squiggle
+2024_ID35810,2024,13,St Kilda,Gold Coast,Docklands,2024-06-08T09:30:00+00:00,,final,51,48,squiggle
+2024_ID35811,2024,13,Sydney,Geelong,S.C.G.,2024-06-09T05:20:00+00:00,,final,112,82,squiggle
+2024_ID35812,2024,13,Essendon,Carlton,M.C.G.,2024-06-09T09:20:00+00:00,,final,70,96,squiggle
+2024_ID35813,2024,13,Collingwood,Melbourne,M.C.G.,2024-06-10T05:20:00+00:00,,final,89,51,squiggle
+2024_ID35814,2024,14,Brisbane Lions,St Kilda,Gabba,2024-06-14T09:40:00+00:00,,final,126,106,squiggle
+2024_ID35815,2024,14,Western Bulldogs,Fremantle,Docklands,2024-06-15T03:45:00+00:00,,final,149,82,squiggle
+2024_ID35816,2024,14,Richmond,Hawthorn,M.C.G.,2024-06-15T06:35:00+00:00,,final,49,97,squiggle
+2024_ID35817,2024,14,Adelaide,Sydney,Adelaide Oval,2024-06-15T09:30:00+00:00,,final,67,109,squiggle
+2024_ID35818,2024,14,North Melbourne,Collingwood,Docklands,2024-06-16T03:00:00+00:00,,final,118,119,squiggle
+2024_ID35819,2024,14,Greater Western Sydney,Port Adelaide,Sydney Showground,2024-06-16T06:00:00+00:00,,final,73,51,squiggle
+2024_ID35820,2024,15,Carlton,Geelong,M.C.G.,2024-06-21T09:40:00+00:00,,final,138,75,squiggle
+2024_ID35821,2024,15,Port Adelaide,Brisbane Lions,Adelaide Oval,2024-06-22T03:45:00+00:00,,final,73,152,squiggle
+2024_ID35822,2024,15,Greater Western Sydney,Sydney,Sydney Showground,2024-06-22T06:35:00+00:00,,final,75,102,squiggle
+2024_ID35823,2024,15,Melbourne,North Melbourne,M.C.G.,2024-06-22T09:30:00+00:00,,final,70,67,squiggle
+2024_ID35824,2024,15,Essendon,West Coast,Docklands,2024-06-23T03:00:00+00:00,,final,122,92,squiggle
+2024_ID35825,2024,15,Fremantle,Gold Coast,Perth Stadium,2024-06-23T06:00:00+00:00,,final,85,65,squiggle
+2024_ID35826,2024,16,Brisbane Lions,Melbourne,Gabba,2024-06-28T09:40:00+00:00,,final,86,81,squiggle
+2024_ID35829,2024,16,North Melbourne,Western Bulldogs,Docklands,2024-06-29T03:45:00+00:00,,final,60,77,squiggle
+2024_ID35832,2024,16,Sydney,Fremantle,S.C.G.,2024-06-29T03:45:00+00:00,,final,98,99,squiggle
+2024_ID35828,2024,16,Gold Coast,Collingwood,Carrara,2024-06-29T06:35:00+00:00,,final,101,90,squiggle
+2024_ID35833,2024,16,Adelaide,Greater Western Sydney,Adelaide Oval,2024-06-29T09:30:00+00:00,,final,94,78,squiggle
+2024_ID35827,2024,16,Geelong,Essendon,M.C.G.,2024-06-29T09:30:00+00:00,,final,105,60,squiggle
+2024_ID35831,2024,16,St Kilda,Port Adelaide,Docklands,2024-06-30T03:10:00+00:00,,final,60,62,squiggle
+2024_ID35830,2024,16,Richmond,Carlton,M.C.G.,2024-06-30T05:20:00+00:00,,final,70,131,squiggle
+2024_ID35834,2024,16,West Coast,Hawthorn,Perth Stadium,2024-06-30T06:40:00+00:00,,final,33,94,squiggle
+2024_ID35836,2024,17,Collingwood,Essendon,M.C.G.,2024-07-05T09:40:00+00:00,,final,80,92,squiggle
+2024_ID35840,2024,17,North Melbourne,Gold Coast,Docklands,2024-07-06T03:45:00+00:00,,final,87,83,squiggle
+2024_ID35842,2024,17,Port Adelaide,Western Bulldogs,Adelaide Oval,2024-07-06T03:45:00+00:00,,final,102,54,squiggle
+2024_ID35837,2024,17,Geelong,Hawthorn,Kardinia Park,2024-07-06T06:35:00+00:00,,final,110,59,squiggle
+2024_ID35838,2024,17,Greater Western Sydney,Carlton,Sydney Showground,2024-07-06T09:30:00+00:00,,final,116,104,squiggle
+2024_ID35843,2024,17,Fremantle,Richmond,Perth Stadium,2024-07-06T10:10:00+00:00,,final,105,54,squiggle
+2024_ID35839,2024,17,Melbourne,West Coast,M.C.G.,2024-07-07T03:10:00+00:00,,final,112,58,squiggle
+2024_ID35841,2024,17,St Kilda,Sydney,Docklands,2024-07-07T05:20:00+00:00,,final,84,82,squiggle
+2024_ID35835,2024,17,Brisbane Lions,Adelaide,Gabba,2024-07-07T06:10:00+00:00,,final,97,86,squiggle
+2024_ID35844,2024,18,Collingwood,Geelong,M.C.G.,2024-07-12T09:40:00+00:00,,final,71,91,squiggle
+2024_ID35846,2024,18,Hawthorn,Fremantle,York Park,2024-07-13T03:45:00+00:00,,final,87,74,squiggle
+2024_ID35849,2024,18,Sydney,North Melbourne,S.C.G.,2024-07-13T03:45:00+00:00,,final,138,59,squiggle
+2024_ID35850,2024,18,Western Bulldogs,Carlton,Docklands,2024-07-13T06:35:00+00:00,,final,100,86,squiggle
+2024_ID35851,2024,18,Adelaide,St Kilda,Adelaide Oval,2024-07-13T09:30:00+00:00,,final,71,39,squiggle
+2024_ID35847,2024,18,Melbourne,Essendon,M.C.G.,2024-07-13T09:30:00+00:00,,final,84,67,squiggle
+2024_ID35845,2024,18,Gold Coast,Port Adelaide,Carrara,2024-07-14T03:10:00+00:00,,final,96,82,squiggle
+2024_ID35848,2024,18,Richmond,Greater Western Sydney,M.C.G.,2024-07-14T05:20:00+00:00,,final,84,108,squiggle
+2024_ID35852,2024,18,West Coast,Brisbane Lions,Perth Stadium,2024-07-14T06:40:00+00:00,,final,93,106,squiggle
+2024_ID35855,2024,19,Essendon,Adelaide,Docklands,2024-07-19T09:40:00+00:00,,final,113,115,squiggle
+2024_ID35857,2024,19,Greater Western Sydney,Gold Coast,Sydney Showground,2024-07-20T03:45:00+00:00,,final,89,50,squiggle
+2024_ID35859,2024,19,St Kilda,West Coast,Docklands,2024-07-20T03:45:00+00:00,,final,113,41,squiggle
+2024_ID35858,2024,19,Hawthorn,Collingwood,M.C.G.,2024-07-20T06:35:00+00:00,,final,133,67,squiggle
+2024_ID35856,2024,19,Geelong,Western Bulldogs,Kardinia Park,2024-07-20T09:30:00+00:00,,final,48,95,squiggle
+2024_ID35860,2024,19,Port Adelaide,Richmond,Adelaide Oval,2024-07-20T09:30:00+00:00,,final,116,75,squiggle
+2024_ID35853,2024,19,Brisbane Lions,Sydney,Gabba,2024-07-21T03:10:00+00:00,,final,79,77,squiggle
+2024_ID35861,2024,19,Fremantle,Melbourne,Perth Stadium,2024-07-21T05:20:00+00:00,,final,116,66,squiggle
+2024_ID35854,2024,19,Carlton,North Melbourne,Docklands,2024-07-21T06:40:00+00:00,,final,107,88,squiggle
+2024_ID35862,2024,20,Carlton,Port Adelaide,Docklands,2024-07-26T09:40:00+00:00,,final,65,79,squiggle
+2024_ID35866,2024,20,North Melbourne,Geelong,Bellerive Oval,2024-07-27T03:45:00+00:00,,final,66,106,squiggle
+2024_ID35864,2024,20,Gold Coast,Brisbane Lions,Carrara,2024-07-27T06:35:00+00:00,,final,65,93,squiggle
+2024_ID35867,2024,20,St Kilda,Essendon,Docklands,2024-07-27T06:35:00+00:00,,final,108,55,squiggle
+2024_ID35865,2024,20,Melbourne,Greater Western Sydney,M.C.G.,2024-07-27T09:30:00+00:00,,final,83,85,squiggle
+2024_ID35870,2024,20,Fremantle,West Coast,Perth Stadium,2024-07-27T10:10:00+00:00,,final,110,75,squiggle
+2024_ID35863,2024,20,Collingwood,Richmond,M.C.G.,2024-07-28T03:10:00+00:00,,final,93,67,squiggle
+2024_ID35868,2024,20,Sydney,Western Bulldogs,S.C.G.,2024-07-28T05:20:00+00:00,,final,48,87,squiggle
+2024_ID35869,2024,20,Adelaide,Hawthorn,Adelaide Oval,2024-07-28T06:10:00+00:00,,final,58,124,squiggle
+2024_ID35877,2024,21,Western Bulldogs,Melbourne,Docklands,2024-08-02T09:15:00+00:00,,final,110,59,squiggle
+2024_ID35879,2024,21,West Coast,Gold Coast,Perth Stadium,2024-08-02T10:30:00+00:00,,final,97,87,squiggle
+2024_ID35875,2024,21,North Melbourne,Richmond,Docklands,2024-08-03T03:45:00+00:00,,final,90,77,squiggle
+2024_ID35873,2024,21,Geelong,Adelaide,Kardinia Park,2024-08-03T06:35:00+00:00,,final,90,85,squiggle
+2024_ID35871,2024,21,Collingwood,Carlton,M.C.G.,2024-08-03T09:30:00+00:00,,final,84,81,squiggle
+2024_ID35878,2024,21,Port Adelaide,Sydney,Adelaide Oval,2024-08-03T09:30:00+00:00,,final,148,36,squiggle
+2024_ID35874,2024,21,Greater Western Sydney,Hawthorn,Manuka Oval,2024-08-04T03:10:00+00:00,,final,84,82,squiggle
+2024_ID35872,2024,21,Essendon,Fremantle,M.C.G.,2024-08-04T05:20:00+00:00,,final,90,89,squiggle
+2024_ID35876,2024,21,St Kilda,Brisbane Lions,Docklands,2024-08-04T06:40:00+00:00,,final,39,124,squiggle
+2024_ID35886,2024,22,Sydney,Collingwood,S.C.G.,2024-08-09T09:40:00+00:00,,final,89,86,squiggle
+2024_ID35880,2024,22,Brisbane Lions,Greater Western Sydney,Gabba,2024-08-10T03:45:00+00:00,,final,64,82,squiggle
+2024_ID35884,2024,22,North Melbourne,West Coast,Bellerive Oval,2024-08-10T03:45:00+00:00,,final,97,102,squiggle
+2024_ID35888,2024,22,Fremantle,Geelong,Perth Stadium,2024-08-10T06:35:00+00:00,,final,62,73,squiggle
+2024_ID35882,2024,22,Essendon,Gold Coast,Docklands,2024-08-10T09:30:00+00:00,,final,86,87,squiggle
+2024_ID35883,2024,22,Melbourne,Port Adelaide,M.C.G.,2024-08-10T09:30:00+00:00,,final,51,53,squiggle
+2024_ID35881,2024,22,Carlton,Hawthorn,M.C.G.,2024-08-11T03:10:00+00:00,,final,38,112,squiggle
+2024_ID35885,2024,22,Richmond,St Kilda,Docklands,2024-08-11T05:20:00+00:00,,final,51,99,squiggle
+2024_ID35887,2024,22,Adelaide,Western Bulldogs,Adelaide Oval,2024-08-11T06:10:00+00:00,,final,111,72,squiggle
+2024_ID35890,2024,23,Essendon,Sydney,Docklands,2024-08-16T09:40:00+00:00,,final,59,98,squiggle
+2024_ID35891,2024,23,Gold Coast,Melbourne,Carrara,2024-08-17T03:45:00+00:00,,final,63,117,squiggle
+2024_ID35892,2024,23,Greater Western Sydney,Fremantle,Sydney Showground,2024-08-17T03:45:00+00:00,,final,101,92,squiggle
+2024_ID35889,2024,23,Collingwood,Brisbane Lions,M.C.G.,2024-08-17T06:35:00+00:00,,final,79,78,squiggle
+2024_ID35896,2024,23,Port Adelaide,Adelaide,Adelaide Oval,2024-08-17T09:30:00+00:00,,final,80,58,squiggle
+2024_ID35894,2024,23,St Kilda,Geelong,Docklands,2024-08-17T09:30:00+00:00,,final,107,89,squiggle
+2024_ID35895,2024,23,Western Bulldogs,North Melbourne,Docklands,2024-08-18T03:10:00+00:00,,final,138,42,squiggle
+2024_ID35893,2024,23,Hawthorn,Richmond,M.C.G.,2024-08-18T05:20:00+00:00,,final,131,68,squiggle
+2024_ID35897,2024,23,West Coast,Carlton,Perth Stadium,2024-08-18T06:40:00+00:00,,final,34,99,squiggle
+2024_ID35902,2024,24,Melbourne,Collingwood,M.C.G.,2024-08-23T09:40:00+00:00,,final,57,103,squiggle
+2024_ID35900,2024,24,Geelong,West Coast,Kardinia Park,2024-08-24T03:45:00+00:00,,final,168,75,squiggle
+2024_ID35903,2024,24,Richmond,Gold Coast,M.C.G.,2024-08-24T04:10:00+00:00,,final,66,94,squiggle
+2024_ID35901,2024,24,Hawthorn,North Melbourne,York Park,2024-08-24T06:35:00+00:00,,final,170,46,squiggle
+2024_ID35898,2024,24,Brisbane Lions,Essendon,Gabba,2024-08-24T09:25:00+00:00,,final,87,67,squiggle
+2024_ID35904,2024,24,Sydney,Adelaide,S.C.G.,2024-08-24T09:40:00+00:00,,final,121,90,squiggle
+2024_ID35905,2024,24,Western Bulldogs,Greater Western Sydney,Eureka Stadium,2024-08-25T02:30:00+00:00,,final,98,61,squiggle
+2024_ID35899,2024,24,Carlton,St Kilda,Docklands,2024-08-25T05:20:00+00:00,,final,74,76,squiggle
+2024_ID35906,2024,24,Fremantle,Port Adelaide,Perth Stadium,2024-08-25T08:10:00+00:00,,final,67,87,squiggle
+2024_ID35910,2024,25,Port Adelaide,Geelong,Adelaide Oval,2024-09-05T09:40:00+00:00,,final,54,138,squiggle
+2024_ID35908,2024,25,Western Bulldogs,Hawthorn,M.C.G.,2024-09-06T09:40:00+00:00,,final,62,99,squiggle
+2024_ID35909,2024,25,Sydney,Greater Western Sydney,S.C.G.,2024-09-07T05:20:00+00:00,,final,88,82,squiggle
+2024_ID35907,2024,25,Brisbane Lions,Carlton,Gabba,2024-09-07T09:30:00+00:00,,final,99,71,squiggle
+2024_ID35912,2024,26,Port Adelaide,Hawthorn,Adelaide Oval,2024-09-13T09:40:00+00:00,,final,75,72,squiggle
+2024_ID35911,2024,26,Greater Western Sydney,Brisbane Lions,Sydney Showground,2024-09-14T09:30:00+00:00,,final,100,105,squiggle
+2024_ID36462,2024,27,Sydney,Port Adelaide,S.C.G.,2024-09-20T09:40:00+00:00,,final,95,59,squiggle
+2024_ID36463,2024,27,Geelong,Brisbane Lions,M.C.G.,2024-09-21T07:15:00+00:00,,final,85,95,squiggle
+2024_ID35915,2024,28,Sydney,Brisbane Lions,M.C.G.,2024-09-28T04:30:00+00:00,,final,60,120,squiggle
+2025_ID37091,2025,0,Sydney,Hawthorn,S.C.G.,2025-03-07T08:40:00+00:00,,final,76,96,squiggle
+2025_ID37093,2025,0,Greater Western Sydney,Collingwood,Sydney Showground,2025-03-09T04:20:00+00:00,,final,104,52,squiggle
+2025_ID37094,2025,1,Richmond,Carlton,M.C.G.,2025-03-13T08:30:00+00:00,,final,82,69,squiggle
+2025_ID37095,2025,1,Hawthorn,Essendon,M.C.G.,2025-03-14T08:40:00+00:00,,final,111,85,squiggle
+2025_ID37096,2025,1,Geelong,Fremantle,Kardinia Park,2025-03-15T02:20:00+00:00,,final,147,69,squiggle
+2025_ID37097,2025,1,Sydney,Brisbane Lions,S.C.G.,2025-03-15T05:15:00+00:00,,final,82,86,squiggle
+2025_ID37099,2025,1,Collingwood,Port Adelaide,M.C.G.,2025-03-15T08:35:00+00:00,,final,136,45,squiggle
+2025_ID37098,2025,1,Western Bulldogs,North Melbourne,Docklands,2025-03-15T08:35:00+00:00,,final,113,97,squiggle
+2025_ID37100,2025,1,Adelaide,St Kilda,Adelaide Oval,2025-03-16T01:35:00+00:00,,final,135,72,squiggle
+2025_ID37101,2025,1,Melbourne,Greater Western Sydney,M.C.G.,2025-03-16T04:20:00+00:00,,final,74,77,squiggle
+2025_ID37102,2025,1,West Coast,Gold Coast,Perth Stadium,2025-03-16T07:10:00+00:00,,final,49,136,squiggle
+2025_ID37103,2025,2,Carlton,Hawthorn,M.C.G.,2025-03-20T08:30:00+00:00,,final,60,80,squiggle
+2025_ID37104,2025,2,Western Bulldogs,Collingwood,M.C.G.,2025-03-21T08:40:00+00:00,,final,70,76,squiggle
+2025_ID37105,2025,2,Essendon,Adelaide,M.C.G.,2025-03-22T02:20:00+00:00,,final,100,161,squiggle
+2025_ID37106,2025,2,Port Adelaide,Richmond,Adelaide Oval,2025-03-22T05:15:00+00:00,,final,140,68,squiggle
+2025_ID37107,2025,2,St Kilda,Geelong,Docklands,2025-03-22T08:35:00+00:00,,final,98,91,squiggle
+2025_ID37108,2025,2,Brisbane Lions,West Coast,Gabba,2025-03-23T02:10:00+00:00,,final,94,75,squiggle
+2025_ID37109,2025,2,North Melbourne,Melbourne,Docklands,2025-03-23T04:20:00+00:00,,final,125,66,squiggle
+2025_ID37110,2025,2,Fremantle,Sydney,Perth Stadium,2025-03-23T07:10:00+00:00,,final,65,68,squiggle
+2025_ID37111,2025,3,Essendon,Port Adelaide,Docklands,2025-03-27T08:30:00+00:00,,final,72,60,squiggle
+2025_ID37112,2025,3,Carlton,Western Bulldogs,Docklands,2025-03-28T08:40:00+00:00,,final,75,83,squiggle
+2025_ID37113,2025,3,Melbourne,Gold Coast,M.C.G.,2025-03-29T02:20:00+00:00,,final,62,120,squiggle
+2025_ID37114,2025,3,St Kilda,Richmond,Docklands,2025-03-29T05:15:00+00:00,,final,135,53,squiggle
+2025_ID37090,2025,3,Brisbane Lions,Geelong,Gabba,2025-03-29T08:35:00+00:00,,final,70,61,squiggle
+2025_ID37115,2025,3,Hawthorn,Greater Western Sydney,York Park,2025-03-29T08:35:00+00:00,,final,76,64,squiggle
+2025_ID37116,2025,3,Adelaide,North Melbourne,Adelaide Oval,2025-03-30T04:20:00+00:00,,final,114,78,squiggle
+2025_ID37117,2025,3,West Coast,Fremantle,Perth Stadium,2025-03-30T07:10:00+00:00,,final,68,106,squiggle
+2025_ID37118,2025,4,Collingwood,Carlton,M.C.G.,2025-04-03T08:30:00+00:00,,final,63,46,squiggle
+2025_ID37119,2025,4,Geelong,Melbourne,Kardinia Park,2025-04-04T08:40:00+00:00,,final,85,46,squiggle
+2025_ID37120,2025,4,Gold Coast,Adelaide,Carrara,2025-04-05T02:20:00+00:00,,final,91,90,squiggle
+2025_ID37121,2025,4,Richmond,Brisbane Lions,M.C.G.,2025-04-05T05:15:00+00:00,,final,90,118,squiggle
+2025_ID37122,2025,4,North Melbourne,Sydney,Docklands,2025-04-05T08:35:00+00:00,,final,52,117,squiggle
+2025_ID37123,2025,4,Greater Western Sydney,West Coast,Sydney Showground,2025-04-06T03:10:00+00:00,,final,132,51,squiggle
+2025_ID37124,2025,4,Port Adelaide,St Kilda,Adelaide Oval,2025-04-06T05:20:00+00:00,,final,72,89,squiggle
+2025_ID37125,2025,4,Fremantle,Western Bulldogs,Perth Stadium,2025-04-06T07:10:00+00:00,,final,97,81,squiggle
+2025_ID37126,2025,5,Adelaide,Geelong,Adelaide Oval,2025-04-10T09:40:00+00:00,,final,100,119,squiggle
+2025_ID37127,2025,5,Collingwood,Sydney,Adelaide Oval,2025-04-11T09:40:00+00:00,,final,109,78,squiggle
+2025_ID37128,2025,5,North Melbourne,Gold Coast,Barossa Park,2025-04-12T02:35:00+00:00,,final,89,141,squiggle
+2025_ID37129,2025,5,Carlton,West Coast,Adelaide Oval,2025-04-12T03:20:00+00:00,,final,121,50,squiggle
+2025_ID37130,2025,5,Western Bulldogs,Brisbane Lions,Norwood Oval,2025-04-12T06:15:00+00:00,,final,97,118,squiggle
+2025_ID37131,2025,5,Melbourne,Essendon,Adelaide Oval,2025-04-12T09:35:00+00:00,,final,57,96,squiggle
+2025_ID37132,2025,5,Richmond,Fremantle,Barossa Park,2025-04-13T02:35:00+00:00,,final,47,108,squiggle
+2025_ID37133,2025,5,St Kilda,Greater Western Sydney,Norwood Oval,2025-04-13T05:20:00+00:00,,final,82,110,squiggle
+2025_ID37134,2025,5,Port Adelaide,Hawthorn,Adelaide Oval,2025-04-13T09:20:00+00:00,,final,121,91,squiggle
+2025_ID37135,2025,6,Brisbane Lions,Collingwood,Gabba,2025-04-17T09:30:00+00:00,,final,53,105,squiggle
+2025_ID37136,2025,6,North Melbourne,Carlton,Docklands,2025-04-18T05:20:00+00:00,,final,71,153,squiggle
+2025_ID37137,2025,6,West Coast,Essendon,Perth Stadium,2025-04-18T08:10:00+00:00,,final,75,77,squiggle
+2025_ID37138,2025,6,Melbourne,Fremantle,M.C.G.,2025-04-19T03:20:00+00:00,,final,107,97,squiggle
+2025_ID37139,2025,6,Adelaide,Greater Western Sydney,Adelaide Oval,2025-04-19T06:15:00+00:00,,final,52,34,squiggle
+2025_ID37140,2025,6,Richmond,Gold Coast,Docklands,2025-04-19T09:35:00+00:00,,final,80,69,squiggle
+2025_ID37141,2025,6,Sydney,Port Adelaide,S.C.G.,2025-04-20T05:20:00+00:00,,final,77,85,squiggle
+2025_ID37142,2025,6,Western Bulldogs,St Kilda,Docklands,2025-04-20T09:20:00+00:00,,final,127,56,squiggle
+2025_ID37143,2025,6,Geelong,Hawthorn,M.C.G.,2025-04-21T05:20:00+00:00,,final,86,79,squiggle
+2025_ID37144,2025,7,Melbourne,Richmond,M.C.G.,2025-04-24T09:30:00+00:00,,final,83,63,squiggle
+2025_ID37145,2025,7,Collingwood,Essendon,M.C.G.,2025-04-25T05:20:00+00:00,,final,107,66,squiggle
+2025_ID37146,2025,7,Fremantle,Adelaide,Perth Stadium,2025-04-25T10:10:00+00:00,,final,85,67,squiggle
+2025_ID37147,2025,7,St Kilda,Brisbane Lions,Docklands,2025-04-26T03:20:00+00:00,,final,73,118,squiggle
+2025_ID37148,2025,7,Port Adelaide,North Melbourne,Adelaide Oval,2025-04-26T06:15:00+00:00,,final,97,88,squiggle
+2025_ID37149,2025,7,Greater Western Sydney,Western Bulldogs,Manuka Oval,2025-04-26T09:35:00+00:00,,final,81,113,squiggle
+2025_ID37150,2025,7,Gold Coast,Sydney,Carrara,2025-04-27T03:15:00+00:00,,final,117,79,squiggle
+2025_ID37151,2025,7,Carlton,Geelong,M.C.G.,2025-04-27T05:20:00+00:00,,final,94,76,squiggle
+2025_ID37152,2025,7,Hawthorn,West Coast,Docklands,2025-04-27T06:45:00+00:00,,final,124,74,squiggle
+2025_ID37153,2025,8,Essendon,North Melbourne,Docklands,2025-05-01T09:30:00+00:00,,final,65,62,squiggle
+2025_ID37154,2025,8,St Kilda,Fremantle,Docklands,2025-05-02T09:40:00+00:00,,final,94,33,squiggle
+2025_ID37155,2025,8,Western Bulldogs,Port Adelaide,Eureka Stadium,2025-05-03T03:20:00+00:00,,final,131,41,squiggle
+2025_ID37156,2025,8,Adelaide,Carlton,Adelaide Oval,2025-05-03T06:15:00+00:00,,final,110,50,squiggle
+2025_ID37157,2025,8,Collingwood,Geelong,M.C.G.,2025-05-03T09:35:00+00:00,,final,87,90,squiggle
+2025_ID37158,2025,8,West Coast,Melbourne,Perth Stadium,2025-05-03T09:35:00+00:00,,final,76,108,squiggle
+2025_ID37159,2025,8,Sydney,Greater Western Sydney,S.C.G.,2025-05-04T03:10:00+00:00,,final,87,73,squiggle
+2025_ID37160,2025,8,Hawthorn,Richmond,M.C.G.,2025-05-04T05:20:00+00:00,,final,109,44,squiggle
+2025_ID37161,2025,8,Brisbane Lions,Gold Coast,Gabba,2025-05-04T09:20:00+00:00,,final,66,49,squiggle
+2025_ID37162,2025,9,Fremantle,Collingwood,Perth Stadium,2025-05-08T10:10:00+00:00,,final,83,97,squiggle
+2025_ID37163,2025,9,St Kilda,Carlton,M.C.G.,2025-05-09T09:40:00+00:00,,final,62,77,squiggle
+2025_ID37164,2025,9,Melbourne,Hawthorn,M.C.G.,2025-05-10T03:20:00+00:00,,final,56,91,squiggle
+2025_ID37165,2025,9,Essendon,Sydney,Docklands,2025-05-10T06:15:00+00:00,,final,71,63,squiggle
+2025_ID37166,2025,9,Gold Coast,Western Bulldogs,Marrara Oval,2025-05-10T09:35:00+00:00,,final,106,96,squiggle
+2025_ID37167,2025,9,Port Adelaide,Adelaide,Adelaide Oval,2025-05-10T10:10:00+00:00,,final,84,89,squiggle
+2025_ID37168,2025,9,Richmond,West Coast,M.C.G.,2025-05-11T03:10:00+00:00,,final,81,79,squiggle
+2025_ID37169,2025,9,Geelong,Greater Western Sydney,Kardinia Park,2025-05-11T05:20:00+00:00,,final,101,105,squiggle
+2025_ID37170,2025,9,North Melbourne,Brisbane Lions,Bellerive Oval,2025-05-11T06:40:00+00:00,,final,71,71,squiggle
+2025_ID37171,2025,10,Gold Coast,Hawthorn,Marrara Oval,2025-05-15T09:30:00+00:00,,final,104,96,squiggle
+2025_ID37172,2025,10,Sydney,Carlton,S.C.G.,2025-05-16T09:40:00+00:00,,final,78,62,squiggle
+2025_ID37173,2025,10,Collingwood,Adelaide,M.C.G.,2025-05-17T03:20:00+00:00,,final,78,68,squiggle
+2025_ID37175,2025,10,Greater Western Sydney,Fremantle,Sydney Showground,2025-05-17T06:15:00+00:00,,final,61,95,squiggle
+2025_ID37174,2025,10,Port Adelaide,Geelong,Adelaide Oval,2025-05-17T06:15:00+00:00,,final,39,115,squiggle
+2025_ID37176,2025,10,Western Bulldogs,Essendon,Docklands,2025-05-17T09:35:00+00:00,,final,127,36,squiggle
+2025_ID37177,2025,10,Richmond,North Melbourne,M.C.G.,2025-05-18T03:10:00+00:00,,final,74,78,squiggle
+2025_ID37178,2025,10,Brisbane Lions,Melbourne,Gabba,2025-05-18T05:20:00+00:00,,final,88,99,squiggle
+2025_ID37179,2025,10,West Coast,St Kilda,Perth Stadium,2025-05-18T06:40:00+00:00,,final,108,80,squiggle
+2025_ID37180,2025,11,Geelong,Western Bulldogs,Kardinia Park,2025-05-22T09:30:00+00:00,,final,127,113,squiggle
+2025_ID37181,2025,11,Essendon,Richmond,M.C.G.,2025-05-23T09:40:00+00:00,,final,81,58,squiggle
+2025_ID37182,2025,11,Carlton,Greater Western Sydney,Docklands,2025-05-24T02:35:00+00:00,,final,82,110,squiggle
+2025_ID37183,2025,11,Hawthorn,Brisbane Lions,M.C.G.,2025-05-24T06:15:00+00:00,,final,60,93,squiggle
+2025_ID37184,2025,11,North Melbourne,Collingwood,Docklands,2025-05-24T09:35:00+00:00,,final,63,108,squiggle
+2025_ID37185,2025,11,Fremantle,Port Adelaide,Perth Stadium,2025-05-24T10:10:00+00:00,,final,100,51,squiggle
+2025_ID37186,2025,11,Adelaide,West Coast,Adelaide Oval,2025-05-25T03:10:00+00:00,,final,128,62,squiggle
+2025_ID37187,2025,11,Melbourne,Sydney,M.C.G.,2025-05-25T05:20:00+00:00,,final,131,78,squiggle
+2025_ID37188,2025,11,St Kilda,Gold Coast,Docklands,2025-05-25T06:40:00+00:00,,final,61,80,squiggle
+2025_ID37189,2025,12,Brisbane Lions,Essendon,Gabba,2025-05-29T09:30:00+00:00,,final,90,72,squiggle
+2025_ID37190,2025,12,Collingwood,Hawthorn,M.C.G.,2025-05-30T09:40:00+00:00,,final,107,56,squiggle
+2025_ID37191,2025,12,Gold Coast,Fremantle,Carrara,2025-05-31T03:20:00+00:00,,final,64,75,squiggle
+2025_ID37192,2025,12,Greater Western Sydney,Richmond,Sydney Showground,2025-05-31T06:15:00+00:00,,final,80,77,squiggle
+2025_ID37193,2025,12,Sydney,Adelaide,S.C.G.,2025-05-31T09:35:00+00:00,,final,41,131,squiggle
+2025_ID37194,2025,12,Melbourne,St Kilda,Traeger Park,2025-06-01T05:20:00+00:00,,final,63,91,squiggle
+2025_ID37195,2025,12,West Coast,Geelong,Perth Stadium,2025-06-01T09:20:00+00:00,,final,73,116,squiggle
+2025_ID37196,2025,13,Western Bulldogs,Hawthorn,Docklands,2025-06-05T09:30:00+00:00,,final,59,81,squiggle
+2025_ID37197,2025,13,Adelaide,Brisbane Lions,Adelaide Oval,2025-06-06T09:40:00+00:00,,final,68,63,squiggle
+2025_ID37198,2025,13,Richmond,Sydney,M.C.G.,2025-06-07T03:20:00+00:00,,final,36,80,squiggle
+2025_ID37199,2025,13,Geelong,Gold Coast,Kardinia Park,2025-06-07T06:15:00+00:00,,final,61,37,squiggle
+2025_ID37200,2025,13,Greater Western Sydney,Port Adelaide,Manuka Oval,2025-06-07T09:35:00+00:00,,final,50,66,squiggle
+2025_ID37201,2025,13,North Melbourne,West Coast,Hands Oval,2025-06-08T05:20:00+00:00,,final,62,52,squiggle
+2025_ID37202,2025,13,Carlton,Essendon,M.C.G.,2025-06-08T09:20:00+00:00,,final,78,70,squiggle
+2025_ID37203,2025,13,Melbourne,Collingwood,M.C.G.,2025-06-09T05:20:00+00:00,,final,71,72,squiggle
+2025_ID37204,2025,14,St Kilda,Western Bulldogs,Docklands,2025-06-12T09:30:00+00:00,,final,60,132,squiggle
+2025_ID37205,2025,14,Hawthorn,Adelaide,York Park,2025-06-13T09:40:00+00:00,,final,47,44,squiggle
+2025_ID37206,2025,14,Brisbane Lions,Greater Western Sydney,Gabba,2025-06-14T03:20:00+00:00,,final,96,107,squiggle
+2025_ID37207,2025,14,Essendon,Geelong,M.C.G.,2025-06-14T06:15:00+00:00,,final,56,151,squiggle
+2025_ID37208,2025,14,North Melbourne,Fremantle,Perth Stadium,2025-06-14T09:35:00+00:00,,final,67,73,squiggle
+2025_ID37209,2025,14,Port Adelaide,Melbourne,Adelaide Oval,2025-06-15T05:20:00+00:00,,final,93,68,squiggle
+2025_ID37210,2025,14,West Coast,Carlton,Perth Stadium,2025-06-15T08:10:00+00:00,,final,52,86,squiggle
+2025_ID37211,2025,15,Fremantle,Essendon,Perth Stadium,2025-06-19T10:10:00+00:00,,final,104,63,squiggle
+2025_ID37212,2025,15,Geelong,Brisbane Lions,Kardinia Park,2025-06-20T09:40:00+00:00,,final,51,92,squiggle
+2025_ID37213,2025,15,Carlton,North Melbourne,M.C.G.,2025-06-21T03:20:00+00:00,,final,73,84,squiggle
+2025_ID37214,2025,15,Port Adelaide,Sydney,Adelaide Oval,2025-06-21T06:15:00+00:00,,final,52,71,squiggle
+2025_ID37215,2025,15,Collingwood,St Kilda,Docklands,2025-06-21T09:35:00+00:00,,final,108,74,squiggle
+2025_ID37216,2025,15,Greater Western Sydney,Gold Coast,Sydney Showground,2025-06-22T03:10:00+00:00,,final,106,99,squiggle
+2025_ID37217,2025,15,Western Bulldogs,Richmond,Docklands,2025-06-22T05:20:00+00:00,,final,135,56,squiggle
+2025_ID37223,2025,16,Port Adelaide,Carlton,Adelaide Oval,2025-06-26T09:30:00+00:00,,final,110,60,squiggle
+2025_ID37221,2025,16,Sydney,Western Bulldogs,S.C.G.,2025-06-27T09:40:00+00:00,,final,96,105,squiggle
+2025_ID37220,2025,16,Gold Coast,Melbourne,Carrara,2025-06-28T03:20:00+00:00,,final,104,85,squiggle
+2025_ID37222,2025,16,Hawthorn,North Melbourne,York Park,2025-06-28T06:15:00+00:00,,final,150,65,squiggle
+2025_ID37218,2025,16,Collingwood,West Coast,Docklands,2025-06-28T09:35:00+00:00,,final,88,59,squiggle
+2025_ID37219,2025,16,Richmond,Adelaide,M.C.G.,2025-06-29T05:15:00+00:00,,final,54,122,squiggle
+2025_ID37224,2025,16,Fremantle,St Kilda,Perth Stadium,2025-06-29T07:10:00+00:00,,final,81,69,squiggle
+2025_ID37227,2025,17,North Melbourne,Western Bulldogs,Docklands,2025-07-03T09:30:00+00:00,,final,85,134,squiggle
+2025_ID37229,2025,17,Carlton,Collingwood,M.C.G.,2025-07-04T09:20:00+00:00,,final,59,115,squiggle
+2025_ID37233,2025,17,West Coast,Greater Western Sydney,Perth Stadium,2025-07-04T10:20:00+00:00,,final,52,111,squiggle
+2025_ID37228,2025,17,Essendon,Gold Coast,Docklands,2025-07-05T02:35:00+00:00,,final,74,115,squiggle
+2025_ID37225,2025,17,Geelong,Richmond,Kardinia Park,2025-07-05T06:15:00+00:00,,final,124,52,squiggle
+2025_ID37231,2025,17,Brisbane Lions,Port Adelaide,Gabba,2025-07-05T09:35:00+00:00,,final,120,92,squiggle
+2025_ID37226,2025,17,St Kilda,Hawthorn,Docklands,2025-07-05T09:40:00+00:00,,final,74,94,squiggle
+2025_ID37230,2025,17,Sydney,Fremantle,S.C.G.,2025-07-06T03:10:00+00:00,,final,94,83,squiggle
+2025_ID37232,2025,17,Adelaide,Melbourne,Adelaide Oval,2025-07-06T05:15:00+00:00,,final,90,77,squiggle
+2025_ID37237,2025,18,Carlton,Brisbane Lions,Docklands,2025-07-10T09:30:00+00:00,,final,66,103,squiggle
+2025_ID37240,2025,18,Gold Coast,Collingwood,Carrara,2025-07-11T09:40:00+00:00,,final,69,63,squiggle
+2025_ID37235,2025,18,Western Bulldogs,Adelaide,Docklands,2025-07-12T03:20:00+00:00,,final,98,109,squiggle
+2025_ID37234,2025,18,Greater Western Sydney,Geelong,Sydney Showground,2025-07-12T06:15:00+00:00,,final,111,85,squiggle
+2025_ID37239,2025,18,Richmond,Essendon,M.C.G.,2025-07-12T09:35:00+00:00,,final,46,37,squiggle
+2025_ID37242,2025,18,Fremantle,Hawthorn,Perth Stadium,2025-07-12T10:10:00+00:00,,final,77,64,squiggle
+2025_ID37238,2025,18,Melbourne,North Melbourne,M.C.G.,2025-07-13T03:10:00+00:00,,final,119,83,squiggle
+2025_ID37236,2025,18,St Kilda,Sydney,Docklands,2025-07-13T05:15:00+00:00,,final,87,92,squiggle
+2025_ID37241,2025,18,Port Adelaide,West Coast,Adelaide Oval,2025-07-13T06:40:00+00:00,,final,87,61,squiggle
+2025_ID37244,2025,19,Essendon,Greater Western Sydney,Docklands,2025-07-17T09:30:00+00:00,,final,56,104,squiggle
+2025_ID37248,2025,19,Brisbane Lions,Western Bulldogs,Gabba,2025-07-18T09:40:00+00:00,,final,86,76,squiggle
+2025_ID37249,2025,19,Hawthorn,Port Adelaide,York Park,2025-07-19T03:20:00+00:00,,final,87,49,squiggle
+2025_ID37247,2025,19,Sydney,North Melbourne,S.C.G.,2025-07-19T06:15:00+00:00,,final,84,53,squiggle
+2025_ID37245,2025,19,Carlton,Melbourne,M.C.G.,2025-07-19T09:35:00+00:00,,final,78,70,squiggle
+2025_ID37251,2025,19,West Coast,Richmond,Perth Stadium,2025-07-19T10:10:00+00:00,,final,56,105,squiggle
+2025_ID37243,2025,19,Geelong,St Kilda,Kardinia Park,2025-07-20T03:10:00+00:00,,final,113,82,squiggle
+2025_ID37246,2025,19,Collingwood,Fremantle,M.C.G.,2025-07-20T05:15:00+00:00,,final,78,79,squiggle
+2025_ID37250,2025,19,Adelaide,Gold Coast,Adelaide Oval,2025-07-20T06:40:00+00:00,,final,107,46,squiggle
+2025_ID37257,2025,20,Hawthorn,Carlton,M.C.G.,2025-07-24T09:30:00+00:00,,final,85,61,squiggle
+2025_ID37255,2025,20,Essendon,Western Bulldogs,Docklands,2025-07-25T09:20:00+00:00,,final,50,143,squiggle
+2025_ID37252,2025,20,Greater Western Sydney,Sydney,Sydney Showground,2025-07-25T09:50:00+00:00,,final,102,58,squiggle
+2025_ID37258,2025,20,Gold Coast,Brisbane Lions,Carrara,2025-07-26T03:20:00+00:00,,final,130,64,squiggle
+2025_ID37260,2025,20,Fremantle,West Coast,Perth Stadium,2025-07-26T06:15:00+00:00,,final,126,77,squiggle
+2025_ID37253,2025,20,North Melbourne,Geelong,Docklands,2025-07-26T09:35:00+00:00,,final,49,150,squiggle
+2025_ID37259,2025,20,Adelaide,Port Adelaide,Adelaide Oval,2025-07-26T10:10:00+00:00,,final,133,35,squiggle
+2025_ID37256,2025,20,Richmond,Collingwood,M.C.G.,2025-07-27T04:10:00+00:00,,final,57,93,squiggle
+2025_ID37254,2025,20,St Kilda,Melbourne,Docklands,2025-07-27T05:15:00+00:00,,final,96,90,squiggle
+2025_ID37264,2025,21,Western Bulldogs,Greater Western Sydney,Docklands,2025-07-31T09:30:00+00:00,,final,132,44,squiggle
+2025_ID37268,2025,21,Adelaide,Hawthorn,Adelaide Oval,2025-08-01T09:40:00+00:00,,final,101,87,squiggle
+2025_ID37263,2025,21,Melbourne,West Coast,Docklands,2025-08-02T03:20:00+00:00,,final,139,56,squiggle
+2025_ID37266,2025,21,Gold Coast,Richmond,Carrara,2025-08-02T06:10:00+00:00,,final,107,23,squiggle
+2025_ID37267,2025,21,Sydney,Essendon,S.C.G.,2025-08-02T06:15:00+00:00,,final,68,54,squiggle
+2025_ID37265,2025,21,Collingwood,Brisbane Lions,M.C.G.,2025-08-02T09:35:00+00:00,,final,65,92,squiggle
+2025_ID37262,2025,21,St Kilda,North Melbourne,Docklands,2025-08-03T03:40:00+00:00,,final,78,69,squiggle
+2025_ID37261,2025,21,Geelong,Port Adelaide,Kardinia Park,2025-08-03T05:15:00+00:00,,final,153,65,squiggle
+2025_ID37269,2025,21,Fremantle,Carlton,Perth Stadium,2025-08-03T07:10:00+00:00,,final,94,67,squiggle
+2025_ID37275,2025,22,Hawthorn,Collingwood,M.C.G.,2025-08-07T09:30:00+00:00,,final,110,46,squiggle
+2025_ID37270,2025,22,Geelong,Essendon,Kardinia Park,2025-08-08T09:40:00+00:00,,final,109,65,squiggle
+2025_ID37273,2025,22,Richmond,St Kilda,M.C.G.,2025-08-09T03:20:00+00:00,,final,52,56,squiggle
+2025_ID37276,2025,22,Brisbane Lions,Sydney,Gabba,2025-08-09T06:15:00+00:00,,final,90,92,squiggle
+2025_ID37272,2025,22,Carlton,Gold Coast,Docklands,2025-08-09T09:35:00+00:00,,final,74,93,squiggle
+2025_ID37277,2025,22,Port Adelaide,Fremantle,Adelaide Oval,2025-08-09T10:10:00+00:00,,final,86,92,squiggle
+2025_ID37271,2025,22,Greater Western Sydney,North Melbourne,Manuka Oval,2025-08-10T03:40:00+00:00,,final,133,79,squiggle
+2025_ID37274,2025,22,Melbourne,Western Bulldogs,M.C.G.,2025-08-10T05:15:00+00:00,,final,99,105,squiggle
+2025_ID37278,2025,22,West Coast,Adelaide,Perth Stadium,2025-08-10T07:10:00+00:00,,final,78,87,squiggle
+2025_ID37280,2025,23,Essendon,St Kilda,Docklands,2025-08-15T09:20:00+00:00,,final,75,77,squiggle
+2025_ID37287,2025,23,Fremantle,Brisbane Lions,Perth Stadium,2025-08-15T10:20:00+00:00,,final,44,101,squiggle
+2025_ID37284,2025,23,Gold Coast,Greater Western Sydney,Carrara,2025-08-16T02:35:00+00:00,,final,76,111,squiggle
+2025_ID37282,2025,23,Carlton,Port Adelaide,Docklands,2025-08-16T03:20:00+00:00,,final,118,64,squiggle
+2025_ID37283,2025,23,Hawthorn,Melbourne,M.C.G.,2025-08-16T06:15:00+00:00,,final,92,56,squiggle
+2025_ID37286,2025,23,Adelaide,Collingwood,Adelaide Oval,2025-08-16T09:35:00+00:00,,final,59,56,squiggle
+2025_ID37279,2025,23,North Melbourne,Richmond,Bellerive Oval,2025-08-17T03:10:00+00:00,,final,135,87,squiggle
+2025_ID37285,2025,23,Sydney,Geelong,S.C.G.,2025-08-17T05:15:00+00:00,,final,68,111,squiggle
+2025_ID37281,2025,23,Western Bulldogs,West Coast,Docklands,2025-08-17T06:40:00+00:00,,final,126,32,squiggle
+2025_ID37293,2025,24,Essendon,Carlton,M.C.G.,2025-08-21T09:30:00+00:00,,final,56,90,squiggle
+2025_ID37291,2025,24,Collingwood,Melbourne,M.C.G.,2025-08-22T09:10:00+00:00,,final,82,76,squiggle
+2025_ID37295,2025,24,Port Adelaide,Gold Coast,Adelaide Oval,2025-08-22T10:10:00+00:00,,final,71,67,squiggle
+2025_ID37289,2025,24,North Melbourne,Adelaide,Docklands,2025-08-23T03:20:00+00:00,,scheduled,0,0,squiggle
+2025_ID37292,2025,24,Richmond,Geelong,M.C.G.,2025-08-23T06:15:00+00:00,,scheduled,0,0,squiggle
+2025_ID37296,2025,24,West Coast,Sydney,Perth Stadium,2025-08-23T09:35:00+00:00,,scheduled,0,0,squiggle
+2025_ID37288,2025,24,Greater Western Sydney,St Kilda,Sydney Showground,2025-08-24T02:20:00+00:00,,scheduled,0,0,squiggle
+2025_ID37290,2025,24,Western Bulldogs,Fremantle,Docklands,2025-08-24T05:15:00+00:00,,scheduled,0,0,squiggle
+2025_ID37294,2025,24,Brisbane Lions,Hawthorn,Gabba,2025-08-24T09:20:00+00:00,,scheduled,0,0,squiggle
+2025_ID37092,2025,24,Gold Coast,Essendon,Carrara,2025-08-27T09:20:00+00:00,,scheduled,0,0,squiggle
+2025_ID37315,2025,25,,,M.C.G.,2025-09-04T16:00:00+00:00,,scheduled,0,0,squiggle
+2025_ID37316,2025,25,,,M.C.G.,2025-09-04T16:00:00+00:00,,scheduled,0,0,squiggle
+2025_ID37317,2025,25,,,M.C.G.,2025-09-04T16:00:00+00:00,,scheduled,0,0,squiggle
+2025_ID37318,2025,25,,,M.C.G.,2025-09-04T16:00:00+00:00,,scheduled,0,0,squiggle
+2025_ID37319,2025,26,,,M.C.G.,2025-09-11T16:00:00+00:00,,scheduled,0,0,squiggle
+2025_ID37320,2025,26,,,M.C.G.,2025-09-11T16:00:00+00:00,,scheduled,0,0,squiggle
+2025_ID37321,2025,27,,,M.C.G.,2025-09-18T16:00:00+00:00,,scheduled,0,0,squiggle
+2025_ID37322,2025,27,,,M.C.G.,2025-09-18T16:00:00+00:00,,scheduled,0,0,squiggle
+2025_ID37323,2025,28,,,M.C.G.,2025-09-25T16:00:00+00:00,,scheduled,0,0,squiggle

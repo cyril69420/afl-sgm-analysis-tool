@@ -1,0 +1,5 @@
+bookmaker,game_ref,market_name,selection_name,line,price,event_time_utc
+sportsbet,ESSvCAR,Match Result,Essendon,,1.95,2025-08-22T09:30:00Z
+sportsbet,ESSvCAR,Match Result,Carlton,,1.95,2025-08-22T09:30:00Z
+sportsbet,ESSvCAR,Total Points Over/Under,Over,170.5,1.87,2025-08-22T09:30:00Z
+sportsbet,ESSvCAR,Total Points Over/Under,Under,170.5,1.93,2025-08-22T09:30:00Z

@@ -1,0 +1,15 @@
+game_id,bookmaker,event_url,match_quality,found_at,notes
+2024_ID35700,sportsbet,https://www.sportsbet.com.au/betting/australian-rules/afl/brisbane-lions-v-hawthorn-9504847,50,browse,
+2024_ID35700,pointsbet,https://pointsbet.com.au/sports/aussie-rules/AFL/2390935,50,browse,
+2024_ID35700,tab,,0,error,"Error: Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.tab.com.au/sports/betting/Australian%20Rules/AFL
+Call log:
+  - navigating to ""https://www.tab.com.au/sports/betting/Australian%20Rules/AFL"", waiting until ""load""
+"
+2024_ID35700,ladbrokes,,0,none,no url returned
+2024_ID35701,sportsbet,https://www.sportsbet.com.au/betting/australian-rules/afl/brisbane-lions-v-hawthorn-9504847,57,browse,
+2024_ID35701,pointsbet,,0,none,no url returned
+2024_ID35701,tab,,0,error,"Error: Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.tab.com.au/sports/betting/Australian%20Rules/AFL
+Call log:
+  - navigating to ""https://www.tab.com.au/sports/betting/Australian%20Rules/AFL"", waiting until ""load""
+"
+2024_ID35701,ladbrokes,,0,none,no url returned

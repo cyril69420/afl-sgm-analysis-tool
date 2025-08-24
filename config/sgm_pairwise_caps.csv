@@ -1,0 +1,8 @@
+# leg_type_a,leg_type_b,weight
+H2H,TOTAL_OVER,0.45
+H2H,LINE_COVER,0.35
+LINE_COVER,TOTAL_OVER,0.25
+PLAYER_GOALS_OVER,H2H,0.40
+PLAYER_DISP_OVER,TOTAL_OVER,0.20
+PLAYER_DISP_OVER,LINE_COVER,0.15
+# symmetric; unspecified pairs default to 0

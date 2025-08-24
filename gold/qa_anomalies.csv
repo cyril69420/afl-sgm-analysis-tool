@@ -1,0 +1,791 @@
+type,bookmaker,game_id,market_id,line,overround,team,player_name_std
+overround_out_of_range,,,1.0,-81.5,0.2857142857142857,,
+overround_out_of_range,,,1.0,-80.5,0.2941176470588235,,
+overround_out_of_range,,,1.0,-79.5,0.303030303030303,,
+overround_out_of_range,,,1.0,-78.5,0.3125,,
+overround_out_of_range,,,1.0,-77.5,0.3225806451612903,,
+overround_out_of_range,,,1.0,-76.5,0.3333333333333333,,
+overround_out_of_range,,,1.0,-75.5,0.3448275862068966,,
+overround_out_of_range,,,1.0,-74.5,0.3508771929824561,,
+overround_out_of_range,,,1.0,-73.5,0.3773584905660377,,
+overround_out_of_range,,,1.0,-72.5,0.3846153846153846,,
+overround_out_of_range,,,1.0,-71.5,0.4,,
+overround_out_of_range,,,1.0,-70.5,0.4081632653061224,,
+overround_out_of_range,,,1.0,-69.5,0.4166666666666667,,
+overround_out_of_range,,,1.0,-68.5,0.4347826086956522,,
+overround_out_of_range,,,1.0,-67.5,0.4444444444444444,,
+overround_out_of_range,,,1.0,-66.5,0.4545454545454545,,
+overround_out_of_range,,,1.0,-65.5,0.4761904761904761,,
+overround_out_of_range,,,1.0,-64.5,0.4878048780487805,,
+overround_out_of_range,,,1.0,-63.5,0.5,,
+overround_out_of_range,,,1.0,-62.5,0.5128205128205129,,
+overround_out_of_range,,,1.0,-61.5,0.5263157894736842,,
+overround_out_of_range,,,1.0,-60.5,2.883924955207897,,
+overround_out_of_range,,,1.0,-59.5,0.7964480874316939,,
+overround_out_of_range,,,1.0,-58.5,0.8187134502923976,,
+overround_out_of_range,,,1.0,-57.5,0.8427495291902072,,
+overround_out_of_range,,,1.0,-56.5,0.8604269293924466,,
+overround_out_of_range,,,1.0,-55.5,0.8789129686962504,,
+overround_out_of_range,,,1.0,-54.5,0.9018326982398839,,
+overround_out_of_range,,,1.0,-53.5,0.9259969325153374,,
+overround_out_of_range,,,1.0,-52.5,0.9622641509433962,,
+overround_out_of_range,,,1.0,-51.5,1.570005555483779,,
+overround_out_of_range,,,1.0,-50.5,3.1989496356756417,,
+overround_out_of_range,,,1.0,-49.5,1.6553030303030303,,
+overround_out_of_range,,,1.0,-48.5,1.708948144736337,,
+overround_out_of_range,,,1.0,-47.5,1.9897788881349425,,
+overround_out_of_range,,,1.0,-46.5,2.043832570326419,,
+overround_out_of_range,,,1.0,-45.5,3.4308778801260007,,
+overround_out_of_range,,,1.0,-44.5,2.4292227769504477,,
+overround_out_of_range,,,1.0,-43.5,3.0763507458242776,,
+overround_out_of_range,,,1.0,-42.5,3.126060295913237,,
+overround_out_of_range,,,1.0,-41.5,3.2218713322649633,,
+overround_out_of_range,,,1.0,-40.5,3.307176077221787,,
+overround_out_of_range,,,1.0,-39.5,3.390606294242117,,
+overround_out_of_range,,,1.0,-38.5,3.4757185055486532,,
+overround_out_of_range,,,1.0,-37.5,3.5765704771795988,,
+overround_out_of_range,,,1.0,-36.5,3.6927702947455616,,
+overround_out_of_range,,,1.0,-35.5,5.8803526634323715,,
+overround_out_of_range,,,1.0,-34.5,3.868752977559653,,
+overround_out_of_range,,,1.0,-33.5,3.964723108275964,,
+overround_out_of_range,,,1.0,-32.5,3.223506047017663,,
+overround_out_of_range,,,1.0,-31.5,5.410265493207127,,
+overround_out_of_range,,,1.0,-30.5,6.019286803833793,,
+overround_out_of_range,,,1.0,-29.5,3.7427850055717857,,
+overround_out_of_range,,,1.0,-28.5,4.891789180729474,,
+overround_out_of_range,,,1.0,-27.5,3.9008343282001046,,
+overround_out_of_range,,,1.0,-26.5,4.032723139905217,,
+overround_out_of_range,,,1.0,-25.5,5.211684684224471,,
+overround_out_of_range,,,1.0,-24.5,6.324656357240861,,
+overround_out_of_range,,,1.0,-23.5,5.38403557977566,,
+overround_out_of_range,,,1.0,-22.5,7.073288292135491,,
+overround_out_of_range,,,1.0,-21.5,8.719818882265752,,
+overround_out_of_range,,,1.0,-20.5,5.130529246891213,,
+overround_out_of_range,,,1.0,-19.5,4.683597961423673,,
+overround_out_of_range,,,1.0,-18.5,5.83822600457337,,
+overround_out_of_range,,,1.0,-17.5,5.40478050908316,,
+overround_out_of_range,,,1.0,-16.5,9.239028860365613,,
+overround_out_of_range,,,1.0,-15.5,10.875558696566909,,
+overround_out_of_range,,,1.0,-14.5,7.8156902766552685,,
+overround_out_of_range,,,1.0,-13.5,5.812146022454806,,
+overround_out_of_range,,,1.0,-12.5,4.80363367420433,,
+overround_out_of_range,,,1.0,-11.5,7.057436034603958,,
+overround_out_of_range,,,1.0,-10.5,9.313522082919194,,
+overround_out_of_range,,,1.0,-9.5,5.632710838139202,,
+overround_out_of_range,,,1.0,-8.5,12.68206408589074,,
+overround_out_of_range,,,1.0,-7.5,13.605761063315926,,
+overround_out_of_range,,,1.0,-6.5,10.649845318474648,,
+overround_out_of_range,,,1.0,-5.5,21.081355048291222,,
+overround_out_of_range,,,1.0,-4.5,5.469510338605305,,
+overround_out_of_range,,,1.0,-3.5,3.9670724392446615,,
+overround_out_of_range,,,1.0,-2.5,4.017442370302106,,
+overround_out_of_range,,,1.0,-1.5,7.9232048807709266,,
+overround_out_of_range,,,1.0,-0.5,3.9317011715209222,,
+overround_out_of_range,,,1.0,0.0,585.5113045351275,,
+overround_out_of_range,,,1.0,0.5,172.19935773613844,,
+overround_out_of_range,,,1.0,1.5,10.25488630580536,,
+overround_out_of_range,,,1.0,2.0,108.94265421472622,,
+overround_out_of_range,,,1.0,2.5,37.72937597609533,,
+overround_out_of_range,,,1.0,3.0,26.90064487405448,,
+overround_out_of_range,,,1.0,3.5,37.785725014420954,,
+overround_out_of_range,,,1.0,4.0,67.87317382468439,,
+overround_out_of_range,,,1.0,4.5,15.911237156297627,,
+overround_out_of_range,,,1.0,5.0,3.426199554256213,,
+overround_out_of_range,,,1.0,5.5,48.54573258582277,,
+overround_out_of_range,,,1.0,6.0,43.8634492857315,,
+overround_out_of_range,,,1.0,6.5,47.19718807033028,,
+overround_out_of_range,,,1.0,7.0,0.4222466463355001,,
+overround_out_of_range,,,1.0,7.5,36.50988574687573,,
+overround_out_of_range,,,1.0,8.0,24.719345285311235,,
+overround_out_of_range,,,1.0,8.5,14.002531138341876,,
+overround_out_of_range,,,1.0,9.5,18.951768632881702,,
+overround_out_of_range,,,1.0,10.0,229.14717638268712,,
+overround_out_of_range,,,1.0,10.5,13.095684109162722,,
+overround_out_of_range,,,1.0,11.5,23.83160538893028,,
+overround_out_of_range,,,1.0,12.5,15.484418462217405,,
+overround_out_of_range,,,1.0,13.5,27.033443386336764,,
+overround_out_of_range,,,1.0,14.5,12.457704407891605,,
+overround_out_of_range,,,1.0,15.0,203.49362500377384,,
+overround_out_of_range,,,1.0,15.5,22.25598220663686,,
+overround_out_of_range,,,1.0,16.5,19.606091944482177,,
+overround_out_of_range,,,1.0,17.5,26.89074803685911,,
+overround_out_of_range,,,1.0,18.5,23.044297740985616,,
+overround_out_of_range,,,1.0,19.5,23.237020498181145,,
+overround_out_of_range,,,1.0,20.0,134.72069482802112,,
+overround_out_of_range,,,1.0,20.5,23.77584377062837,,
+overround_out_of_range,,,1.0,21.5,29.969008136605662,,
+overround_out_of_range,,,1.0,22.5,22.837030264904733,,
+overround_out_of_range,,,1.0,23.5,27.857277114590843,,
+overround_out_of_range,,,1.0,24.5,30.981538027375343,,
+overround_out_of_range,,,1.0,25.0,66.30239802272443,,
+overround_out_of_range,,,1.0,25.5,20.371719575318156,,
+overround_out_of_range,,,1.0,26.5,16.23872789262684,,
+overround_out_of_range,,,1.0,27.5,17.958513825534872,,
+overround_out_of_range,,,1.0,28.5,21.80724712785236,,
+overround_out_of_range,,,1.0,29.5,5.844486111416225,,
+overround_out_of_range,,,1.0,30.0,26.463660542271292,,
+overround_out_of_range,,,1.0,30.5,8.844544462564112,,
+overround_out_of_range,,,1.0,31.5,10.539958457125906,,
+overround_out_of_range,,,1.0,32.5,5.3129542284809546,,
+overround_out_of_range,,,1.0,33.5,5.6376883234638075,,
+overround_out_of_range,,,1.0,34.5,13.248772337807834,,
+overround_out_of_range,,,1.0,35.0,8.715906647395522,,
+overround_out_of_range,,,1.0,35.5,10.066999573888092,,
+overround_out_of_range,,,1.0,36.5,6.9494992997186245,,
+overround_out_of_range,,,1.0,37.5,4.945959458443872,,
+overround_out_of_range,,,1.0,38.5,5.019807073907029,,
+overround_out_of_range,,,1.0,39.5,19.803984305114316,,
+overround_out_of_range,,,1.0,40.0,1.9966346545254454,,
+overround_out_of_range,,,1.0,40.5,21.27702244236238,,
+overround_out_of_range,,,1.0,41.5,18.14000537320632,,
+overround_out_of_range,,,1.0,42.5,11.785783864199226,,
+overround_out_of_range,,,1.0,43.5,21.490414294163543,,
+overround_out_of_range,,,1.0,44.5,10.360360180449538,,
+overround_out_of_range,,,1.0,45.5,9.382393823622312,,
+overround_out_of_range,,,1.0,46.5,5.424012783054195,,
+overround_out_of_range,,,1.0,47.5,5.480981555635476,,
+overround_out_of_range,,,1.0,48.5,5.7710627365897995,,
+overround_out_of_range,,,1.0,49.5,11.73654123384345,,
+overround_out_of_range,,,1.0,50.5,5.289028592777884,,
+overround_out_of_range,,,1.0,51.5,2.690205226078556,,
+overround_out_of_range,,,1.0,52.5,2.245625342874934,,
+overround_out_of_range,,,1.0,53.5,2.2687795778501263,,
+overround_out_of_range,,,1.0,54.5,1.2179042331714087,,
+overround_out_of_range,,,1.0,55.5,1.2513842746400885,,
+overround_out_of_range,,,1.0,56.5,1.262998676498393,,
+overround_out_of_range,,,1.0,57.5,3.4325591547433385,,
+overround_out_of_range,,,1.0,58.5,1.312820512820513,,
+overround_out_of_range,,,1.0,59.5,9.152822363069584,,
+overround_out_of_range,,,1.0,60.0,171.72903793768802,,
+overround_out_of_range,,,1.0,60.5,3.4596946473310477,,
+overround_out_of_range,,,1.0,61.5,0.5464480874316939,,
+overround_out_of_range,,,1.0,62.5,0.5555555555555556,,
+overround_out_of_range,,,1.0,63.5,0.5649717514124294,,
+overround_out_of_range,,,1.0,64.5,0.5747126436781609,,
+overround_out_of_range,,,1.0,65.5,0.5847953216374269,,
+overround_out_of_range,,,1.0,66.5,1.6713811851796754,,
+overround_out_of_range,,,1.0,67.5,0.6134969325153374,,
+overround_out_of_range,,,1.0,68.5,0.6289308176100629,,
+overround_out_of_range,,,1.0,69.5,7.673004806233116,,
+overround_out_of_range,,,1.0,70.0,146.13710117802412,,
+overround_out_of_range,,,1.0,70.5,3.867962688867852,,
+overround_out_of_range,,,1.0,71.5,0.6666666666666666,,
+overround_out_of_range,,,1.0,72.5,1.7484395525810537,,
+overround_out_of_range,,,1.0,73.5,0.6944444444444444,,
+overround_out_of_range,,,1.0,74.5,1.7870495911910924,,
+overround_out_of_range,,,1.0,75.5,0.7142857142857143,,
+overround_out_of_range,,,1.0,76.5,0.7352941176470588,,
+overround_out_of_range,,,1.0,77.5,0.7352941176470588,,
+overround_out_of_range,,,1.0,78.5,0.7518796992481203,,
+overround_out_of_range,,,1.0,79.5,10.832251031089665,,
+overround_out_of_range,,,1.0,80.0,109.50551415948101,,
+overround_out_of_range,,,1.0,80.5,0.7751937984496123,,
+overround_out_of_range,,,1.0,81.5,2.9209684342296236,,
+overround_out_of_range,,,1.0,82.5,6.43235110559434,,
+overround_out_of_range,,,1.0,84.5,2.145067333109763,,
+overround_out_of_range,,,1.0,85.5,4.2873168176105745,,
+overround_out_of_range,,,1.0,86.5,2.142097506547634,,
+overround_out_of_range,,,1.0,87.5,4.283948301470203,,
+overround_out_of_range,,,1.0,89.5,10.245808216771723,,
+overround_out_of_range,,,1.0,90.0,75.16979850405662,,
+overround_out_of_range,,,1.0,99.5,5.592200177690417,,
+overround_out_of_range,,,1.0,100.0,47.87434550445015,,
+overround_out_of_range,,,1.0,109.5,7.082107283421846,,
+overround_out_of_range,,,1.0,110.0,26.242760543484845,,
+overround_out_of_range,,,1.0,119.5,1.9638608844691055,,
+overround_out_of_range,,,1.0,120.0,14.27059794022256,,
+overround_out_of_range,,,1.0,129.5,1.4534717198510299,,
+overround_out_of_range,,,1.0,139.5,0.2105263157894736,,
+overround_out_of_range,,,1.0,143.5,7.428607395708984,,
+overround_out_of_range,,,1.0,144.5,9.560304969187605,,
+overround_out_of_range,,,1.0,145.5,9.576525115145337,,
+overround_out_of_range,,,1.0,146.5,9.567734293354867,,
+overround_out_of_range,,,1.0,147.5,9.58200138942772,,
+overround_out_of_range,,,1.0,148.5,9.589859864686835,,
+overround_out_of_range,,,1.0,149.5,16.96806204092149,,
+overround_out_of_range,,,1.0,150.5,9.57622334382339,,
+overround_out_of_range,,,1.0,151.5,9.564351908413757,,
+overround_out_of_range,,,1.0,152.5,9.568240207231636,,
+overround_out_of_range,,,1.0,153.5,9.584777084379935,,
+overround_out_of_range,,,1.0,154.5,9.607613011382997,,
+overround_out_of_range,,,1.0,155.5,9.605943652861882,,
+overround_out_of_range,,,1.0,156.5,9.575593946255918,,
+overround_out_of_range,,,1.0,157.5,9.576890595073202,,
+overround_out_of_range,,,1.0,158.5,9.546247298473531,,
+overround_out_of_range,,,1.0,159.5,15.790963072524443,,
+overround_out_of_range,,,1.0,160.5,9.560847260603389,,
+overround_out_of_range,,,1.0,161.5,9.580454940738488,,
+overround_out_of_range,,,1.0,162.5,9.568506752684867,,
+overround_out_of_range,,,1.0,163.5,11.815684840876857,,
+overround_out_of_range,,,1.0,164.5,13.96649558131633,,
+overround_out_of_range,,,1.0,165.5,13.810708674513503,,
+overround_out_of_range,,,1.0,166.5,11.782084249400707,,
+overround_out_of_range,,,1.0,167.5,9.557409130418762,,
+overround_out_of_range,,,1.0,168.5,12.735980255804963,,
+overround_out_of_range,,,1.0,169.5,14.499120644863366,,
+overround_out_of_range,,,1.0,170.5,11.699987521235611,,
+overround_out_of_range,,,1.0,171.5,13.991612854836532,,
+overround_out_of_range,,,1.0,172.5,18.290432326036846,,
+overround_out_of_range,,,1.0,173.5,9.569601117418035,,
+overround_out_of_range,,,1.0,174.5,9.562072486590107,,
+overround_out_of_range,,,1.0,175.5,9.579401315726285,,
+overround_out_of_range,,,1.0,176.5,9.564503049507199,,
+overround_out_of_range,,,1.0,177.5,13.897565917560039,,
+overround_out_of_range,,,1.0,178.5,13.940276770572417,,
+overround_out_of_range,,,1.0,179.5,13.198964355128293,,
+overround_out_of_range,,,1.0,180.5,9.576186654771845,,
+overround_out_of_range,,,1.0,181.5,9.578565275890679,,
+overround_out_of_range,,,1.0,182.5,9.551237108705648,,
+overround_out_of_range,,,1.0,183.5,9.574654275699771,,
+overround_out_of_range,,,1.0,184.5,9.575010558880676,,
+overround_out_of_range,,,1.0,185.5,9.557631601647639,,
+overround_out_of_range,,,1.0,186.5,8.50682905460385,,
+overround_out_of_range,,,1.0,187.5,8.514035042764178,,
+overround_out_of_range,,,1.0,188.5,7.455862387516047,,
+overround_out_of_range,,,1.0,189.5,9.90777294851074,,
+overround_out_of_range,,,1.0,190.5,5.317792807659478,,
+overround_out_of_range,,,1.0,191.5,5.309269616165651,,
+overround_out_of_range,,,1.0,192.5,5.298732258034852,,
+overround_out_of_range,,,1.0,193.5,4.260234823944526,,
+overround_out_of_range,,,1.0,194.5,2.135700527164693,,
+overround_out_of_range,,,1.0,195.5,2.1260874367448253,,
+overround_out_of_range,,,1.0,196.5,2.1283372473177695,,
+overround_out_of_range,,,1.0,197.5,2.119609507640068,,
+overround_out_of_range,,,1.0,199.5,2.0775845558458297,,
+overround_out_of_range,,,1.0,209.5,0.896151436283015,,
+overround_out_of_range,,,1.0,,9190.955871972868,,
+missing_weather,,2025R24_G01,,,,,
+unmapped_player,,,,,,Essendon,X Duursma
+unmapped_player,,,,,,Essendon,L Lual
+unmapped_player,,,,,,Essendon,J Gresham
+unmapped_player,,,,,,Essendon,R Unwin
+unmapped_player,,,,,,Essendon,K Gerreyn
+unmapped_player,,,,,,Essendon,J Laverde
+unmapped_player,,,,,,Essendon,S Durham
+unmapped_player,,,,,,Essendon,D Shiel
+unmapped_player,,,,,,Essendon,Z Merrett
+unmapped_player,,,,,,Essendon,J Laverde
+unmapped_player,,,,,,Essendon,S Durham
+unmapped_player,,,,,,Essendon,B Hobbs
+unmapped_player,,,,,,Essendon,A McGrath
+unmapped_player,,,,,,Essendon,J Prior
+unmapped_player,,,,,,Essendon,J Nguyen
+unmapped_player,,,,,,Carlton,F Young
+unmapped_player,,,,,,Carlton,T De Koning
+unmapped_player,,,,,,Carlton,F Evans
+unmapped_player,,,,,,Essendon,M Redman
+unmapped_player,,,,,,Essendon,L Blakiston
+unmapped_player,,,,,,Essendon,A Roberts
+unmapped_player,,,,,,Carlton,Z Williams
+unmapped_player,,,,,,Carlton,H McKay
+unmapped_player,,,,,,Carlton,B Acres
+unmapped_player,,,,,,Essendon,S E-Hawli
+unmapped_player,,,,,,Essendon,Z Merrett
+unmapped_player,,,,,,Essendon,A Clarke
+unmapped_player,,,,,,Carlton,S Walsh
+unmapped_player,,,,,,Carlton,P Cripps
+unmapped_player,,,,,,Carlton,O Hollands
+unmapped_player,,,,,,Essendon,M Guelfi
+unmapped_player,,,,,,Essendon,P Wright
+unmapped_player,,,,,,Essendon,J Menzie
+unmapped_player,,,,,,Carlton,L Cowan
+unmapped_player,,,,,,Carlton,L Young
+unmapped_player,,,,,,Carlton,N Haynes
+unmapped_player,,,,,,Essendon,K Langford
+unmapped_player,,,,,,Essendon,L McMahon
+unmapped_player,,,,,,Essendon,I Kako
+unmapped_player,,,,,,Carlton,A Saad
+unmapped_player,,,,,,Carlton,J Weitering
+unmapped_player,,,,,,Carlton,M Carroll
+unmapped_player,,,,,,Essendon,T Goldstein
+unmapped_player,,,,,,Essendon,A Perkins
+unmapped_player,,,,,,Essendon,D Shiel
+unmapped_player,,,,,,Carlton,H O'Keeffe
+unmapped_player,,,,,,Carlton,G Hewett
+unmapped_player,,,,,,Carlton,C Durdin
+unmapped_player,,,,,,Carlton,B Wilson
+unmapped_player,,,,,,Carlton,J Motlop
+unmapped_player,,,,,,Carlton,W White
+unmapped_player,,,,,,Carlton,A Moir
+unmapped_player,,,,,,Carlton,B Camporeale
+unmapped_player,,,,,,Carlton,M Pittonet
+unmapped_player,,,,,,Carlton,M McGovern
+unmapped_player,,,,,,Carlton,W White
+unmapped_player,,,,,,Carlton,L Fogarty
+unmapped_player,,,,,,Carlton,C Lord
+unmapped_player,,,,,,Collingwood,P Lipinski
+unmapped_player,,,,,,Collingwood,D Houston
+unmapped_player,,,,,,Collingwood,S Pendlebury
+unmapped_player,,,,,,Collingwood,B Frampton
+unmapped_player,,,,,,Collingwood,B Mihocek
+unmapped_player,,,,,,Collingwood,W Parker
+unmapped_player,,,,,,Collingwood,E Allan
+unmapped_player,,,,,,Collingwood,M Cox
+unmapped_player,,,,,,Collingwood,J Howe
+unmapped_player,,,,,,Collingwood,R Steele
+unmapped_player,,,,,,Collingwood,W Parker
+unmapped_player,,,,,,Collingwood,E Allan
+unmapped_player,,,,,,Collingwood,B Maynard
+unmapped_player,,,,,,Collingwood,D Moore
+unmapped_player,,,,,,Collingwood,J Howe
+unmapped_player,,,,,,Melbourne,K Pickett
+unmapped_player,,,,,,Melbourne,J Van Rooyen
+unmapped_player,,,,,,Melbourne,T Sparrow
+unmapped_player,,,,,,Collingwood,H Perryman
+unmapped_player,,,,,,Collingwood,J Daicos
+unmapped_player,,,,,,Collingwood,I Quaynor
+unmapped_player,,,,,,Melbourne,J Culley
+unmapped_player,,,,,,Melbourne,B Fritsch
+unmapped_player,,,,,,Melbourne,K Chandler
+unmapped_player,,,,,,Collingwood,S Sidebottom
+unmapped_player,,,,,,Collingwood,J Crisp
+unmapped_player,,,,,,Collingwood,R Steele
+unmapped_player,,,,,,Melbourne,E Langdon
+unmapped_player,,,,,,Melbourne,C Petracca
+unmapped_player,,,,,,Melbourne,H Langford
+unmapped_player,,,,,,Collingwood,J De Goey
+unmapped_player,,,,,,Collingwood,T Membrey
+unmapped_player,,,,,,Collingwood,L Schultz
+unmapped_player,,,,,,Melbourne,J McVee
+unmapped_player,,,,,,Melbourne,T McDonald
+unmapped_player,,,,,,Melbourne,J Bowey
+unmapped_player,,,,,,Collingwood,J Elliott
+unmapped_player,,,,,,Collingwood,D McStay
+unmapped_player,,,,,,Collingwood,B McCreery
+unmapped_player,,,,,,Melbourne,D Turner
+unmapped_player,,,,,,Melbourne,S May
+unmapped_player,,,,,,Melbourne,C Salem
+unmapped_player,,,,,,Collingwood,D Cameron
+unmapped_player,,,,,,Collingwood,N Long
+unmapped_player,,,,,,Collingwood,N Daicos
+unmapped_player,,,,,,Melbourne,M Gawn
+unmapped_player,,,,,,Melbourne,C Oliver
+unmapped_player,,,,,,Melbourne,J Viney
+unmapped_player,,,,,,Melbourne,J Melksham
+unmapped_player,,,,,,Melbourne,B Howes
+unmapped_player,,,,,,Melbourne,T Rivers
+unmapped_player,,,,,,Melbourne,H Sharp
+unmapped_player,,,,,,Melbourne,H Petty
+unmapped_player,,,,,,Melbourne,B Laurie
+unmapped_player,,,,,,Melbourne,T Campbell
+unmapped_player,,,,,,Melbourne,A Johnson
+unmapped_player,,,,,,Port Adelaide,O Lord
+unmapped_player,,,,,,Port Adelaide,C Moraes
+unmapped_player,,,,,,Port Adelaide,H Ramm
+unmapped_player,,,,,,Port Adelaide,R Atkins
+unmapped_player,,,,,,Port Adelaide,E Mackinlay
+unmapped_player,,,,,,Port Adelaide,J Finlayson
+unmapped_player,,,,,,Port Adelaide,J Lai
+unmapped_player,,,,,,Port Adelaide,W Lorenz
+unmapped_player,,,,,,Port Adelaide,R Atkins
+unmapped_player,,,,,,Port Adelaide,H Ramm
+unmapped_player,,,,,,Port Adelaide,E Mackinlay
+unmapped_player,,,,,,Port Adelaide,O Wines
+unmapped_player,,,,,,Port Adelaide,J Sinn
+unmapped_player,,,,,,Port Adelaide,W Lorenz
+unmapped_player,,,,,,Port Adelaide,K Farrell
+unmapped_player,,,,,,Port Adelaide,B Z-Thatcher
+unmapped_player,,,,,,Port Adelaide,D B-Jones
+unmapped_player,,,,,,Gold Coast,B Long
+unmapped_player,,,,,,Gold Coast,J Farrar
+unmapped_player,,,,,,Gold Coast,B King
+unmapped_player,,,,,,Port Adelaide,J Mead
+unmapped_player,,,,,,Port Adelaide,A Aliir
+unmapped_player,,,,,,Port Adelaide,L Jones
+unmapped_player,,,,,,Gold Coast,T Miller
+unmapped_player,,,,,,Gold Coast,B Ainsworth
+unmapped_player,,,,,,Gold Coast,C Budarick
+unmapped_player,,,,,,Port Adelaide,J Berry
+unmapped_player,,,,,,Port Adelaide,W Drew
+unmapped_player,,,,,,Port Adelaide,M Liddy
+unmapped_player,,,,,,Gold Coast,L Weller
+unmapped_player,,,,,,Gold Coast,M Rowell
+unmapped_player,,,,,,Gold Coast,B Fiorini
+unmapped_player,,,,,,Port Adelaide,W Rioli
+unmapped_player,,,,,,Port Adelaide,J Whitlock
+unmapped_player,,,,,,Port Adelaide,T Boak
+unmapped_player,,,,,,Gold Coast,J Noble
+unmapped_player,,,,,,Gold Coast,B Uwland
+unmapped_player,,,,,,Gold Coast,J Jeffrey
+unmapped_player,,,,,,Port Adelaide,J McEntee
+unmapped_player,,,,,,Port Adelaide,M Georgiades
+unmapped_player,,,,,,Port Adelaide,J Richards
+unmapped_player,,,,,,Gold Coast,W Powell
+unmapped_player,,,,,,Gold Coast,M Andrew
+unmapped_player,,,,,,Gold Coast,S Collins
+unmapped_player,,,,,,Port Adelaide,J Sweet
+unmapped_player,,,,,,Port Adelaide,C Rozee
+unmapped_player,,,,,,Port Adelaide,Z Butters
+unmapped_player,,,,,,Gold Coast,J Witts
+unmapped_player,,,,,,Gold Coast,A Davies
+unmapped_player,,,,,,Gold Coast,N Anderson
+unmapped_player,,,,,,Gold Coast,S Flanders
+unmapped_player,,,,,,Gold Coast,A Sexton
+unmapped_player,,,,,,Gold Coast,E Read
+unmapped_player,,,,,,Gold Coast,L Gulbin
+unmapped_player,,,,,,Gold Coast,O Adams
+unmapped_player,,,,,,Gold Coast,N Holman
+unmapped_player,,,,,,Gold Coast,N Moyle
+unmapped_player,,,,,,Gold Coast,L Lombard
+unmapped_player,,,,,,Gold Coast,L Gulbin
+unmapped_player,,,,,,Gold Coast,N Holman
+unmapped_player,,,,,,North Melbourne,A Corr
+unmapped_player,,,,,,North Melbourne,B Scott
+unmapped_player,,,,,,North Melbourne,G Payne
+unmapped_player,,,,,,North Melbourne,C Harvey
+unmapped_player,,,,,,North Melbourne,Z Banch
+unmapped_player,,,,,,North Melbourne,T Goad
+unmapped_player,,,,,,North Melbourne,W Phillips
+unmapped_player,,,,,,North Melbourne,F Maley
+unmapped_player,,,,,,North Melbourne,A Corr
+unmapped_player,,,,,,North Melbourne,Z Banch
+unmapped_player,,,,,,North Melbourne,C Zurhaar
+unmapped_player,,,,,,North Melbourne,M Whitlock
+unmapped_player,,,,,,North Melbourne,C Comben
+unmapped_player,,,,,,North Melbourne,T Pink
+unmapped_player,,,,,,North Melbourne,G Logue
+unmapped_player,,,,,,Adelaide,S Draper
+unmapped_player,,,,,,Adelaide,T Walker
+unmapped_player,,,,,,Adelaide,D Fogarty
+unmapped_player,,,,,,North Melbourne,T Powell
+unmapped_player,,,,,,North Melbourne,C Daniel
+unmapped_player,,,,,,North Melbourne,F O'Sullivan
+unmapped_player,,,,,,Adelaide,B Keays
+unmapped_player,,,,,,Adelaide,R Thilthorpe
+unmapped_player,,,,,,Adelaide,A N-Bullen
+unmapped_player,,,,,,North Melbourne,D Stephens
+unmapped_player,,,,,,North Melbourne,L D-Uniacke
+unmapped_player,,,,,,North Melbourne,C McKercher
+unmapped_player,,,,,,Adelaide,I Cumming
+unmapped_player,,,,,,Adelaide,J Dawson
+unmapped_player,,,,,,Adelaide,D Curtin
+unmapped_player,,,,,,North Melbourne,P Curtis
+unmapped_player,,,,,,North Melbourne,C Trembath
+unmapped_player,,,,,,North Melbourne,J Simpkin
+unmapped_player,,,,,,Adelaide,W Milera
+unmapped_player,,,,,,Adelaide,N Murray
+unmapped_player,,,,,,Adelaide,R Laird
+unmapped_player,,,,,,North Melbourne,L Parker
+unmapped_player,,,,,,North Melbourne,J Darling
+unmapped_player,,,,,,North Melbourne,J Konstanty
+unmapped_player,,,,,,Adelaide,J Worrell
+unmapped_player,,,,,,Adelaide,M Keane
+unmapped_player,,,,,,Adelaide,H Bond
+unmapped_player,,,,,,North Melbourne,T Xerri
+unmapped_player,,,,,,North Melbourne,H Sheezel
+unmapped_player,,,,,,North Melbourne,G Wardlaw
+unmapped_player,,,,,,Adelaide,R O'Brien
+unmapped_player,,,,,,Adelaide,S Berry
+unmapped_player,,,,,,Adelaide,J Soligo
+unmapped_player,,,,,,Adelaide,J Peatling
+unmapped_player,,,,,,Adelaide,Z Taylor
+unmapped_player,,,,,,Adelaide,B Smith
+unmapped_player,,,,,,Adelaide,M Hinge
+unmapped_player,,,,,,Adelaide,B Dowling
+unmapped_player,,,,,,Adelaide,C Burgess
+unmapped_player,,,,,,Adelaide,L Murphy
+unmapped_player,,,,,,Adelaide,L Nankervis
+unmapped_player,,,,,,Adelaide,R Laird
+unmapped_player,,,,,,Adelaide,B Dowling
+unmapped_player,,,,,,Adelaide,S Draper
+unmapped_player,,,,,,Adelaide,L Murphy
+unmapped_player,,,,,,Adelaide,I Rankine
+unmapped_player,,,,,,Adelaide,H Schoenberg
+unmapped_player,,,,,,Richmond,H Armstrong
+unmapped_player,,,,,,Richmond,T Hotton
+unmapped_player,,,,,,Richmond,J Gibcus
+unmapped_player,,,,,,Richmond,T Sonsie
+unmapped_player,,,,,,Richmond,L Trainor
+unmapped_player,,,,,,Richmond,J Koschitzke
+unmapped_player,,,,,,Richmond,K Smith
+unmapped_player,,,,,,Richmond,S Green
+unmapped_player,,,,,,Richmond,J Gibcus
+unmapped_player,,,,,,Richmond,L Trainor
+unmapped_player,,,,,,Richmond,N Vlastuin
+unmapped_player,,,,,,Richmond,S Green
+unmapped_player,,,,,,Richmond,N Broad
+unmapped_player,,,,,,Richmond,B Miller
+unmapped_player,,,,,,Richmond,T Young
+unmapped_player,,,,,,Geelong,P Dangerfield
+unmapped_player,,,,,,Geelong,J Cameron
+unmapped_player,,,,,,Geelong,T Stengle
+unmapped_player,,,,,,Richmond,T Brown
+unmapped_player,,,,,,Richmond,S Banks
+unmapped_player,,,,,,Richmond,J Short
+unmapped_player,,,,,,Geelong,B Close
+unmapped_player,,,,,,Geelong,S Mannagh
+unmapped_player,,,,,,Geelong,G Miers
+unmapped_player,,,,,,Richmond,K McIntosh
+unmapped_player,,,,,,Richmond,D Prestia
+unmapped_player,,,,,,Richmond,J Trezise
+unmapped_player,,,,,,Geelong,M Blicavs
+unmapped_player,,,,,,Geelong,M Holmes
+unmapped_player,,,,,,Geelong,O Dempsey
+unmapped_player,,,,,,Richmond,S Campbell
+unmapped_player,,,,,,Richmond,J Ross
+unmapped_player,,,,,,Richmond,M Rioli
+unmapped_player,,,,,,Geelong,Z Guthrie
+unmapped_player,,,,,,Geelong,T Stewart
+unmapped_player,,,,,,Geelong,L Humphries
+unmapped_player,,,,,,Richmond,R Mansell
+unmapped_player,,,,,,Richmond,T Lynch
+unmapped_player,,,,,,Richmond,N Balta
+unmapped_player,,,,,,Geelong,J Henry
+unmapped_player,,,,,,Geelong,S De Koning
+unmapped_player,,,,,,Geelong,C O'Sullivan
+unmapped_player,,,,,,Richmond,T Nankervis
+unmapped_player,,,,,,Richmond,T Taranto
+unmapped_player,,,,,,Richmond,J Hopper
+unmapped_player,,,,,,Geelong,R Stanley
+unmapped_player,,,,,,Geelong,T Atkins
+unmapped_player,,,,,,Geelong,B Smith
+unmapped_player,,,,,,Geelong,M O'Connor
+unmapped_player,,,,,,Geelong,J Bews
+unmapped_player,,,,,,Geelong,J Martin
+unmapped_player,,,,,,Geelong,O Mullin
+unmapped_player,,,,,,Geelong,J Bowes
+unmapped_player,,,,,,Geelong,M Knevitt
+unmapped_player,,,,,,Geelong,J Clark
+unmapped_player,,,,,,Geelong,T Clohesy
+unmapped_player,,,,,,Geelong,J Bews
+unmapped_player,,,,,,Geelong,S Neale
+unmapped_player,,,,,,West Coast,N Long
+unmapped_player,,,,,,West Coast,B Williams
+unmapped_player,,,,,,West Coast,R Bazzo
+unmapped_player,,,,,,West Coast,T Dewar
+unmapped_player,,,,,,West Coast,J Newton
+unmapped_player,,,,,,West Coast,J Petruccelle
+unmapped_player,,,,,,West Coast,H Johnston
+unmapped_player,,,,,,West Coast,J Williams
+unmapped_player,,,,,,West Coast,T Dewar
+unmapped_player,,,,,,West Coast,L Grego
+unmapped_player,,,,,,West Coast,M Owies
+unmapped_player,,,,,,West Coast,R Maric
+unmapped_player,,,,,,West Coast,T Cole
+unmapped_player,,,,,,West Coast,S Brock
+unmapped_player,,,,,,West Coast,B Hough
+unmapped_player,,,,,,Sydney,W Hayward
+unmapped_player,,,,,,Sydney,J Buller
+unmapped_player,,,,,,Sydney,T Papley
+unmapped_player,,,,,,West Coast,L Grego
+unmapped_player,,,,,,West Coast,R Ginbey
+unmapped_player,,,,,,West Coast,L Baker
+unmapped_player,,,,,,Sydney,J Lloyd
+unmapped_player,,,,,,Sydney,H McLean
+unmapped_player,,,,,,Sydney,J Jordon
+unmapped_player,,,,,,West Coast,C Chesser
+unmapped_player,,,,,,West Coast,T Kelly
+unmapped_player,,,,,,West Coast,T McCarthy
+unmapped_player,,,,,,Sydney,O Florent
+unmapped_player,,,,,,Sydney,C Warner
+unmapped_player,,,,,,Sydney,E Gulden
+unmapped_player,,,,,,West Coast,E Hewett
+unmapped_player,,,,,,West Coast,L Ryan
+unmapped_player,,,,,,West Coast,H Davis
+unmapped_player,,,,,,Sydney,D Rampe
+unmapped_player,,,,,,Sydney,N Blakey
+unmapped_player,,,,,,Sydney,S Wicks
+unmapped_player,,,,,,West Coast,T Brockman
+unmapped_player,,,,,,West Coast,J Shanahan
+unmapped_player,,,,,,West Coast,J Cripps
+unmapped_player,,,,,,Sydney,C Mills
+unmapped_player,,,,,,Sydney,L Melican
+unmapped_player,,,,,,Sydney,T McCartin
+unmapped_player,,,,,,West Coast,M Flynn
+unmapped_player,,,,,,West Coast,J Graham
+unmapped_player,,,,,,West Coast,C Hall
+unmapped_player,,,,,,Sydney,B Grundy
+unmapped_player,,,,,,Sydney,I Heeney
+unmapped_player,,,,,,Sydney,A Sheldrick
+unmapped_player,,,,,,Sydney,H Cunningham
+unmapped_player,,,,,,Sydney,B Campbell
+unmapped_player,,,,,,Sydney,R Bice
+unmapped_player,,,,,,Sydney,J Rowbottom
+unmapped_player,,,,,,Sydney,C Warner
+unmapped_player,,,,,,Sydney,P Ladhams
+unmapped_player,,,,,,Sydney,M Roberts
+unmapped_player,,,,,,Sydney,C Cleary
+unmapped_player,,,,,,Sydney,B Grundy
+unmapped_player,,,,,,Sydney,C Warner
+unmapped_player,,,,,,Sydney,R Bice
+unmapped_player,,,,,,Sydney,P Ladhams
+unmapped_player,,,,,,Sydney,C Cleary
+unmapped_player,,,,,,Sydney,J Dattoli
+unmapped_player,,,,,,GWS,L Aleer
+unmapped_player,,,,,,GWS,H Rowston
+unmapped_player,,,,,,GWS,H Thomas
+unmapped_player,,,,,,GWS,M Gruzewski
+unmapped_player,,,,,,GWS,J Wehr
+unmapped_player,,,,,,GWS,J Fonti
+unmapped_player,,,,,,GWS,J Leake
+unmapped_player,,,,,,GWS,T Bedford
+unmapped_player,,,,,,GWS,B Daniels
+unmapped_player,,,,,,GWS,J Buckley
+unmapped_player,,,,,,GWS,J Leake
+unmapped_player,,,,,,GWS,C Idun
+unmapped_player,,,,,,GWS,S Taylor
+unmapped_player,,,,,,GWS,H Himmelberg
+unmapped_player,,,,,,St Kilda,J Higgins
+unmapped_player,,,,,,St Kilda,I Keeler
+unmapped_player,,,,,,St Kilda,C Sharman
+unmapped_player,,,,,,GWS,L Whitfield
+unmapped_player,,,,,,GWS,J Buckley
+unmapped_player,,,,,,GWS,L Ash
+unmapped_player,,,,,,St Kilda,M Hall
+unmapped_player,,,,,,St Kilda,H Garcia
+unmapped_player,,,,,,St Kilda,D Wilson
+unmapped_player,,,,,,GWS,X O'Halloran
+unmapped_player,,,,,,GWS,S Coniglio
+unmapped_player,,,,,,GWS,R Angwin
+unmapped_player,,,,,,St Kilda,M Wood
+unmapped_player,,,,,,St Kilda,H Boxshall
+unmapped_player,,,,,,St Kilda,B Hill
+unmapped_player,,,,,,GWS,B Daniels
+unmapped_player,,,,,,GWS,A Cadman
+unmapped_player,,,,,,GWS,D Jones
+unmapped_player,,,,,,St Kilda,L Stocker
+unmapped_player,,,,,,St Kilda,N W-Milera
+unmapped_player,,,,,,St Kilda,J Sinclair
+unmapped_player,,,,,,GWS,T Greene
+unmapped_player,,,,,,GWS,J Riccardi
+unmapped_player,,,,,,GWS,C Brown
+unmapped_player,,,,,,St Kilda,A Tauru
+unmapped_player,,,,,,St Kilda,C Wilkie
+unmapped_player,,,,,,St Kilda,A Caminiti
+unmapped_player,,,,,,GWS,K Briggs
+unmapped_player,,,,,,GWS,F Callaghan
+unmapped_player,,,,,,GWS,T Green
+unmapped_player,,,,,,St Kilda,R Marshall
+unmapped_player,,,,,,St Kilda,J Steele
+unmapped_player,,,,,,St Kilda,M Windhager
+unmapped_player,,,,,,St Kilda,Z Jones
+unmapped_player,,,,,,St Kilda,L Collard
+unmapped_player,,,,,,St Kilda,T Travaglia
+unmapped_player,,,,,,St Kilda,J Macrae
+unmapped_player,,,,,,St Kilda,J Carroll
+unmapped_player,,,,,,St Kilda,M Phillipou
+unmapped_player,,,,,,St Kilda,A Dodson
+unmapped_player,,,,,,St Kilda,L O'Connell
+unmapped_player,,,,,,St Kilda,J Carroll
+unmapped_player,,,,,,St Kilda,I Keeler
+unmapped_player,,,,,,St Kilda,L O'Connell
+unmapped_player,,,,,,Western Bulldogs,O Baker
+unmapped_player,,,,,,Western Bulldogs,J Busslinger
+unmapped_player,,,,,,Western Bulldogs,N Coffield
+unmapped_player,,,,,,Western Bulldogs,J Croft
+unmapped_player,,,,,,Western Bulldogs,A Jones
+unmapped_player,,,,,,Western Bulldogs,L Jones
+unmapped_player,,,,,,Western Bulldogs,L McNeil
+unmapped_player,,,,,,Western Bulldogs,R Sanders
+unmapped_player,,,,,,Western Bulldogs,L Jones
+unmapped_player,,,,,,Western Bulldogs,N Coffield
+unmapped_player,,,,,,Western Bulldogs,A Jones
+unmapped_player,,,,,,Western Bulldogs,L Bramble
+unmapped_player,,,,,,Western Bulldogs,J O'Donnell
+unmapped_player,,,,,,Western Bulldogs,B Dale
+unmapped_player,,,,,,Fremantle,L Jackson
+unmapped_player,,,,,,Fremantle,J Treacy
+unmapped_player,,,,,,Fremantle,M Frederick
+unmapped_player,,,,,,Western Bulldogs,L Cleary
+unmapped_player,,,,,,Western Bulldogs,R Lobb
+unmapped_player,,,,,,Western Bulldogs,J Johannisen
+unmapped_player,,,,,,Fremantle,S Switkowski
+unmapped_player,,,,,,Fremantle,P Voss
+unmapped_player,,,,,,Fremantle,S Bolton
+unmapped_player,,,,,,Western Bulldogs,J Freijah
+unmapped_player,,,,,,Western Bulldogs,E Richards
+unmapped_player,,,,,,Western Bulldogs,B Williams
+unmapped_player,,,,,,Fremantle,J O'Meara
+unmapped_player,,,,,,Fremantle,H Young
+unmapped_player,,,,,,Fremantle,C Wagner
+unmapped_player,,,,,,Western Bulldogs,S Davidson
+unmapped_player,,,,,,Western Bulldogs,A Naughton
+unmapped_player,,,,,,Western Bulldogs,M Kennedy
+unmapped_player,,,,,,Fremantle,H Chapman
+unmapped_player,,,,,,Fremantle,K Worner
+unmapped_player,,,,,,Fremantle,J Clark
+unmapped_player,,,,,,Western Bulldogs,R Garcia
+unmapped_player,,,,,,Western Bulldogs,S Darcy
+unmapped_player,,,,,,Western Bulldogs,R West
+unmapped_player,,,,,,Fremantle,L Ryan
+unmapped_player,,,,,,Fremantle,B Cox
+unmapped_player,,,,,,Fremantle,A Pearce
+unmapped_player,,,,,,Western Bulldogs,T English
+unmapped_player,,,,,,Western Bulldogs,M Bontempelli
+unmapped_player,,,,,,Western Bulldogs,T Liberatore
+unmapped_player,,,,,,Fremantle,S Darcy
+unmapped_player,,,,,,Fremantle,C Serong
+unmapped_player,,,,,,Fremantle,A Brayshaw
+unmapped_player,,,,,,Fremantle,N Fyfe
+unmapped_player,,,,,,Fremantle,M Reid
+unmapped_player,,,,,,Fremantle,O McDonald
+unmapped_player,,,,,,Fremantle,J Amiss
+unmapped_player,,,,,,Fremantle,N Erasmus
+unmapped_player,,,,,,Fremantle,N O'Driscoll
+unmapped_player,,,,,,Fremantle,B Walker
+unmapped_player,,,,,,Fremantle,B Banfield
+unmapped_player,,,,,,Fremantle,O McDonald
+unmapped_player,,,,,,Fremantle,H Young
+unmapped_player,,,,,,Fremantle,B Walker
+unmapped_player,,,,,,Brisbane,K Lohmann
+unmapped_player,,,,,,Brisbane,L Ashcroft
+unmapped_player,,,,,,Brisbane,L Beecken
+unmapped_player,,,,,,Brisbane,S Marshall
+unmapped_player,,,,,,Brisbane,T Gallop
+unmapped_player,,,,,,Brisbane,J Tunstill
+unmapped_player,,,,,,Brisbane,D Joyce
+unmapped_player,,,,,,Brisbane,O McInerney
+unmapped_player,,,,,,Brisbane,D Joyce
+unmapped_player,,,,,,Brisbane,O McInerney
+unmapped_player,,,,,,Brisbane,K Lohmann
+unmapped_player,,,,,,Brisbane,J Tunstill
+unmapped_player,,,,,,Brisbane,T Gallop
+unmapped_player,,,,,,Brisbane,E Hipwood
+unmapped_player,,,,,,Brisbane,J Berry
+unmapped_player,,,,,,Brisbane,D Zorko
+unmapped_player,,,,,,Brisbane,D Gardiner
+unmapped_player,,,,,,Brisbane,R Lester
+unmapped_player,,,,,,Hawthorn,J Gunston
+unmapped_player,,,,,,Hawthorn,M Lewis
+unmapped_player,,,,,,Hawthorn,C MacDonald
+unmapped_player,,,,,,Brisbane,D Wilmot
+unmapped_player,,,,,,Brisbane,H Andrews
+unmapped_player,,,,,,Brisbane,B Starcevich
+unmapped_player,,,,,,Hawthorn,M D'Ambrosio
+unmapped_player,,,,,,Hawthorn,M Chol
+unmapped_player,,,,,,Hawthorn,N Watson
+unmapped_player,,,,,,Brisbane,J Fletcher
+unmapped_player,,,,,,Brisbane,H McCluggage
+unmapped_player,,,,,,Brisbane,B Reville
+unmapped_player,,,,,,Hawthorn,K Amon
+unmapped_player,,,,,,Hawthorn,J Worpel
+unmapped_player,,,,,,Hawthorn,D Moore
+unmapped_player,,,,,,Brisbane,C Cameron
+unmapped_player,,,,,,Brisbane,S Day
+unmapped_player,,,,,,Brisbane,Z Bailey
+unmapped_player,,,,,,Hawthorn,J Impey
+unmapped_player,,,,,,Hawthorn,J Sicily
+unmapped_player,,,,,,Hawthorn,J Scrimshaw
+unmapped_player,,,,,,Brisbane,C Rayner
+unmapped_player,,,,,,Brisbane,L Morris
+unmapped_player,,,,,,Brisbane,C Ah Chee
+unmapped_player,,,,,,Hawthorn,J Battle
+unmapped_player,,,,,,Hawthorn,T Barrass
+unmapped_player,,,,,,Hawthorn,B Hardwick
+unmapped_player,,,,,,Brisbane,D Fort
+unmapped_player,,,,,,Brisbane,J Dunkley
+unmapped_player,,,,,,Brisbane,W Ashcroft
+unmapped_player,,,,,,Hawthorn,L Meek
+unmapped_player,,,,,,Hawthorn,J Newcombe
+unmapped_player,,,,,,Hawthorn,J Ward
+unmapped_player,,,,,,Hawthorn,C Jiath
+unmapped_player,,,,,,Hawthorn,C Nash
+unmapped_player,,,,,,Hawthorn,J Ginnivan
+unmapped_player,,,,,,Hawthorn,C Dear
+unmapped_player,,,,,,Hawthorn,L Breust
+unmapped_player,,,,,,Hawthorn,C Mackenzie
+unmapped_player,,,,,,Hawthorn,S Butler
+unmapped_player,,,,,,Hawthorn,N Reeves
+unmapped_player,,,,,,Hawthorn,N Reeves
+unmapped_player,,,,,,Hawthorn,S Butler
+unmapped_player,,,,,,Hawthorn,C Mackenzie

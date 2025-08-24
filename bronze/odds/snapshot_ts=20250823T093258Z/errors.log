@@ -1,0 +1,369 @@
+# -*- coding: utf-8 -*-
+"""
+bronze_ingest_odds.py — drop‑in v0.8 (Windows‑safe, in‑process, no PATH drama)
+
+Key fixes vs v0.7
+  • MSYS/Git Bash path support: auto‑converts '/c/Users/...' → 'C:/Users/...'.
+  • Quotes around python.exe: fixes [WinError 2] when venv path has spaces.
+  • In‑process is thread‑safe: serialises CLI calls with a lock (sys.argv/stdout are global).
+  • Smarter local clone detection: accepts repo root and appends '/src' if needed.
+
+Usage
+  python scripts/bronze_ingest_odds.py
+
+Optional env vars
+  ODDS_SCRAPER_SRC   Path to the *src* folder OR the repo root; MSYS style is accepted.
+  MIN_MATCH_QUALITY  Default 60
+  SCRAPER_TIMEOUT_S  Used only for subprocess fallback (default 75)
+"""
+from __future__ import annotations
+
+import csv
+import io
+import os
+import shlex
+import subprocess
+import sys
+import runpy
+import threading
+from concurrent.futures import ThreadPoolExecutor, as_completed
+from datetime import datetime, timezone
+from pathlib import Path
+from typing import Dict, List, Optional, Tuple
+
+import pandas as pd
+
+# --- Project paths ------------------------------------------------------------
+THIS = Path(__file__).resolve()
+ROOT = THIS.parents[1]
+BRONZE = ROOT / "bronze"
+URLS_ROOT = BRONZE / "urls"
+ODDS_ROOT = BRONZE / "odds"
+CONFIG = ROOT / "config"
+MARKETS_MAP_CSV = CONFIG / "markets_map.csv"
+
+DEFAULT_MIN_MATCH_QUALITY = int(os.getenv("MIN_MATCH_QUALITY", "60"))
+SCRAPER_TIMEOUT_S = int(os.getenv("SCRAPER_TIMEOUT_S", "75"))
+
+# --- Helpers: latest discovery snapshot --------------------------------------
+
+def latest_discovery_csv() -> Path:
+    snaps = sorted(URLS_ROOT.glob("snapshot_ts=*/event_urls.csv"))
+    if not snaps:
+        raise SystemExit("[error] no URL discovery snapshots found under bronze/urls/")
+    return snaps[-1]
+
+
+# --- Market map (optional) ----------------------------------------------------
+
+def load_market_map() -> Dict[str, str]:
+    if not MARKETS_MAP_CSV.exists():
+        return {}
+    df = pd.read_csv(MARKETS_MAP_CSV)
+    lk: Dict[str, str] = {}
+    for _, r in df.iterrows():
+        src = str(r.get("raw_market", "")).strip().lower()
+        dst = str(r.get("market_code", "")).strip()
+        if src and dst:
+            lk[src] = dst
+    return lk
+
+
+# --- Path utilities -----------------------------------------------------------
+
+def _msys_to_windows(path_str: str) -> str:
+    """Convert MSYS/Git Bash style '/c/Users/..' → 'C:/Users/..' on Windows."""
+    if os.name == "nt" and path_str.startswith("/") and len(path_str) > 3 and path_str[2] == "/":
+        drive = path_str[1].upper()
+        rest = path_str[2:]
+        return f"{drive}:{rest}"
+    return path_str
+
+
+def _ensure_src_dir(p: Path) -> Optional[Path]:
+    """Accept either repo root or src dir; return a valid src dir path if present."""
+    if not p:
+        return None
+    if (p / "sportsbook_odds_scraper").exists():
+        return p
+    src = p / "src"
+    if (src / "sportsbook_odds_scraper").exists():
+        return src
+    return None
+
+
+# --- IN‑PROCESS scraper runner ------------------------------------------------
+
+INPROC_LOCK = threading.Lock()
+
+
+def _find_local_srcs() -> List[Path]:
+    hints: List[Path] = []
+
+    # Env override (supports MSYS style)
+    src_env = os.getenv("ODDS_SCRAPER_SRC")
+    if src_env:
+        p = Path(_msys_to_windows(src_env))
+        hints.append(p)
+
+    # Common locations (repo root OR src)
+    candidates = [
+        Path(r"C:\\Users\\Ethan\\sportsbook-odds-scraper"),
+        Path(r"C:\\Users\\Ethan\\sportsbook-odds-scraper\src"),
+        Path.home() / "sportsbook-odds-scraper",
+        Path.home() / "sportsbook-odds-scraper" / "src",
+        (ROOT.parent / "sportsbook-odds-scraper").resolve(),
+        (ROOT.parent / "sportsbook-odds-scraper" / "src").resolve(),
+    ]
+    hints.extend(candidates)
+
+    out: List[Path] = []
+    for p in hints:
+        src_dir = _ensure_src_dir(p)
+        if src_dir and src_dir not in out:
+            out.append(src_dir)
+    return out
+
+
+def run_inproc(url: str) -> Optional[str]:
+    """Attempt to run the CLI in‑process by importing the local clone's package.
+    Returns CSV text on success, or None to signal fallback."""
+    for src in _find_local_srcs():
+        # Serialise due to global sys.argv/stdout
+        with INPROC_LOCK:
+            sys_path_backup = list(sys.path)
+            argv_backup = list(sys.argv)
+            stdout_backup = sys.stdout
+            buf = io.StringIO()
+            try:
+                sys.path.insert(0, str(src))
+                sys.argv = [
+                    "-m",
+                    "sportsbook_odds_scraper",
+                    "scrape",
+                    "--url", url,
+                    "--format", "csv",
+                ]
+                sys.stdout = buf
+                runpy.run_module("sportsbook_odds_scraper.__main__", run_name="__main__")
+                out = buf.getvalue()
+                if out and "," in (out.splitlines()[0].lower()):
+                    print(f"[scraper] using in‑process local clone at {src}")
+                    return out
+            except Exception:
+                pass
+            finally:
+                sys.stdout = stdout_backup
+                sys.argv = argv_backup
+                sys.path = sys_path_backup
+
+    # Try already‑installed module in‑process
+    try:
+        with INPROC_LOCK:
+            stdout_backup = sys.stdout
+            buf = io.StringIO()
+            sys.argv = ["-m", "sportsbook_odds_scraper", "scrape", "--url", url, "--format", "csv"]
+            sys.stdout = buf
+            runpy.run_module("sportsbook_odds_scraper.__main__", run_name="__main__")
+            out = buf.getvalue()
+            if out and "," in (out.splitlines()[0].lower()):
+                print("[scraper] using in‑process installed module")
+                return out
+    except Exception:
+        pass
+    finally:
+        sys.stdout = stdout_backup
+
+    return None  # signal to fall back to subprocess
+
+
+# --- Subprocess fallback (last resort) ---------------------------------------
+
+SELECTED_CMD: Optional[str] = None
+
+
+def _run_command(cmd: str, timeout: int) -> Tuple[int, str, str]:
+    parts = shlex.split(cmd, posix=(os.name != "nt"))
+    p = subprocess.run(parts, capture_output=True, text=True, timeout=timeout)
+    return p.returncode, p.stdout, p.stderr
+
+
+def build_candidate_cmds() -> List[str]:
+    cmds: List[str] = []
+
+    custom = os.getenv("ODDS_SCRAPER_CMD")
+    if custom and "{url}" in custom:
+        cmds.append(custom)
+
+    py = sys.executable
+    pyq = f'"{py}"'  # quote python.exe for spaces in path
+
+    # module
+    cmds.append(f'{pyq} -m sportsbook_odds_scraper scrape --url "{{url}}" --format csv')
+    # console
+    cmds.append('sportsbook-odds-scraper scrape --url "{url}" --format csv')
+    # direct path to local clone __main__.py if present
+    for src in _find_local_srcs():
+        main_py = Path(src) / "sportsbook_odds_scraper" / "__main__.py"
+        if main_py.exists():
+            cmds.append(f'{pyq} "{str(main_py)}" scrape --url "{{url}}" --format csv')
+    return cmds
+
+CANDIDATE_CMDS = build_candidate_cmds()
+
+
+def run_subprocess(url: str, timeout: int = SCRAPER_TIMEOUT_S) -> str:
+    global SELECTED_CMD
+
+    if SELECTED_CMD:
+        rc, out, err = _run_command(SELECTED_CMD.format(url=url), timeout)
+        if rc == 0 and out.strip() and "," in (out.splitlines()[0].lower()):
+            return out
+        SELECTED_CMD = None
+
+    last_err = None
+    for tmpl in CANDIDATE_CMDS:
+        cmd = tmpl.format(url=url)
+        try:
+            rc, out, err = _run_command(cmd, timeout)
+            if rc == 0 and out.strip():
+                head = out.splitlines()[0].lower()
+                if "," in head:
+                    SELECTED_CMD = tmpl
+                    print(f"[scraper] using subprocess: {('module' if '-m sportsbook_odds_scraper' in tmpl else cmd.split()[0])}")
+                    return out
+                last_err = f"non‑csv output head: {head[:120]}"
+            else:
+                last_err = err or f"exit {rc}"
+        except Exception as e:
+            last_err = str(e)
+    raise RuntimeError(last_err or "unknown scraper failure")
+
+
+# --- Normalisation ------------------------------------------------------------
+BRONZE_COLS = [
+    "ts",
+    "game_id",
+    "bookmaker",
+    "market_code",
+    "selection_name",
+    "price_decimal",
+    "line",
+    "raw_market",
+    "raw_selection",
+]
+
+
+def normalise_rows(rows: List[Dict[str, str]], game_id: str, book: str, market_map: Dict[str, str]):
+    now = datetime.now(timezone.utc).isoformat()
+    out: List[Dict[str, object]] = []
+
+    for r in rows:
+        lk = {k.lower(): v for k, v in r.items()}
+        raw_market = (lk.get("market") or lk.get("market_name") or "").strip()
+        raw_sel = (lk.get("selection") or lk.get("runner") or lk.get("outcome") or "").strip()
+        price = lk.get("price") or lk.get("odds") or lk.get("decimal_odds") or ""
+        line = lk.get("line") or lk.get("points") or ""
+
+        mk_key = raw_market.strip().lower()
+        market_code = market_map.get(mk_key, mk_key or "unknown")
+
+        try:
+            price_val = float(str(price).replace("$", "").strip())
+        except Exception:
+            price_val = float("nan")
+        try:
+            line_val = float(str(line).strip())
+        except Exception:
+            line_val = float("nan")
+
+        out.append({
+            "ts": now,
+            "game_id": game_id,
+            "bookmaker": book,
+            "market_code": market_code,
+            "selection_name": raw_sel,
+            "price_decimal": price_val,
+            "line": line_val,
+            "raw_market": raw_market,
+            "raw_selection": raw_sel,
+        })
+    return out
+
+
+# --- Main ---------------------------------------------------------------------
+
+def main() -> None:
+    urls_csv = latest_discovery_csv()
+
+    # Prepare output snapshot dir
+    ts = datetime.utcnow().strftime("%Y%m%dT%H%M%SZ")
+    out_dir = ODDS_ROOT / f"snapshot_ts={ts}"
+    out_dir.mkdir(parents=True, exist_ok=True)
+    out_path = out_dir / "odds.csv"
+    err_log = out_dir / "errors.log"
+
+    market_map = load_market_map()
+
+    # Read tasks
+    tasks = []  # (game_id, bookmaker, url)
+    with urls_csv.open(newline="", encoding="utf-8") as f:
+        for r in csv.DictReader(f):
+            gid = str(r.get("game_id", "")).strip()
+            book = str(r.get("bookmaker", "")).strip()
+            url = str(r.get("event_url", "")).strip()
+            mq = r.get("match_quality")
+            try:
+                mq = float(mq) if mq is not None and str(mq) != "" else 0.0
+            except Exception:
+                mq = 0.0
+            if not (gid and book and url):
+                continue
+            if mq < DEFAULT_MIN_MATCH_QUALITY:
+                continue
+            tasks.append((gid, book, url))
+
+    if not tasks:
+        raise SystemExit("[error] no eligible (game,book,url) rows found — check discovery output and thresholds")
+
+    rows_all: List[Dict[str, object]] = []
+
+    max_workers = min(16, max(2, (os.cpu_count() or 4)))
+    with ThreadPoolExecutor(max_workers=max_workers) as ex, err_log.open("w", encoding="utf-8") as elog:
+        futures = {ex.submit(run_inproc, url): (gid, book, url) for gid, book, url in tasks}
+
+        for fut in as_completed(futures):
+            gid, book, url = futures[fut]
+            try:
+                out = fut.result()
+                if out is None:
+                    # In‑process failed for this URL; fall back to subprocess
+                    out = run_subprocess(url, SCRAPER_TIMEOUT_S)
+                buf = io.StringIO(out)
+                parsed = list(csv.DictReader(buf))
+                if not parsed:
+                    raise ValueError("empty CSV from scraper")
+                rows_all.extend(normalise_rows(parsed, gid, book, market_map))
+            except Exception as e:
+                msg = f"{gid},{book},{url} -> {type(e).__name__}: {e}\n"
+                print(f"[warn] {msg.strip()}")
+                elog.write(msg)
+
+    # Write bronze odds CSV
+    df = pd.DataFrame(rows_all, columns=BRONZE_COLS)
+    if not df.empty:
+        df = df[pd.to_numeric(df["price_decimal"], errors="coerce").notna()].copy()
+
+    with out_path.open("w", newline="", encoding="utf-8") as f:
+        w = csv.DictWriter(f, fieldnames=BRONZE_COLS)
+        w.writeheader()
+        for r in df.to_dict(orient="records"):
+            w.writerow(r)
+
+    print(str(out_path))
+    if err_log.exists() and err_log.stat().st_size > 0:
+        print(f"[note] some URLs failed — see {err_log}")
+
+
+if __name__ == "__main__":
+    main()
