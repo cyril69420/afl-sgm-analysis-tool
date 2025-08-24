@@ -1,0 +1,18 @@
+# Core dependencies for the AFL SGM analysis tool. When installing
+# dependencies ensure Python >= 3.10.
+
+pydantic>=2.0
+duckdb>=0.10.1
+polars>=0.20.6
+PyYAML>=6.0
+tenacity>=8.2
+httpx>=0.27
+tqdm>=4.64
+python-dotenv>=1.0
+playwright>=1.41
+great_expectations>=0.18
+
+# Optional: you can uncomment the following line to pin a specific
+# version of python-lambda-test if you are writing tests against
+# LambdaTest. It is not required for ingestion.
+# lambdatest~=1.0

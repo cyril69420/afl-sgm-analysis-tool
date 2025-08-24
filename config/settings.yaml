@@ -1,0 +1,30 @@
+"""
+Global configuration for the AFL SGM analysis tool. These values control
+runtime defaults across ingestion scripts and may be overridden via CLI
+arguments or environment variables. Settings are loaded from this file via
+scripts/bronze/_shared.py::load_yaml().
+
+Key sections include:
+
+  seasons: A list of AFL seasons available for scraping. When omitted the
+    current calendar year is used.
+  default_rounds: Default rounds used when none are provided on the
+    command line. Supports comma‑separated values or ranges (e.g. "1-5").
+  bookmakers: Enabled bookmakers. Used by bronze_discover_event_urls.
+  weather:
+    provider: Name of the weather provider used by the bronze weather
+      ingestion scripts. The provider should be supported by the
+      implementation in bronze_ingest_weather_*.
+    api_key_env: Name of an environment variable holding the API key for
+      the provider. If missing or empty the provider will be skipped.
+
+You can add additional sections for other ingest steps as needed.
+"""
+
+seasons: [2025]
+default_rounds: "all"
+bookmakers: [sportsbet, pointsbet]
+
+weather:
+  provider: "open-meteo"
+  api_key_env: "OPEN_METEO_API_KEY"
