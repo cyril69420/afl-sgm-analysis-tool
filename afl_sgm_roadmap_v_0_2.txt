@@ -1,0 +1,386 @@
+﻿# AFL SGM Roadmap v0.2
+
+*(Updated roadmap canvas — supersedes v0.1; copy this into the repo as `AFL_SGM_Roadmap_v0.2.md` or replace the old file.)*
+
+---
+
+## Vision
+A modular, three‑tier AFL Same Game Multi (SGM) analysis pipeline:
+- **Bronze**: Raw ingestion from external sources (bookmakers, AFL stats, weather, discovery URLs).
+- **Silver**: Cleaned, canonicalized, schema‑driven tables with stable IDs and time-aware snapshots.
+- **Gold**: Enriched SGM recommendations, EV/edge calculations, correlation handling, and staking strategies.
+
+---
+
+## Current Status (post‑cleanup)
+- Repo de‑cluttered; non-code artifacts moved under `misc/`.
+- **Bronze operational** for:
+  - Event discovery URLs (per bookmaker)
+  - Fixtures (upcoming matches)
+  - Odds (live snapshots + historical)
+  - Weather (forecast + observed/history)
+  - **New:** Player game‑by‑game stats for **2024 & 2025** (Bronze outputs under `bronze/player_stats/`)
+- Silver & Gold: skeleton/stubs exist — to be updated to consume the expanded Bronze.
+
+---
+
+## Architecture (high level)
+```
+bookmakers ┐         ┌─> bronze/odds/* (snapshots & history)
+AFL stats  ├─> BRONZE┼─> bronze/fixtures/*
+weather    ┘         ├─> bronze/player_stats/*
+                    └─> bronze/event_urls/*, bronze/weather/*
+
+BRONZE ──clean/normalize/IDs/time─> SILVER (canonical dims + facts, parquet)
+SILVER ──────────features/joins───> GOLD (EV, correlation, SGM builder)
+```
+
+---
+
+## Bronze → Silver Transition: Conventions & IDs
+
+### Canonicalization
+- **Team IDs**: unify bookmaker strings and AFL Tables names into a canonical namespace.
+- **Player IDs**: canonicalize player names (handle suffixes, nicknames); map to team.
+- **Markets**: normalize bookmaker markets to `{market_type, scope, selection_entity, line}`.
+
+### Stable Keys
+- **`match_id`**: deterministic hash of `(season, round, home_team_id, away_team_id, scheduled_utc, venue_id)`.
+- **`team_id`**: stable hash of canonical `team_name_canon`.
+- **`player_id`**: stable hash of canonical `player_name_canon` (+ DOB if later available).
+- **`venue_id`**: stable hash of canonical `venue_name`.
+
+### Time Columns
+- **`snapshot_ts_utc`** for odds (retain every snapshot).
+- **`forecast_run_ts_utc`** and **`valid_for_kickoff_utc`** for weather forecasts.
+- **`obs_ts_utc`** for observed weather near kickoff.
+
+---
+
+## Silver Schema (Expanded)
+All Silver tables are written as **Parquet** (partitioned by `season` and/or `match_id` where applicable) with column types specified below. CSV exports are optional for interoperability.
+
+### Dimensions
+
+#### `silver/dim_team`  
+Canonical list of teams + alias mapping.
+
+| Column | Type | Description |
+|---|---|---|
+| `team_id` | STRING | Stable hash of canonical team name. |
+| `team_name_canon` | STRING | Canonical team name (e.g., `western_bulldogs`). |
+| `aliases_json` | STRING (JSON) | List/object of known aliases per source (bookmakers, AFL Tables). |
+| `created_utc` | TIMESTAMP | Insert time. |
+| `updated_utc` | TIMESTAMP | Last update time. |
+
+#### `silver/dim_player`  
+Canonical list of players + alias mapping.
+
+| Column | Type | Description |
+|---|---|---|
+| `player_id` | STRING | Stable hash of canonical player identity. |
+| `player_name_canon` | STRING | Canonical player name. |
+| `team_id` | STRING | Current team mapping (FK → `dim_team.team_id`). |
+| `aliases_json` | STRING (JSON) | Alternate spellings/aliases per source. |
+| `dob` | DATE (nullable) | Optional if later available. |
+| `created_utc` | TIMESTAMP | Insert time. |
+| `updated_utc` | TIMESTAMP | Last update time. |
+
+#### `silver/dim_venue`
+
+| Column | Type | Description |
+|---|---|---|
+| `venue_id` | STRING | Stable hash of `venue_name`. |
+| `venue_name` | STRING | Canonical venue name. |
+| `lat` | DOUBLE | Latitude (nullable). |
+| `lon` | DOUBLE | Longitude (nullable). |
+| `tz` | STRING | IANA timezone (e.g., `Australia/Melbourne`). |
+
+---
+
+### Core Facts
+
+#### `silver/f_fixture`
+One row per scheduled fixture.
+
+| Column | Type | Description |
+|---|---|---|
+| `match_id` | STRING | Surrogate ID (see stable keys). |
+| `season` | INT | Year (e.g., 2024, 2025). |
+| `round` | INT | Home & away round number (finals excluded by default). |
+| `scheduled_utc` | TIMESTAMP | Scheduled start in UTC. |
+| `date_local` | DATE | Local date (venue time zone). |
+| `venue_id` | STRING | FK → `dim_venue`. |
+| `home_team_id` | STRING | FK → `dim_team`. |
+| `away_team_id` | STRING | FK → `dim_team`. |
+| `status` | STRING | `scheduled|in_progress|final`. |
+| `source_tz` | STRING | Source timezone string (for provenance). |
+| `discovered_at_utc` | TIMESTAMP | First time seen in Bronze discovery. |
+
+#### `silver/f_odds_snapshot`
+Raw bookmaker odds in normalized market format; **retain all snapshots**.
+
+| Column | Type | Description |
+|---|---|---|
+| `match_id` | STRING | FK → `f_fixture`. |
+| `bookmaker` | STRING | Source (e.g., `sportsbet`). |
+| `snapshot_ts_utc` | TIMESTAMP | Snapshot timestamp. |
+| `market_type` | STRING | e.g., `match_result`, `total_points`, `player_disposals`, `player_goals`, etc. |
+| `market_scope` | STRING | e.g., `full_time`, `1st_quarter`. |
+| `selection_entity` | STRING | `home|away|draw|player`. |
+| `selection_ref` | STRING | `team_id` or `player_id` once mapped; raw text until canonicalized. |
+| `line` | DOUBLE (nullable) | Line/threshold (e.g., 159.5 total points, 20.0 disposals). |
+| `price` | DOUBLE | Decimal odds. |
+| `implied_p` | DOUBLE | 1/price; no margin adjustment applied here. |
+| `feed_event_id` | STRING (nullable) | Bookmaker event id for traceability. |
+
+**Helper view** (not persisted): `v_odds_latest` — latest snapshot pre‑kickoff per `match_id, market_type, selection_ref, line`.
+
+#### `silver/f_player_game_stats`
+Per‑player per‑game statistics (standard AFL metrics) for props modelling.
+
+| Column | Type | Description |
+|---|---|---|
+| `match_id` | STRING | FK → `f_fixture`. |
+| `player_id` | STRING | FK → `dim_player`. |
+| `team_id` | STRING | FK → `dim_team`. |
+| `opponent_team_id` | STRING | FK → `dim_team`. |
+| `season` | INT | Season year. |
+| `round` | INT | H&A round. |
+| `disposals` | INT | Total disposals. |
+| `kicks` | INT | Kicks. |
+| `marks` | INT | Marks. |
+| `handballs` | INT | Handballs. |
+| `goals` | INT | Goals. |
+| `behinds` | INT | Behinds. |
+| `hit_outs` | INT | Hit outs. |
+| `tackles` | INT | Tackles. |
+| `rebound_50s` | INT | Rebound 50s. |
+| `inside_50s` | INT | Inside 50s. |
+| `clearances` | INT | Clearances. |
+| `clangers` | INT | Clangers. |
+| `free_kicks_for` | INT | Frees for. |
+| `free_kicks_against` | INT | Frees against. |
+| `contested_possessions` | INT | Contested poss. |
+| `uncontested_possessions` | INT | Uncontested poss. |
+| `contested_marks` | INT | Contested marks. |
+| `marks_inside_50` | INT | Marks inside 50. |
+| `one_percenters` | INT | One percenters. |
+| `bounces` | INT | Bounces. |
+| `goal_assist` | INT | Goal assists. |
+| `percent_played` | DOUBLE | % game time. |
+
+#### `silver/f_weather_forecast`
+Per‑match forecast values associated with forecast run times.
+
+| Column | Type | Description |
+|---|---|---|
+| `match_id` | STRING | FK → `f_fixture`. |
+| `forecast_run_ts_utc` | TIMESTAMP | Forecast model/run time. |
+| `valid_for_kickoff_utc` | TIMESTAMP | Forecast value associated to kickoff time. |
+| `temp_c` | DOUBLE | Temperature at kickoff. |
+| `wind_m_s` | DOUBLE | Sustained wind. |
+| `gust_m_s` | DOUBLE | Gust wind. |
+| `precip_mm` | DOUBLE | Precipitation mm. |
+| `rain_prob` | DOUBLE | Probability of rain (0–1). |
+| `condition_code` | STRING | Provider condition code/descriptor. |
+| `provider` | STRING | Source/provider name. |
+
+#### `silver/f_weather_observed`
+Observed conditions near kickoff.
+
+| Column | Type | Description |
+|---|---|---|
+| `match_id` | STRING | FK → `f_fixture`. |
+| `obs_ts_utc` | TIMESTAMP | Observation timestamp (closest to kickoff). |
+| `temp_c` | DOUBLE | Observed temperature. |
+| `wind_m_s` | DOUBLE | Observed wind. |
+| `precip_mm` | DOUBLE | Observed precipitation. |
+| `condition_code` | STRING | Observed condition code/descriptor. |
+| `station_id` | STRING | Weather station id (if available). |
+
+#### `silver/bridge_event_url`
+Traceability from discovery to fixtures.
+
+| Column | Type | Description |
+|---|---|---|
+| `match_id` | STRING | FK → `f_fixture`. |
+| `bookmaker` | STRING | e.g., `sportsbet`.
+| `event_url` | STRING | Discovered URL. |
+| `first_seen_utc` | TIMESTAMP | First time discovered. |
+| `last_seen_utc` | TIMESTAMP | Last time confirmed. |
+
+---
+
+### Rollups & Views
+
+#### `silver/f_player_form_rollup`
+Rolling form features for props modelling (computed from `f_player_game_stats`).
+
+| Column | Type | Description |
+|---|---|---|
+| `match_id` | STRING | FK → `f_fixture`. |
+| `player_id` | STRING | FK → `dim_player`. |
+| `r3_disposals_avg` | DOUBLE | Mean disposals last 3 games. |
+| `r5_disposals_avg` | DOUBLE | Mean disposals last 5 games. |
+| `r3_goals_avg` | DOUBLE | Mean goals last 3 games. |
+| `r5_marks_avg` | DOUBLE | Mean marks last 5 games. |
+| `r5_tackles_avg` | DOUBLE | Mean tackles last 5 games. |
+| ... | ... | Extend as needed per props coverage. |
+
+#### Helper View: `v_odds_latest`
+- Latest snapshot per `match_id, market_type, selection_ref, line` strictly **before** kickoff.
+- Used by Gold to avoid look‑ahead bias.
+
+---
+
+## ETL: Bronze → Silver (Method)
+
+### 0) Shared Utilities
+- **Alias maps** under `config/`:
+  - `team_aliases.csv` → `alias,team_name_canon`
+  - `player_aliases.csv` → `alias,player_name_canon,team_name_canon`
+- **Hashing**: stable hash (e.g., SHA‑1 of concatenated canonical fields) for IDs.
+
+### 1) Build Dimensions
+- `dim_team`: union of teams referenced across fixtures, player stats, and odds; resolve aliases.
+- `dim_player`: collect unique players from Bronze player stats; resolve aliases → `team_id`.
+- `dim_venue`: normalize venue strings from fixtures; attach lat/lon/tz where known.
+
+### 2) Fixtures → `f_fixture`
+- Read Bronze fixtures; map team names to `team_id`; compute `match_id`.
+- Normalize times to UTC and retain `date_local` using venue tz.
+
+### 3) Event URLs → `bridge_event_url`
+- Map discovered events to fixtures by `(teams, time window, venue)`; keep first/last seen.
+
+### 4) Odds → `f_odds_snapshot`
+- Normalize markets to `{market_type, scope, selection_entity, line}`.
+- Map selections to canonical IDs where possible (`team_id`, `player_id` for props once available).
+- Keep **all** snapshots; compute `implied_p = 1/price` (no overround adj in Silver).
+- Provide `v_odds_latest` view for Gold.
+
+### 5) Weather → `f_weather_forecast`, `f_weather_observed`
+- Forecast: keep `forecast_run_ts_utc` distinct from `valid_for_kickoff_utc`.
+- Observed: choose nearest observation to kickoff (±30–60 min), or keep a small window.
+
+### 6) Player Stats → `f_player_game_stats`
+- Read Bronze 2024/2025 player stats; normalize team/opponent names; join to fixtures to derive `match_id`.
+- Cast metrics to numeric; fill NAs with 0 for counting stats; keep `%` as double 0–100.
+
+### 7) Form Rollups → `f_player_form_rollup`
+- Rolling windows over last 3/5 games within season per player.
+- Persist as table or materialized view for Gold consumption.
+
+### 8) Write Strategy
+- Write Parquet partitioned by `season` (and `match_id` for large facts) to `silver/`.
+- Optional CSV mirrors for debugging.
+
+---
+
+## Data Quality (QA) in Silver
+Use expectations (e.g., Great Expectations) to validate:
+
+**Uniqueness & Keys**
+- `f_fixture.match_id` is unique.
+- `f_odds_snapshot` uniqueness on (`match_id, bookmaker, snapshot_ts_utc, market_type, selection_ref, line`).
+
+**Referential Integrity**
+- `f_*` foreign keys present in corresponding dimensions (`team_id`, `player_id`, `venue_id`).
+
+**Type & Range Checks**
+- Prices > 1.0; implied probabilities ∈ (0, 1].
+- Percent fields (e.g., `percent_played`) within [0, 100].
+- Round within plausible H&A bounds for the season.
+
+**Temporal Consistency**
+- `snapshot_ts_utc` ≤ kickoff for pre‑match odds used by Gold.
+- Forecast run time ≤ valid time; observed time within ±60m of kickoff (configurable).
+
+---
+
+## Gold Layer: How Silver Enables SGM
+- Join **latest pre‑kickoff odds** (`v_odds_latest`) to fixtures (`f_fixture`).
+- Join **player props** odds to `f_player_game_stats` + `f_player_form_rollup` for per‑player probability models (e.g., disposals/goals/marks/tackles).
+- Compute **EV/edge** per leg; assemble SGMs with configurable correlation handling:
+  - Start with independence baseline; graduate to empirical intra‑match correlations or copulas.
+- Apply staking logic (e.g., Kelly fraction on combined EV with correlation adjustment caps).
+
+**Market Normalization Examples**
+- `match_result` → selections: `home`, `away`, `draw`.
+- `total_points` → scope `full_time`, `line=159.5`, selections: `over|under`.
+- `player_disposals` → selection_entity=`player`, `line=20.5`, selections: `over|under`.
+- `player_goals` → analogous to disposals.
+
+---
+
+## File/Dir Layout (target)
+```
+bronze/
+  odds/ (snapshots, history)
+  fixtures/
+  weather/ (forecast, history)
+  event_urls/
+  player_stats/
+
+silver/
+  dim_team.parquet
+  dim_player.parquet
+  dim_venue.parquet
+  f_fixture.parquet
+  f_odds_snapshot.parquet
+  f_player_game_stats.parquet
+  f_weather_forecast.parquet
+  f_weather_observed.parquet
+  bridge_event_url.parquet
+  f_player_form_rollup.parquet
+  views/ (v_odds_latest.sql)
+
+gold/
+  sgm_recommendations.parquet
+  diagnostics/
+
+config/
+  team_aliases.csv
+  player_aliases.csv
+  settings.yml
+```
+
+---
+
+## Make Targets (suggested)
+```
+make bronze         # run all bronze ingestions (idempotent)
+make silver         # build all silver tables
+make silver-qa      # run Silver expectation suites
+make gold           # produce SGM recommendations
+```
+
+---
+
+## Timeline (Revised)
+| Weeks | Tasks |
+|---|---|
+| **1–2** | Bronze cleanup + player stats ingestion *(done)* |
+| **3–4** | Implement Silver build (`build_silver.py`), canonicalize IDs, write Parquet |
+| **5–6** | QA suites for Silver; Gold prototype (independence EV SGMs) |
+| **7–8** | Player props expansion; correlation modelling; staking refinements |
+
+---
+
+## Change Log (from v0.1)
+- Added Bronze **player stats** ingestion for 2024 & 2025 (game‑by‑game).
+- Expanded Silver schema with canonical **dimensions**, **match_id**, **player stats fact**, and **rollups**.
+- Clarified odds snapshot handling and weather forecast vs observed separation.
+- Defined file layout, QA checks, and make targets.
+
+---
+
+## Next Actions
+1) Commit this roadmap update.
+2) Finalize `config/team_aliases.csv` and seed `config/player_aliases.csv`.
+3) Implement `scripts/silver/build_silver.py` per ETL steps above (Parquet outputs).
+4) Add Silver QA suites (uniqueness, FK integrity, ranges, temporal checks).
+5) Proceed to Gold prototype with `v_odds_latest` + simple SGM EV builder.
+
+

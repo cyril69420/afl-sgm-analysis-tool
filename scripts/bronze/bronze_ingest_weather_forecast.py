@@ -34,6 +34,13 @@ from ._shared import (
     load_env,
 )
 
+from scripts.bronze._shared import (
+    add_common_test_flags,
+    maybe_limit_df,
+    preview_or_write,
+    echo_df_info,
+)
+
 from schemas.bronze import BronzeWeatherRow
 
 logger = logging.getLogger(__name__)
@@ -52,6 +59,7 @@ def main(argv: Optional[List[str]] = None) -> None:
     parser.add_argument("--provider", default=None, help="Weather provider override (default from settings.yaml)")
     parser.add_argument("--log-level", default="INFO")
     args = parser.parse_args(argv)
+add_common_test_flags(parser)  # adds --dry-run and --limit
 
     logging.basicConfig(level=getattr(logging, args.log_level.upper(), logging.INFO), format="%(asctime)s %(levelname)s %(name)s: %(message)s")
 
@@ -113,12 +121,15 @@ def main(argv: Optional[List[str]] = None) -> None:
         logger.info("No weather forecast rows to write")
         return
 
-    df = pl.DataFrame(rows)
-    # Partition only by venue; season and round are not included in this schema
-    partition_cols = ["venue"]
-    output_root = project_root / "bronze" / "weather" / "forecast"
-    parquet_write(df, output_root, partition_cols=partition_cols)
-    logger.info("Wrote %d weather forecast rows to %s", len(df), output_root)
+    df_out = maybe_limit_df(df_out, args.limit)
+preview_or_write(
+    df_out,
+    dry_run=args.dry_run,
+    out_subdir="<bronze-subdir>",   # see mapping below
+    out_stem="<file-stem>",         # short, deterministic
+    fmt="parquet"                   # keep CSV if you must, parquet preferred
+)
+
 
 
 if __name__ == "__main__":

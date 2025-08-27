@@ -1,171 +1,212 @@
-#!/usr/bin/env python
-"""
-Build the Silver layer from the Bronze data.
-
-This script reads raw Bronze tables (event URLs, fixtures, odds, and
-optional weather) and produces a set of clean, deduplicated tables
-ready for downstream analytics. The resulting Parquet files are
-written into the ``silver`` directory and overwrite any existing
-datasets. Idempotency is achieved by selecting only the most recent
-records for each key and removing duplicate rows.
-"""
-
+# scripts/silver/build_silver.py
 from __future__ import annotations
-
-import argparse
-import logging
-from pathlib import Path
+import argparse, glob, json, os, sys
 from datetime import datetime
+from zoneinfo import ZoneInfo
 import polars as pl
-import duckdb
 
-from schemas.bronze import BronzeEventUrl, BronzeFixtureRow, BronzeOddsSnapshotRow, BronzeOddsHistoryRow
+from scripts.silver.utils import team_id as mk_team_id, venue_id as mk_venue_id, match_id as mk_match_id
 
+# ---------- Helpers ----------
+def now_utc_str() -> str:
+    return datetime.utcnow().isoformat(timespec="seconds") + "Z"
 
-def build_silver_event_urls(bronze_root: Path, silver_root: Path, season: int) -> None:
-    """Construct the silver event_urls table from bronze data.
+def read_alias_map(path_csv: str) -> dict[str, str]:
+    if not os.path.exists(path_csv):
+        return {}
+    df = pl.read_csv(path_csv)
+    out = {}
+    for row in df.iter_rows(named=True):
+        out[str(row["alias"]).strip().lower()] = str(row["team_name_canon" if "team_name_canon" in row else "player_name_canon"]).strip().lower()
+    return out
 
-    This function selects the latest record for each (bookmaker, event_url)
-    combination based on the ``last_seen_utc`` timestamp and computes
-    additional fields such as ``is_upcoming`` and ``seen_span_s``.
-    """
-    bronze_dir = bronze_root / "event_urls"
-    if not bronze_dir.exists():
-        logging.warning("Bronze event_urls directory does not exist: %s", bronze_dir)
-        return
-    # Read all Parquet files using DuckDB for efficiency
-    con = duckdb.connect()
-    try:
-        con.execute(f"CREATE VIEW events AS SELECT * FROM read_parquet('{bronze_dir}/**/*.parquet')")
-    except Exception:
-        logging.warning("No bronze event URL files found in %s", bronze_dir)
-        return
-    df = con.execute(
-        """
-        WITH ranked AS (
-          SELECT *,
-                 row_number() OVER (PARTITION BY bookmaker, event_url ORDER BY last_seen_utc DESC) AS rn
-          FROM events
-          WHERE season = ?
-        )
-        SELECT *,
-               (CASE WHEN status ILIKE '%upcoming%' THEN TRUE ELSE FALSE END) AS is_upcoming,
-               CAST(strftime(last_seen_utc, '%s') AS BIGINT) - CAST(strftime(first_seen_utc, '%s') AS BIGINT) AS seen_span_s
-        FROM ranked
-        WHERE rn = 1
-        """,
-        [season]
-    ).pl()
-    if df.height == 0:
-        logging.info("No event URLs for season %s", season)
-        return
-    silver_root.mkdir(parents=True, exist_ok=True)
-    out_path = silver_root / "event_urls.parquet"
-    df.write_parquet(out_path, compression="zstd")
-    logging.info("Wrote silver event_urls with %d rows to %s", df.height, out_path)
+def canonize(name: str, alias_map: dict[str, str]) -> str:
+    if name is None:
+        return ""
+    key = str(name).strip().lower()
+    return alias_map.get(key, key).replace(" ", "_")
 
+def scan_any(paths: list[str]) -> pl.DataFrame:
+    frames = []
+    for p in paths:
+        for fp in glob.glob(p):
+            if fp.endswith(".parquet"):
+                frames.append(pl.read_parquet(fp))
+            elif fp.endswith(".csv"):
+                frames.append(pl.read_csv(fp))
+    if not frames:
+        return pl.DataFrame()
+    return pl.concat(frames, how="diagonal_relaxed")
 
-def build_silver_odds(bronze_root: Path, silver_root: Path, season: int) -> None:
-    """Construct the silver odds table by combining snapshots and history.
+def pick_first(*cols):
+    for c in cols:
+        if c is not None:
+            return c
+    return None
 
-    Deduplicate rows on the full key and normalise text casing. Raw payload
-    is not retained in the Silver layer.
-    """
-    odds_snap_dir = bronze_root / "odds" / "snapshots"
-    odds_hist_dir = bronze_root / "odds" / "history"
-    files = []
-    if odds_snap_dir.exists():
-        files += [p.as_posix() for p in odds_snap_dir.glob("**/*.parquet")]
-    if odds_hist_dir.exists():
-        files += [p.as_posix() for p in odds_hist_dir.glob("**/*.parquet")]
-    if not files:
-        logging.info("No bronze odds files found; skipping silver odds")
-        return
-    df = pl.read_parquet(files)
-    # Filter by season
-    # Season is stored in separate path; not present in odds rows. We'll read season from event_urls.
-    # To join season and round we need event_urls mapping. We'll derive later in Gold.
-    # Remove raw_payload for Silver
-    if "raw_payload" in df.columns:
-        df = df.drop("raw_payload")
-    # Normalise text fields
-    df = df.with_columns([
-        pl.col("market_group").str.to_lowercase().alias("market_group"),
-        pl.col("market_name").str.to_lowercase().alias("market_name"),
-        pl.col("selection").str.to_lowercase().alias("selection")
+# ---------- Main ----------
+def build(args):
+    os.makedirs(args.silver_dir, exist_ok=True)
+    created_ts = now_utc_str()
+
+    team_alias = read_alias_map(args.team_aliases)
+    # --- 1) Collect fixtures
+    fixtures = scan_any([
+        os.path.join(args.bronze_dir, "fixtures", "*.parquet"),
+        os.path.join(args.bronze_dir, "fixtures", "*.csv"),
     ])
-    # Deduplicate on key columns
-    unique_cols = ["bookmaker", "event_url", "market_group", "market_name", "selection", "line", "decimal_odds", "captured_at_utc"]
-    df = df.unique(subset=unique_cols)
-    silver_root.mkdir(parents=True, exist_ok=True)
-    out_path = silver_root / "odds.parquet"
-    df.write_parquet(out_path, compression="zstd")
-    logging.info("Wrote silver odds with %d rows to %s", df.height, out_path)
 
+    if fixtures.is_empty():
+        print("[build_silver] No fixtures in bronze/fixtures. Aborting.", file=sys.stderr)
+        sys.exit(2)
 
-def build_silver_fixtures(bronze_root: Path, silver_root: Path, season: int) -> None:
-    """Write the fixtures table into Silver without modification.
+    # Map likely column variants -> standard
+    # Expected: home_team, away_team, scheduled_utc, season, round, venue (variants supported)
+    colmap = {
+        "home_team": [ "home_team", "home", "home_name" ],
+        "away_team": [ "away_team", "away", "away_name" ],
+        "scheduled_utc": [ "scheduled_utc", "kickoff_utc", "start_time_utc" ],
+        "season": [ "season", "year" ],
+        "round": [ "round", "rnd" ],
+        "venue": [ "venue", "venue_name", "stadium" ],
+        "source_tz": [ "source_tz" ],
+        "status": [ "status" ],
+        "discovered_at_utc": [ "discovered_at_utc", "first_seen_utc" ],
+    }
 
-    Fixtures are assumed to already be clean in Bronze. Source timezone
-    is preserved.
-    """
-    fixtures_dir = bronze_root / "fixtures"
-    files = list(fixtures_dir.glob("*.parquet"))
-    if not files:
-        logging.info("No bronze fixtures found; skipping silver fixtures")
-        return
-    df = pl.read_parquet([p.as_posix() for p in files])
-    df = df.filter(pl.col("season") == season)
-    if df.height == 0:
-        logging.info("No fixtures for season %s", season)
-        return
-    silver_root.mkdir(parents=True, exist_ok=True)
-    out_path = silver_root / "fixtures.parquet"
-    df.write_parquet(out_path, compression="zstd")
-    logging.info("Wrote silver fixtures with %d rows to %s", df.height, out_path)
+    def getcol(df, keys):
+        for k in keys:
+            if k in df.columns:
+                return pl.col(k)
+        return pl.lit(None).alias(keys[0])
 
+    fixtures_std = fixtures.select([
+        getcol(fixtures, colmap["home_team"]).alias("home_team"),
+        getcol(fixtures, colmap["away_team"]).alias("away_team"),
+        getcol(fixtures, colmap["scheduled_utc"]).alias("scheduled_utc"),
+        getcol(fixtures, colmap["season"]).cast(pl.Int64).alias("season"),
+        getcol(fixtures, colmap["round"]).cast(pl.Int64).alias("round"),
+        getcol(fixtures, colmap["venue"]).alias("venue"),
+        getcol(fixtures, colmap["source_tz"]).alias("source_tz"),
+        getcol(fixtures, colmap["status"]).alias("status"),
+        getcol(fixtures, colmap["discovered_at_utc"]).alias("discovered_at_utc"),
+    ])
 
-def build_silver_weather(bronze_root: Path, silver_root: Path, season: int) -> None:
-    """Optional weather aggregation for Silver.
+    # Canonicalise team/venue strings
+    fixtures_std = fixtures_std.with_columns([
+        pl.col("home_team").cast(pl.Utf8).str.strip().alias("home_team"),
+        pl.col("away_team").cast(pl.Utf8).str.strip().alias("away_team"),
+        pl.col("venue").cast(pl.Utf8).str.strip().alias("venue"),
+        pl.col("scheduled_utc").cast(pl.Utf8),
+    ])
 
-    This function aligns weather observations and forecasts to hourly bins
-    around the fixture kickoff times. For now it concatenates forecast
-    and history without alignment.
-    """
-    forecast_dir = bronze_root / "weather" / "forecast"
-    history_dir = bronze_root / "weather" / "history"
-    paths = []
-    if forecast_dir.exists():
-        paths += [p.as_posix() for p in forecast_dir.glob("**/*.parquet")]
-    if history_dir.exists():
-        paths += [p.as_posix() for p in history_dir.glob("**/*.parquet")]
-    if not paths:
-        logging.info("No bronze weather data; skipping silver weather")
-        return
-    df = pl.read_parquet(paths)
-    silver_root.mkdir(parents=True, exist_ok=True)
-    out_path = silver_root / "weather.parquet"
-    df.write_parquet(out_path, compression="zstd")
-    logging.info("Wrote silver weather with %d rows to %s", df.height, out_path)
+    # Build dim_team candidates by union of teams seen in fixtures (+ optional odds/player_stats later)
+    team_names = (
+        pl.concat([
+            fixtures_std.select(pl.col("home_team").alias("t")),
+            fixtures_std.select(pl.col("away_team").alias("t"))
+        ])
+        .drop_nulls()
+        .with_columns(pl.col("t").str.to_lowercase())
+        .unique()
+        .filter(pl.col("t") != "")
+        .to_series()
+        .to_list()
+    )
+    teams_canon = [canonize(t, team_alias) for t in team_names]
+    dim_team = pl.DataFrame({
+        "team_name_canon": teams_canon,
+    }).with_columns([
+        pl.col("team_name_canon"),
+        pl.col("team_name_canon").map_elements(lambda s: json.dumps([s]), return_dtype=pl.String).alias("aliases_json"),
+        pl.col("team_name_canon").map_elements(mk_team_id).alias("team_id"),
+        pl.lit(created_ts).alias("created_utc"),
+        pl.lit(created_ts).alias("updated_utc"),
+    ]).select(["team_id", "team_name_canon", "aliases_json", "created_utc", "updated_utc"])
 
+    # dim_venue (minimal; you can enrich later)
+    venues = (
+        fixtures_std.select(pl.col("venue"))
+        .drop_nulls()
+        .unique()
+        .filter(pl.col("venue") != "")
+        .to_series().to_list()
+    )
+    dim_venue = pl.DataFrame({
+        "venue_name": venues
+    }).with_columns([
+        pl.col("venue_name"),
+        pl.col("venue_name").map_elements(mk_venue_id).alias("venue_id"),
+    ]).with_columns([
+        pl.lit(None, dtype=pl.Float64).alias("lat"),
+        pl.lit(None, dtype=pl.Float64).alias("lon"),
+        pl.lit(None, dtype=pl.Utf8).alias("tz"),
+    ]).select(["venue_id", "venue_name", "lat", "lon", "tz"])
 
-def main() -> None:
-    parser = argparse.ArgumentParser(description="Build Silver layer from Bronze data")
-    parser.add_argument("--root", default=".", help="Project root directory")
-    parser.add_argument("--season", type=int, required=True, help="Season to build")
-    parser.add_argument("--include-weather", action="store_true", help="Include weather in Silver")
-    parser.add_argument("--log-level", default="INFO", help="Logging level")
-    args = parser.parse_args()
-    logging.basicConfig(level=getattr(logging, args.log_level.upper(), logging.INFO), format="%(asctime)s %(levelname)s %(message)s")
-    root = Path(args.root).resolve()
-    bronze_root = root / "bronze"
-    silver_root = root / "silver"
-    build_silver_event_urls(bronze_root, silver_root, args.season)
-    build_silver_odds(bronze_root, silver_root, args.season)
-    build_silver_fixtures(bronze_root, silver_root, args.season)
-    if args.include_weather:
-        build_silver_weather(bronze_root, silver_root, args.season)
+    # Map canonical team ids onto fixtures and compute match_id
+    # Canonise strings for join
+    canon_home = [canonize(x or "", team_alias) for x in fixtures_std.get_column("home_team").to_list()]
+    canon_away = [canonize(x or "", team_alias) for x in fixtures_std.get_column("away_team").to_list()]
+    home_ids = [mk_team_id(x) if x else None for x in canon_home]
+    away_ids = [mk_team_id(x) if x else None for x in canon_away]
 
+    venue_ids = [mk_venue_id(v or "") if v else None for v in fixtures_std.get_column("venue").to_list()]
+
+    # Compose f_fixture
+    f_fixture = fixtures_std.with_columns([
+        pl.Series("home_team_id", home_ids),
+        pl.Series("away_team_id", away_ids),
+        pl.Series("venue_id", venue_ids),
+    ])
+
+    # Build match_id
+    # NOTE: we leave scheduled_utc exactly as provided (string). If you prefer, parse to ts first.
+    match_ids = []
+    for r in f_fixture.iter_rows(named=True):
+        match_ids.append(mk_match_id(
+            int(r["season"]) if r["season"] is not None else 0,
+            int(r["round"]) if r["round"] is not None else 0,
+            r["home_team_id"] or "",
+            r["away_team_id"] or "",
+            r["scheduled_utc"] or "",
+            r["venue_id"] or "",
+        ))
+    f_fixture = f_fixture.with_columns(pl.Series("match_id", match_ids))
+
+    # Add date_local (if tz known later; for now keep null)
+    f_fixture = f_fixture.with_columns([
+        pl.lit(None, dtype=pl.Date).alias("date_local"),
+    ])
+
+    # Reorder columns
+    f_fixture = f_fixture.select([
+        "match_id", "season", "round", "scheduled_utc", "date_local",
+        "venue_id", "home_team_id", "away_team_id",
+        "status", "source_tz", "discovered_at_utc"
+    ])
+
+    # --- Write Parquet
+    os.makedirs(args.silver_dir, exist_ok=True)
+    dim_team.write_parquet(os.path.join(args.silver_dir, "dim_team.parquet"))
+    dim_venue.write_parquet(os.path.join(args.silver_dir, "dim_venue.parquet"))
+    f_fixture.write_parquet(os.path.join(args.silver_dir, "f_fixture.parquet"))
+
+    # Optional CSV mirrors for easy eyeballing
+    if args.csv_mirror:
+        dim_team.write_csv(os.path.join(args.silver_dir, "dim_team.csv"))
+        dim_venue.write_csv(os.path.join(args.silver_dir, "dim_venue.csv"))
+        f_fixture.write_csv(os.path.join(args.silver_dir, "f_fixture.csv"))
+
+    print(f"[OK] Wrote Silver: dim_team ({dim_team.height}), dim_venue ({dim_venue.height}), f_fixture ({f_fixture.height})")
+
+def main(argv=None):
+    p = argparse.ArgumentParser(description="Build minimal Silver (dims + fixtures)")
+    p.add_argument("--bronze-dir", default="bronze", help="Path to bronze data directory")
+    p.add_argument("--silver-dir", default="silver", help="Output directory for Silver tables")
+    p.add_argument("--team-aliases", default="config/team_aliases.csv", help="Team alias map CSV")
+    p.add_argument("--csv-mirror", action="store_true", help="Also write CSV next to Parquet")
+    args = p.parse_args(argv)
+    build(args)
 
 if __name__ == "__main__":
     main()
