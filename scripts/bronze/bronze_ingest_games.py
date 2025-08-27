@@ -54,6 +54,7 @@ def main(argv: Optional[List[str]] = None) -> int:
     parser.add_argument("--until", type=str, default=None, help="YYYY-MM-DD (exclusive)")
     parser.add_argument("--csv", action="store_true", help="Also write CSV")
     parser.add_argument("--log-level", default="INFO")
+    parser.add_argument("--overwrite", action="store_true", help="Overwrite existing bronze output dir")
     add_common_test_flags(parser)
     args = parser.parse_args(argv)
 
@@ -115,7 +116,7 @@ def main(argv: Optional[List[str]] = None) -> int:
         return 0
 
     output_root = project_root / "bronze" / "fixtures"
-    parquet_write(df, output_root, partition_cols=["season", "round"])
+    parquet_write(df, output_root, partition_cols=["season", "round"], overwrite=args.overwrite)
     logger.info("Wrote %d rows → %s", len(df), output_root)
 
     if args.csv:

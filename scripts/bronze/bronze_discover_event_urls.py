@@ -47,6 +47,7 @@ def main(argv: Optional[List[str]] = None) -> int:
     parser.add_argument("--bookmakers", type=str, help="Comma-separated")
     parser.add_argument("--csv", action="store_true", help="Also mirror CSV")
     parser.add_argument("--log-level", default="INFO")
+    parser.add_argument("--overwrite", action="store_true", help="Overwrite existing bronze output dir")
     add_common_test_flags(parser)
     args = parser.parse_args(argv)
 

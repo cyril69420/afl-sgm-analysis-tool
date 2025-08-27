@@ -310,31 +310,27 @@ def load_env(path: str | Path) -> None:
     except Exception:
         pass
 
-def parquet_write(df: Any, output_root: str | Path, partition_cols: list[str] | None = None) -> Path:
-    """
-    Partitioned Parquet write using DuckDB COPY (robust + fast).
-    Writes to a directory like bronze/<subdir>/..., creating subfolders
-    season=YYYY/round=... etc.
-    """
+# --- inside scripts/bronze/_shared.py ---
+
+def parquet_write(df, output_root: Path, partition_cols=None, overwrite: bool=False):
     output_root = Path(output_root)
     ensure_dir(output_root)
-    # Normalise to Pandas for COPY registration
-    if _is_polars_df(df):
-        pdf = df.to_pandas()
-    elif _is_pandas_df(df):
-        pdf = df
-    else:
-        raise TypeError("parquet_write: unsupported df type")
+
+    import duckdb
     con = duckdb.connect()
-    con.register("df", pdf)
+    con.register("df", df.to_pandas() if hasattr(df, "to_pandas") else df)
+
     if partition_cols:
         cols = ", ".join(partition_cols)
-        con.execute(f"COPY df TO '{output_root.as_posix()}' (FORMAT PARQUET, PARTITION_BY ({cols}), OVERWRITE_OR_IGNORE FALSE)")
+        ow = "TRUE" if overwrite else "FALSE"
+        con.execute(
+            f"COPY df TO '{output_root.as_posix()}' "
+            f"(FORMAT PARQUET, PARTITION_BY ({cols}), OVERWRITE_OR_IGNORE {ow})"
+        )
     else:
-        con.execute(f"COPY df TO '{(output_root / 'data.parquet').as_posix()}' (FORMAT PARQUET, OVERWRITE_OR_IGNORE FALSE)")
-    con.unregister("df")
-    con.close()
-    return output_root
+        # single-file write target must be a file path, not a directory
+        # if you use this branch anywhere, handle overwrite by removing the file first
+        raise NotImplementedError("single-file parquet_write not used for partitioned bronze")
 
 
 # ============================================================

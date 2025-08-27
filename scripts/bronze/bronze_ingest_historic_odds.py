@@ -54,6 +54,7 @@ def main(argv: Optional[List[str]] = None) -> int:
     parser.add_argument("--bookmakers", type=str, default=None, help="Comma-separated")
     parser.add_argument("--force", action="store_true", help="Ignore existing hashes")
     parser.add_argument("--log-level", default="INFO")
+    parser.add_argument("--overwrite", action="store_true", help="Overwrite existing bronze output dir")
     add_common_test_flags(parser)
     args = parser.parse_args(argv)
 
@@ -151,7 +152,7 @@ def main(argv: Optional[List[str]] = None) -> int:
         LOG.info("DRY RUN: skipping writes")
         return 0
 
-    parquet_write(df, output_root, partition_cols=["season", "round", "bookmaker"])
+    parquet_write(df, output_root, partition_cols=["season", "round", "bookmaker"], overwrite=args.overwrite)
     LOG.info("Wrote %d rows → %s", len(df), output_root)
     return 0
 

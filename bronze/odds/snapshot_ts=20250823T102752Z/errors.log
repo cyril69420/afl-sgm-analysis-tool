@@ -1,2 +1,0 @@
-2025_ID37292,sportsbet,https://www.sportsbet.com.au/betting/australian-rules/afl/richmond-v-geelong-cats-9504816 -> RuntimeError: ScraperException: Server-side HTTP error when hitting the sportsbook's API: the sportsbook's service is acting up. Retry later.
-2025_ID37292,pointsbet,https://pointsbet.com.au/sports/aussie-rules/AFL/2390970 -> JSONDecodeError: Expecting value: line 1 column 1 (char 0)

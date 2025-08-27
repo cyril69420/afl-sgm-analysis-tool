@@ -42,6 +42,7 @@ def main(argv: Optional[List[str]] = None) -> int:
     parser.add_argument("--season", type=int, help="Season year")
     parser.add_argument("--provider", default=None, help="Weather provider override")
     parser.add_argument("--log-level", default="INFO")
+    parser.add_argument("--overwrite", action="store_true", help="Overwrite existing bronze output dir")
     add_common_test_flags(parser)
     args = parser.parse_args(argv)
 
@@ -117,7 +118,7 @@ def main(argv: Optional[List[str]] = None) -> int:
         return 0
 
     output_root = project_root / "bronze" / "weather" / "history"
-    parquet_write(df, output_root, partition_cols=["venue"])
+    parquet_write(df, output_root, partition_cols=["venue"], overwrite=args.overwrite)
     LOG.info("Wrote %d rows → %s", len(df), output_root)
     return 0
 
