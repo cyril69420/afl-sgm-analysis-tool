@@ -54,6 +54,18 @@ except Exception as e:  # pragma: no cover
     HTTPAdapter = None  # type: ignore
     Retry = None  # type: ignore
 
+from datetime import datetime, timezone
+try:
+    from zoneinfo import ZoneInfo  # py>=3.9
+except Exception:  # pragma: no cover
+    ZoneInfo = None  # type: ignore
+import hashlib
+try:
+    import yaml  # optional
+except Exception:  # pragma: no cover
+    yaml = None  # type: ignore
+import duckdb  # used for partitioned parquet writes
+
 # ============================================================
 # Logging
 # ============================================================
@@ -238,16 +250,91 @@ def read_any(paths_glob: Iterable[str]) -> Any:
     return []
 
 
-def echo_df_info(df: Any, label: str = "df") -> None:
+# --- replace the existing echo_df_info with this wider signature ---
+def echo_df_info(df: Any, label: str = "df", note: str | None = None) -> None:
+    """Log shape/columns for either Polars or Pandas; note==label alias."""
+    title = note or label
     try:
         if _is_polars_df(df):
-            LOG.info("%s: shape=%s cols=%s", label, df.shape, df.columns)
+            LOG.info("%s: shape=%s cols=%s", title, df.shape, df.columns)
         elif _is_pandas_df(df):
-            LOG.info("%s: shape=%s cols=%s", label, df.shape, list(df.columns))
+            LOG.info("%s: shape=%s cols=%s", title, df.shape, list(df.columns))
         else:
-            LOG.info("%s: (unknown df type) %r", label, type(df))
+            LOG.info("%s: (unknown df type) %r", title, type(df))
     except Exception:
         pass
+# --- add the missing helpers used by bronze scripts ---
+
+def utc_now() -> datetime:
+    return datetime.now(timezone.utc)
+
+def to_utc(dt_local: datetime, source_tz: str) -> datetime:
+    """Convert a naive local datetime + IANA tz string to UTC."""
+    if dt_local.tzinfo is None:
+        if ZoneInfo is None:
+            raise RuntimeError("zoneinfo not available; cannot convert to UTC")
+        dt_local = dt_local.replace(tzinfo=ZoneInfo(source_tz))
+    return dt_local.astimezone(timezone.utc)
+
+def hash_row(parts: Iterable[Any]) -> str:
+    """Stable SHA1 over a sequence of values with '|' separators."""
+    h = hashlib.sha1()
+    for p in parts:
+        h.update(str(p).encode("utf-8"))
+        h.update(b"|")
+    return h.hexdigest()
+
+def load_yaml(path: str | Path) -> dict:
+    """Best-effort YAML loader → {} on missing/invalid."""
+    p = Path(path)
+    if not p.exists() or yaml is None:
+        return {}
+    try:
+        with p.open("r", encoding="utf-8") as f:
+            return yaml.safe_load(f) or {}
+    except Exception:
+        return {}
+
+def load_env(path: str | Path) -> None:
+    """Tiny .env parser (KEY=VALUE, ignores blanks/#)."""
+    p = Path(path)
+    if not p.exists():
+        return
+    try:
+        for line in p.read_text(encoding="utf-8").splitlines():
+            s = line.strip()
+            if not s or s.startswith("#") or "=" not in s:
+                continue
+            k, v = s.split("=", 1)
+            os.environ.setdefault(k.strip(), v.strip())
+    except Exception:
+        pass
+
+def parquet_write(df: Any, output_root: str | Path, partition_cols: list[str] | None = None) -> Path:
+    """
+    Partitioned Parquet write using DuckDB COPY (robust + fast).
+    Writes to a directory like bronze/<subdir>/..., creating subfolders
+    season=YYYY/round=... etc.
+    """
+    output_root = Path(output_root)
+    ensure_dir(output_root)
+    # Normalise to Pandas for COPY registration
+    if _is_polars_df(df):
+        pdf = df.to_pandas()
+    elif _is_pandas_df(df):
+        pdf = df
+    else:
+        raise TypeError("parquet_write: unsupported df type")
+    con = duckdb.connect()
+    con.register("df", pdf)
+    if partition_cols:
+        cols = ", ".join(partition_cols)
+        con.execute(f"COPY df TO '{output_root.as_posix()}' (FORMAT PARQUET, PARTITION_BY ({cols}), OVERWRITE_OR_IGNORE FALSE)")
+    else:
+        con.execute(f"COPY df TO '{(output_root / 'data.parquet').as_posix()}' (FORMAT PARQUET, OVERWRITE_OR_IGNORE FALSE)")
+    con.unregister("df")
+    con.close()
+    return output_root
 
 
 # ============================================================
