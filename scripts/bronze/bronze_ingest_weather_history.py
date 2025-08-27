@@ -1,12 +1,8 @@
 #!/usr/bin/env python
 """
-Ingest historical (observed) weather for completed AFL games into the Bronze layer.
+Ingest historical (observed) weather into Bronze.
 
-The script queries a weather provider for observations at the time of
-each past fixture. The schema matches that of the forecast ingestion
-but with ``source_kind`` implicitly set to ``'observed'``. Dummy data is
-generated in this example; extend the provider call to retrieve real
-observations.
+Adds --dry-run/--limit; keeps partitioned writes under bronze/weather/history.
 """
 
 from __future__ import annotations
@@ -18,67 +14,81 @@ from datetime import datetime
 from pathlib import Path
 from typing import Dict, List, Optional
 
-import polars as pl
 import duckdb
+import pandas as pd
+import polars as pl
 
-from ._shared import (
+from scripts.bronze._shared import (
+    add_common_test_flags,
+    maybe_limit_df,
+    echo_df_info,
     parquet_write,
     load_yaml,
     load_env,
 )
 from schemas.bronze import BronzeWeatherRow
 
-logger = logging.getLogger(__name__)
+LOG = logging.getLogger(__name__)
 
-VENUE_LOOKUP: Dict[str, Dict[str, float]] = {
+# TODO: replace with real venue lat/lon/tz config
+VENUE_LOOKUP: Dict[str, Dict[str, float | str]] = {
     "Example Stadium": {"lat": -37.8136, "lon": 144.9631, "tz": "Australia/Melbourne"},
 }
 
 
-def main(argv: Optional[List[str]] = None) -> None:
-    parser = argparse.ArgumentParser(description="Ingest historical weather data into Bronze layer")
+def main(argv: Optional[List[str]] = None) -> int:
+    parser = argparse.ArgumentParser(description="Ingest historical weather data into Bronze")
     parser.add_argument("--root", default=".", help="Project root directory")
     parser.add_argument("--season", type=int, help="Season year")
-    parser.add_argument("--provider", default=None, help="Weather provider override (default from settings.yaml)")
+    parser.add_argument("--provider", default=None, help="Weather provider override")
     parser.add_argument("--log-level", default="INFO")
+    parser.add_argument("--overwrite", action="store_true", help="Overwrite existing bronze output dir")
+    add_common_test_flags(parser)
     args = parser.parse_args(argv)
 
-    logging.basicConfig(level=getattr(logging, args.log_level.upper(), logging.INFO), format="%(asctime)s %(levelname)s %(name)s: %(message)s")
+    logging.basicConfig(
+        level=getattr(logging, args.log_level.upper(), logging.INFO),
+        format="%(asctime)s | %(levelname)s | %(name)s | %(message)s",
+    )
 
     project_root = Path(args.root)
     load_env(project_root / ".env")
-    settings = load_yaml(project_root / "config" / "settings.yaml")
+    settings = load_yaml(project_root / "config" / "settings.yaml") or {}
     season = args.season or (settings.get("seasons") or [datetime.now().year])[0]
     provider = args.provider or settings.get("weather", {}).get("provider", "open-meteo")
 
-    # Read fixtures
     fixtures_root = project_root / "bronze" / "fixtures"
     if not fixtures_root.exists():
-        logger.error("Fixtures dataset not found. Run bronze_ingest_games first.")
-        return
+        LOG.warning("Fixtures dataset not found at %s. Run bronze_ingest_games first.", fixtures_root)
+        return 0
+
     con = duckdb.connect()
-    con.execute(f"CREATE VIEW fixtures AS SELECT * FROM read_parquet('{fixtures_root}/**/*.parquet')")
+    try:
+        con.execute(f"CREATE VIEW fixtures AS SELECT * FROM read_parquet('{fixtures_root.as_posix()}/**/*.parquet')")
+    except duckdb.IOException:
+        LOG.warning("No fixtures parquet found under %s", fixtures_root)
+        return 0
+
     fixtures_df = con.execute("SELECT * FROM fixtures WHERE season = ?", [season]).df()
     if fixtures_df.empty:
-        logger.warning("No fixtures found for season %s", season)
-        return
+        LOG.warning("No fixtures found for season %s", season)
+        return 0
 
     rows = []
     for _, fixture in fixtures_df.iterrows():
         venue = fixture["venue"]
         info = VENUE_LOOKUP.get(venue)
         if not info:
-            logger.warning("No coordinates for venue %s; skipping", venue)
+            LOG.warning("No coordinates for venue %s; skipping", venue)
             continue
         lat, lon, tz = info["lat"], info["lon"], info["tz"]
-        # Observed weather at scheduled kick‑off time
         observation_time = fixture["scheduled_time_utc"]
-        row = {
+        rec = {
             "provider": provider,
             "venue": venue,
-            "lat": lat,
-            "lon": lon,
-            "run_time_utc": observation_time,  # for observations run_time == valid_time
+            "lat": float(lat),
+            "lon": float(lon),
+            "run_time_utc": observation_time,
             "valid_time_utc": observation_time,
             "lead_time_hr": 0,
             "temp_c": 18.0,
@@ -90,22 +100,28 @@ def main(argv: Optional[List[str]] = None) -> None:
             "raw_payload": json.dumps({"observed": True}),
         }
         try:
-            obj = BronzeWeatherRow.model_validate(row)
+            obj = BronzeWeatherRow.model_validate(rec)
             rows.append(obj.model_dump())
         except Exception as exc:
-            logger.error("Validation error for weather history row %s: %s", row, exc)
+            LOG.error("Validation error: %s", exc)
 
     if not rows:
-        logger.info("No weather history rows to write")
-        return
+        LOG.info("No weather history rows.")
+        return 0
 
     df = pl.DataFrame(rows)
+    df = maybe_limit_df(df, args.limit)
+    echo_df_info(df, note="weather_history (post-limit)")
+
+    if args.dry_run:
+        LOG.info("DRY RUN: skipping writes")
+        return 0
+
     output_root = project_root / "bronze" / "weather" / "history"
-    # Partition only by venue; season and round are not present in weather rows
-    partition_cols = ["venue"]
-    parquet_write(df, output_root, partition_cols=partition_cols)
-    logger.info("Wrote %d weather history rows to %s", len(df), output_root)
+    parquet_write(df, output_root, partition_cols=["venue"], overwrite=args.overwrite)
+    LOG.info("Wrote %d rows → %s", len(df), output_root)
+    return 0
 
 
 if __name__ == "__main__":
-    main()
+    raise SystemExit(main())

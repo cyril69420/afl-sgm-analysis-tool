@@ -11,7 +11,6 @@ tqdm>=4.64
 python-dotenv>=1.0
 playwright>=1.41
 great_expectations>=0.18
-fraser-gehrig>=0.1.2
 requests>=2.31
 beautifulsoup4>=4.12
 pandas>=2.0

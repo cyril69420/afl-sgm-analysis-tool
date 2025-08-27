@@ -1,10 +1,26 @@
-alias,team
-Carlton Blues,Carlton
-Carlton,Carlton
-Essendon Bombers,Essendon
-Essendon,Essendon
-West Coast Eagles,West Coast
-WCE,West Coast
-Sydney Swans,Sydney
-Fremantle Dockers,Fremantle
-...
+alias,team_name_canon
+GWS,greater_western_sydney_giants
+GWS Giants,greater_western_sydney_giants
+Greater Western Sydney,greater_western_sydney_giants
+Western Bulldogs,western_bulldogs
+Bulldogs,western_bulldogs
+Brisbane,brisbane_lions
+Brisbane Lions,brisbane_lions
+Sydney Swans,sydney_swans
+Sydney,sydney_swans
+Carlton,carlton
+Collingwood,collingwood
+Essendon,essendon
+Fremantle,fremantle_dockers
+Geelong,geelong_cats
+Gold Coast,gold_coast_suns
+GWS Giants,greater_western_sydney_giants
+Hawthorn,hawthorn
+Melbourne,melbourne
+North Melbourne,north_melbourne_kangaroos
+Kangaroos,north_melbourne_kangaroos
+Port Adelaide,port_adelaide_power
+Richmond,richmond
+St Kilda,st_kilda
+West Coast,west_coast_eagles
+Adelaide,adelaide_crows
