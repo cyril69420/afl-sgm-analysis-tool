@@ -26,6 +26,7 @@ from scripts.bronze._shared import (
     parquet_write,
     load_yaml,
     load_env,
+    write_csv_mirror
 )
 from schemas.bronze import BronzeOddsHistoryRow
 
@@ -55,6 +56,11 @@ def main(argv: Optional[List[str]] = None) -> int:
     parser.add_argument("--force", action="store_true", help="Ignore existing hashes")
     parser.add_argument("--log-level", default="INFO")
     parser.add_argument("--overwrite", action="store_true", help="Overwrite existing bronze output dir")
+    parser.add_argument(
+        "--csv-mirror",
+        action="store_true",
+        help="Also write a flat CSV copy under bronze_csv_mirror/<subdir>/<stem>.csv for inspection",
+    )
     add_common_test_flags(parser)
     args = parser.parse_args(argv)
 
@@ -109,11 +115,11 @@ def main(argv: Optional[List[str]] = None) -> int:
             pass
 
     new_rows = []
-    # (stub) synthesize a couple of historical snapshots relative to a fake kickoff
     for _, row in event_df.iterrows():
         bookmaker = row["bookmaker"]
         event_url = row["event_url"]
-        kickoff = utc_now() + timedelta(days=2)  # placeholder for demo
+        # (stub) synthesize snapshots relative to a fake kickoff
+        kickoff = utc_now() + timedelta(days=2)
         for t in [kickoff - timedelta(hours=48), kickoff - timedelta(hours=24)]:
             rec = {
                 "captured_at_utc": t,
@@ -154,6 +160,9 @@ def main(argv: Optional[List[str]] = None) -> int:
 
     parquet_write(df, output_root, partition_cols=["season", "round", "bookmaker"], overwrite=args.overwrite)
     LOG.info("Wrote %d rows → %s", len(df), output_root)
+
+    if args.csv_mirror:
+        write_csv_mirror(df, "odds/history", f"odds_history_{season}")
     return 0
 
 

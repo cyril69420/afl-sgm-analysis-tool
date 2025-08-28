@@ -1,0 +1,2 @@
+provider,venue,lat,lon,run_time_utc,valid_time_utc,lead_time_hr,temp_c,wind_speed_ms,wind_gust_ms,rain_prob,pressure_hpa,cloud_pct,raw_payload
+open-meteo,Example Stadium,-37.8136,144.9631,2025-03-25T16:40:00.000000+0800,2025-03-25T16:40:00.000000+0800,0,18.0,4.0,6.0,0.1,1017.0,30.0,"{""observed"": true}"

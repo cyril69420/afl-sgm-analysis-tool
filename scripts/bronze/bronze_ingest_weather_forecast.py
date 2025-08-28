@@ -26,6 +26,7 @@ from scripts.bronze._shared import (
     parquet_write,
     load_yaml,
     load_env,
+    write_csv_mirror
 )
 from schemas.bronze import BronzeWeatherRow
 
@@ -44,6 +45,11 @@ def main(argv: Optional[List[str]] = None) -> int:
     parser.add_argument("--provider", default=None, help="Weather provider override")
     parser.add_argument("--log-level", default="INFO")
     parser.add_argument("--overwrite", action="store_true", help="Overwrite existing bronze output dir")
+    parser.add_argument(
+        "--csv-mirror",
+        action="store_true",
+        help="Also write a flat CSV copy under bronze_csv_mirror/<subdir>/<stem>.csv for inspection",
+    )
     add_common_test_flags(parser)
     args = parser.parse_args(argv)
 
@@ -125,6 +131,9 @@ def main(argv: Optional[List[str]] = None) -> int:
     output_root = project_root / "bronze" / "weather" / "forecast"
     parquet_write(df, output_root, partition_cols=["venue"], overwrite=args.overwrite)
     LOG.info("Wrote %d rows → %s", len(df), output_root)
+
+    if args.csv_mirror:
+        write_csv_mirror(df, "weather/forecast", f"weather_forecast_{season}")
     return 0
 
 
