@@ -488,3 +488,24 @@ def safe_len(x: Any) -> int:
 
 def json_pretty(obj: Any) -> str:
     return json.dumps(obj, indent=2, ensure_ascii=False, sort_keys=True)
+
+# --- add near other helpers in _shared.py ---
+
+def write_csv_mirror(
+    df: Any,
+    subdir: str,
+    stem: str,
+    base: str | Path = "bronze_csv_mirror",
+    csv_kwargs: Dict[str, Any] | None = None,
+) -> Path:
+    """
+    Write a flat CSV mirror for manual inspection to:
+    bronze_csv_mirror/<subdir>/<stem>.csv
+    """
+    csv_kwargs = csv_kwargs or {}
+    path = bronze_out_path(subdir, f"{stem}.csv", base=base)
+    LOG.info("Writing CSV mirror -> %s", path)
+    # write_df already handles Polars/Pandas interchange
+    write_df(df, path, fmt="csv", csv_kwargs=csv_kwargs)
+    return path
+

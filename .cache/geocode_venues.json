@@ -1,0 +1,26 @@
+{
+  "Adelaide Oval": {
+    "name": "Adelaide Oval",
+    "lat": -34.91558,
+    "lon": 138.59619,
+    "tz": "Australia/Adelaide"
+  },
+  "Melbourne Cricket Ground": {
+    "name": "Melbourne Cricket Ground",
+    "lat": -37.819954,
+    "lon": 144.983398,
+    "tz": "Australia/Melbourne"
+  },
+  "Sydney Showground Stadium": {
+    "name": "Sydney Showground Stadium",
+    "lat": -33.84306,
+    "lon": 151.06778,
+    "tz": "Australia/Sydney"
+  },
+  "Optus Stadium": {
+    "name": "Optus Stadium",
+    "lat": -31.95111,
+    "lon": 115.88917,
+    "tz": "Australia/Perth"
+  }
+}

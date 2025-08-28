@@ -341,6 +341,7 @@ def main():
     ap.add_argument("--verbose", action="store_true", help="Verbose logging & URL checks.")
     ap.add_argument("--out-root", default=os.path.join("bronze", "player_stats"),
                     help="Output root (partitioned by season=YYYY).")
+
     args = ap.parse_args()
 
     any_rows = 0

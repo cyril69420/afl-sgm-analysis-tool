@@ -1,0 +1,17 @@
+captured_at_utc,bookmaker,event_url,market_group,market_name,selection,line,decimal_odds,raw_payload,season,round,hash_key,source_kind
+2025-08-28T10:38:45.999904+0800,tab,https://example.com/tab/2025/R1,match,Head to Head,Home,,1.8,,2025,R1,1fc8a6a7561b65ef1e20ee9e971e74380edaa1d1,seed_from_live
+2025-08-28T10:38:45.999904+0800,betfair,https://example.com/betfair/2025/R1,totals,Total Points,Over,160.5,1.95,,2025,R1,9b9c75ad8b96d1d03f8f3614a498f2de9b83d71f,seed_from_live
+2025-08-28T10:38:46.000901+0800,sportsbet,https://example.com/sportsbet/2025/R2,totals,Total Points,Over,160.5,1.95,,2025,R2,523ab729eddd37f8ff9a707afb121fbd25013109,seed_from_live
+2025-08-28T10:38:46.000901+0800,pointsbet,https://example.com/pointsbet/2025/R1,match,Head to Head,Home,,1.8,,2025,R1,b08e0fc942d94430ace6a9e948fa31cd386d00a8,seed_from_live
+2025-08-28T10:38:46.000901+0800,sportsbet,https://example.com/sportsbet/2025/R1,totals,Total Points,Over,160.5,1.95,,2025,R1,e04467363c9c6eb9d3b0d402b4cdcd1baa9c215c,seed_from_live
+2025-08-28T10:38:45.999904+0800,betfair,https://example.com/betfair/2025/R2,totals,Total Points,Over,160.5,1.95,,2025,R2,aab514fc37c5095a3673a62a1c12fb01cbf60dcd,seed_from_live
+2025-08-28T10:38:45.999904+0800,tab,https://example.com/tab/2025/R2,totals,Total Points,Over,160.5,1.95,,2025,R2,2aaf711cb51cdff323278fb5527f86e9ec73b47b,seed_from_live
+2025-08-28T10:38:45.999904+0800,betfair,https://example.com/betfair/2025/R2,match,Head to Head,Home,,1.8,,2025,R2,a7b758b5435b624363a1febc7f6055f53d9f38d8,seed_from_live
+2025-08-28T10:38:45.999904+0800,betfair,https://example.com/betfair/2025/R1,match,Head to Head,Home,,1.8,,2025,R1,c453861cfbfeafb7f33b4f60f04d6d37a59a6c9b,seed_from_live
+2025-08-28T10:38:46.000901+0800,pointsbet,https://example.com/pointsbet/2025/R2,totals,Total Points,Over,160.5,1.95,,2025,R2,3993204417a390fece43181dc8899a8344ddc9e1,seed_from_live
+2025-08-28T10:38:46.000901+0800,sportsbet,https://example.com/sportsbet/2025/R2,match,Head to Head,Home,,1.8,,2025,R2,288b4d8d393ce51d08f8c480559d8b82f1cf71b9,seed_from_live
+2025-08-28T10:38:46.000901+0800,pointsbet,https://example.com/pointsbet/2025/R1,totals,Total Points,Over,160.5,1.95,,2025,R1,42a7c21ab6ea313321c844d3071ad1d1a7d9c6e5,seed_from_live
+2025-08-28T10:38:45.999904+0800,tab,https://example.com/tab/2025/R1,totals,Total Points,Over,160.5,1.95,,2025,R1,a735a9209be2c19fa35836155bd74e641462575d,seed_from_live
+2025-08-28T10:38:46.000901+0800,sportsbet,https://example.com/sportsbet/2025/R1,match,Head to Head,Home,,1.8,,2025,R1,7844799bc312b60ab8e73df3e91b14b1cedef92b,seed_from_live
+2025-08-28T10:38:45.999904+0800,tab,https://example.com/tab/2025/R2,match,Head to Head,Home,,1.8,,2025,R2,973ebc01660e7100fd2daea2d083c23bbfe6aae3,seed_from_live
+2025-08-28T10:38:46.000901+0800,pointsbet,https://example.com/pointsbet/2025/R2,match,Head to Head,Home,,1.8,,2025,R2,0ce7adbc47cdbe23b04060019aede37e6b35bcba,seed_from_live

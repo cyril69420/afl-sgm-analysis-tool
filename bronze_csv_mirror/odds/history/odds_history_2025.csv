@@ -1,0 +1,17 @@
+captured_at_utc,bookmaker,event_url,market_group,market_name,selection,line,decimal_odds,raw_payload,source_kind,hash_key,season,round
+2025-08-28T02:38:47.224327+0000,betfair,https://example.com/betfair/2025/R1,match,Head to Head,Example,,1.9,"{""historical"": true}",historical,dc500c4abbd83daf653e6866f9104db47d6a43a9,2025,R1
+2025-08-29T02:38:47.224327+0000,betfair,https://example.com/betfair/2025/R1,match,Head to Head,Example,,1.9,"{""historical"": true}",historical,eae3a79e49041589187e65f314e8b49ee2d587cf,2025,R1
+2025-08-28T02:38:47.224327+0000,betfair,https://example.com/betfair/2025/R2,match,Head to Head,Example,,1.9,"{""historical"": true}",historical,f26696650a1d17043edfc404d32320662a84578b,2025,R2
+2025-08-29T02:38:47.224327+0000,betfair,https://example.com/betfair/2025/R2,match,Head to Head,Example,,1.9,"{""historical"": true}",historical,6412ea9fbbbc883eaeaa98e494e84538f7dbe778,2025,R2
+2025-08-28T02:38:47.224327+0000,tab,https://example.com/tab/2025/R1,match,Head to Head,Example,,1.9,"{""historical"": true}",historical,da4f46f830c37ec457a327cfe621a7a478ef4f91,2025,R1
+2025-08-29T02:38:47.224327+0000,tab,https://example.com/tab/2025/R1,match,Head to Head,Example,,1.9,"{""historical"": true}",historical,ccc69900c5dd3437193056e1c6a71b60c7a8320f,2025,R1
+2025-08-28T02:38:47.224327+0000,tab,https://example.com/tab/2025/R2,match,Head to Head,Example,,1.9,"{""historical"": true}",historical,432d4f36f650d1f8c613af9fdfa83075524dd2c7,2025,R2
+2025-08-29T02:38:47.224327+0000,tab,https://example.com/tab/2025/R2,match,Head to Head,Example,,1.9,"{""historical"": true}",historical,b6a3ef574634992668bf6213d1cf56c308836de9,2025,R2
+2025-08-28T02:38:47.224327+0000,pointsbet,https://example.com/pointsbet/2025/R1,match,Head to Head,Example,,1.9,"{""historical"": true}",historical,12d6e5dc6f339667e00597a06196d9ddc5491577,2025,R1
+2025-08-29T02:38:47.224327+0000,pointsbet,https://example.com/pointsbet/2025/R1,match,Head to Head,Example,,1.9,"{""historical"": true}",historical,6ed9b3fc675ebcdf37161d71ef401ed0edbe24ba,2025,R1
+2025-08-28T02:38:47.224327+0000,pointsbet,https://example.com/pointsbet/2025/R2,match,Head to Head,Example,,1.9,"{""historical"": true}",historical,866b62d57f01ca6676b517da04a7a5a4e279c231,2025,R2
+2025-08-29T02:38:47.224327+0000,pointsbet,https://example.com/pointsbet/2025/R2,match,Head to Head,Example,,1.9,"{""historical"": true}",historical,1835f9d95799aa9ee8b7166fe46c801e7446959f,2025,R2
+2025-08-28T02:38:47.224327+0000,sportsbet,https://example.com/sportsbet/2025/R1,match,Head to Head,Example,,1.9,"{""historical"": true}",historical,11cb90ce2de9efca11986c00cc84ec2ccee75100,2025,R1
+2025-08-29T02:38:47.224327+0000,sportsbet,https://example.com/sportsbet/2025/R1,match,Head to Head,Example,,1.9,"{""historical"": true}",historical,89ff796e8c824640ff768380e9a68c0ab96ea568,2025,R1
+2025-08-28T02:38:47.225324+0000,sportsbet,https://example.com/sportsbet/2025/R2,match,Head to Head,Example,,1.9,"{""historical"": true}",historical,310e4c014b7e6b796fa93c9e56827c5b224f50b2,2025,R2
+2025-08-29T02:38:47.225324+0000,sportsbet,https://example.com/sportsbet/2025/R2,match,Head to Head,Example,,1.9,"{""historical"": true}",historical,403c7770c4132fc4e90cf28a4ba79e84d31a8f4a,2025,R2

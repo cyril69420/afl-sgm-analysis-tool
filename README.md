@@ -1,4 +1,4 @@
-# AFL SGM Analysis Tool
+﻿# AFL SGM Analysis Tool
 
 Pipelines and utilities to collect and model AFL (Australian Football League) data for **same-game multi (SGM)** analysis. The project follows a Lakehouse **Medallion** flow:
 
@@ -191,5 +191,3 @@ Keep Bronze parser changes surgical; log all commands in RUN.md.
 
 Open a PR to main once Bronze smoke + Silver build pass locally.
 
-Licence
-For educational use only; no betting advice. Obey data-source ToS.
