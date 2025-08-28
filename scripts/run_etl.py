@@ -1,40 +1,57 @@
-import subprocess, sys
+#!/usr/bin/env python
+"""
+Run Bronze → Silver pipeline in dependency order for a season.
+
+Examples:
+  python run_etl.py --season 2025 --overwrite
+  python run_etl.py --season 2025 --phase silver   # only Silver
+"""
+from __future__ import annotations
+
+import argparse
+import logging
+import subprocess
+import sys
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parents[1]
-PY = sys.executable
-
-STEPS = [
-    # Bronze: inputs & discovery
-    ["bronze_ingest_games.py"],
-    ["bronze_discover_event_urls.py"],
-    ["bronze_ingest_odds.py"],
-
-    # Bronze: (optional) others, if you’re also pulling now
-    # ["bronze_ingest_lineups.py"],
-    # ["bronze_ingest_player_stats.py"],
-    # ["bronze_ingest_weather.py"],
-
-    # Silver
-    ["02_bronze_to_silver.py"],
-
-    # Gold
-    ["build_pred_totals.py"],
-    ["build_pred_match.py"],
-    ["sgm_generator_v2.py"],
-    ["qa_silver.py"],
-]
-
-def run(step):
-    print(">>", step[0])
-    r = subprocess.run([PY, str(ROOT/"scripts"/step[0])], cwd=ROOT)
+def sh(cmd: list[str]) -> None:
+    logging.info("$ %s", " ".join(cmd))
+    r = subprocess.run(cmd)
     if r.returncode != 0:
-        raise SystemExit(f"Failed: {step[0]}")
+        sys.exit(r.returncode)
 
 def main():
-    for s in STEPS:
-        run(s)
-    print("DONE.")
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--season", type=int, required=True)
+    ap.add_argument("--phase", choices=["all", "bronze", "silver"], default="all")
+    ap.add_argument("--overwrite", action="store_true")
+    ap.add_argument("--csv-mirror", action="store_true")
+    ap.add_argument("--log-level", default="INFO")
+    args = ap.parse_args()
 
-if __name__ == "__main__":
-    main()
+    logging.basicConfig(format="%(asctime)s | %(levelname)s | %(message)s",
+                        level=getattr(logging, args.log_level.upper(), logging.INFO))
+
+    # paths
+    py = [sys.executable, "-m"]
+
+    if args.phase in ("all", "bronze"):
+        # 1) Fixtures & URLs
+        sh(py + ["scripts.bronze.bronze_ingest_games",
+                 "--season", str(args.season),
+                 "--log-level", args.log_level] + (["--overwrite"] if args.overwrite else []) + (["--csv-mirror"] if args.csv_mirror else []))
+        sh(py + ["scripts.bronze.bronze_discover_event_urls",
+                 "--season", str(args.season),
+                 "--log-level", args.log_level,
+                 "--bookmakers", "sportsbet,pointsbet"] + (["--overwrite"] if args.overwrite else []) + (["--csv-mirror"] if args.csv_mirror else []))
+
+        # 2) Odds & Weather
+        sh(py + ["scripts.bronze.bronze_ingest_odds_live",
+                 "--season", str(args.season),
+                 "--log-level", args.log_level] + (["--overwrite"] if args.overwrite else []) + (["--csv-mirror"] if args.csv_mirror else []))
+        sh(py + ["scripts.bronze.bronze_ingest_historic_odds",
+                 "--season", str(args.season),
+                 "--log-level", args.log_level] + (["--overwrite"] if args.overwrite else []) + (["--csv-mirror"] if args.csv_mirror else []))
+        sh(py + ["scripts.bronze.bronze_ingest_weather_forecast",
+                 "--season", str(args.season),
+                 "--log-level", args.log_level] + (["--overwrite"] if args.overwrite else []) + (["--cs]()_

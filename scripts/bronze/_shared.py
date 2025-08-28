@@ -133,6 +133,23 @@ def maybe_limit_df(df: Any, limit: Optional[int]):
 # Filesystem / IO
 # ============================================================
 
+def bronze_partition_path(root: str, **parts: Any) -> str:
+    """
+    Build a Hive-style partition path like:
+      root/season=2025/round=10/...
+    Usage: bronze_partition_path('bronze/teamsheets', season=2025, round=10)
+    """
+    path = pathlib.Path(root)
+    # ensure stable ordering: season, round, then the rest alpha
+    preferred = ["season", "round"]
+    keys = preferred + [k for k in sorted(parts) if k not in preferred]
+    for k in keys:
+        if k in parts and parts[k] is not None:
+            path = path / f"{k}={parts[k]}"
+    path.mkdir(parents=True, exist_ok=True)
+    return str(path)
+
+
 def ensure_dir(path: str | Path) -> Path:
     p = Path(path)
     p.mkdir(parents=True, exist_ok=True)
