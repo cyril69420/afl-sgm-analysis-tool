@@ -191,5 +191,3 @@ Keep Bronze parser changes surgical; log all commands in RUN.md.
 
 Open a PR to main once Bronze smoke + Silver build pass locally.
 
-Licence
-For educational use only; no betting advice. Obey data-source ToS.
