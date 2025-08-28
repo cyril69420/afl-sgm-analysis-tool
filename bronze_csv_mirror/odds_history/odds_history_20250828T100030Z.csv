@@ -1,0 +1,433 @@
+captured_at_utc,bookmaker,event_url,market_group,market_name,selection,line,decimal_odds,raw_payload,season,round,hash_key,source_kind
+2024-06-01T23:59:00+00:00,market_consensus,asb:2024:Geelong_vs_Richmond:2024-06-01,H2H,Match,Away,,9.37,,2024,,bd2cfb4f1cef4df7060aad9fab8d59dfd535a3526fc72c91e4b718793cbc0ac0,asb_excel
+2024-05-05T23:59:00+00:00,market_consensus,asb:2024:Richmond_vs_Fremantle:2024-05-05,H2H,Match,Home,,2.69,,2024,,9b950579d46cada4b95b96a1d0894926bfbaa786f93bb3140ba81ccefb240ab3,asb_excel
+2024-05-10T23:59:00+00:00,market_consensus,asb:2024:Geelong_vs_Port Adelaide:2024-05-10,H2H,Match,Home,,1.26,,2024,,4f9e355319123e293f1e8120c9e29d499a7619d7186444d4af83f0ab880c1070,asb_excel
+2024-05-11T23:59:00+00:00,market_consensus,asb:2024:Gold Coast_vs_North Melbourne:2024-05-11,H2H,Match,Away,,6.78,,2024,,06eee9c4c0c03bea6f15ecd85eaa27ee6c67a7ed86f543154b534997d2c0a7c2,asb_excel
+2024-04-04T23:59:00+00:00,market_consensus,asb:2024:Adelaide_vs_Melbourne:2024-04-04,H2H,Match,Away,,1.52,,2024,,898a26d440535dacdd0987fc057056ace49cc6c9f6da3bd827149c597d82f9c8,asb_excel
+2024-03-14T23:59:00+00:00,market_consensus,asb:2024:Carlton_vs_Richmond:2024-03-14,H2H,Match,Away,,2.73,,2024,,f7ca7d45f11aef2faa299d1e18222074fe394df5d8a6328f7031e6f0f0608808,asb_excel
+2024-05-18T23:59:00+00:00,market_consensus,asb:2024:Collingwood_vs_Adelaide:2024-05-18,H2H,Match,Away,,2.75,,2024,,883c0f94277a0f2f5fda1a671d102937cf452864fd5bf5c1e782a436e9ebd485,asb_excel
+2024-08-03T23:59:00+00:00,market_consensus,asb:2024:Geelong_vs_Adelaide:2024-08-03,H2H,Match,Home,,1.33,,2024,,bd265fea285bcc1c56917f29487d38ead947f1c118a04cdb379a57453f2b1dcb,asb_excel
+2024-07-27T23:59:00+00:00,market_consensus,asb:2024:North Melbourne_vs_Geelong:2024-07-27,H2H,Match,Home,,3.68,,2024,,4760485f2114840e694fc5268a4e0a1d4ba22223b585ffe81cc25efd58837cd3,asb_excel
+2024-08-09T23:59:00+00:00,market_consensus,asb:2024:Sydney_vs_Collingwood:2024-08-09,H2H,Match,Away,,2.85,,2024,,458be56ebab522b72daf98cbe86d8358b924e3594531116843d828296df8c485,asb_excel
+2024-07-20T23:59:00+00:00,market_consensus,asb:2024:Hawthorn_vs_Collingwood:2024-07-20,H2H,Match,Away,,1.94,,2024,,dee1958761b04ce9d0e107d0e797dba5587e838467fedcb7e06dbb6e3f23f2c4,asb_excel
+2024-04-20T23:59:00+00:00,market_consensus,asb:2024:Collingwood_vs_Port Adelaide:2024-04-20,H2H,Match,Home,,1.72,,2024,,1a74a1174abce25622998b52600918513427ef14e0b7b03133c8528b98cf3448,asb_excel
+2024-08-18T23:59:00+00:00,market_consensus,asb:2024:Hawthorn_vs_Richmond:2024-08-18,H2H,Match,Away,,7.96,,2024,,121d0ed33d341f2cf2cdf749286139d0bdcfa8b4279644ec03627eb901f06bf4,asb_excel
+2024-06-21T23:59:00+00:00,market_consensus,asb:2024:Carlton_vs_Geelong:2024-06-21,H2H,Match,Away,,2.22,,2024,,16bafc9d8ae5a72d30662c403d80af9f78a889f3d227288499659685a8af1c66,asb_excel
+2024-06-09T23:59:00+00:00,market_consensus,asb:2024:Essendon_vs_Carlton:2024-06-09,H2H,Match,Home,,2.42,,2024,,c0a629b196b245b98841633dcb6acfbe65dc3a5e6c148d7e211f3b076dcb06d4,asb_excel
+2024-04-07T23:59:00+00:00,market_consensus,asb:2024:Collingwood_vs_Hawthorn:2024-04-07,H2H,Match,Home,,1.2,,2024,,792850808013b57a6ca40e1092d00624415672137e352439b8b36267ac0d7f76,asb_excel
+2024-06-15T23:59:00+00:00,market_consensus,asb:2024:Richmond_vs_Hawthorn:2024-06-15,H2H,Match,Away,,1.44,,2024,,a8efd5496ef1a5ac40a784de05f71a16f3212d6f858058299616f30f6ed0b890,asb_excel
+2024-06-15T23:59:00+00:00,market_consensus,asb:2024:Western Bulldogs_vs_Fremantle:2024-06-15,H2H,Match,Home,,1.73,,2024,,37422a29bc0cf7db503b66daa7aec1b54bb91f76fd4c70fc77b531151f5a9411,asb_excel
+2024-05-26T23:59:00+00:00,market_consensus,asb:2024:Adelaide_vs_West Coast:2024-05-26,H2H,Match,Away,,4.48,,2024,,6e53b1dc15d7c47afd9b506253250ee10e58be0de0b73061a4ac18b471ad8f22,asb_excel
+2024-09-14T23:59:00+00:00,market_consensus,asb:2024:GWS Giants_vs_Brisbane Lions:2024-09-14,H2H,Match,Home,,1.67,,2024,,f02ce8900b4625298c6a358075ebf9e935df1a8f02c5a46079923cf9e43ad89d,asb_excel
+2024-08-18T23:59:00+00:00,market_consensus,asb:2024:West Coast_vs_Carlton:2024-08-18,H2H,Match,Home,,1.7,,2024,,0c6a988029ddfdc10bc1a7091f1d66df10ef0ee6db79368670278a1a16a7a080,asb_excel
+2024-03-28T23:59:00+00:00,market_consensus,asb:2024:Brisbane Lions_vs_Collingwood:2024-03-28,H2H,Match,Home,,1.4,,2024,,7d0670edeb4d4a91cc1999b0e86173afa664dc115266a758f36adfdaaa03cfd0,asb_excel
+2024-07-28T23:59:00+00:00,market_consensus,asb:2024:Collingwood_vs_Richmond:2024-07-28,H2H,Match,Away,,3.86,,2024,,22ecb87c70859d69cc91f1e38ff2782de4940ec4ff568d83dc2806b5659797e7,asb_excel
+2024-08-23T23:59:00+00:00,market_consensus,asb:2024:Melbourne_vs_Collingwood:2024-08-23,H2H,Match,Home,,2.02,,2024,,83504506bd854a9f4fe9b35963fb036fa55fa1433b5888a7c23d3e97e888ce5e,asb_excel
+2024-03-16T23:59:00+00:00,market_consensus,asb:2024:Geelong_vs_St Kilda:2024-03-16,H2H,Match,Home,,1.42,,2024,,cc08bb4329e5874df285384ca0ba96315f602ffb9ffe0a4d805077f351c6c44d,asb_excel
+2024-06-02T23:59:00+00:00,market_consensus,asb:2024:Melbourne_vs_Fremantle:2024-06-02,H2H,Match,Home,,1.5,,2024,,c815c54218ff3c0f32d20a09748967944dad39e091df344297df24c957ae471c,asb_excel
+2024-05-25T23:59:00+00:00,market_consensus,asb:2024:North Melbourne_vs_Port Adelaide:2024-05-25,H2H,Match,Home,,8.29,,2024,,0e9c0ea667a67b3834b22e5f442099357ebea448a03cf6fcac6892ae9558939c,asb_excel
+2024-03-24T23:59:00+00:00,market_consensus,asb:2024:West Coast_vs_GWS Giants:2024-03-24,H2H,Match,Away,,1.06,,2024,,6973cca5cd2eda34cf4485d699dff6307d6c8fcaf746f55d985f20fa8afd11b1,asb_excel
+2024-06-29T23:59:00+00:00,market_consensus,asb:2024:North Melbourne_vs_Western Bulldogs:2024-06-29,H2H,Match,Home,,7.07,,2024,,3291dd53e1742157e2f3cbed5f6441ffce4a0b4ba4c0378999bbec2d89e4a3e9,asb_excel
+2024-04-24T23:59:00+00:00,market_consensus,asb:2024:Richmond_vs_Melbourne:2024-04-24,H2H,Match,Away,,1.14,,2024,,6b30f7637f8dcd795ad4019cbe01c8969c260d583e49bd677a51000adec3b2f1,asb_excel
+2024-05-24T23:59:00+00:00,market_consensus,asb:2024:Fremantle_vs_Collingwood:2024-05-24,H2H,Match,Home,,1.55,,2024,,49b11160fa668a892287aa4edc5a91d80b7f8348e8e3dd3f0b9aa1a8462dcc44,asb_excel
+2024-04-20T23:59:00+00:00,market_consensus,asb:2024:Brisbane Lions_vs_Geelong:2024-04-20,H2H,Match,Home,,1.57,,2024,,037465caf57a0973717aee46ab56b821734054af79c29c6fe28fd19d00ae01ea,asb_excel
+2024-03-16T23:59:00+00:00,market_consensus,asb:2024:GWS Giants_vs_North Melbourne:2024-03-16,H2H,Match,Home,,1.05,,2024,,b26bb6a0dca312f3bd46667b2799385ece9fc6e851616c3b7cd978c9b5549718,asb_excel
+2024-07-05T23:59:00+00:00,market_consensus,asb:2024:Collingwood_vs_Essendon:2024-07-05,H2H,Match,Home,,1.57,,2024,,8e6b214ea1a714752d6b1ddc7bc0b132ebf178f885f9c9298f54c9da7d8a919a,asb_excel
+2024-04-01T23:59:00+00:00,market_consensus,asb:2024:Hawthorn_vs_Geelong:2024-04-01,H2H,Match,Home,,2.89,,2024,,53a71b5e84adfe2ef8ba78671c63a11d537f6ef2fe187636407f800ff2db3d99,asb_excel
+2024-04-27T23:59:00+00:00,market_consensus,asb:2024:North Melbourne_vs_Adelaide:2024-04-27,H2H,Match,Away,,1.17,,2024,,46bb7885bc8a829c3169eb121ec1b482ae3f96147d31b42404d040c5f23e392a,asb_excel
+2024-05-05T23:59:00+00:00,market_consensus,asb:2024:Brisbane Lions_vs_Gold Coast:2024-05-05,H2H,Match,Home,,1.45,,2024,,b8295fbcfaaf20b473cac312392d5bd6ce89eeddaca9d5742c3ac37d8a816bc6,asb_excel
+2024-06-29T23:59:00+00:00,market_consensus,asb:2024:Geelong_vs_Essendon:2024-06-29,H2H,Match,Home,,2.22,,2024,,45b8b2e515c32b835a307897bc47430460652edea3d4664c7757d3ee1ddf8596,asb_excel
+2024-08-25T23:59:00+00:00,market_consensus,asb:2024:Carlton_vs_St Kilda:2024-08-25,H2H,Match,Away,,1.71,,2024,,51c65b53194d8e897a912f1c4b3d13ea1a2eb10c769f8be49616ed501fe1624e,asb_excel
+2024-08-10T23:59:00+00:00,market_consensus,asb:2024:North Melbourne_vs_West Coast:2024-08-10,H2H,Match,Away,,2.16,,2024,,4070f7d8361eefd7e3fe102a784c237918a811eb1f562dc02fa8b658b6baf9c4,asb_excel
+2024-05-19T23:59:00+00:00,market_consensus,asb:2024:Port Adelaide_vs_Hawthorn:2024-05-19,H2H,Match,Away,,5.59,,2024,,af9de089d7a77ed06843393c2e3a39a3d992195f48c590f39a1a23650da8e224,asb_excel
+2024-08-18T23:59:00+00:00,market_consensus,asb:2024:Hawthorn_vs_Richmond:2024-08-18,H2H,Match,Home,,1.06,,2024,,1d960918c7a3701f800de123cb128c4c50e5c9d0176cd92801fcfcdcbdb32566,asb_excel
+2024-08-04T23:59:00+00:00,market_consensus,asb:2024:GWS Giants_vs_Hawthorn:2024-08-04,H2H,Match,Home,,1.78,,2024,,37eff9f0713790213290007730f81e5510ee2c4588f3b8cbfac9569762953337,asb_excel
+2024-03-29T23:59:00+00:00,market_consensus,asb:2024:North Melbourne_vs_Carlton:2024-03-29,H2H,Match,Away,,1.14,,2024,,20c7040c94519512f7fc63cc7c633a020e0b74c7ca35900be60dac0a635c282a,asb_excel
+2024-06-01T23:59:00+00:00,market_consensus,asb:2024:Hawthorn_vs_Adelaide:2024-06-01,H2H,Match,Away,,1.97,,2024,,0bcda596416abd2693b3ab8cba733579b682cb39c6fa865b53bcfc1d853839f7,asb_excel
+2024-05-04T23:59:00+00:00,market_consensus,asb:2024:West Coast_vs_Essendon:2024-05-04,H2H,Match,Home,,2.77,,2024,,6055597de18b6382d4a8a278e7673994b0a9713110b2edd364b46f29c3694301,asb_excel
+2024-03-24T23:59:00+00:00,market_consensus,asb:2024:Western Bulldogs_vs_Gold Coast:2024-03-24,H2H,Match,Home,,1.58,,2024,,37572f2b779b89ec60b009666ba0f97de17bb30a7a40a293843924e041cdbf86,asb_excel
+2024-03-17T23:59:00+00:00,market_consensus,asb:2024:Port Adelaide_vs_West Coast:2024-03-17,H2H,Match,Away,,8.59,,2024,,5463a46e1c869f3019c11706202c9a70be9b865e72a83ea15cd27dde9d391466,asb_excel
+2024-04-14T23:59:00+00:00,market_consensus,asb:2024:West Coast_vs_Richmond:2024-04-14,H2H,Match,Home,,2.69,,2024,,3e86b172ab486436e4b3c2b534dee042db2058169f58b415dd2b5f9a18958ee8,asb_excel
+2024-09-20T23:59:00+00:00,market_consensus,asb:2024:Sydney_vs_Port Adelaide:2024-09-20,H2H,Match,Away,,3.02,,2024,,2b9b60d8bb4c0c017f0f86084e00d78d6285211a686b470013e39ff90c4b9c8b,asb_excel
+2024-04-07T23:59:00+00:00,market_consensus,asb:2024:Gold Coast_vs_GWS Giants:2024-04-07,H2H,Match,Away,,1.28,,2024,,8579a80410487fce90cca26866de30f41166d6710985f58e916f2c886c919026,asb_excel
+2024-04-11T23:59:00+00:00,market_consensus,asb:2024:Melbourne_vs_Brisbane Lions:2024-04-11,H2H,Match,Away,,2.59,,2024,,1d71dd974bbed5c7ac33daf9fcb5543cdb7301244dd42a7eff58650ab3f3eaab,asb_excel
+2024-08-17T23:59:00+00:00,market_consensus,asb:2024:Port Adelaide_vs_Adelaide:2024-08-17,H2H,Match,Away,,2.64,,2024,,35ca6aeb775a39cd5d6688e405bd67c3d8b86f159cfdc1c1db7bab994793cbad,asb_excel
+2024-06-30T23:59:00+00:00,market_consensus,asb:2024:West Coast_vs_Hawthorn:2024-06-30,H2H,Match,Away,,1.53,,2024,,c19caeb32a1bf4d10025d9f1c6a75938caaaea692c01a70ead15588243535f8b,asb_excel
+2024-06-29T23:59:00+00:00,market_consensus,asb:2024:Geelong_vs_Essendon:2024-06-29,H2H,Match,Away,,1.6,,2024,,3543247b5e7969d410cc634964b4d4f962c21d947bb8fde1d746b22ff1d0dd4c,asb_excel
+2024-04-13T23:59:00+00:00,market_consensus,asb:2024:Port Adelaide_vs_Fremantle:2024-04-13,H2H,Match,Home,,1.27,,2024,,751283bc8f814e46f07f900ead8f576c8ba930174f1daa41dced0adaf3cdafcc,asb_excel
+2024-07-13T23:59:00+00:00,market_consensus,asb:2024:Adelaide_vs_St Kilda:2024-07-13,H2H,Match,Away,,2.42,,2024,,285b6d3828291db7e7d9b18f05566c3433d1ab71723a1daae3b6f6a21d0a4acf,asb_excel
+2024-03-31T23:59:00+00:00,market_consensus,asb:2024:Richmond_vs_Sydney:2024-03-31,H2H,Match,Away,,1.24,,2024,,5d97f2dccd518ba619caf6bc2e59dfcb066fe9fd225d23939f4df4e3591cb724,asb_excel
+2024-04-06T23:59:00+00:00,market_consensus,asb:2024:Fremantle_vs_Carlton:2024-04-06,H2H,Match,Away,,1.58,,2024,,73596a967f75e1e3e143e7fd62fd7c34a4bed72dc35166b696dd66bfc6ade102,asb_excel
+2024-04-28T23:59:00+00:00,market_consensus,asb:2024:Gold Coast_vs_West Coast:2024-04-28,H2H,Match,Home,,1.14,,2024,,64e46a5e78ff204f459abcc66d492f99126cd9349481f50865e75286f21818cd,asb_excel
+2024-07-13T23:59:00+00:00,market_consensus,asb:2024:Adelaide_vs_St Kilda:2024-07-13,H2H,Match,Home,,1.51,,2024,,49594f2ac22ea806f84e120d5e4ec10adcc4d04af247ae8ec26dc521b2352e82,asb_excel
+2024-08-24T23:59:00+00:00,market_consensus,asb:2024:Hawthorn_vs_North Melbourne:2024-08-24,H2H,Match,Away,,10.53,,2024,,afc8fe49c567392acbbd3f6f79c9b4c4295b3ebc71a07a20c4f4ab3667846189,asb_excel
+2024-04-06T23:59:00+00:00,market_consensus,asb:2024:Western Bulldogs_vs_Geelong:2024-04-06,H2H,Match,Away,,1.83,,2024,,f910bd5b8c3c814d436ae6ba8261fd653d2a391aaf1b1f3783320b21bc6459f2,asb_excel
+2024-05-05T23:59:00+00:00,market_consensus,asb:2024:Western Bulldogs_vs_Hawthorn:2024-05-05,H2H,Match,Away,,4.06,,2024,,65cd9cc112f7563363c857063763e36e3a119076991b46e9ab1e9467e4f64f96,asb_excel
+2024-03-23T23:59:00+00:00,market_consensus,asb:2024:Sydney_vs_Essendon:2024-03-23,H2H,Match,Away,,4.61,,2024,,2684e289c204a1e5f18428cf816bc1ffe431b4a47b1d26adec4f4b231411fbb3,asb_excel
+2024-05-04T23:59:00+00:00,market_consensus,asb:2024:Sydney_vs_GWS Giants:2024-05-04,H2H,Match,Away,,1.95,,2024,,f71687ad615ad4421e832c2df891711189a2fc4d4dc0fba7af21191dfbdc3784,asb_excel
+2024-08-24T23:59:00+00:00,market_consensus,asb:2024:Brisbane Lions_vs_Essendon:2024-08-24,H2H,Match,Away,,5.82,,2024,,7917bce6f96cd96cdd9ddc975336b4aed85725ff5e2d454462f266baced9aeff,asb_excel
+2024-06-21T23:59:00+00:00,market_consensus,asb:2024:Carlton_vs_Geelong:2024-06-21,H2H,Match,Home,,1.61,,2024,,cb648244b0782bee9ea54158d47c654de9e527f8d2793667d3bfc1e82cbc3863,asb_excel
+2024-08-02T23:59:00+00:00,market_consensus,asb:2024:Western Bulldogs_vs_Melbourne:2024-08-02,H2H,Match,Home,,1.28,,2024,,726af4f9ef6effb0b9204b5261bed1232f23c79baf6d1857607ab4fff6a4e9d5,asb_excel
+2024-06-08T23:59:00+00:00,market_consensus,asb:2024:West Coast_vs_North Melbourne:2024-06-08,H2H,Match,Home,,1.22,,2024,,a51715dc17e05f7a71a550f37312cc60b9f5c56accb81fc59e17c0c1ba740083,asb_excel
+2024-05-11T23:59:00+00:00,market_consensus,asb:2024:Hawthorn_vs_St Kilda:2024-05-11,H2H,Match,Away,,1.49,,2024,,98880dc22875625fd5e75dde2910333f639a6c4e26353599e82b2759f8bca2cd,asb_excel
+2024-07-05T23:59:00+00:00,market_consensus,asb:2024:Collingwood_vs_Essendon:2024-07-05,H2H,Match,Away,,2.3,,2024,,fedda4518e39247fe893d22445ea71dfc36323c7b3251754ec56b16ba14e87eb,asb_excel
+2024-05-11T23:59:00+00:00,market_consensus,asb:2024:Essendon_vs_GWS Giants:2024-05-11,H2H,Match,Home,,2.52,,2024,,79af2c7615ba38012dd8dbfc597314a73ddb9157c7ced8ccf326a6b4430b1e9e,asb_excel
+2024-06-02T23:59:00+00:00,market_consensus,asb:2024:Melbourne_vs_Fremantle:2024-06-02,H2H,Match,Away,,2.48,,2024,,3b400eb654bf0333d9bbdbce54a7b300d4fa1f33f4c4f9360db53c025cf14134,asb_excel
+2024-06-09T23:59:00+00:00,market_consensus,asb:2024:Sydney_vs_Geelong:2024-06-09,H2H,Match,Home,,1.27,,2024,,b297a6b58edbc766ef254805736bf9b9214731b9ab071e8650f727222f2943a4,asb_excel
+2024-05-11T23:59:00+00:00,market_consensus,asb:2024:Hawthorn_vs_St Kilda:2024-05-11,H2H,Match,Home,,2.52,,2024,,a60c6e62bc0ca41719fe95788d3c6a772b36649e9cf8ad9f5fd98793dc84b1e4,asb_excel
+2024-08-18T23:59:00+00:00,market_consensus,asb:2024:Western Bulldogs_vs_North Melbourne:2024-08-18,H2H,Match,Away,,7.3,,2024,,d17e20599ef7b62eb51b7839f0920f67b2c38d0bb36969b9ec9193207b8d6c5e,asb_excel
+2024-05-18T23:59:00+00:00,market_consensus,asb:2024:Collingwood_vs_Adelaide:2024-05-18,H2H,Match,Home,,1.42,,2024,,437a06f4f82464f9aecb6398cf0aea5511d2866950ce917dea4438b748cacba1,asb_excel
+2024-09-21T23:59:00+00:00,market_consensus,asb:2024:Geelong_vs_Brisbane Lions:2024-09-21,H2H,Match,Home,,1.78,,2024,,77fb6b4b0bfbbdf9518180cf2b94bd0e32ac3bf2b1b6131d73927b51ac3f49cd,asb_excel
+2024-04-20T23:59:00+00:00,market_consensus,asb:2024:West Coast_vs_Fremantle:2024-04-20,H2H,Match,Home,,5.51,,2024,,b3735bceaba3dcb0f8e4fc24c62911c178fe15500da20320a4430e7ac51db1cc,asb_excel
+2024-03-16T23:59:00+00:00,market_consensus,asb:2024:Gold Coast_vs_Adelaide:2024-03-16,H2H,Match,Home,,1.59,,2024,,10df3f1a8a3b4ca7ff386e02aaeffe3ecea46b006009b3904dadf61af7801f8c,asb_excel
+2024-07-28T23:59:00+00:00,market_consensus,asb:2024:Sydney_vs_Western Bulldogs:2024-07-28,H2H,Match,Away,,2.36,,2024,,f36e800a32c0ba550d4b524a6e0de5a984a9e4c074b44e8e851c4eadae284bde,asb_excel
+2024-05-25T23:59:00+00:00,market_consensus,asb:2024:Carlton_vs_Gold Coast:2024-05-25,H2H,Match,Home,,1.41,,2024,,6a3053d5980d523ca301970c7fee6c27b2504f674bc362228e9d9767120ae5e6,asb_excel
+2024-06-01T23:59:00+00:00,market_consensus,asb:2024:Hawthorn_vs_Adelaide:2024-06-01,H2H,Match,Home,,1.77,,2024,,d99d181923b60221301c61e3b625e4ef23e7be971c0915546467cea877958ae1,asb_excel
+2024-09-21T23:59:00+00:00,market_consensus,asb:2024:Geelong_vs_Brisbane Lions:2024-09-21,H2H,Match,Away,,1.97,,2024,,9f287d872710008dd2c991b1a5b4d335c83000700402ebaba3302841316606f2,asb_excel
+2024-09-28T23:59:00+00:00,market_consensus,asb:2024:Sydney_vs_Brisbane Lions:2024-09-28,H2H,Match,Away,,2.02,,2024,,aca9c60a6f3ba85b616c91cb7a9c5f1a1f703c3c8b3a3b4e44d593912ff72079,asb_excel
+2024-04-05T23:59:00+00:00,market_consensus,asb:2024:Brisbane Lions_vs_North Melbourne:2024-04-05,H2H,Match,Away,,5.9,,2024,,661829a71219d9a1eb3ab4a50d3e62a5da032568c367283cc3f11a4c9dc37f7c,asb_excel
+2024-08-17T23:59:00+00:00,market_consensus,asb:2024:St Kilda_vs_Geelong:2024-08-17,H2H,Match,Home,,2.44,,2024,,72be76ebadd5c0267a9694f704f0476bed44502cb31191e933743fec1421f300,asb_excel
+2024-07-06T23:59:00+00:00,market_consensus,asb:2024:Port Adelaide_vs_Western Bulldogs:2024-07-06,H2H,Match,Home,,1.91,,2024,,fef27995c7bbed02713ffdbffbdc73dc0e9e406dd63422ac19a22c3953795af5,asb_excel
+2024-08-24T23:59:00+00:00,market_consensus,asb:2024:Hawthorn_vs_North Melbourne:2024-08-24,H2H,Match,Home,,1.02,,2024,,76dd3a5fd05c451001ca481c9a05b6088ef99e8551f09dd75b309f19bd0ff715,asb_excel
+2024-07-14T23:59:00+00:00,market_consensus,asb:2024:Richmond_vs_GWS Giants:2024-07-14,H2H,Match,Home,,3.79,,2024,,2af70d205ea846072296e86004064bf0f74295cf25374b6ca268936e795150bf,asb_excel
+2024-03-29T23:59:00+00:00,market_consensus,asb:2024:Fremantle_vs_Adelaide:2024-03-29,H2H,Match,Away,,2.16,,2024,,0bf13e96e1a81744858235cc1b15b6e01d427af2a11fa69294d501bc24f309b0,asb_excel
+2024-07-20T23:59:00+00:00,market_consensus,asb:2024:Port Adelaide_vs_Richmond:2024-07-20,H2H,Match,Away,,8.43,,2024,,3161fcf7747d93897bf1f02c8e1a5e4380a65b8cbfc681a637a31e7efe86fe79,asb_excel
+2024-06-06T23:59:00+00:00,market_consensus,asb:2024:Adelaide_vs_Richmond:2024-06-06,H2H,Match,Home,,1.21,,2024,,d1091db2e8c4e4c7247dc6954347cb2d0b284f897103c32df24d4d6903ae39f0,asb_excel
+2024-05-31T23:59:00+00:00,market_consensus,asb:2024:Collingwood_vs_Western Bulldogs:2024-05-31,H2H,Match,Away,,1.69,,2024,,82ba8b48597144a4dca02cc967b4f8deddb62cc251fcb99254c43037e977d83f,asb_excel
+2024-07-07T23:59:00+00:00,market_consensus,asb:2024:Melbourne_vs_West Coast:2024-07-07,H2H,Match,Away,,5.06,,2024,,7e359654759a736e0503d322988fc4965c8916243d8f0032192429af450ce310,asb_excel
+2024-05-04T23:59:00+00:00,market_consensus,asb:2024:St Kilda_vs_North Melbourne:2024-05-04,H2H,Match,Away,,6.03,,2024,,c469a0cece917c4d431bbb9296fb114b57deb243747d6761a628062b21f03621,asb_excel
+2024-04-13T23:59:00+00:00,market_consensus,asb:2024:GWS Giants_vs_St Kilda:2024-04-13,H2H,Match,Away,,3.66,,2024,,eac8e27fe64a2138d4444c2cb9a59aaa1cc420b0687e0941934ca5abe540fd20,asb_excel
+2024-08-10T23:59:00+00:00,market_consensus,asb:2024:Essendon_vs_Gold Coast:2024-08-10,H2H,Match,Away,,2.46,,2024,,f6f4a3af8c89f9f835a92f2bb7fbcfb307f8320f602361000cf986cb8608ba8a,asb_excel
+2024-09-07T23:59:00+00:00,market_consensus,asb:2024:Sydney_vs_GWS Giants:2024-09-07,H2H,Match,Away,,2.32,,2024,,4bb477ef72903991a191e09f6629ffcb8d09e2ac577229ab9f718300c0a7b90f,asb_excel
+2024-03-17T23:59:00+00:00,market_consensus,asb:2024:Melbourne_vs_Western Bulldogs:2024-03-17,H2H,Match,Home,,1.54,,2024,,c44a488eb35e4806647ee84e0826e029027d69c6d5aebe1883cdbc1acd32afe6,asb_excel
+2024-04-25T23:59:00+00:00,market_consensus,asb:2024:GWS Giants_vs_Brisbane Lions:2024-04-25,H2H,Match,Home,,2.02,,2024,,fcf2519dd06d326bc0c41254d99e08d9d5a86b27cf12b96a980595abec393df6,asb_excel
+2024-08-23T23:59:00+00:00,market_consensus,asb:2024:Melbourne_vs_Collingwood:2024-08-23,H2H,Match,Away,,1.72,,2024,,754816bcd8d76929b2d71b7ccc30eca78b72fac5aaff1375bf48750b1f4a7b6c,asb_excel
+2024-06-22T23:59:00+00:00,market_consensus,asb:2024:GWS Giants_vs_Sydney:2024-06-22,H2H,Match,Home,,2.99,,2024,,13c7b249c39bca418518799567f2259ba7e36d5bfc28bb2fbf0373760f5f453e,asb_excel
+2024-05-11T23:59:00+00:00,market_consensus,asb:2024:Essendon_vs_GWS Giants:2024-05-11,H2H,Match,Away,,1.49,,2024,,fa2a10d8f6a3ba97a8a61130640326b425f437d9d00d634991acacf94c70c85b,asb_excel
+2024-08-10T23:59:00+00:00,market_consensus,asb:2024:Melbourne_vs_Port Adelaide:2024-08-10,H2H,Match,Home,,2.85,,2024,,3889948b8dd9146bd6cf29231471526ffaceeb678dae3ff1dfda429ce87cdbaa,asb_excel
+2024-06-30T23:59:00+00:00,market_consensus,asb:2024:St Kilda_vs_Port Adelaide:2024-06-30,H2H,Match,Away,,2.09,,2024,,9d453e7e093bbe1e23133150f61fcd3c8446a2c5e7f2eb7a56f278c1b08fcc14,asb_excel
+2024-04-05T23:59:00+00:00,market_consensus,asb:2024:Port Adelaide_vs_Essendon:2024-04-05,H2H,Match,Home,,1.24,,2024,,a2c37a2feef7967eef2718e0b395bcaadda543bf7c9383630d2dfcb991a72151,asb_excel
+2024-04-20T23:59:00+00:00,market_consensus,asb:2024:Carlton_vs_GWS Giants:2024-04-20,H2H,Match,Home,,1.81,,2024,,83e737a92809d44d8206079a25e6415a57b0752d2969ba2dcf02d6f157413940,asb_excel
+2024-08-10T23:59:00+00:00,market_consensus,asb:2024:Fremantle_vs_Geelong:2024-08-10,H2H,Match,Away,,2.42,,2024,,250d4175f913929a30868faeb726341e3cf46f6665d59d10148b76623abeaaf1,asb_excel
+2024-04-20T23:59:00+00:00,market_consensus,asb:2024:Brisbane Lions_vs_Geelong:2024-04-20,H2H,Match,Away,,2.33,,2024,,0ab01d2582d3338b4a5464b07efcad5ef625eff97a36d980f3cd3898e0b23f99,asb_excel
+2024-05-19T23:59:00+00:00,market_consensus,asb:2024:West Coast_vs_Melbourne:2024-05-19,H2H,Match,Home,,5.64,,2024,,618479884d00d48e212812b3d414d75c3b200e23406b03572a7919a6c47bc15f,asb_excel
+2024-05-25T23:59:00+00:00,market_consensus,asb:2024:Geelong_vs_GWS Giants:2024-05-25,H2H,Match,Away,,2.7,,2024,,c587c787492bec48498f4c29e31057b45bea98437da384b6b3c0616f065ba3e4,asb_excel
+2024-09-13T23:59:00+00:00,market_consensus,asb:2024:Port Adelaide_vs_Hawthorn:2024-09-13,H2H,Match,Away,,1.64,,2024,,877f5ddcc60474a1005f21b408a6652666230a372107b9ab56f558380684cc52,asb_excel
+2024-04-13T23:59:00+00:00,market_consensus,asb:2024:GWS Giants_vs_St Kilda:2024-04-13,H2H,Match,Home,,1.26,,2024,,dd5c5e1d290070b2df1e7ea5cc1d2cb4c26c81ab718f134101ea4026d0c5862d,asb_excel
+2024-07-21T23:59:00+00:00,market_consensus,asb:2024:Fremantle_vs_Melbourne:2024-07-21,H2H,Match,Home,,1.3,,2024,,8b45852770519cf9c7b7ccfc4744d8a3fdfb61693138841cf6138b1f925bae2d,asb_excel
+2024-06-16T23:59:00+00:00,market_consensus,asb:2024:GWS Giants_vs_Port Adelaide:2024-06-16,H2H,Match,Home,,1.52,,2024,,0274ffb3704d9ce69b0586fe9e77da31d39cb6aee7222a1adbd268b04ad73ff4,asb_excel
+2024-05-11T23:59:00+00:00,market_consensus,asb:2024:Richmond_vs_Western Bulldogs:2024-05-11,H2H,Match,Away,,1.36,,2024,,9290f8caf5005511c5b0897cbf7286b6db44b5079e3d5fb8b9e8602ad5b4d9f2,asb_excel
+2024-06-08T23:59:00+00:00,market_consensus,asb:2024:Hawthorn_vs_GWS Giants:2024-06-08,H2H,Match,Home,,1.89,,2024,,4f3f69601657c9ff9498a71610bb823b610466008fa12ef178dd8b2ae20742be,asb_excel
+2024-07-28T23:59:00+00:00,market_consensus,asb:2024:Sydney_vs_Western Bulldogs:2024-07-28,H2H,Match,Home,,1.55,,2024,,f34925f5f9b686781875b5adea10fb178c40204d23e5a7bfaa4b8cbcd7558e5f,asb_excel
+2024-08-10T23:59:00+00:00,market_consensus,asb:2024:Brisbane Lions_vs_GWS Giants:2024-08-10,H2H,Match,Home,,1.3,,2024,,9558ea74aa0dbb71fe83fb4d510e6a80cff71cbc2244bea5d2906c2b7982856b,asb_excel
+2024-08-02T23:59:00+00:00,market_consensus,asb:2024:Western Bulldogs_vs_Melbourne:2024-08-02,H2H,Match,Away,,3.38,,2024,,399ab26c8889c7ce1c5a5d20d8f860f851b03467e76891d642f628885e9ca463,asb_excel
+2024-07-21T23:59:00+00:00,market_consensus,asb:2024:Carlton_vs_North Melbourne:2024-07-21,H2H,Match,Home,,1.11,,2024,,ff3064e030b86a8fc4a7ea68d705444053ea692ee57a6917c6d057601c204c56,asb_excel
+2024-07-06T23:59:00+00:00,market_consensus,asb:2024:GWS Giants_vs_Carlton:2024-07-06,H2H,Match,Away,,1.6,,2024,,a3df13177465d064c80c68da26224e8a2e17a1c3b90cf7882e7a53d69a246c13,asb_excel
+2024-07-07T23:59:00+00:00,market_consensus,asb:2024:St Kilda_vs_Sydney:2024-07-07,H2H,Match,Home,,3.97,,2024,,c7f170d58fbd7e0cdb6a264f31b6b07dc77eb46b8994b19e0875c05eb970c5b5,asb_excel
+2024-04-04T23:59:00+00:00,market_consensus,asb:2024:Adelaide_vs_Melbourne:2024-04-04,H2H,Match,Home,,2.45,,2024,,c783c9c296414d3256180e5682c209c61dced2253abdc9a047636e03005defd5,asb_excel
+2024-08-17T23:59:00+00:00,market_consensus,asb:2024:Gold Coast_vs_Melbourne:2024-08-17,H2H,Match,Away,,2.9,,2024,,d682a5be21a4427da4233e0fa9d1398e5c778688873895f8e5e246dc9648efd9,asb_excel
+2024-08-17T23:59:00+00:00,market_consensus,asb:2024:Collingwood_vs_Brisbane Lions:2024-08-17,H2H,Match,Away,,1.5,,2024,,1b42ab9ef94ebbe312b556a18abd7bac01e9aa45b19c3fb4596806b041c500b4,asb_excel
+2024-05-25T23:59:00+00:00,market_consensus,asb:2024:Richmond_vs_Essendon:2024-05-25,H2H,Match,Away,,1.12,,2024,,882bf91b621f354ca8dfbcc5567a8a7fb15fd4f3072b4f80b753917089389d0e,asb_excel
+2024-06-09T23:59:00+00:00,market_consensus,asb:2024:Sydney_vs_Geelong:2024-06-09,H2H,Match,Away,,3.51,,2024,,8fd5985a18b0eb4a24c864dd0ded39115a7a298cd2539bb93629c1bf44fa9d29,asb_excel
+2024-04-12T23:59:00+00:00,market_consensus,asb:2024:Western Bulldogs_vs_Essendon:2024-04-12,H2H,Match,Home,,1.34,,2024,,fd56bbfb6572b38d3c0da9834ea00bab4f336ea630ed2d1e359abd019d2465d8,asb_excel
+2024-07-07T23:59:00+00:00,market_consensus,asb:2024:Melbourne_vs_West Coast:2024-07-07,H2H,Match,Home,,1.14,,2024,,00a28ab21d9884aa0d4865dd1f0f7beb589db5786872f6cf6daa20430049a252,asb_excel
+2024-05-11T23:59:00+00:00,market_consensus,asb:2024:Gold Coast_vs_North Melbourne:2024-05-11,H2H,Match,Home,,1.09,,2024,,ba0bd7788bc2ff3de6b1830fb0ee9c9f1814ace6442a0d89afe3e1a5b748765c,asb_excel
+2024-03-30T23:59:00+00:00,market_consensus,asb:2024:Port Adelaide_vs_Melbourne:2024-03-30,H2H,Match,Away,,2.55,,2024,,9f1f87d6ef11be69eca48f40a469244f95d4fec36d3f9f586d0e6889da4ffb11,asb_excel
+2024-07-26T23:59:00+00:00,market_consensus,asb:2024:Carlton_vs_Port Adelaide:2024-07-26,H2H,Match,Away,,2.31,,2024,,ccf40a0cb05597b18d17d715b8a8da43c8a19cc51f112c9f9b0ac428817b0dbd,asb_excel
+2024-07-06T23:59:00+00:00,market_consensus,asb:2024:Fremantle_vs_Richmond:2024-07-06,H2H,Match,Away,,8.5,,2024,,85d5feb0e1fa16984421779a99a8dd8232fa81230d41efcd14e7f35656f76203,asb_excel
+2024-07-14T23:59:00+00:00,market_consensus,asb:2024:Gold Coast_vs_Port Adelaide:2024-07-14,H2H,Match,Home,,1.76,,2024,,d33c7d72bc82b7bdba3976cb94fa655c73a8d1e9b7f540818fc018291e8faec6,asb_excel
+2024-07-27T23:59:00+00:00,market_consensus,asb:2024:Melbourne_vs_GWS Giants:2024-07-27,H2H,Match,Home,,1.85,,2024,,727ee740ba48a241b9523bce1a1b4e396f4bd563cba2e5ea88b00b885ed05495,asb_excel
+2024-06-02T23:59:00+00:00,market_consensus,asb:2024:Gold Coast_vs_Essendon:2024-06-02,H2H,Match,Home,,1.66,,2024,,6d55da3f6fe3861c406b6a712e26bd0830409ee7cc764c105374432252ba531c,asb_excel
+2024-05-16T23:59:00+00:00,market_consensus,asb:2024:Gold Coast_vs_Geelong:2024-05-16,H2H,Match,Home,,1.96,,2024,,4ae76db3b152bb415c999b39a4f73ea55e8055e8dbfb6894a705be4700a2c66b,asb_excel
+2024-07-06T23:59:00+00:00,market_consensus,asb:2024:Port Adelaide_vs_Western Bulldogs:2024-07-06,H2H,Match,Away,,1.82,,2024,,8a1d03af040ffb19ca71aeb37bd25c3578411fc5b29df4d7a1507779b1ea887c,asb_excel
+2024-06-23T23:59:00+00:00,market_consensus,asb:2024:Essendon_vs_West Coast:2024-06-23,H2H,Match,Home,,1.11,,2024,,1a28dc3f4ecc1257e4967a616d7acef0dae38aa5020d68e761e60217acec4881,asb_excel
+2024-04-05T23:59:00+00:00,market_consensus,asb:2024:Brisbane Lions_vs_North Melbourne:2024-04-05,H2H,Match,Home,,1.11,,2024,,0272ebda376dac9a5dd79030caaff6ee5af2a89f421c7756a54674c71998a40b,asb_excel
+2024-07-21T23:59:00+00:00,market_consensus,asb:2024:Carlton_vs_North Melbourne:2024-07-21,H2H,Match,Away,,5.84,,2024,,a8e921d0e8c1c406bdb8ba625201a13c814a0495d1eba5801fd27d6da9b21e5d,asb_excel
+2024-07-07T23:59:00+00:00,market_consensus,asb:2024:Brisbane Lions_vs_Adelaide:2024-07-07,H2H,Match,Home,,1.21,,2024,,4d11fc86bdf5a079e7f1b0a68002c6ba54f1b321fac4ff82a0f888e3ae69be93,asb_excel
+2024-06-08T23:59:00+00:00,market_consensus,asb:2024:St Kilda_vs_Gold Coast:2024-06-08,H2H,Match,Home,,1.74,,2024,,4503cffc934748b0bcf7e192461e1cbcfcac2bda758e23bf42838e1004e829f8,asb_excel
+2024-05-24T23:59:00+00:00,market_consensus,asb:2024:Fremantle_vs_Collingwood:2024-05-24,H2H,Match,Away,,2.34,,2024,,d6f2bca932255b9c07c60811f9530acd0b2d5a61da825ab5151d7cb2b358be4c,asb_excel
+2024-07-06T23:59:00+00:00,market_consensus,asb:2024:North Melbourne_vs_Gold Coast:2024-07-06,H2H,Match,Away,,1.29,,2024,,b961fab86891498cb5b0ab387ce15ba4e705727d2a4666981b913fcdb80f5d2e,asb_excel
+2024-07-13T23:59:00+00:00,market_consensus,asb:2024:Hawthorn_vs_Fremantle:2024-07-13,H2H,Match,Home,,1.97,,2024,,75af4b5d599dcdc522995fc5027e4d4624d890172d21ee395a06d7572d25df56,asb_excel
+2024-03-17T23:59:00+00:00,market_consensus,asb:2024:Melbourne_vs_Western Bulldogs:2024-03-17,H2H,Match,Away,,2.39,,2024,,dc8db1b298f762f2a7352400a9249200237e0e7a1cefefb1450967ffc82ded33,asb_excel
+2024-04-07T23:59:00+00:00,market_consensus,asb:2024:Gold Coast_vs_GWS Giants:2024-04-07,H2H,Match,Home,,3.49,,2024,,836ef6a6936b0b4e6edf87aaa143a3dac9aa2d338f670f5b79aa639faa897d98,asb_excel
+2024-07-20T23:59:00+00:00,market_consensus,asb:2024:Geelong_vs_Western Bulldogs:2024-07-20,H2H,Match,Home,,1.56,,2024,,c091aa87fa3b0d9cb4fd32da0611696f117cf2129c18beca926be0c07a2b18b5,asb_excel
+2024-04-27T23:59:00+00:00,market_consensus,asb:2024:North Melbourne_vs_Adelaide:2024-04-27,H2H,Match,Home,,4.73,,2024,,a49571ae0676d08913136ebae8e11c6f36d12e1451ac25849d972e750945898f,asb_excel
+2024-03-28T23:59:00+00:00,market_consensus,asb:2024:Brisbane Lions_vs_Collingwood:2024-03-28,H2H,Match,Away,,2.83,,2024,,6593efcb69d02bda0a4eb3642bf7705538bcdb83946ff83ed6fb588f530a641a,asb_excel
+2024-04-13T23:59:00+00:00,market_consensus,asb:2024:Carlton_vs_Adelaide:2024-04-13,H2H,Match,Home,,1.3,,2024,,808bb8811a9e648afe86cb6fc546cd9e00436355d282f9b39979b8094c8ccac3,asb_excel
+2024-07-28T23:59:00+00:00,market_consensus,asb:2024:Adelaide_vs_Hawthorn:2024-07-28,H2H,Match,Away,,1.81,,2024,,0fe3b0ec6bb03cb8d029f31b5abbf94f9eeb3e5534bb03dd6677cebec93a1f91,asb_excel
+2024-07-14T23:59:00+00:00,market_consensus,asb:2024:Gold Coast_vs_Port Adelaide:2024-07-14,H2H,Match,Away,,1.98,,2024,,8b0481d7189497895aa0d9a1be240d0bcaaec8e62d245fb3a5e7b8d724082072,asb_excel
+2024-08-02T23:59:00+00:00,market_consensus,asb:2024:West Coast_vs_Gold Coast:2024-08-02,H2H,Match,Away,,1.38,,2024,,4cb9bef19b8cd33f99748400c9450f0b3990be6f38db3f38f5f0185ac9540fe1,asb_excel
+2024-05-05T23:59:00+00:00,market_consensus,asb:2024:Western Bulldogs_vs_Hawthorn:2024-05-05,H2H,Match,Home,,1.22,,2024,,d4ee47fb3c2674f2389bfb2822b474b4838a8e038199998913b9ba8918ffcb0e,asb_excel
+2024-06-15T23:59:00+00:00,market_consensus,asb:2024:Western Bulldogs_vs_Fremantle:2024-06-15,H2H,Match,Away,,2.02,,2024,,8c92679bb48afe0a2616ad93871f599c40cc4272f2daf58b30eca47f7083cd38,asb_excel
+2024-06-15T23:59:00+00:00,market_consensus,asb:2024:Richmond_vs_Hawthorn:2024-06-15,H2H,Match,Home,,2.65,,2024,,56ee64eb313373df059a1a589abe652130bf0d6357aa07208e82e6c35ec4e44c,asb_excel
+2024-04-27T23:59:00+00:00,market_consensus,asb:2024:Fremantle_vs_Western Bulldogs:2024-04-27,H2H,Match,Home,,1.98,,2024,,cac215a3e4bd5a5015d061a630bdb80879b7210ca583ded4aa47b6e40922f602,asb_excel
+2024-03-29T23:59:00+00:00,market_consensus,asb:2024:Fremantle_vs_Adelaide:2024-03-29,H2H,Match,Home,,1.66,,2024,,ce1bd39df965d1606574627cfbf7a2c5b99e69a2d67ed2bf882d0aabe274e5b8,asb_excel
+2024-05-12T23:59:00+00:00,market_consensus,asb:2024:Adelaide_vs_Brisbane Lions:2024-05-12,H2H,Match,Home,,1.61,,2024,,ca2c7c6e28102469a525defbea9f13235bfaedc0b426b9d3c967998296584e66,asb_excel
+2024-05-04T23:59:00+00:00,market_consensus,asb:2024:Melbourne_vs_Geelong:2024-05-04,H2H,Match,Home,,2.03,,2024,,4f35fdd32ab746b96b01d8cf9d006e87f3a4c078a4890e031db47f7be19361a6,asb_excel
+2024-04-06T23:59:00+00:00,market_consensus,asb:2024:West Coast_vs_Sydney:2024-04-06,H2H,Match,Home,,11.71,,2024,,aed396730cee40de3b68c6c196dd6f85a9fe8ece6a5a81dd0275f63a3ea3ef92,asb_excel
+2024-07-20T23:59:00+00:00,market_consensus,asb:2024:St Kilda_vs_West Coast:2024-07-20,H2H,Match,Home,,1.1,,2024,,4b5a5dd51b97bbefec79c39938900440353b7001d31389ae54a896e996b564d0,asb_excel
+2024-05-26T23:59:00+00:00,market_consensus,asb:2024:Melbourne_vs_St Kilda:2024-05-26,H2H,Match,Home,,1.34,,2024,,1f03dac5a2d040dd7da665b06d1b57ca82661b75049e0ecea7c93148740ac7e6,asb_excel
+2024-06-01T23:59:00+00:00,market_consensus,asb:2024:West Coast_vs_St Kilda:2024-06-01,H2H,Match,Home,,2.49,,2024,,f46e4b76e5656d77f2de3533e9e06f0661c68fc252011dca806299fb1df613fb,asb_excel
+2024-08-24T23:59:00+00:00,market_consensus,asb:2024:Sydney_vs_Adelaide:2024-08-24,H2H,Match,Away,,3.17,,2024,,e88e1de2965d4a17a1294e7bc304798038c03ab9bf2ad55be8cf1bba2f9f87af,asb_excel
+2024-03-30T23:59:00+00:00,market_consensus,asb:2024:Essendon_vs_St Kilda:2024-03-30,H2H,Match,Away,,1.69,,2024,,96cc7c999d65db1b44607a73162416fd14a92b40367a3d143da12e5e5407745b,asb_excel
+2024-03-15T23:59:00+00:00,market_consensus,asb:2024:Collingwood_vs_Sydney:2024-03-15,H2H,Match,Home,,1.49,,2024,,e5ebee42d7cde417f1a82ae99287ea0ac6345c9eaacde20cfecf404d9d664f15,asb_excel
+2024-08-03T23:59:00+00:00,market_consensus,asb:2024:North Melbourne_vs_Richmond:2024-08-03,H2H,Match,Away,,1.68,,2024,,bc0ea2c55cc8f1cf521d0adf653a72156d09f0dfb6002a0fe72100b8a612b781,asb_excel
+2024-06-29T23:59:00+00:00,market_consensus,asb:2024:Gold Coast_vs_Collingwood:2024-06-29,H2H,Match,Away,,1.84,,2024,,5cf14fbadf87cea02ad5f69a51fd5add71391cd94ded3416737ab983436ecde3,asb_excel
+2024-08-04T23:59:00+00:00,market_consensus,asb:2024:St Kilda_vs_Brisbane Lions:2024-08-04,H2H,Match,Home,,2.32,,2024,,77db508c81fc851b5a40405a0089409d0aa695022514f8d4d6d9a489b7508dd1,asb_excel
+2024-06-10T23:59:00+00:00,market_consensus,asb:2024:Collingwood_vs_Melbourne:2024-06-10,H2H,Match,Home,,2.05,,2024,,60a213cdb5a0425fa67160c90c2a9a4da8e83f0ca8c4ebaf7b723e185220ac07,asb_excel
+2024-05-25T23:59:00+00:00,market_consensus,asb:2024:Richmond_vs_Essendon:2024-05-25,H2H,Match,Home,,5.72,,2024,,96bb0927d7031b2b662ab3fac43eacbffa029b911f8fad2b0c3b62492b98e56e,asb_excel
+2024-04-21T23:59:00+00:00,market_consensus,asb:2024:Sydney_vs_Gold Coast:2024-04-21,H2H,Match,Home,,1.35,,2024,,a423fbfa1ea4722b98c9ff50bc0d6227c7ff4aac5788f61ce881165e1c64460e,asb_excel
+2024-06-22T23:59:00+00:00,market_consensus,asb:2024:GWS Giants_vs_Sydney:2024-06-22,H2H,Match,Away,,1.36,,2024,,ed8d48e42826bd41c611072515b0d8a1bea6b1ea70fb5f66669a679e23045b16,asb_excel
+2024-06-29T23:59:00+00:00,market_consensus,asb:2024:Sydney_vs_Fremantle:2024-06-29,H2H,Match,Home,,1.19,,2024,,0ae3ff804cb6b815a61cdab8364ad231127faa9a55107d54a09a6ad01d9d190b,asb_excel
+2024-08-24T23:59:00+00:00,market_consensus,asb:2024:Geelong_vs_West Coast:2024-08-24,H2H,Match,Away,,12.46,,2024,,c66044e165fa22998da2ccddcbbc4124ecc0d25f8ffe68a1e4894c8fd8e4d41d,asb_excel
+2024-08-24T23:59:00+00:00,market_consensus,asb:2024:Brisbane Lions_vs_Essendon:2024-08-24,H2H,Match,Home,,1.11,,2024,,03ce0daa73d8dce614b2f0f861037b307c787d7f98f65a3a562566105009e5d2,asb_excel
+2024-04-28T23:59:00+00:00,market_consensus,asb:2024:Hawthorn_vs_Sydney:2024-04-28,H2H,Match,Away,,1.3,,2024,,116693cb584f034269e467e9017d2aba792270eaf3c6ad7f19a47f0b3e0850aa,asb_excel
+2024-07-06T23:59:00+00:00,market_consensus,asb:2024:Fremantle_vs_Richmond:2024-07-06,H2H,Match,Home,,1.05,,2024,,42f3bc5bb7b7a15627a8bea10ebfc8380a393405f1cb30f918f5320553eac426,asb_excel
+2024-04-11T23:59:00+00:00,market_consensus,asb:2024:Melbourne_vs_Brisbane Lions:2024-04-11,H2H,Match,Home,,1.47,,2024,,800da3d4aaef6b80ab4d305896a6f481d7f188f70a49fd71044a29f44fdb5ab1,asb_excel
+2024-06-02T23:59:00+00:00,market_consensus,asb:2024:Gold Coast_vs_Essendon:2024-06-02,H2H,Match,Away,,2.13,,2024,,e830a6d307484ec328b933a418521d65f75e95b1bb216de897bcc86fd0373376,asb_excel
+2024-07-27T23:59:00+00:00,market_consensus,asb:2024:Fremantle_vs_West Coast:2024-07-27,H2H,Match,Home,,1.07,,2024,,eed2549a0e1d0be61034cf781ba26b91751456ed9987127ecea4ac734b4da343,asb_excel
+2024-08-25T23:59:00+00:00,market_consensus,asb:2024:Western Bulldogs_vs_GWS Giants:2024-08-25,H2H,Match,Home,,1.39,,2024,,f9d9a34d7df3b6d4cc19a8c4bb99682f98d2cf6fa534158be6297b3080f49580,asb_excel
+2024-05-26T23:59:00+00:00,market_consensus,asb:2024:Melbourne_vs_St Kilda:2024-05-26,H2H,Match,Away,,3.12,,2024,,8cb4c8c02ce192fa50321026cdc73b8424a2d49439a4ca8063403e2f1741023b,asb_excel
+2024-04-27T23:59:00+00:00,market_consensus,asb:2024:Geelong_vs_Carlton:2024-04-27,H2H,Match,Away,,2.1,,2024,,9543dd4f43968d5b89b1106a1a25521d757b0db5e14f123a44833c77b9c2182b,asb_excel
+2024-08-03T23:59:00+00:00,market_consensus,asb:2024:North Melbourne_vs_Richmond:2024-08-03,H2H,Match,Home,,2.08,,2024,,15461faa68fcbbd777fae5e11851334f1bd0be6d97bca5d4403ddc21357e55fd,asb_excel
+2024-03-30T23:59:00+00:00,market_consensus,asb:2024:Port Adelaide_vs_Melbourne:2024-03-30,H2H,Match,Home,,1.48,,2024,,27936e5d2c5b0ecb66064b26ceb21bd40757b86d3fd88aebe15438c255a206e6,asb_excel
+2024-04-21T23:59:00+00:00,market_consensus,asb:2024:North Melbourne_vs_Hawthorn:2024-04-21,H2H,Match,Away,,1.33,,2024,,266126f872b6cbc063e46459e8411446dd35f678196aab0fa9686337d532a1dc,asb_excel
+2024-06-28T23:59:00+00:00,market_consensus,asb:2024:Brisbane Lions_vs_Melbourne:2024-06-28,H2H,Match,Home,,1.15,,2024,,3b8496e49693fdabb42e946fb01994022ab68e14e4189549da1df0b10f26e59d,asb_excel
+2024-08-11T23:59:00+00:00,market_consensus,asb:2024:Carlton_vs_Hawthorn:2024-08-11,H2H,Match,Away,,1.93,,2024,,4b3734113e8f26bf979713809365983b13a34a50ac2825891a87cc3e6883237c,asb_excel
+2024-07-27T23:59:00+00:00,market_consensus,asb:2024:Melbourne_vs_GWS Giants:2024-07-27,H2H,Match,Away,,1.87,,2024,,6b298953863b93a649b9b795e6459408ffa59c32c0cbf4207cc93a75cfcc807d,asb_excel
+2024-05-12T23:59:00+00:00,market_consensus,asb:2024:Adelaide_vs_Brisbane Lions:2024-05-12,H2H,Match,Away,,2.24,,2024,,7025375cc92d91940c10b7100b9f974c0e540bfa0fa7f5318f9274e43fc49f2f,asb_excel
+2024-03-31T23:59:00+00:00,market_consensus,asb:2024:Richmond_vs_Sydney:2024-03-31,H2H,Match,Home,,3.83,,2024,,044f431c873c2ffa3dc8ad01d2dc8e9086da16d46c188ac8ce55c68d9e18e53c,asb_excel
+2024-08-25T23:59:00+00:00,market_consensus,asb:2024:Fremantle_vs_Port Adelaide:2024-08-25,H2H,Match,Away,,2.04,,2024,,0abb1155f157734f54e3dedf474644897b52ab45d7e84cf98129ef7319e3e6d1,asb_excel
+2024-06-29T23:59:00+00:00,market_consensus,asb:2024:Adelaide_vs_GWS Giants:2024-06-29,H2H,Match,Away,,1.76,,2024,,1672be46eef3038866f5c3b38a7f4120737a96577638fc9adbdbb99bd8b79fcb,asb_excel
+2024-03-29T23:59:00+00:00,market_consensus,asb:2024:North Melbourne_vs_Carlton:2024-03-29,H2H,Match,Home,,5.22,,2024,,e18abddae34fc8552c8649fd97ff998dd3ef7d6cf8a6727035d10ddea15197e4,asb_excel
+2024-04-19T23:59:00+00:00,market_consensus,asb:2024:Adelaide_vs_Essendon:2024-04-19,H2H,Match,Home,,1.41,,2024,,fea27320e9fe1b5bd105f1d38b21e4619319c9626f1a09c9ecf566d7ddba5bfb,asb_excel
+2024-05-10T23:59:00+00:00,market_consensus,asb:2024:Geelong_vs_Port Adelaide:2024-05-10,H2H,Match,Away,,3.67,,2024,,3fed42f00b79da62459b5361785481d0cfffcd08ec2b4869e24527bb6a8447e9,asb_excel
+2024-07-21T23:59:00+00:00,market_consensus,asb:2024:Fremantle_vs_Melbourne:2024-07-21,H2H,Match,Away,,3.27,,2024,,525c6662eb0430b1ddaca6f5dcc10d25c743370747ab200d4308050c878fc1a3,asb_excel
+2024-05-18T23:59:00+00:00,market_consensus,asb:2024:St Kilda_vs_Fremantle:2024-05-18,H2H,Match,Home,,1.78,,2024,,f8dea14a788cb0ccd1ecff39c920ca2ec98aa4dbfd3dc214f63f95d3565794fd,asb_excel
+2024-05-25T23:59:00+00:00,market_consensus,asb:2024:North Melbourne_vs_Port Adelaide:2024-05-25,H2H,Match,Away,,1.06,,2024,,8aea98fabd4d2f4c610d5d384b9e8e840d81fe7f8eeeefc94821280b2767c22d,asb_excel
+2024-06-08T23:59:00+00:00,market_consensus,asb:2024:Hawthorn_vs_GWS Giants:2024-06-08,H2H,Match,Away,,1.84,,2024,,1cc919fcbffcad2db28a83ef7cdd2e04183cb70f6dc7184aa6e60b4ef761d45c,asb_excel
+2024-08-11T23:59:00+00:00,market_consensus,asb:2024:Richmond_vs_St Kilda:2024-08-11,H2H,Match,Home,,3.81,,2024,,8fea8c1302c879e7219bec6772568e7faadf856fe72e69722b9fad98f5e98b98,asb_excel
+2024-03-24T23:59:00+00:00,market_consensus,asb:2024:Western Bulldogs_vs_Gold Coast:2024-03-24,H2H,Match,Away,,2.29,,2024,,36a69b591df4b85c272e2d193bab13cace610f6e61ce4c972875bffaf93fae5d,asb_excel
+2024-06-22T23:59:00+00:00,market_consensus,asb:2024:Melbourne_vs_North Melbourne:2024-06-22,H2H,Match,Home,,1.18,,2024,,a608a17ad59a4c2cf88c3c870bc65ba2e4904eb5bb017a56b9468819e3688633,asb_excel
+2024-04-28T23:59:00+00:00,market_consensus,asb:2024:Gold Coast_vs_West Coast:2024-04-28,H2H,Match,Away,,5.4,,2024,,2463cf851903f43a5c41a4eab73a7154ded336ba8db0ed9e66d3ca9636f13455,asb_excel
+2024-08-03T23:59:00+00:00,market_consensus,asb:2024:Collingwood_vs_Carlton:2024-08-03,H2H,Match,Away,,1.55,,2024,,ac0b526ecf51fb33df61206c15f13cf14068a1f732afae5eb5ac060b9c3d2402,asb_excel
+2024-06-22T23:59:00+00:00,market_consensus,asb:2024:Melbourne_vs_North Melbourne:2024-06-22,H2H,Match,Away,,4.43,,2024,,6a21ca7df930a52d89e72650deb5b580aa34738cb2eae1ead7d4174e817161af,asb_excel
+2024-06-29T23:59:00+00:00,market_consensus,asb:2024:North Melbourne_vs_Western Bulldogs:2024-06-29,H2H,Match,Away,,1.08,,2024,,ab42b6140b382458223818636f815f5bb7fc19dbea70dc0f3ce1d98571073335,asb_excel
+2024-04-07T23:59:00+00:00,market_consensus,asb:2024:Richmond_vs_St Kilda:2024-04-07,H2H,Match,Home,,2.93,,2024,,40996ebd5fab2a9b293bbb479d023b49a0a7c8eefc711ee012230386dfeb089b,asb_excel
+2024-05-09T23:59:00+00:00,market_consensus,asb:2024:Carlton_vs_Melbourne:2024-05-09,H2H,Match,Away,,1.72,,2024,,24b74bdf50519ecc18bf2f1b05cce710a95322bb9b2aebc12300b4b846107829,asb_excel
+2024-03-07T23:59:00+00:00,market_consensus,asb:2024:Sydney_vs_Melbourne:2024-03-07,H2H,Match,Home,,1.76,,2024,,483effcbcbbfcc8c0421be5d5ec464422deb8a79edc38a5c7adf4889c88da191,asb_excel
+2024-04-20T23:59:00+00:00,market_consensus,asb:2024:Collingwood_vs_Port Adelaide:2024-04-20,H2H,Match,Away,,2.06,,2024,,abe292aa972969d72a8ff2adca4dba917cc2ccd12d81561c448957972a1d5a3b,asb_excel
+2024-07-27T23:59:00+00:00,market_consensus,asb:2024:Gold Coast_vs_Brisbane Lions:2024-07-27,H2H,Match,Home,,2.02,,2024,,6106e1e996c510887bac20ec1ceaae7ba8f6e3c2486a31bd3608505637b3170f,asb_excel
+2024-04-28T23:59:00+00:00,market_consensus,asb:2024:Hawthorn_vs_Sydney:2024-04-28,H2H,Match,Home,,3.36,,2024,,0ec5959879fbd1455f47a5c5d9f71ee725873fb82e5e0355160b0b717b065279,asb_excel
+2024-04-12T23:59:00+00:00,market_consensus,asb:2024:Western Bulldogs_vs_Essendon:2024-04-12,H2H,Match,Away,,3.13,,2024,,439097015a1fc55329f6a850e4cb1f65236cffb5f193fc3bd004898e9f9f26d0,asb_excel
+2024-03-09T23:59:00+00:00,market_consensus,asb:2024:Gold Coast_vs_Richmond:2024-03-09,H2H,Match,Away,,2.81,,2024,,736bf7aded74ec5575351493a49a019732c4a3fc5890b1b5200771cfe0be00cb,asb_excel
+2024-08-18T23:59:00+00:00,market_consensus,asb:2024:Western Bulldogs_vs_North Melbourne:2024-08-18,H2H,Match,Home,,1.07,,2024,,91198b48073a9cb362df5df11f0d250dccdfda0694bc46cd8cb06f7de9fd0f62,asb_excel
+2024-08-24T23:59:00+00:00,market_consensus,asb:2024:Sydney_vs_Adelaide:2024-08-24,H2H,Match,Home,,1.32,,2024,,b3a84e9225b3b529699d951b957a6ad007efdc06826d6e8a49c0968e079d6a3f,asb_excel
+2024-06-07T23:59:00+00:00,market_consensus,asb:2024:Western Bulldogs_vs_Brisbane Lions:2024-06-07,H2H,Match,Away,,2.1,,2024,,d97d4bb977f01c86de450abb70f69839b78c71aeaf249c95b1e932439dc4986b,asb_excel
+2024-03-09T23:59:00+00:00,market_consensus,asb:2024:GWS Giants_vs_Collingwood:2024-03-09,H2H,Match,Away,,2.1,,2024,,dc08fd2adc44d43986db138f1b6da06f43437b4b01541e7a79d35a76e1e79a17,asb_excel
+2024-04-18T23:59:00+00:00,market_consensus,asb:2024:St Kilda_vs_Western Bulldogs:2024-04-18,H2H,Match,Away,,1.9,,2024,,3b5145d5b64d9cef1b670b3db41b1bd7622bdd1400dd1f5da2a3413724c29e85,asb_excel
+2024-09-07T23:59:00+00:00,market_consensus,asb:2024:Brisbane Lions_vs_Carlton:2024-09-07,H2H,Match,Away,,3.8,,2024,,3b0424ee985d99803c7630bb4a20a6fd7d406802dd5812c7abf01db4f53eea86,asb_excel
+2024-09-07T23:59:00+00:00,market_consensus,asb:2024:Sydney_vs_GWS Giants:2024-09-07,H2H,Match,Home,,1.56,,2024,,09f46a05ee15a60e8dbc10750980d45d51fefb761a9f0cc75d963bd2c9610631,asb_excel
+2024-04-13T23:59:00+00:00,market_consensus,asb:2024:Gold Coast_vs_Hawthorn:2024-04-13,H2H,Match,Away,,3.52,,2024,,482587b5c454ccf1ec87b14e451b313ee91d7405e8b3f1bf00bbcef6f6c6719d,asb_excel
+2024-08-03T23:59:00+00:00,market_consensus,asb:2024:Port Adelaide_vs_Sydney:2024-08-03,H2H,Match,Away,,1.91,,2024,,1ad8e70559912de7384e030470973c3d8e2f89b857f7a9bb258dd533190fdf63,asb_excel
+2024-07-07T23:59:00+00:00,market_consensus,asb:2024:Brisbane Lions_vs_Adelaide:2024-07-07,H2H,Match,Away,,4.12,,2024,,333070879e4df4c7f58221506c8b665e3466b738646fc54db4a085186df6fe78,asb_excel
+2024-05-04T23:59:00+00:00,market_consensus,asb:2024:St Kilda_vs_North Melbourne:2024-05-04,H2H,Match,Home,,1.11,,2024,,899ec02c6c92fb5c9b9c44af46d098c308832580685ba44213261f9ce9534bad,asb_excel
+2024-05-23T23:59:00+00:00,market_consensus,asb:2024:Western Bulldogs_vs_Sydney:2024-05-23,H2H,Match,Home,,2.29,,2024,,25a662360090a670de6f19ba5a1c1e75ed6e11f1a03d5bdd07f3854b061c715c,asb_excel
+2024-05-18T23:59:00+00:00,market_consensus,asb:2024:Brisbane Lions_vs_Richmond:2024-05-18,H2H,Match,Home,,1.05,,2024,,ad1b37296845b07570f32205d7f3997e2258ab84281353f646aaa7e62c2fbc86,asb_excel
+2024-09-28T23:59:00+00:00,market_consensus,asb:2024:Sydney_vs_Brisbane Lions:2024-09-28,H2H,Match,Home,,1.73,,2024,,b0bde3622d4e7c3b97fed3876167c24bf28b37720838bf13ec7d37096c0d2ee2,asb_excel
+2024-06-23T23:59:00+00:00,market_consensus,asb:2024:Fremantle_vs_Gold Coast:2024-06-23,H2H,Match,Away,,2.93,,2024,,8b1916e3ddfcf228acb1c5825bf29e602c9e4d8b7f7bef19067aba43524ad5ff,asb_excel
+2024-05-04T23:59:00+00:00,market_consensus,asb:2024:West Coast_vs_Essendon:2024-05-04,H2H,Match,Away,,1.42,,2024,,823bfa99893102654d5140d7cb130929da1e353421d36229659d7afe0c8ace5c,asb_excel
+2024-07-20T23:59:00+00:00,market_consensus,asb:2024:GWS Giants_vs_Gold Coast:2024-07-20,H2H,Match,Home,,1.37,,2024,,d11ff0e2f7a32185e2a4ac5da7da695421499ecf8867e1025adb1b056158e18c,asb_excel
+2024-09-06T23:59:00+00:00,market_consensus,asb:2024:Western Bulldogs_vs_Hawthorn:2024-09-06,H2H,Match,Away,,2.2,,2024,,566d403fd70ce253351a9ae665dafbf4fc31e81fef1c380d8a4d809e67a12f8c,asb_excel
+2024-07-26T23:59:00+00:00,market_consensus,asb:2024:Carlton_vs_Port Adelaide:2024-07-26,H2H,Match,Home,,1.57,,2024,,afb9f04063441d433cbf067ce645485357dcf132177af7188db8e652d69e9aa5,asb_excel
+2024-04-20T23:59:00+00:00,market_consensus,asb:2024:Carlton_vs_GWS Giants:2024-04-20,H2H,Match,Away,,1.95,,2024,,459b6d33b6d04fecf04e21301328023ebc1fab618c81746459f7306fb2135203,asb_excel
+2024-05-03T23:59:00+00:00,market_consensus,asb:2024:Carlton_vs_Collingwood:2024-05-03,H2H,Match,Away,,2.42,,2024,,42bba832671c6b7c4b3155ebfabff7cf0443ccc09e63046fa836a0abe4a1c1b3,asb_excel
+2024-07-28T23:59:00+00:00,market_consensus,asb:2024:Adelaide_vs_Hawthorn:2024-07-28,H2H,Match,Home,,1.92,,2024,,4f79f3952f8c71619942aa239e4ec4ec50f9c2bfea2011e1a56206f2219c6e95,asb_excel
+2024-07-20T23:59:00+00:00,market_consensus,asb:2024:Hawthorn_vs_Collingwood:2024-07-20,H2H,Match,Home,,1.79,,2024,,fb1ade14be066f61459aa292de41ed9abacd28eaec4708b979eff217e25c5d5b,asb_excel
+2024-05-04T23:59:00+00:00,market_consensus,asb:2024:Sydney_vs_GWS Giants:2024-05-04,H2H,Match,Home,,1.81,,2024,,e7e888d5c5cb0c1a9705e8b8f44c321d9f7be657e6a6e18afdd2b90102eade40,asb_excel
+2024-03-23T23:59:00+00:00,market_consensus,asb:2024:Hawthorn_vs_Melbourne:2024-03-23,H2H,Match,Away,,1.28,,2024,,dc647acb064dca44d399ec6b50f906e3db44249215ea89cc215364eb7fe0d187,asb_excel
+2024-05-03T23:59:00+00:00,market_consensus,asb:2024:Carlton_vs_Collingwood:2024-05-03,H2H,Match,Home,,1.53,,2024,,da1ecb20977c621e5aa71f884974d121fdfab4d57726f1823d14c641c9b828cd,asb_excel
+2024-08-25T23:59:00+00:00,market_consensus,asb:2024:Carlton_vs_St Kilda:2024-08-25,H2H,Match,Home,,2.04,,2024,,ef1e0a16b73b9c8463cbdeb22453558b7b286962a29acb12423ebb35420488e8,asb_excel
+2024-07-19T23:59:00+00:00,market_consensus,asb:2024:Essendon_vs_Adelaide:2024-07-19,H2H,Match,Home,,1.4,,2024,,2e78ff8f3c5f3acb88ac5e467b76704b5550b7ae6c5ad88f7b2268b79c19d0ee,asb_excel
+2024-05-17T23:59:00+00:00,market_consensus,asb:2024:Sydney_vs_Carlton:2024-05-17,H2H,Match,Home,,1.38,,2024,,b6ce9272a63a3120a414d04f9e685426ba9041114c70dcb92e9100561c56fce3,asb_excel
+2024-08-03T23:59:00+00:00,market_consensus,asb:2024:Collingwood_vs_Carlton:2024-08-03,H2H,Match,Home,,2.33,,2024,,b5be338162684ed8c5e45b183be91a80389d3ef762c1ac52b6dda5c21911dff0,asb_excel
+2024-08-11T23:59:00+00:00,market_consensus,asb:2024:Adelaide_vs_Western Bulldogs:2024-08-11,H2H,Match,Away,,1.43,,2024,,d5299750a60b3d6eebcdaa4a56cccc7e43a7db7937282b57be2595a875eb26ab,asb_excel
+2024-03-23T23:59:00+00:00,market_consensus,asb:2024:North Melbourne_vs_Fremantle:2024-03-23,H2H,Match,Home,,3.0,,2024,,71415766bc863f5387f188b4ddcb8be53e1b2f242e57e69044c8ac1ced95fecc,asb_excel
+2024-06-08T23:59:00+00:00,market_consensus,asb:2024:West Coast_vs_North Melbourne:2024-06-08,H2H,Match,Away,,3.93,,2024,,b5e404b3d77c4f03ebc1c5f3cd5937c99dae8f0e64c93926f3c5eaa45c191bdc,asb_excel
+2024-09-06T23:59:00+00:00,market_consensus,asb:2024:Western Bulldogs_vs_Hawthorn:2024-09-06,H2H,Match,Home,,1.62,,2024,,086afb0ec28a04812edbfc139e2500ca24e3b39631bda2373cd225d1265e9277,asb_excel
+2024-03-16T23:59:00+00:00,market_consensus,asb:2024:Essendon_vs_Hawthorn:2024-03-16,H2H,Match,Away,,1.91,,2024,,a2e535ff0c27275e94e4427f5bb70286571df6ea485f28a62757d939a1f73760,asb_excel
+2024-04-14T23:59:00+00:00,market_consensus,asb:2024:Geelong_vs_North Melbourne:2024-04-14,H2H,Match,Home,,1.03,,2024,,e0ea70c21b329d9be884fa59cf61d92c31abe9fc3b2870cacbe14979c889441f,asb_excel
+2024-05-30T23:59:00+00:00,market_consensus,asb:2024:Port Adelaide_vs_Carlton:2024-05-30,H2H,Match,Away,,2.33,,2024,,a7fa63bf90639a6bcd306a70cf9b295e05706655c57c9c1a52943766c4e0aeec,asb_excel
+2024-03-17T23:59:00+00:00,market_consensus,asb:2024:Port Adelaide_vs_West Coast:2024-03-17,H2H,Match,Home,,1.05,,2024,,6d035e9d435ed4d9b6ad3f7b04df9264c0269e12a2cc43919d1cdb1b85a93db6,asb_excel
+2024-04-14T23:59:00+00:00,market_consensus,asb:2024:Geelong_vs_North Melbourne:2024-04-14,H2H,Match,Away,,10.17,,2024,,6b1f2d6d441ff969f05044b95538179088fdcb69ac2c86f685c5c0c9b7c8ef90,asb_excel
+2024-04-27T23:59:00+00:00,market_consensus,asb:2024:Geelong_vs_Carlton:2024-04-27,H2H,Match,Home,,1.69,,2024,,52c917378a0f72ab4ba004a72471cbf55618ebad6ec0d0bea5981a70b44d2d2c,asb_excel
+2024-03-21T23:59:00+00:00,market_consensus,asb:2024:St Kilda_vs_Collingwood:2024-03-21,H2H,Match,Home,,2.43,,2024,,66a10df119e924ae620b50c2ab584f0d682bfb5b1ab1241d3ea582a8489c9fe5,asb_excel
+2024-05-05T23:59:00+00:00,market_consensus,asb:2024:Richmond_vs_Fremantle:2024-05-05,H2H,Match,Away,,1.44,,2024,,dc90d3e6dffdb9c02d700e181a54ebdaa0e99d8463a1984cce5150031a91b994,asb_excel
+2024-06-22T23:59:00+00:00,market_consensus,asb:2024:Port Adelaide_vs_Brisbane Lions:2024-06-22,H2H,Match,Away,,1.72,,2024,,4688a7f37a6270f8698b35b5f57e1ac4226d2d396f18431f23166be861f8dd64,asb_excel
+2024-05-12T23:59:00+00:00,market_consensus,asb:2024:Collingwood_vs_West Coast:2024-05-12,H2H,Match,Away,,6.58,,2024,,dc3da7eba1a9d2a28f91e50268537a57e49ed5a560c1963741f76428e93411be,asb_excel
+2024-04-25T23:59:00+00:00,market_consensus,asb:2024:GWS Giants_vs_Brisbane Lions:2024-04-25,H2H,Match,Away,,1.75,,2024,,dd371c0a0bdaa6921292dc982094b958cab74d1e5f9b933c27cb481d69e44dac,asb_excel
+2024-07-13T23:59:00+00:00,market_consensus,asb:2024:Melbourne_vs_Essendon:2024-07-13,H2H,Match,Home,,2.4,,2024,,7ef00fb9e2f1094aeabee51226d14fafe388f87054f8c1f7cf51aa70faf06425,asb_excel
+2024-04-24T23:59:00+00:00,market_consensus,asb:2024:Richmond_vs_Melbourne:2024-04-24,H2H,Match,Home,,5.18,,2024,,d1bdb051143b29e813051df882072f064843d2a651819a7fc9cdf9a843faf819,asb_excel
+2024-08-24T23:59:00+00:00,market_consensus,asb:2024:Richmond_vs_Gold Coast:2024-08-24,H2H,Match,Home,,2.41,,2024,,37afe5d412f906bc9401940db5bc2a5d928d2106667b057a0e47becc3ab2a34a,asb_excel
+2024-07-27T23:59:00+00:00,market_consensus,asb:2024:Fremantle_vs_West Coast:2024-07-27,H2H,Match,Away,,7.17,,2024,,8bc6394266895b3caa675835a66b3b421c6817c321280927b24d1e12d4756ab4,asb_excel
+2024-03-16T23:59:00+00:00,market_consensus,asb:2024:Geelong_vs_St Kilda:2024-03-16,H2H,Match,Away,,2.76,,2024,,e876214025fb8b6cace5b5b5dfb5849e421fe8176d8c268521d12aea1f82088f,asb_excel
+2024-07-12T23:59:00+00:00,market_consensus,asb:2024:Collingwood_vs_Geelong:2024-07-12,H2H,Match,Away,,1.7,,2024,,3ddc47731a8342d255b9943adb898137e34889681571896232408fc3a678f44b,asb_excel
+2024-06-06T23:59:00+00:00,market_consensus,asb:2024:Adelaide_vs_Richmond:2024-06-06,H2H,Match,Away,,4.1,,2024,,8e08754a3bba2a66d3b58bdf9b0f7a83eb8d56c98861ec5b2dacc004152fa2df,asb_excel
+2024-06-14T23:59:00+00:00,market_consensus,asb:2024:Brisbane Lions_vs_St Kilda:2024-06-14,H2H,Match,Home,,1.12,,2024,,ef3f7dc656d3c7f4f610f2343fbf77006e555a0c378c486eed5c8982581018c2,asb_excel
+2024-05-02T23:59:00+00:00,market_consensus,asb:2024:Adelaide_vs_Port Adelaide:2024-05-02,H2H,Match,Away,,1.64,,2024,,db305c06bff79d7a9564c34f2d86bffd6fab476199f49c41984ca09e712a679e,asb_excel
+2024-06-29T23:59:00+00:00,market_consensus,asb:2024:Sydney_vs_Fremantle:2024-06-29,H2H,Match,Away,,4.36,,2024,,306e15ab57296389773f2b86a82ce423da3b8db86ecefe1d02b74987f8cdbcc6,asb_excel
+2024-06-16T23:59:00+00:00,market_consensus,asb:2024:GWS Giants_vs_Port Adelaide:2024-06-16,H2H,Match,Away,,2.42,,2024,,fd14df2a0ea0dbc36e722eb4bbeb9c59c36ad86b15184eb0efb290d354b9b634,asb_excel
+2024-08-11T23:59:00+00:00,market_consensus,asb:2024:Carlton_vs_Hawthorn:2024-08-11,H2H,Match,Home,,1.79,,2024,,9f6bad4d8e0df5bb44686bd95c4bd0d299a7f0f5212c4e7dda93d613c2b8ad73,asb_excel
+2024-07-27T23:59:00+00:00,market_consensus,asb:2024:St Kilda_vs_Essendon:2024-07-27,H2H,Match,Home,,2.19,,2024,,989c9c95915115e93818f189bb36c881e037fdba2150c90133d5f53c7e30ab93,asb_excel
+2024-06-30T23:59:00+00:00,market_consensus,asb:2024:West Coast_vs_Hawthorn:2024-06-30,H2H,Match,Home,,2.4,,2024,,087d58be89db30169fdf8ee8798f2b244732ef2a661d870df0c3093a90f62775,asb_excel
+2024-07-06T23:59:00+00:00,market_consensus,asb:2024:Geelong_vs_Hawthorn:2024-07-06,H2H,Match,Away,,2.38,,2024,,cba26cf6a1247b0317aff70241cdb1ab34a1d71cc80b897542ca3c1fb5907b32,asb_excel
+2024-09-20T23:59:00+00:00,market_consensus,asb:2024:Sydney_vs_Port Adelaide:2024-09-20,H2H,Match,Home,,1.35,,2024,,6674ed3d76dd7d62518dac0db8ccaababa4dfc961a5dfe70f3b56263c33dd6f4,asb_excel
+2024-06-29T23:59:00+00:00,market_consensus,asb:2024:Adelaide_vs_GWS Giants:2024-06-29,H2H,Match,Home,,1.98,,2024,,f3d88b537c3d6646ef90c23321620a23020fbb14780605e72cf1024ff7c08fe0,asb_excel
+2024-03-23T23:59:00+00:00,market_consensus,asb:2024:Hawthorn_vs_Melbourne:2024-03-23,H2H,Match,Home,,3.47,,2024,,24ded455e1471ea3fdb57bbea861f0cf84c169076a85ad44055ee34095efbe29,asb_excel
+2024-08-25T23:59:00+00:00,market_consensus,asb:2024:Western Bulldogs_vs_GWS Giants:2024-08-25,H2H,Match,Away,,2.81,,2024,,aabaf59429893ff2225e3c2411cbef5e95bf9282a8a3e7068701e791064d49c9,asb_excel
+2024-05-16T23:59:00+00:00,market_consensus,asb:2024:Gold Coast_vs_Geelong:2024-05-16,H2H,Match,Away,,1.78,,2024,,1d9684860c44308cbbfbcb4251b746f7e69f8a7484e802634465266709dbdfda,asb_excel
+2024-09-07T23:59:00+00:00,market_consensus,asb:2024:Brisbane Lions_vs_Carlton:2024-09-07,H2H,Match,Home,,1.24,,2024,,130b5d4d9a3a8feedc8b297449e079f02572fab76c0cdbd810855f6d0b90a99f,asb_excel
+2024-03-16T23:59:00+00:00,market_consensus,asb:2024:GWS Giants_vs_North Melbourne:2024-03-16,H2H,Match,Away,,8.81,,2024,,1285d12844adb1c1c91ee24bee6c7db491d1988c2aa1dcae9adb68e849345687,asb_excel
+2024-07-13T23:59:00+00:00,market_consensus,asb:2024:Sydney_vs_North Melbourne:2024-07-13,H2H,Match,Away,,8.73,,2024,,f7eb5ba1897b98ac792c602cd74dd95acf68d8199aa888ee5fee4db7cdf767ea,asb_excel
+2024-06-14T23:59:00+00:00,market_consensus,asb:2024:Brisbane Lions_vs_St Kilda:2024-06-14,H2H,Match,Away,,5.55,,2024,,ac00e533899e4022b34415dca965537a83a97a2c0bd7a14c6d1db539e7d5975d,asb_excel
+2024-07-21T23:59:00+00:00,market_consensus,asb:2024:Brisbane Lions_vs_Sydney:2024-07-21,H2H,Match,Away,,1.96,,2024,,564685445d6266b8eaaf27afff29ac3f8b7ecf1ca42e53657ac87ba02b5617c0,asb_excel
+2024-04-26T23:59:00+00:00,market_consensus,asb:2024:Port Adelaide_vs_St Kilda:2024-04-26,H2H,Match,Away,,4.27,,2024,,7935df5f2f6eb327aac499368b9063968fcf345a46f4879ff8a4c2b86041b96c,asb_excel
+2024-05-02T23:59:00+00:00,market_consensus,asb:2024:Adelaide_vs_Port Adelaide:2024-05-02,H2H,Match,Home,,2.18,,2024,,f948de9222fc1425a05470e2a5f4aaaf46da33eddb89acf8662ee42580dba91e,asb_excel
+2024-07-20T23:59:00+00:00,market_consensus,asb:2024:Port Adelaide_vs_Richmond:2024-07-20,H2H,Match,Home,,1.05,,2024,,2985fff96766ba2e2261b3f1391925bdc87488c18191a5d918e746b53d928597,asb_excel
+2024-07-13T23:59:00+00:00,market_consensus,asb:2024:Western Bulldogs_vs_Carlton:2024-07-13,H2H,Match,Away,,1.48,,2024,,27463140a807c60af9357d16f2edc1104bb1ff194e31f0d382133bbd9e32121c,asb_excel
+2024-06-01T23:59:00+00:00,market_consensus,asb:2024:Geelong_vs_Richmond:2024-06-01,H2H,Match,Home,,1.04,,2024,,bcca5716d3dcd70f2f86ff843d544229087a9af79f100be7df49495d80af44d7,asb_excel
+2024-08-16T23:59:00+00:00,market_consensus,asb:2024:Essendon_vs_Sydney:2024-08-16,H2H,Match,Away,,1.66,,2024,,0f3d9bafbf777939757d349f651aa7768a7ee13dc07d6ad0ef6ad2ca87551f21,asb_excel
+2024-06-07T23:59:00+00:00,market_consensus,asb:2024:Western Bulldogs_vs_Brisbane Lions:2024-06-07,H2H,Match,Home,,1.68,,2024,,2d52a9c2520e96d2397d3a178b2eab2ba6702983a8e2079d63a309798a5335b1,asb_excel
+2024-03-09T23:59:00+00:00,market_consensus,asb:2024:Gold Coast_vs_Richmond:2024-03-09,H2H,Match,Home,,1.41,,2024,,520c3922df87953126677f389dc19debb2c4100beb5b4af04e567f4ee1857cf6,asb_excel
+2024-05-11T23:59:00+00:00,market_consensus,asb:2024:Richmond_vs_Western Bulldogs:2024-05-11,H2H,Match,Home,,2.98,,2024,,7448737d7434daedc97507d095e763b96af23be9bf7d5614e12ce5d0d7755ac4,asb_excel
+2024-06-30T23:59:00+00:00,market_consensus,asb:2024:Richmond_vs_Carlton:2024-06-30,H2H,Match,Away,,1.09,,2024,,3a5a2fe9cf3d19dd912f66de8f430dd85aaa07cbc27f670f0f722361a1df9b27,asb_excel
+2024-07-27T23:59:00+00:00,market_consensus,asb:2024:St Kilda_vs_Essendon:2024-07-27,H2H,Match,Away,,1.62,,2024,,1c90d7b31f86923fcd51d7523500aa55a437756c26bda22b248e8031777fca37,asb_excel
+2024-07-14T23:59:00+00:00,market_consensus,asb:2024:Richmond_vs_GWS Giants:2024-07-14,H2H,Match,Away,,1.24,,2024,,c8189d01d5b5d24064de339dc12c9fb0effa0e0defe8632295f1fde177def2cf,asb_excel
+2024-03-08T23:59:00+00:00,market_consensus,asb:2024:Brisbane Lions_vs_Carlton:2024-03-08,H2H,Match,Home,,1.27,,2024,,e56a9a9435a2f0b2f92277d8b718938158574e2ba100c83ddea3c3e65b1e9000,asb_excel
+2024-05-12T23:59:00+00:00,market_consensus,asb:2024:Collingwood_vs_West Coast:2024-05-12,H2H,Match,Home,,1.1,,2024,,04c499aa6cabb8d09db6d965e9bf6afbda0865da040e43d425b0eb2e52cb21b9,asb_excel
+2024-07-14T23:59:00+00:00,market_consensus,asb:2024:West Coast_vs_Brisbane Lions:2024-07-14,H2H,Match,Away,,1.14,,2024,,473aa6bf4af2163a78621787102284babb148dd2f93abd24028ca8d31869ea33,asb_excel
+2024-03-31T23:59:00+00:00,market_consensus,asb:2024:Western Bulldogs_vs_West Coast:2024-03-31,H2H,Match,Away,,9.9,,2024,,5844b823cf8af4098dcc2718ba29e5a395591dabf9344fca1547bb43d3a34aa5,asb_excel
+2024-08-24T23:59:00+00:00,market_consensus,asb:2024:Geelong_vs_West Coast:2024-08-24,H2H,Match,Home,,1.02,,2024,,d0b92c90a8bc365bbd9d43bc914efaa74cd9809a08ec090bd6b38cc6a1b3701c,asb_excel
+2024-04-27T23:59:00+00:00,market_consensus,asb:2024:Fremantle_vs_Western Bulldogs:2024-04-27,H2H,Match,Away,,1.79,,2024,,5848959717c3e0cbcc33cbddcf7c8926d4cacb1a4cdc4086c4a129bd0842f8b6,asb_excel
+2024-03-22T23:59:00+00:00,market_consensus,asb:2024:Adelaide_vs_Geelong:2024-03-22,H2H,Match,Home,,1.39,,2024,,0d5331929cb3b5fccdb9f3965668d110ca1313f9247e154c76e0d8c997f2cc4b,asb_excel
+2024-05-26T23:59:00+00:00,market_consensus,asb:2024:Hawthorn_vs_Brisbane Lions:2024-05-26,H2H,Match,Home,,2.7,,2024,,4814c2cf766c6e2820bdf061cb5fa6e4ce597e579f3ed951c6dcf81d88382eed,asb_excel
+2024-08-03T23:59:00+00:00,market_consensus,asb:2024:Port Adelaide_vs_Sydney:2024-08-03,H2H,Match,Home,,1.81,,2024,,18cfcaf259a25feec53f6b2332684ebb37e5af4fb74c3f4a47a81c7c1a079e0d,asb_excel
+2024-05-19T23:59:00+00:00,market_consensus,asb:2024:Port Adelaide_vs_Hawthorn:2024-05-19,H2H,Match,Home,,1.12,,2024,,05e3aba054fcb8c0cc0bb35147e560c0f1c9709fc6f912469cc3c7256391cc0d,asb_excel
+2024-08-04T23:59:00+00:00,market_consensus,asb:2024:GWS Giants_vs_Hawthorn:2024-08-04,H2H,Match,Away,,1.95,,2024,,bd62e34d2656ca31e2954a9d0c37891bda05f353abd4b15e1d2a55cbd4ed1ca0,asb_excel
+2024-03-30T23:59:00+00:00,market_consensus,asb:2024:Essendon_vs_St Kilda:2024-03-30,H2H,Match,Home,,2.11,,2024,,628178c8a907913b5a7f137b2f76e35c18dd7bb563c0ca1211f90cb6376c1022,asb_excel
+2024-09-05T23:59:00+00:00,market_consensus,asb:2024:Port Adelaide_vs_Geelong:2024-09-05,H2H,Match,Home,,1.35,,2024,,006d55340761805b5e13599e144c13aeec891c56b7c48e78173970b6c33354d0,asb_excel
+2024-08-16T23:59:00+00:00,market_consensus,asb:2024:Essendon_vs_Sydney:2024-08-16,H2H,Match,Home,,2.12,,2024,,3ccc2b91fef6947c14a79c645a4e061d43b2428be5651fe32eed94dc56c54556,asb_excel
+2024-07-06T23:59:00+00:00,market_consensus,asb:2024:North Melbourne_vs_Gold Coast:2024-07-06,H2H,Match,Home,,3.38,,2024,,4538a6d10eb40f0db9a8e36055c65afcf87eaf90dc1acb7672cf31eccf0f4503,asb_excel
+2024-06-08T23:59:00+00:00,market_consensus,asb:2024:St Kilda_vs_Gold Coast:2024-06-08,H2H,Match,Away,,2.01,,2024,,b6900df0d74b4237013341752d77047131d54ece320d67e49231873d196fdc00,asb_excel
+2024-04-06T23:59:00+00:00,market_consensus,asb:2024:Western Bulldogs_vs_Geelong:2024-04-06,H2H,Match,Home,,1.92,,2024,,126ff8a0a588735bb8f0ffeaa29ea005de96902692a4b4098a226495f47e4f24,asb_excel
+2024-03-31T23:59:00+00:00,market_consensus,asb:2024:Western Bulldogs_vs_West Coast:2024-03-31,H2H,Match,Home,,1.04,,2024,,83b6acf3418053a6d1090aae0a41a67dccedaf9ded35684bb14f33d186cabfc0,asb_excel
+2024-08-10T23:59:00+00:00,market_consensus,asb:2024:Essendon_vs_Gold Coast:2024-08-10,H2H,Match,Home,,1.5,,2024,,eb39c8cdc526fb6ed9672d530224473bc206ab188f78993002a73e9001db043b,asb_excel
+2024-08-25T23:59:00+00:00,market_consensus,asb:2024:Fremantle_vs_Port Adelaide:2024-08-25,H2H,Match,Home,,1.72,,2024,,6a8b496d4fbf2b4951fde3dd0058486fc7cc6247688e8f969ed2f5852e5fced1,asb_excel
+2024-04-21T23:59:00+00:00,market_consensus,asb:2024:North Melbourne_vs_Hawthorn:2024-04-21,H2H,Match,Home,,3.19,,2024,,cbae553e6c01c40cf020d6f80d203ce504ce39831cf380d9b0d1ba1ffe5af7b5,asb_excel
+2024-05-19T23:59:00+00:00,market_consensus,asb:2024:West Coast_vs_Melbourne:2024-05-19,H2H,Match,Away,,1.13,,2024,,ee64315215e7765aa640dc71771887da02b7909438bb3a8a5595e4bf165069aa,asb_excel
+2024-07-27T23:59:00+00:00,market_consensus,asb:2024:Gold Coast_vs_Brisbane Lions:2024-07-27,H2H,Match,Away,,1.72,,2024,,b1aa43de162d0017c96f187aa7241f82ee3352608b8b60b2be96436ccabe08df,asb_excel
+2024-03-16T23:59:00+00:00,market_consensus,asb:2024:Essendon_vs_Hawthorn:2024-03-16,H2H,Match,Home,,1.84,,2024,,0fc8c70ab026af1835717258a6c7edbecf3061dbb54205e71e436baee6dc09a8,asb_excel
+2024-03-15T23:59:00+00:00,market_consensus,asb:2024:Collingwood_vs_Sydney:2024-03-15,H2H,Match,Away,,2.52,,2024,,169ab73f1a9bbfa48be157b36302ddfddeed07c7f5850160cb1520c01b407be1,asb_excel
+2024-07-20T23:59:00+00:00,market_consensus,asb:2024:St Kilda_vs_West Coast:2024-07-20,H2H,Match,Away,,5.96,,2024,,ecc705dd07295a3e041ec57371a89be061b29d149a87ffc792031ca70f8641b8,asb_excel
+2024-08-17T23:59:00+00:00,market_consensus,asb:2024:Gold Coast_vs_Melbourne:2024-08-17,H2H,Match,Home,,1.37,,2024,,a4e989b342cc2d40ecfcddb3e0fbed0730d4348b3cb138a7b1f1c190f70af15b,asb_excel
+2024-07-13T23:59:00+00:00,market_consensus,asb:2024:Melbourne_vs_Essendon:2024-07-13,H2H,Match,Away,,1.52,,2024,,e40552797e32b948f850c859707f6fd3c981fa50abe29d7527767701d9335c43,asb_excel
+2024-04-14T23:59:00+00:00,market_consensus,asb:2024:West Coast_vs_Richmond:2024-04-14,H2H,Match,Away,,1.43,,2024,,db3a96ca778227be7151281065ed05c4171fd7d15fbfd3848bdc23a8ad0d7b8c,asb_excel
+2024-06-30T23:59:00+00:00,market_consensus,asb:2024:St Kilda_vs_Port Adelaide:2024-06-30,H2H,Match,Home,,1.68,,2024,,183bdf8f4876589d5505e13e8f01a583cd11f95f4c44aad8058d6db5e28c0ad2,asb_excel
+2024-03-23T23:59:00+00:00,market_consensus,asb:2024:North Melbourne_vs_Fremantle:2024-03-23,H2H,Match,Away,,1.36,,2024,,410d76beb04811f6a942272d719df3fa54b3a60f13332164c077d0e63cc35237,asb_excel
+2024-07-13T23:59:00+00:00,market_consensus,asb:2024:Hawthorn_vs_Fremantle:2024-07-13,H2H,Match,Away,,1.76,,2024,,b66fbb5d99f1faf45e9130791e63430425f42c81439141882df050fc06b20f5c,asb_excel
+2024-08-04T23:59:00+00:00,market_consensus,asb:2024:Essendon_vs_Fremantle:2024-08-04,H2H,Match,Away,,1.62,,2024,,5719636f3cb337d54f67554adc90505aeaac159fd2c3bd912b9008eb65c98eea,asb_excel
+2024-06-22T23:59:00+00:00,market_consensus,asb:2024:Port Adelaide_vs_Brisbane Lions:2024-06-22,H2H,Match,Home,,2.05,,2024,,ed5a40bf3bdf8b72fa7060450c8f45983a73a933712d06054329e2453464ae60,asb_excel
+2024-05-17T23:59:00+00:00,market_consensus,asb:2024:Sydney_vs_Carlton:2024-05-17,H2H,Match,Away,,2.92,,2024,,264a81fea1a369b9ac7f06d13d72e72799ab5cd7e60d69d636ae329c3c255d1f,asb_excel
+2024-06-29T23:59:00+00:00,market_consensus,asb:2024:Gold Coast_vs_Collingwood:2024-06-29,H2H,Match,Home,,1.89,,2024,,e475c6a8ea120afcd890c341aa3afcdf863ab6adf93f7de51afa435be2e2ee65,asb_excel
+2024-08-17T23:59:00+00:00,market_consensus,asb:2024:Collingwood_vs_Brisbane Lions:2024-08-17,H2H,Match,Home,,2.44,,2024,,d58e329c9340f80f9836695f27196e9e0fc7d3508ca0e83ce1126e1a18526b77,asb_excel
+2024-04-06T23:59:00+00:00,market_consensus,asb:2024:West Coast_vs_Sydney:2024-04-06,H2H,Match,Away,,1.02,,2024,,f6b006aedb4bbf0ae712e189a8c030bf7ab0b5e7ad88f7966e47fd5b533beebf,asb_excel
+2024-08-04T23:59:00+00:00,market_consensus,asb:2024:St Kilda_vs_Brisbane Lions:2024-08-04,H2H,Match,Away,,1.56,,2024,,0e27729743492d9cff9687181b928ec3e0fcadb78143edf0c359d0bfbf4c2f4b,asb_excel
+2024-08-02T23:59:00+00:00,market_consensus,asb:2024:West Coast_vs_Gold Coast:2024-08-02,H2H,Match,Home,,2.87,,2024,,677acd6df6a35c6f82101c1760acd6217daa8f4351f3240608a684d56bb248e8,asb_excel
+2024-07-06T23:59:00+00:00,market_consensus,asb:2024:Geelong_vs_Hawthorn:2024-07-06,H2H,Match,Home,,1.54,,2024,,d38c536ce5eee0346cc165b877a36172f47c1c28748e5b4627bb645d4e2fb842,asb_excel
+2024-07-28T23:59:00+00:00,market_consensus,asb:2024:Collingwood_vs_Richmond:2024-07-28,H2H,Match,Home,,1.23,,2024,,8ac1114f15439ef74997ca2a6d927613b3bd23162b6b977b5667f5c9a3359b58,asb_excel
+2024-03-16T23:59:00+00:00,market_consensus,asb:2024:Gold Coast_vs_Adelaide:2024-03-16,H2H,Match,Away,,2.27,,2024,,c16ab4c5c44b33f7ddf8100c210b7bbee9c19abdf58e15a7074afb4408c080e6,asb_excel
+2024-07-12T23:59:00+00:00,market_consensus,asb:2024:Collingwood_vs_Geelong:2024-07-12,H2H,Match,Home,,2.06,,2024,,996aec810914a6437507056307696f3fbadd5a75bc2ed164370b5ea8c71e0708,asb_excel
+2024-03-24T23:59:00+00:00,market_consensus,asb:2024:Richmond_vs_Port Adelaide:2024-03-24,H2H,Match,Home,,3.0,,2024,,a1eda357d64c6ecc9e6df2e097c9bf006d95beced7c898805721c019a13baf0e,asb_excel
+2024-06-16T23:59:00+00:00,market_consensus,asb:2024:North Melbourne_vs_Collingwood:2024-06-16,H2H,Match,Home,,6.71,,2024,,567801a251d03259145ee5596695f6b572f2be2cbd093218b5bd6e7da75d8130,asb_excel
+2024-07-06T23:59:00+00:00,market_consensus,asb:2024:GWS Giants_vs_Carlton:2024-07-06,H2H,Match,Home,,2.24,,2024,,cdfa082b46818cc1c714fe03003c6bd3aefff0077668440245a444956bc2b6c3,asb_excel
+2024-08-17T23:59:00+00:00,market_consensus,asb:2024:Port Adelaide_vs_Adelaide:2024-08-17,H2H,Match,Home,,1.44,,2024,,0da3661357f5a4b17bf9ad085514d4de848c96dc4aed7416c1c1bbb586b1f247,asb_excel
+2024-05-18T23:59:00+00:00,market_consensus,asb:2024:St Kilda_vs_Fremantle:2024-05-18,H2H,Match,Away,,1.97,,2024,,6a81661ff938cbbfb8482d7b01d697d0520cd47a91c95e92c956ad0b2231200b,asb_excel
+2024-04-06T23:59:00+00:00,market_consensus,asb:2024:Fremantle_vs_Carlton:2024-04-06,H2H,Match,Home,,2.3,,2024,,47b6aa8b7e1da760b6e1b808ba55c1424d42993dfc10e614712e8dbd5f44fce3,asb_excel
+2024-05-05T23:59:00+00:00,market_consensus,asb:2024:Brisbane Lions_vs_Gold Coast:2024-05-05,H2H,Match,Away,,2.65,,2024,,bdda194808112748fc2e43b2c6ca27b074e0d6b0266d293f222cb2125b5a2f7f,asb_excel
+2024-05-19T23:59:00+00:00,market_consensus,asb:2024:Essendon_vs_North Melbourne:2024-05-19,H2H,Match,Away,,9.02,,2024,,ca22afc4a6ad2a25c411796b4dc99e7077fe4d2b8ca289cb2cd821d9f1667398,asb_excel
+2024-04-01T23:59:00+00:00,market_consensus,asb:2024:Hawthorn_vs_Geelong:2024-04-01,H2H,Match,Away,,1.39,,2024,,35db346f61c4131c7d14f7bbd4841130a7a04cdd495ed16753bf698790d55e35,asb_excel
+2024-09-14T23:59:00+00:00,market_consensus,asb:2024:GWS Giants_vs_Brisbane Lions:2024-09-14,H2H,Match,Away,,2.12,,2024,,1fcddc90de5433076040b44c7fda1a5993a56fb20c97a97a2c79682580ea3a03,asb_excel
+2024-09-13T23:59:00+00:00,market_consensus,asb:2024:Port Adelaide_vs_Hawthorn:2024-09-13,H2H,Match,Home,,2.18,,2024,,a5e69f0359511bdfd9beec58ffff6936756b73f72159eac97b459b658e18cf15,asb_excel
+2024-08-09T23:59:00+00:00,market_consensus,asb:2024:Sydney_vs_Collingwood:2024-08-09,H2H,Match,Home,,1.38,,2024,,79b509ff1df5eb274bd34daa12e795a1b0180aa5cfb15c0916a44fd610dd026e,asb_excel
+2024-08-17T23:59:00+00:00,market_consensus,asb:2024:GWS Giants_vs_Fremantle:2024-08-17,H2H,Match,Home,,1.32,,2024,,6d58c68374d7b9d85b02993b1463c7f71cadd6a225a20c2d1080d993af35ba2c,asb_excel
+2024-08-10T23:59:00+00:00,market_consensus,asb:2024:Brisbane Lions_vs_GWS Giants:2024-08-10,H2H,Match,Away,,3.33,,2024,,2266cef12c6425dd29eefe60b3850ef5fbf060e32e2a3182f9dcebb7ed68ddd8,asb_excel
+2024-06-01T23:59:00+00:00,market_consensus,asb:2024:West Coast_vs_St Kilda:2024-06-01,H2H,Match,Away,,1.5,,2024,,9fcf8049ba11444bfd55b8f4a85004886284f41d878014aa11f962b7d6925363,asb_excel
+2024-09-05T23:59:00+00:00,market_consensus,asb:2024:Port Adelaide_vs_Geelong:2024-09-05,H2H,Match,Away,,3.04,,2024,,96bc996092b7fdf0148696c2e122269e6fd02613c6a50370b80fa7beba1f5709,asb_excel
+2024-07-20T23:59:00+00:00,market_consensus,asb:2024:GWS Giants_vs_Gold Coast:2024-07-20,H2H,Match,Away,,2.89,,2024,,5a18aec6612d26f85a22eaa15deded7d4e98faf3e66b33517c7ef4c6440f7fa2,asb_excel
+2024-04-07T23:59:00+00:00,market_consensus,asb:2024:Collingwood_vs_Hawthorn:2024-04-07,H2H,Match,Away,,4.24,,2024,,f6accf1e8ea6df2d254f6c71ab81feac6521a3018e83ed36531952678cc20e61,asb_excel
+2024-08-04T23:59:00+00:00,market_consensus,asb:2024:Essendon_vs_Fremantle:2024-08-04,H2H,Match,Home,,2.19,,2024,,8bcd5e6101582bc280647ff04e5dc43b601ac2157a9e31fa7398f6e4ae6b7cd8,asb_excel
+2024-03-17T23:59:00+00:00,market_consensus,asb:2024:Fremantle_vs_Brisbane Lions:2024-03-17,H2H,Match,Home,,2.19,,2024,,eb705764ec209c5f1179c57a1dbb8c3a750923c750faa41c713a7c8e8faa7654,asb_excel
+2024-06-09T23:59:00+00:00,market_consensus,asb:2024:Essendon_vs_Carlton:2024-06-09,H2H,Match,Away,,1.51,,2024,,8373e1ffed2b69ab5ade970bfed48a24fe9ea8a3551f9bb92acf8f16e4d7814a,asb_excel
+2024-04-13T23:59:00+00:00,market_consensus,asb:2024:Gold Coast_vs_Hawthorn:2024-04-13,H2H,Match,Home,,1.28,,2024,,aca7280b393795c691f94105122c80eb3ad5616a9c28b5100ad71b9e620b7119,asb_excel
+2024-07-27T23:59:00+00:00,market_consensus,asb:2024:North Melbourne_vs_Geelong:2024-07-27,H2H,Match,Away,,1.25,,2024,,ff99124bcc060be25340eb794ce740875944fc11aa31c75c5414d4beed8e0142,asb_excel
+2024-05-25T23:59:00+00:00,market_consensus,asb:2024:Geelong_vs_GWS Giants:2024-05-25,H2H,Match,Home,,1.42,,2024,,c3f7373ebcf878a33ec29211e090ad91cb8ad7cb9db45f3ea559d098d681626e,asb_excel
+2024-08-11T23:59:00+00:00,market_consensus,asb:2024:Adelaide_vs_Western Bulldogs:2024-08-11,H2H,Match,Home,,2.66,,2024,,86dce1b26cd72f6edcc92f06e2104afdbee25e961575874abee43c8f32e2b18d,asb_excel
+2024-04-13T23:59:00+00:00,market_consensus,asb:2024:Carlton_vs_Adelaide:2024-04-13,H2H,Match,Away,,3.35,,2024,,4bfc2ff5b0a072da661c43ac8ba4f7eef2d6bd1077023367effef28f39f46e28,asb_excel
+2024-05-10T23:59:00+00:00,market_consensus,asb:2024:Fremantle_vs_Sydney:2024-05-10,H2H,Match,Home,,2.24,,2024,,35ff195d10e035b5dfbcb175c9e8a2daea6110b88aac2678e56d3c25487709aa,asb_excel
+2024-08-24T23:59:00+00:00,market_consensus,asb:2024:Richmond_vs_Gold Coast:2024-08-24,H2H,Match,Away,,1.52,,2024,,4e0c8cd744cf18c641e267af5ab952e4ebdcddecbfefb1736c0d0b1ed2461576,asb_excel
+2024-08-10T23:59:00+00:00,market_consensus,asb:2024:Melbourne_vs_Port Adelaide:2024-08-10,H2H,Match,Away,,1.38,,2024,,c4e15d4233ad494d72cb26d7ee25b36549e83c27af87e4320d1b439d91c5a493,asb_excel
+2024-06-28T23:59:00+00:00,market_consensus,asb:2024:Brisbane Lions_vs_Melbourne:2024-06-28,H2H,Match,Away,,5.05,,2024,,2796755f6d92b8a5787da10f58fc54a0141adb2578e84948797bb1622279f718,asb_excel
+2024-08-11T23:59:00+00:00,market_consensus,asb:2024:Richmond_vs_St Kilda:2024-08-11,H2H,Match,Away,,1.23,,2024,,f816873cbc6274e9f474f948c4c121d1321dfe66d038150e534b288a9aab2d9e,asb_excel
+2024-05-18T23:59:00+00:00,market_consensus,asb:2024:GWS Giants_vs_Western Bulldogs:2024-05-18,H2H,Match,Home,,1.42,,2024,,a1a6302a3129d623308479b0de6d4b0562ad7f9bb732007af9bb45c18db88503,asb_excel
+2024-03-24T23:59:00+00:00,market_consensus,asb:2024:West Coast_vs_GWS Giants:2024-03-24,H2H,Match,Home,,8.27,,2024,,34afb40188acb26e44e628058ba73b31f4de62d3c671b2e2cc34b141d4eb545f,asb_excel
+2024-04-20T23:59:00+00:00,market_consensus,asb:2024:West Coast_vs_Fremantle:2024-04-20,H2H,Match,Away,,1.13,,2024,,402291bc0cf3756c2cca7b9cf4bea553a1a13b0026e58a67ce70fab44332a160,asb_excel
+2024-04-13T23:59:00+00:00,market_consensus,asb:2024:Port Adelaide_vs_Fremantle:2024-04-13,H2H,Match,Away,,3.58,,2024,,208564b3240eb9311f4eefa126362b6aca6a9fa55f6e530fc5be30c54fa1ebff,asb_excel
+2024-04-26T23:59:00+00:00,market_consensus,asb:2024:Port Adelaide_vs_St Kilda:2024-04-26,H2H,Match,Home,,1.2,,2024,,d2b2e40fbdd07072c385ec77f836e062fb1ef224ddffc64b1fa6fb431944ac95,asb_excel
+2024-05-26T23:59:00+00:00,market_consensus,asb:2024:Hawthorn_vs_Brisbane Lions:2024-05-26,H2H,Match,Away,,1.43,,2024,,22a9910bb48ae11be04bd44ef4404848b1fd097fd2c247aa11dafffc9906788b,asb_excel
+2024-04-18T23:59:00+00:00,market_consensus,asb:2024:St Kilda_vs_Western Bulldogs:2024-04-18,H2H,Match,Home,,1.86,,2024,,3a50f09e6cf2ff3805386303dca8c0b58ab6203f2b18a643e947c3ccf08a01e7,asb_excel
+2024-05-31T23:59:00+00:00,market_consensus,asb:2024:Collingwood_vs_Western Bulldogs:2024-05-31,H2H,Match,Home,,2.08,,2024,,9a6165a7a1d45fb2279fd152587fc2aa518831be54d50ade6957ae84a22d07da,asb_excel
+2024-05-10T23:59:00+00:00,market_consensus,asb:2024:Fremantle_vs_Sydney:2024-05-10,H2H,Match,Away,,1.61,,2024,,61ae63eb2fe59561a40941ca1d24c7379f3f01313cf82d93e708097a7afe0f0f,asb_excel
+2024-07-20T23:59:00+00:00,market_consensus,asb:2024:Geelong_vs_Western Bulldogs:2024-07-20,H2H,Match,Away,,2.32,,2024,,2cd95320dc4951a95d9430e90a97f8b0d7fc361453dd263c231cb4064a380d96,asb_excel
+2024-07-19T23:59:00+00:00,market_consensus,asb:2024:Essendon_vs_Adelaide:2024-07-19,H2H,Match,Away,,2.77,,2024,,e137359f7a48f4af4da875a4bbdcf556e2c8117663f26f33e3e920c3d0e013b1,asb_excel
+2024-05-04T23:59:00+00:00,market_consensus,asb:2024:Melbourne_vs_Geelong:2024-05-04,H2H,Match,Away,,1.74,,2024,,2c2f5eb671e1dcbc623a1ea761f2b447af193ee8ed0293f1c2519938751131a0,asb_excel
+2024-03-21T23:59:00+00:00,market_consensus,asb:2024:St Kilda_vs_Collingwood:2024-03-21,H2H,Match,Away,,1.52,,2024,,532cfe00e5dd49947bcc052528798123976c9a340e8e8362842ff8dc41d13cab,asb_excel
+2024-08-10T23:59:00+00:00,market_consensus,asb:2024:Fremantle_vs_Geelong:2024-08-10,H2H,Match,Home,,1.51,,2024,,ead9d362dab3b0f7b8855549967663093432f42687dc6004303cd63d1f558afd,asb_excel
+2024-05-26T23:59:00+00:00,market_consensus,asb:2024:Adelaide_vs_West Coast:2024-05-26,H2H,Match,Home,,1.18,,2024,,481bf50c3c23b9e769e0b9ba64037a8d77e56864e0a93ab1e44a3a469500a349,asb_excel
+2024-03-14T23:59:00+00:00,market_consensus,asb:2024:Carlton_vs_Richmond:2024-03-14,H2H,Match,Home,,1.42,,2024,,d42739eec29b64e7ce66fa48f0120b7b6140fc071af4eb24b303b83760fda1c1,asb_excel
+2024-04-07T23:59:00+00:00,market_consensus,asb:2024:Richmond_vs_St Kilda:2024-04-07,H2H,Match,Away,,1.38,,2024,,37c8c42cfa0f04f902a536112a6c73ed137356247565de59fae1cb85375d7faa,asb_excel
+2024-07-07T23:59:00+00:00,market_consensus,asb:2024:St Kilda_vs_Sydney:2024-07-07,H2H,Match,Away,,1.22,,2024,,06967b8825b138574a7d11b4dc6401430d593f1e8a38b1a718793d0402ffcaae,asb_excel
+2024-05-18T23:59:00+00:00,market_consensus,asb:2024:Brisbane Lions_vs_Richmond:2024-05-18,H2H,Match,Away,,8.73,,2024,,df21f9ab7c0a6fb84ef64db7cc67bdb0d6a2109b00d82644f152811b62531089,asb_excel
+2024-06-16T23:59:00+00:00,market_consensus,asb:2024:North Melbourne_vs_Collingwood:2024-06-16,H2H,Match,Away,,1.09,,2024,,684dea9e939c6854a2b9adacec160dde922bad86bde0f669762cb79cc1a0acd9,asb_excel
+2024-03-23T23:59:00+00:00,market_consensus,asb:2024:Sydney_vs_Essendon:2024-03-23,H2H,Match,Home,,1.17,,2024,,b9e0e1943ce0d9008847ff3ad8650ae7d8e12ddf4b6fa02a809aa9747108ddce,asb_excel
+2024-05-19T23:59:00+00:00,market_consensus,asb:2024:Essendon_vs_North Melbourne:2024-05-19,H2H,Match,Home,,1.04,,2024,,3f2f29aeef3f7ff5b69fce51b93b0977915eadc3cd166cf19b6e4f704aab1d63,asb_excel
+2024-05-18T23:59:00+00:00,market_consensus,asb:2024:GWS Giants_vs_Western Bulldogs:2024-05-18,H2H,Match,Away,,2.72,,2024,,3ed8412e113dc1276bf0ef7fb49ab4e85456b73cd9ac7474a1f8dde1c9a5f2aa,asb_excel
+2024-08-17T23:59:00+00:00,market_consensus,asb:2024:St Kilda_vs_Geelong:2024-08-17,H2H,Match,Away,,1.51,,2024,,83b7146cd0f926328b4b623ff71c3d77866ccaf3e7e592d39540eaa76fa9d7ca,asb_excel
+2024-06-15T23:59:00+00:00,market_consensus,asb:2024:Adelaide_vs_Sydney:2024-06-15,H2H,Match,Home,,3.29,,2024,,48016d863c303e34b528f4d9e1a2fd0c6ddf54ed9340a4717ddbbb73673abd5d,asb_excel
+2024-08-03T23:59:00+00:00,market_consensus,asb:2024:Geelong_vs_Adelaide:2024-08-03,H2H,Match,Away,,3.12,,2024,,10cd515e2460054b3e85cd80db885951aefba08f869bbae19b62ce4c13c87fde,asb_excel
+2024-03-22T23:59:00+00:00,market_consensus,asb:2024:Adelaide_vs_Geelong:2024-03-22,H2H,Match,Away,,2.89,,2024,,d2974d55def35246511a7df33302dce89977292ea30a5c005283a3e5ea73f7c2,asb_excel
+2024-03-08T23:59:00+00:00,market_consensus,asb:2024:Brisbane Lions_vs_Carlton:2024-03-08,H2H,Match,Away,,3.59,,2024,,17202392c2bcec04f85adb75309cc66a2ba4fb5680693119a50b5c5796106efa,asb_excel
+2024-06-30T23:59:00+00:00,market_consensus,asb:2024:Richmond_vs_Carlton:2024-06-30,H2H,Match,Home,,6.58,,2024,,1dbda59af9e77ac10e19a16a2c02fb061c1b2755d423634a6418a64ed7d02679,asb_excel
+2024-03-24T23:59:00+00:00,market_consensus,asb:2024:Richmond_vs_Port Adelaide:2024-03-24,H2H,Match,Away,,1.36,,2024,,f42965ae6dbb86e3bb72d357476aa094724d7b3a5ed112aa8b98eacb3a878ca8,asb_excel
+2024-07-21T23:59:00+00:00,market_consensus,asb:2024:Brisbane Lions_vs_Sydney:2024-07-21,H2H,Match,Home,,1.77,,2024,,f4d2c63328c26fc64f566e21f89d08d460d4915e39f1f29e3404d5e5ab7719d0,asb_excel
+2024-04-21T23:59:00+00:00,market_consensus,asb:2024:Sydney_vs_Gold Coast:2024-04-21,H2H,Match,Away,,3.1,,2024,,b46b487f8446e356d1096c13cf9685959d9847c6748ad97312a9901b6a93afd5,asb_excel
+2024-05-25T23:59:00+00:00,market_consensus,asb:2024:Carlton_vs_Gold Coast:2024-05-25,H2H,Match,Away,,2.77,,2024,,7ee28a5e10a703decda9790e0ec9bcb3b765bc10e83693e2a215c60b960daab4,asb_excel
+2024-05-09T23:59:00+00:00,market_consensus,asb:2024:Carlton_vs_Melbourne:2024-05-09,H2H,Match,Home,,2.05,,2024,,53578be29f998928388eeaab85e509fa856807b5dfa590848ad36fd80d268d8e,asb_excel
+2024-08-17T23:59:00+00:00,market_consensus,asb:2024:GWS Giants_vs_Fremantle:2024-08-17,H2H,Match,Away,,3.14,,2024,,04ba053c567a7a99fdc52bd69a56b38fa330b6dd7fa2675633a410658e854f71,asb_excel
+2024-07-13T23:59:00+00:00,market_consensus,asb:2024:Sydney_vs_North Melbourne:2024-07-13,H2H,Match,Home,,1.04,,2024,,2bb32e77a87513a0c483de85372a077ea90f69edf7a98e2cdfe7412ebf5fadc3,asb_excel
+2024-06-15T23:59:00+00:00,market_consensus,asb:2024:Adelaide_vs_Sydney:2024-06-15,H2H,Match,Away,,1.3,,2024,,1667476f7dab0a86b3336d4b21a8fea21152ebd1828701cb37564991a5c653f6,asb_excel
+2024-04-25T23:59:00+00:00,market_consensus,asb:2024:Essendon_vs_Collingwood:2024-04-25,H2H,Match,Home,,2.85,,2024,,a5b567afed65984ba08a81370197fedcc5103be784aa49368267c1681740cc70,asb_excel
+2024-03-07T23:59:00+00:00,market_consensus,asb:2024:Sydney_vs_Melbourne:2024-03-07,H2H,Match,Away,,2.03,,2024,,84409bd2a5a35ada2f5998afffef6398f8e1a93b716f7bb801b7657fb7994f0d,asb_excel
+2024-07-14T23:59:00+00:00,market_consensus,asb:2024:West Coast_vs_Brisbane Lions:2024-07-14,H2H,Match,Home,,5.15,,2024,,85f39eb6c920b6f7ab6c311b22e0ef1302cb3c2d8a78515eb39213ff12d1ff1e,asb_excel
+2024-04-25T23:59:00+00:00,market_consensus,asb:2024:Essendon_vs_Collingwood:2024-04-25,H2H,Match,Away,,1.4,,2024,,d26f8a054ac750e558359d3d0bb011bea5ca6990fd21691566ec1dc3c6ceaed9,asb_excel
+2024-03-09T23:59:00+00:00,market_consensus,asb:2024:GWS Giants_vs_Collingwood:2024-03-09,H2H,Match,Home,,1.69,,2024,,d61d763969655009ac32441cca94d48dbc8d060fe00d240b44d8f2252831d423,asb_excel
+2024-07-13T23:59:00+00:00,market_consensus,asb:2024:Western Bulldogs_vs_Carlton:2024-07-13,H2H,Match,Home,,2.52,,2024,,a93ce4c369c04e17ee98b2b4b74604d58e4d9cd9c426ae5c9d9f6aa6944fe5ca,asb_excel
+2024-03-17T23:59:00+00:00,market_consensus,asb:2024:Fremantle_vs_Brisbane Lions:2024-03-17,H2H,Match,Away,,1.63,,2024,,6b06fa91fc8a1177f77cebd145b1abb312296d6b02e456f5c5c43e15fa23c621,asb_excel
+2024-08-18T23:59:00+00:00,market_consensus,asb:2024:West Coast_vs_Carlton:2024-08-18,H2H,Match,Away,,2.07,,2024,,1052a2864e467d715cf2a82522bcb13d53ca6ca46018cb93381b81f3b14bec7e,asb_excel
+2024-04-05T23:59:00+00:00,market_consensus,asb:2024:Port Adelaide_vs_Essendon:2024-04-05,H2H,Match,Away,,3.88,,2024,,e6047045c4a263a7d4fe3395120ee1704bf05393880d42fa0d047bfde885b210,asb_excel
+2024-06-10T23:59:00+00:00,market_consensus,asb:2024:Collingwood_vs_Melbourne:2024-06-10,H2H,Match,Away,,1.71,,2024,,086ddd6a81f88a24a3f3772818e6a91e02a2a6e8c597651828c49a07eab9022c,asb_excel
+2024-05-30T23:59:00+00:00,market_consensus,asb:2024:Port Adelaide_vs_Carlton:2024-05-30,H2H,Match,Home,,1.56,,2024,,6cbc1a8bbd1b471fa68a1f896dc08feebe59bc1866c52b114b89508cdab363b4,asb_excel
+2024-04-19T23:59:00+00:00,market_consensus,asb:2024:Adelaide_vs_Essendon:2024-04-19,H2H,Match,Away,,2.79,,2024,,27d7c6fd5b8b602d41646765cc1eedb4b187a2917ba0be088940d22c7487b895,asb_excel
+2024-06-23T23:59:00+00:00,market_consensus,asb:2024:Fremantle_vs_Gold Coast:2024-06-23,H2H,Match,Home,,1.37,,2024,,f1f732cb11a8cc4b4616ea47595dfcbfceb4e671c90bb79bbfb1fe3a5a4073cc,asb_excel
+2024-08-10T23:59:00+00:00,market_consensus,asb:2024:North Melbourne_vs_West Coast:2024-08-10,H2H,Match,Home,,1.65,,2024,,771432e6fcb6a42bef78562392babce04753b27d93bc1efd26b953a6a4bdf683,asb_excel
+2024-05-23T23:59:00+00:00,market_consensus,asb:2024:Western Bulldogs_vs_Sydney:2024-05-23,H2H,Match,Away,,1.58,,2024,,4555d6c66245eb26443be98484b862522fc484d07fb1fbf09bbd9cc609166fb3,asb_excel
+2024-06-23T23:59:00+00:00,market_consensus,asb:2024:Essendon_vs_West Coast:2024-06-23,H2H,Match,Away,,5.88,,2024,,df8fbe1b3371076a4d203a0cbe961f1c68da2438714b20350862630f16de1baf,asb_excel
