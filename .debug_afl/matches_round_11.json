@@ -1,0 +1,735 @@
+{
+  "meta": {
+    "code": 200,
+    "pagination": {
+      "page": 0,
+      "numPages": 1,
+      "pageSize": 50,
+      "numEntries": 9
+    }
+  },
+  "matches": [
+    {
+      "id": 7052,
+      "providerId": "CD_M20250141101",
+      "compSeason": {
+        "id": 73,
+        "providerId": "CD_S2025014",
+        "name": "2025 Toyota AFL Premiership",
+        "shortName": "Premiership",
+        "currentRoundNumber": 25
+      },
+      "round": {
+        "id": 1157,
+        "providerId": "CD_R202501411",
+        "abbreviation": "Rd 11",
+        "name": "Round 11",
+        "roundNumber": 11,
+        "byes": []
+      },
+      "home": {
+        "team": {
+          "id": 10,
+          "providerId": "CD_T70",
+          "name": "Geelong Cats",
+          "abbreviation": "GEEL",
+          "nickname": "Cats",
+          "club": {
+            "id": 15,
+            "providerId": "CD_O11",
+            "name": "Geelong Cats",
+            "abbreviation": "Cats",
+            "nickname": "Cats"
+          },
+          "teamType": "MEN"
+        },
+        "score": {
+          "goals": 20,
+          "behinds": 7,
+          "totalScore": 127,
+          "superGoals": 0
+        }
+      },
+      "away": {
+        "team": {
+          "id": 8,
+          "providerId": "CD_T140",
+          "name": "Western Bulldogs",
+          "abbreviation": "WB",
+          "nickname": "Bulldogs",
+          "club": {
+            "id": 25,
+            "providerId": "CD_O31",
+            "name": "Western Bulldogs",
+            "abbreviation": "Bulldogs",
+            "nickname": "Bulldogs"
+          },
+          "teamType": "MEN"
+        },
+        "score": {
+          "goals": 16,
+          "behinds": 17,
+          "totalScore": 113,
+          "superGoals": 0
+        }
+      },
+      "venue": {
+        "id": 15,
+        "providerId": "CD_V30",
+        "name": "GMHBA Stadium",
+        "abbreviation": "GMHBA",
+        "location": "Geelong",
+        "state": "VIC",
+        "timezone": "Australia/Melbourne",
+        "landOwner": "Wadawurrung"
+      },
+      "utcStartTime": "2025-05-22T09:30:00.000+0000",
+      "status": "CONCLUDED",
+      "metadata": {
+        "ticket_link": "https://www.ticketmaster.com.au/event/25006244844F0984"
+      }
+    },
+    {
+      "id": 7056,
+      "providerId": "CD_M20250141102",
+      "compSeason": {
+        "id": 73,
+        "providerId": "CD_S2025014",
+        "name": "2025 Toyota AFL Premiership",
+        "shortName": "Premiership",
+        "currentRoundNumber": 25
+      },
+      "round": {
+        "id": 1157,
+        "providerId": "CD_R202501411",
+        "abbreviation": "Rd 11",
+        "name": "Round 11",
+        "roundNumber": 11,
+        "byes": []
+      },
+      "home": {
+        "team": {
+          "id": 12,
+          "providerId": "CD_T50",
+          "name": "Essendon",
+          "abbreviation": "ESS",
+          "nickname": "Bombers",
+          "club": {
+            "id": 10,
+            "providerId": "CD_O9",
+            "name": "Essendon",
+            "abbreviation": "Bombers",
+            "nickname": "Bombers"
+          },
+          "teamType": "MEN"
+        },
+        "score": {
+          "goals": 11,
+          "behinds": 15,
+          "totalScore": 81,
+          "superGoals": 0
+        }
+      },
+      "away": {
+        "team": {
+          "id": 16,
+          "providerId": "CD_T120",
+          "name": "Richmond",
+          "abbreviation": "RICH",
+          "nickname": "Tigers",
+          "club": {
+            "id": 22,
+            "providerId": "CD_O25",
+            "name": "Richmond",
+            "abbreviation": "Tigers",
+            "nickname": "Tigers"
+          },
+          "teamType": "MEN"
+        },
+        "score": {
+          "goals": 8,
+          "behinds": 10,
+          "totalScore": 58,
+          "superGoals": 0
+        }
+      },
+      "venue": {
+        "id": 13,
+        "providerId": "CD_V40",
+        "name": "MCG",
+        "abbreviation": "MCG",
+        "location": "Melbourne",
+        "state": "VIC",
+        "timezone": "Australia/Melbourne",
+        "landOwner": "Wurundjeri"
+      },
+      "utcStartTime": "2025-05-23T09:40:00.000+0000",
+      "status": "CONCLUDED",
+      "metadata": {
+        "ticket_link": "https://premier.ticketek.com.au/shows/show.aspx?sh=ESSEN1125"
+      }
+    },
+    {
+      "id": 7055,
+      "providerId": "CD_M20250141103",
+      "compSeason": {
+        "id": 73,
+        "providerId": "CD_S2025014",
+        "name": "2025 Toyota AFL Premiership",
+        "shortName": "Premiership",
+        "currentRoundNumber": 25
+      },
+      "round": {
+        "id": 1157,
+        "providerId": "CD_R202501411",
+        "abbreviation": "Rd 11",
+        "name": "Round 11",
+        "roundNumber": 11,
+        "byes": []
+      },
+      "home": {
+        "team": {
+          "id": 5,
+          "providerId": "CD_T30",
+          "name": "Carlton",
+          "abbreviation": "CARL",
+          "nickname": "Blues",
+          "club": {
+            "id": 1,
+            "providerId": "CD_O5",
+            "name": "Carlton",
+            "abbreviation": "Blues",
+            "nickname": "Blues"
+          },
+          "teamType": "MEN"
+        },
+        "score": {
+          "goals": 12,
+          "behinds": 10,
+          "totalScore": 82,
+          "superGoals": 0
+        }
+      },
+      "away": {
+        "team": {
+          "id": 15,
+          "providerId": "CD_T1010",
+          "name": "GWS GIANTS",
+          "abbreviation": "GWS",
+          "nickname": "GIANTS",
+          "club": {
+            "id": 5,
+            "providerId": "CD_O16",
+            "name": "GWS GIANTS",
+            "abbreviation": "GIANTS",
+            "nickname": "GIANTS"
+          },
+          "teamType": "MEN"
+        },
+        "score": {
+          "goals": 17,
+          "behinds": 8,
+          "totalScore": 110,
+          "superGoals": 0
+        }
+      },
+      "venue": {
+        "id": 3,
+        "providerId": "CD_V190",
+        "name": "Marvel Stadium",
+        "abbreviation": "MRVL",
+        "location": "Melbourne",
+        "state": "VIC",
+        "timezone": "Australia/Melbourne",
+        "landOwner": "Wurundjeri"
+      },
+      "utcStartTime": "2025-05-24T02:35:00.000+0000",
+      "status": "CONCLUDED",
+      "metadata": {
+        "ticket_link": "https://www.ticketmaster.com.au/event/25006235D6821CC2"
+      }
+    },
+    {
+      "id": 7058,
+      "providerId": "CD_M20250141104",
+      "compSeason": {
+        "id": 73,
+        "providerId": "CD_S2025014",
+        "name": "2025 Toyota AFL Premiership",
+        "shortName": "Premiership",
+        "currentRoundNumber": 25
+      },
+      "round": {
+        "id": 1157,
+        "providerId": "CD_R202501411",
+        "abbreviation": "Rd 11",
+        "name": "Round 11",
+        "roundNumber": 11,
+        "byes": []
+      },
+      "home": {
+        "team": {
+          "id": 9,
+          "providerId": "CD_T80",
+          "name": "Hawthorn",
+          "abbreviation": "HAW",
+          "nickname": "Hawks",
+          "club": {
+            "id": 16,
+            "providerId": "CD_O17",
+            "name": "Hawthorn",
+            "abbreviation": "Hawks",
+            "nickname": "Hawks"
+          },
+          "teamType": "MEN"
+        },
+        "score": {
+          "goals": 8,
+          "behinds": 12,
+          "totalScore": 60,
+          "superGoals": 0
+        }
+      },
+      "away": {
+        "team": {
+          "id": 2,
+          "providerId": "CD_T20",
+          "name": "Brisbane Lions",
+          "abbreviation": "BL",
+          "nickname": "Lions",
+          "club": {
+            "id": 13,
+            "providerId": "CD_O3",
+            "name": "Brisbane Lions",
+            "abbreviation": "Lions",
+            "nickname": "Lions"
+          },
+          "teamType": "MEN"
+        },
+        "score": {
+          "goals": 14,
+          "behinds": 9,
+          "totalScore": 93,
+          "superGoals": 0
+        }
+      },
+      "venue": {
+        "id": 13,
+        "providerId": "CD_V40",
+        "name": "MCG",
+        "abbreviation": "MCG",
+        "location": "Melbourne",
+        "state": "VIC",
+        "timezone": "Australia/Melbourne",
+        "landOwner": "Wurundjeri"
+      },
+      "utcStartTime": "2025-05-24T06:15:00.000+0000",
+      "status": "CONCLUDED",
+      "metadata": {
+        "ticket_link": "https://premier.ticketek.com.au/shows/show.aspx?sh=HAWTH1125"
+      }
+    },
+    {
+      "id": 7059,
+      "providerId": "CD_M20250141105",
+      "compSeason": {
+        "id": 73,
+        "providerId": "CD_S2025014",
+        "name": "2025 Toyota AFL Premiership",
+        "shortName": "Premiership",
+        "currentRoundNumber": 25
+      },
+      "round": {
+        "id": 1157,
+        "providerId": "CD_R202501411",
+        "abbreviation": "Rd 11",
+        "name": "Round 11",
+        "roundNumber": 11,
+        "byes": []
+      },
+      "home": {
+        "team": {
+          "id": 6,
+          "providerId": "CD_T100",
+          "name": "North Melbourne",
+          "abbreviation": "NMFC",
+          "nickname": "Kangaroos",
+          "club": {
+            "id": 20,
+            "providerId": "CD_O20",
+            "name": "North Melbourne",
+            "abbreviation": "Kangaroos",
+            "nickname": "Kangaroos"
+          },
+          "teamType": "MEN"
+        },
+        "score": {
+          "goals": 9,
+          "behinds": 9,
+          "totalScore": 63,
+          "superGoals": 0
+        }
+      },
+      "away": {
+        "team": {
+          "id": 3,
+          "providerId": "CD_T40",
+          "name": "Collingwood",
+          "abbreviation": "COLL",
+          "nickname": "Magpies",
+          "club": {
+            "id": 12,
+            "providerId": "CD_O6",
+            "name": "Collingwood",
+            "abbreviation": "Magpies",
+            "nickname": "Magpies"
+          },
+          "teamType": "MEN"
+        },
+        "score": {
+          "goals": 15,
+          "behinds": 18,
+          "totalScore": 108,
+          "superGoals": 0
+        }
+      },
+      "venue": {
+        "id": 3,
+        "providerId": "CD_V190",
+        "name": "Marvel Stadium",
+        "abbreviation": "MRVL",
+        "location": "Melbourne",
+        "state": "VIC",
+        "timezone": "Australia/Melbourne",
+        "landOwner": "Wurundjeri"
+      },
+      "utcStartTime": "2025-05-24T09:35:00.000+0000",
+      "status": "CONCLUDED",
+      "metadata": {
+        "ticket_link": "https://www.ticketmaster.com.au/event/25006234D2584243"
+      }
+    },
+    {
+      "id": 7062,
+      "providerId": "CD_M20250141106",
+      "compSeason": {
+        "id": 73,
+        "providerId": "CD_S2025014",
+        "name": "2025 Toyota AFL Premiership",
+        "shortName": "Premiership",
+        "currentRoundNumber": 25
+      },
+      "round": {
+        "id": 1157,
+        "providerId": "CD_R202501411",
+        "abbreviation": "Rd 11",
+        "name": "Round 11",
+        "roundNumber": 11,
+        "byes": []
+      },
+      "home": {
+        "team": {
+          "id": 14,
+          "providerId": "CD_T60",
+          "name": "Fremantle",
+          "abbreviation": "FRE",
+          "nickname": "Dockers",
+          "club": {
+            "id": 6,
+            "providerId": "CD_O10",
+            "name": "Fremantle",
+            "abbreviation": "Dockers",
+            "nickname": "Dockers"
+          },
+          "teamType": "MEN"
+        },
+        "score": {
+          "goals": 15,
+          "behinds": 10,
+          "totalScore": 100,
+          "superGoals": 0
+        }
+      },
+      "away": {
+        "team": {
+          "id": 7,
+          "providerId": "CD_T110",
+          "name": "Port Adelaide",
+          "abbreviation": "PORT",
+          "nickname": "Power",
+          "club": {
+            "id": 19,
+            "providerId": "CD_O24",
+            "name": "Port Adelaide",
+            "abbreviation": "Power",
+            "nickname": "Power"
+          },
+          "teamType": "MEN"
+        },
+        "score": {
+          "goals": 7,
+          "behinds": 9,
+          "totalScore": 51,
+          "superGoals": 0
+        }
+      },
+      "venue": {
+        "id": 65,
+        "providerId": "CD_V2925",
+        "name": "Optus Stadium",
+        "abbreviation": "OS",
+        "location": "Perth",
+        "state": "WA",
+        "timezone": "Australia/Perth",
+        "landOwner": "Whadjuk"
+      },
+      "utcStartTime": "2025-05-24T10:10:00.000+0000",
+      "status": "CONCLUDED",
+      "metadata": {
+        "k2k_link": "https://www.afl.com.au/matches/kick-2-kick",
+        "ticket_link": "https://www.ticketmaster.com.au/event/2500624DD51B188E"
+      }
+    },
+    {
+      "id": 7060,
+      "providerId": "CD_M20250141107",
+      "compSeason": {
+        "id": 73,
+        "providerId": "CD_S2025014",
+        "name": "2025 Toyota AFL Premiership",
+        "shortName": "Premiership",
+        "currentRoundNumber": 25
+      },
+      "round": {
+        "id": 1157,
+        "providerId": "CD_R202501411",
+        "abbreviation": "Rd 11",
+        "name": "Round 11",
+        "roundNumber": 11,
+        "byes": []
+      },
+      "home": {
+        "team": {
+          "id": 1,
+          "providerId": "CD_T10",
+          "name": "Adelaide Crows",
+          "abbreviation": "ADEL",
+          "nickname": "Crows",
+          "club": {
+            "id": 3,
+            "providerId": "CD_O1",
+            "name": "Adelaide Crows",
+            "abbreviation": "Crows",
+            "nickname": "Crows"
+          },
+          "teamType": "MEN"
+        },
+        "score": {
+          "goals": 19,
+          "behinds": 14,
+          "totalScore": 128,
+          "superGoals": 0
+        }
+      },
+      "away": {
+        "team": {
+          "id": 18,
+          "providerId": "CD_T150",
+          "name": "West Coast Eagles",
+          "abbreviation": "WCE",
+          "nickname": "Eagles",
+          "club": {
+            "id": 23,
+            "providerId": "CD_O30",
+            "name": "West Coast Eagles",
+            "abbreviation": "Eagles",
+            "nickname": "Eagles"
+          },
+          "teamType": "MEN"
+        },
+        "score": {
+          "goals": 8,
+          "behinds": 14,
+          "totalScore": 62,
+          "superGoals": 0
+        }
+      },
+      "venue": {
+        "id": 31,
+        "providerId": "CD_V6",
+        "name": "Adelaide Oval",
+        "abbreviation": "AO",
+        "location": "Adelaide",
+        "state": "SA",
+        "timezone": "Australia/Adelaide",
+        "landOwner": "Kaurna"
+      },
+      "utcStartTime": "2025-05-25T03:10:00.000+0000",
+      "status": "CONCLUDED",
+      "metadata": {
+        "ticket_link": "https://premier.ticketek.com.au/shows/show.aspx?sh=ADELC1125"
+      }
+    },
+    {
+      "id": 7057,
+      "providerId": "CD_M20250141108",
+      "compSeason": {
+        "id": 73,
+        "providerId": "CD_S2025014",
+        "name": "2025 Toyota AFL Premiership",
+        "shortName": "Premiership",
+        "currentRoundNumber": 25
+      },
+      "round": {
+        "id": 1157,
+        "providerId": "CD_R202501411",
+        "abbreviation": "Rd 11",
+        "name": "Round 11",
+        "roundNumber": 11,
+        "byes": []
+      },
+      "home": {
+        "team": {
+          "id": 17,
+          "providerId": "CD_T90",
+          "name": "Melbourne",
+          "abbreviation": "MELB",
+          "nickname": "Demons",
+          "club": {
+            "id": 14,
+            "providerId": "CD_O18",
+            "name": "Melbourne",
+            "abbreviation": "Demons",
+            "nickname": "Demons"
+          },
+          "teamType": "MEN"
+        },
+        "score": {
+          "goals": 19,
+          "behinds": 17,
+          "totalScore": 131,
+          "superGoals": 0
+        }
+      },
+      "away": {
+        "team": {
+          "id": 13,
+          "providerId": "CD_T160",
+          "name": "Sydney Swans",
+          "abbreviation": "SYD",
+          "nickname": "Swans",
+          "club": {
+            "id": 24,
+            "providerId": "CD_O28",
+            "name": "Sydney Swans",
+            "abbreviation": "Swans",
+            "nickname": "Swans"
+          },
+          "teamType": "MEN"
+        },
+        "score": {
+          "goals": 12,
+          "behinds": 6,
+          "totalScore": 78,
+          "superGoals": 0
+        }
+      },
+      "venue": {
+        "id": 13,
+        "providerId": "CD_V40",
+        "name": "MCG",
+        "abbreviation": "MCG",
+        "location": "Melbourne",
+        "state": "VIC",
+        "timezone": "Australia/Melbourne",
+        "landOwner": "Wurundjeri"
+      },
+      "utcStartTime": "2025-05-25T05:20:00.000+0000",
+      "status": "CONCLUDED",
+      "metadata": {
+        "ticket_link": "https://premier.ticketek.com.au/shows/show.aspx?sh=MELBO1125"
+      }
+    },
+    {
+      "id": 7064,
+      "providerId": "CD_M20250141109",
+      "compSeason": {
+        "id": 73,
+        "providerId": "CD_S2025014",
+        "name": "2025 Toyota AFL Premiership",
+        "shortName": "Premiership",
+        "currentRoundNumber": 25
+      },
+      "round": {
+        "id": 1157,
+        "providerId": "CD_R202501411",
+        "abbreviation": "Rd 11",
+        "name": "Round 11",
+        "roundNumber": 11,
+        "byes": []
+      },
+      "home": {
+        "team": {
+          "id": 11,
+          "providerId": "CD_T130",
+          "name": "St Kilda",
+          "abbreviation": "STK",
+          "nickname": "Saints",
+          "club": {
+            "id": 21,
+            "providerId": "CD_O27",
+            "name": "St Kilda",
+            "abbreviation": "Saints",
+            "nickname": "Saints"
+          },
+          "teamType": "MEN"
+        },
+        "score": {
+          "goals": 8,
+          "behinds": 13,
+          "totalScore": 61,
+          "superGoals": 0
+        }
+      },
+      "away": {
+        "team": {
+          "id": 4,
+          "providerId": "CD_T1000",
+          "name": "Gold Coast SUNS",
+          "abbreviation": "GCFC",
+          "nickname": "SUNS",
+          "club": {
+            "id": 9,
+            "providerId": "CD_O14",
+            "name": "Gold Coast SUNS",
+            "abbreviation": "SUNS",
+            "nickname": "SUNS"
+          },
+          "teamType": "MEN"
+        },
+        "score": {
+          "goals": 12,
+          "behinds": 8,
+          "totalScore": 80,
+          "superGoals": 0
+        }
+      },
+      "venue": {
+        "id": 3,
+        "providerId": "CD_V190",
+        "name": "Marvel Stadium",
+        "abbreviation": "MRVL",
+        "location": "Melbourne",
+        "state": "VIC",
+        "timezone": "Australia/Melbourne",
+        "landOwner": "Wurundjeri"
+      },
+      "utcStartTime": "2025-05-25T06:40:00.000+0000",
+      "status": "CONCLUDED",
+      "metadata": {
+        "k2k_link": "https://www.afl.com.au/matches/kick-2-kick",
+        "ticket_link": "https://www.ticketmaster.com.au/event/2500623787EE0911"
+      }
+    }
+  ]
+}

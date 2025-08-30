@@ -1,0 +1,905 @@
+{
+  "meta": {
+    "code": 200,
+    "pagination": {
+      "page": 0,
+      "numPages": 1,
+      "pageSize": 50,
+      "numEntries": 8
+    }
+  },
+  "matches": [
+    {
+      "id": 6984,
+      "providerId": "CD_M20250140301",
+      "compSeason": {
+        "id": 73,
+        "providerId": "CD_S2025014",
+        "name": "2025 Toyota AFL Premiership",
+        "shortName": "Premiership",
+        "currentRoundNumber": 25
+      },
+      "round": {
+        "id": 1149,
+        "providerId": "CD_R202501403",
+        "abbreviation": "Rd 3",
+        "name": "Round 3",
+        "roundNumber": 3,
+        "byes": [
+          {
+            "id": 3,
+            "providerId": "CD_T40",
+            "name": "Collingwood",
+            "abbreviation": "COLL",
+            "nickname": "Magpies",
+            "club": {
+              "id": 12,
+              "providerId": "CD_O6",
+              "name": "Collingwood",
+              "abbreviation": "Magpies",
+              "nickname": "Magpies"
+            },
+            "teamType": "MEN"
+          },
+          {
+            "id": 13,
+            "providerId": "CD_T160",
+            "name": "Sydney Swans",
+            "abbreviation": "SYD",
+            "nickname": "Swans",
+            "club": {
+              "id": 24,
+              "providerId": "CD_O28",
+              "name": "Sydney Swans",
+              "abbreviation": "Swans",
+              "nickname": "Swans"
+            },
+            "teamType": "MEN"
+          }
+        ]
+      },
+      "home": {
+        "team": {
+          "id": 12,
+          "providerId": "CD_T50",
+          "name": "Essendon",
+          "abbreviation": "ESS",
+          "nickname": "Bombers",
+          "club": {
+            "id": 10,
+            "providerId": "CD_O9",
+            "name": "Essendon",
+            "abbreviation": "Bombers",
+            "nickname": "Bombers"
+          },
+          "teamType": "MEN"
+        },
+        "score": {
+          "goals": 9,
+          "behinds": 18,
+          "totalScore": 72,
+          "superGoals": 0
+        }
+      },
+      "away": {
+        "team": {
+          "id": 7,
+          "providerId": "CD_T110",
+          "name": "Port Adelaide",
+          "abbreviation": "PORT",
+          "nickname": "Power",
+          "club": {
+            "id": 19,
+            "providerId": "CD_O24",
+            "name": "Port Adelaide",
+            "abbreviation": "Power",
+            "nickname": "Power"
+          },
+          "teamType": "MEN"
+        },
+        "score": {
+          "goals": 8,
+          "behinds": 12,
+          "totalScore": 60,
+          "superGoals": 0
+        }
+      },
+      "venue": {
+        "id": 3,
+        "providerId": "CD_V190",
+        "name": "Marvel Stadium",
+        "abbreviation": "MRVL",
+        "location": "Melbourne",
+        "state": "VIC",
+        "timezone": "Australia/Melbourne",
+        "landOwner": "Wurundjeri"
+      },
+      "utcStartTime": "2025-03-27T08:30:00.000+0000",
+      "status": "CONCLUDED",
+      "metadata": {
+        "ticket_link": "https://www.ticketmaster.com.au/essendon-v-port-adelaide-docklands-27-03-2025/event/250062348BB809DB"
+      }
+    },
+    {
+      "id": 6988,
+      "providerId": "CD_M20250140302",
+      "compSeason": {
+        "id": 73,
+        "providerId": "CD_S2025014",
+        "name": "2025 Toyota AFL Premiership",
+        "shortName": "Premiership",
+        "currentRoundNumber": 25
+      },
+      "round": {
+        "id": 1149,
+        "providerId": "CD_R202501403",
+        "abbreviation": "Rd 3",
+        "name": "Round 3",
+        "roundNumber": 3,
+        "byes": [
+          {
+            "id": 3,
+            "providerId": "CD_T40",
+            "name": "Collingwood",
+            "abbreviation": "COLL",
+            "nickname": "Magpies",
+            "club": {
+              "id": 12,
+              "providerId": "CD_O6",
+              "name": "Collingwood",
+              "abbreviation": "Magpies",
+              "nickname": "Magpies"
+            },
+            "teamType": "MEN"
+          },
+          {
+            "id": 13,
+            "providerId": "CD_T160",
+            "name": "Sydney Swans",
+            "abbreviation": "SYD",
+            "nickname": "Swans",
+            "club": {
+              "id": 24,
+              "providerId": "CD_O28",
+              "name": "Sydney Swans",
+              "abbreviation": "Swans",
+              "nickname": "Swans"
+            },
+            "teamType": "MEN"
+          }
+        ]
+      },
+      "home": {
+        "team": {
+          "id": 5,
+          "providerId": "CD_T30",
+          "name": "Carlton",
+          "abbreviation": "CARL",
+          "nickname": "Blues",
+          "club": {
+            "id": 1,
+            "providerId": "CD_O5",
+            "name": "Carlton",
+            "abbreviation": "Blues",
+            "nickname": "Blues"
+          },
+          "teamType": "MEN"
+        },
+        "score": {
+          "goals": 11,
+          "behinds": 9,
+          "totalScore": 75,
+          "superGoals": 0
+        }
+      },
+      "away": {
+        "team": {
+          "id": 8,
+          "providerId": "CD_T140",
+          "name": "Western Bulldogs",
+          "abbreviation": "WB",
+          "nickname": "Bulldogs",
+          "club": {
+            "id": 25,
+            "providerId": "CD_O31",
+            "name": "Western Bulldogs",
+            "abbreviation": "Bulldogs",
+            "nickname": "Bulldogs"
+          },
+          "teamType": "MEN"
+        },
+        "score": {
+          "goals": 12,
+          "behinds": 11,
+          "totalScore": 83,
+          "superGoals": 0
+        }
+      },
+      "venue": {
+        "id": 3,
+        "providerId": "CD_V190",
+        "name": "Marvel Stadium",
+        "abbreviation": "MRVL",
+        "location": "Melbourne",
+        "state": "VIC",
+        "timezone": "Australia/Melbourne",
+        "landOwner": "Wurundjeri"
+      },
+      "utcStartTime": "2025-03-28T08:40:00.000+0000",
+      "status": "CONCLUDED",
+      "metadata": {
+        "ticket_link": "https://www.ticketmaster.com.au/carlton-v-western-bulldogs-docklands-28-03-2025/event/25006235D67E1CBA"
+      }
+    },
+    {
+      "id": 6987,
+      "providerId": "CD_M20250140303",
+      "compSeason": {
+        "id": 73,
+        "providerId": "CD_S2025014",
+        "name": "2025 Toyota AFL Premiership",
+        "shortName": "Premiership",
+        "currentRoundNumber": 25
+      },
+      "round": {
+        "id": 1149,
+        "providerId": "CD_R202501403",
+        "abbreviation": "Rd 3",
+        "name": "Round 3",
+        "roundNumber": 3,
+        "byes": [
+          {
+            "id": 3,
+            "providerId": "CD_T40",
+            "name": "Collingwood",
+            "abbreviation": "COLL",
+            "nickname": "Magpies",
+            "club": {
+              "id": 12,
+              "providerId": "CD_O6",
+              "name": "Collingwood",
+              "abbreviation": "Magpies",
+              "nickname": "Magpies"
+            },
+            "teamType": "MEN"
+          },
+          {
+            "id": 13,
+            "providerId": "CD_T160",
+            "name": "Sydney Swans",
+            "abbreviation": "SYD",
+            "nickname": "Swans",
+            "club": {
+              "id": 24,
+              "providerId": "CD_O28",
+              "name": "Sydney Swans",
+              "abbreviation": "Swans",
+              "nickname": "Swans"
+            },
+            "teamType": "MEN"
+          }
+        ]
+      },
+      "home": {
+        "team": {
+          "id": 17,
+          "providerId": "CD_T90",
+          "name": "Melbourne",
+          "abbreviation": "MELB",
+          "nickname": "Demons",
+          "club": {
+            "id": 14,
+            "providerId": "CD_O18",
+            "name": "Melbourne",
+            "abbreviation": "Demons",
+            "nickname": "Demons"
+          },
+          "teamType": "MEN"
+        },
+        "score": {
+          "goals": 8,
+          "behinds": 14,
+          "totalScore": 62,
+          "superGoals": 0
+        }
+      },
+      "away": {
+        "team": {
+          "id": 4,
+          "providerId": "CD_T1000",
+          "name": "Gold Coast SUNS",
+          "abbreviation": "GCFC",
+          "nickname": "SUNS",
+          "club": {
+            "id": 9,
+            "providerId": "CD_O14",
+            "name": "Gold Coast SUNS",
+            "abbreviation": "SUNS",
+            "nickname": "SUNS"
+          },
+          "teamType": "MEN"
+        },
+        "score": {
+          "goals": 18,
+          "behinds": 12,
+          "totalScore": 120,
+          "superGoals": 0
+        }
+      },
+      "venue": {
+        "id": 13,
+        "providerId": "CD_V40",
+        "name": "MCG",
+        "abbreviation": "MCG",
+        "location": "Melbourne",
+        "state": "VIC",
+        "timezone": "Australia/Melbourne",
+        "landOwner": "Wurundjeri"
+      },
+      "utcStartTime": "2025-03-29T02:20:00.000+0000",
+      "status": "CONCLUDED",
+      "metadata": {
+        "ticket_link": "https://hotshow4.ticketek.com.au/shows/show.aspx?sh=MELBO0325"
+      }
+    },
+    {
+      "id": 6989,
+      "providerId": "CD_M20250140304",
+      "compSeason": {
+        "id": 73,
+        "providerId": "CD_S2025014",
+        "name": "2025 Toyota AFL Premiership",
+        "shortName": "Premiership",
+        "currentRoundNumber": 25
+      },
+      "round": {
+        "id": 1149,
+        "providerId": "CD_R202501403",
+        "abbreviation": "Rd 3",
+        "name": "Round 3",
+        "roundNumber": 3,
+        "byes": [
+          {
+            "id": 3,
+            "providerId": "CD_T40",
+            "name": "Collingwood",
+            "abbreviation": "COLL",
+            "nickname": "Magpies",
+            "club": {
+              "id": 12,
+              "providerId": "CD_O6",
+              "name": "Collingwood",
+              "abbreviation": "Magpies",
+              "nickname": "Magpies"
+            },
+            "teamType": "MEN"
+          },
+          {
+            "id": 13,
+            "providerId": "CD_T160",
+            "name": "Sydney Swans",
+            "abbreviation": "SYD",
+            "nickname": "Swans",
+            "club": {
+              "id": 24,
+              "providerId": "CD_O28",
+              "name": "Sydney Swans",
+              "abbreviation": "Swans",
+              "nickname": "Swans"
+            },
+            "teamType": "MEN"
+          }
+        ]
+      },
+      "home": {
+        "team": {
+          "id": 11,
+          "providerId": "CD_T130",
+          "name": "St Kilda",
+          "abbreviation": "STK",
+          "nickname": "Saints",
+          "club": {
+            "id": 21,
+            "providerId": "CD_O27",
+            "name": "St Kilda",
+            "abbreviation": "Saints",
+            "nickname": "Saints"
+          },
+          "teamType": "MEN"
+        },
+        "score": {
+          "goals": 20,
+          "behinds": 15,
+          "totalScore": 135,
+          "superGoals": 0
+        }
+      },
+      "away": {
+        "team": {
+          "id": 16,
+          "providerId": "CD_T120",
+          "name": "Richmond",
+          "abbreviation": "RICH",
+          "nickname": "Tigers",
+          "club": {
+            "id": 22,
+            "providerId": "CD_O25",
+            "name": "Richmond",
+            "abbreviation": "Tigers",
+            "nickname": "Tigers"
+          },
+          "teamType": "MEN"
+        },
+        "score": {
+          "goals": 7,
+          "behinds": 11,
+          "totalScore": 53,
+          "superGoals": 0
+        }
+      },
+      "venue": {
+        "id": 3,
+        "providerId": "CD_V190",
+        "name": "Marvel Stadium",
+        "abbreviation": "MRVL",
+        "location": "Melbourne",
+        "state": "VIC",
+        "timezone": "Australia/Melbourne",
+        "landOwner": "Wurundjeri"
+      },
+      "utcStartTime": "2025-03-29T05:15:00.000+0000",
+      "status": "CONCLUDED",
+      "metadata": {
+        "ticket_link": "https://www.ticketmaster.com.au/st-kilda-v-richmond-docklands-29-03-2025/event/2500623787E30906"
+      }
+    },
+    {
+      "id": 6990,
+      "providerId": "CD_M20250140305",
+      "compSeason": {
+        "id": 73,
+        "providerId": "CD_S2025014",
+        "name": "2025 Toyota AFL Premiership",
+        "shortName": "Premiership",
+        "currentRoundNumber": 25
+      },
+      "round": {
+        "id": 1149,
+        "providerId": "CD_R202501403",
+        "abbreviation": "Rd 3",
+        "name": "Round 3",
+        "roundNumber": 3,
+        "byes": [
+          {
+            "id": 3,
+            "providerId": "CD_T40",
+            "name": "Collingwood",
+            "abbreviation": "COLL",
+            "nickname": "Magpies",
+            "club": {
+              "id": 12,
+              "providerId": "CD_O6",
+              "name": "Collingwood",
+              "abbreviation": "Magpies",
+              "nickname": "Magpies"
+            },
+            "teamType": "MEN"
+          },
+          {
+            "id": 13,
+            "providerId": "CD_T160",
+            "name": "Sydney Swans",
+            "abbreviation": "SYD",
+            "nickname": "Swans",
+            "club": {
+              "id": 24,
+              "providerId": "CD_O28",
+              "name": "Sydney Swans",
+              "abbreviation": "Swans",
+              "nickname": "Swans"
+            },
+            "teamType": "MEN"
+          }
+        ]
+      },
+      "home": {
+        "team": {
+          "id": 9,
+          "providerId": "CD_T80",
+          "name": "Hawthorn",
+          "abbreviation": "HAW",
+          "nickname": "Hawks",
+          "club": {
+            "id": 16,
+            "providerId": "CD_O17",
+            "name": "Hawthorn",
+            "abbreviation": "Hawks",
+            "nickname": "Hawks"
+          },
+          "teamType": "MEN"
+        },
+        "score": {
+          "goals": 10,
+          "behinds": 16,
+          "totalScore": 76,
+          "superGoals": 0
+        }
+      },
+      "away": {
+        "team": {
+          "id": 15,
+          "providerId": "CD_T1010",
+          "name": "GWS GIANTS",
+          "abbreviation": "GWS",
+          "nickname": "GIANTS",
+          "club": {
+            "id": 5,
+            "providerId": "CD_O16",
+            "name": "GWS GIANTS",
+            "abbreviation": "GIANTS",
+            "nickname": "GIANTS"
+          },
+          "teamType": "MEN"
+        },
+        "score": {
+          "goals": 9,
+          "behinds": 10,
+          "totalScore": 64,
+          "superGoals": 0
+        }
+      },
+      "venue": {
+        "id": 4,
+        "providerId": "CD_V200",
+        "name": "UTAS Stadium",
+        "abbreviation": "UTAS",
+        "location": "Launceston",
+        "state": "TAS",
+        "timezone": "Australia/Hobart",
+        "landOwner": "Palawa"
+      },
+      "utcStartTime": "2025-03-29T08:35:00.000+0000",
+      "status": "CONCLUDED",
+      "metadata": {
+        "k2k_link": "https://www.afl.com.au/matches/kick-2-kick",
+        "ticket_link": "https://www.ticketmaster.com.au/event/2500622785C90BDF"
+      }
+    },
+    {
+      "id": 7753,
+      "providerId": "CD_M20250140308",
+      "compSeason": {
+        "id": 73,
+        "providerId": "CD_S2025014",
+        "name": "2025 Toyota AFL Premiership",
+        "shortName": "Premiership",
+        "currentRoundNumber": 25
+      },
+      "round": {
+        "id": 1149,
+        "providerId": "CD_R202501403",
+        "abbreviation": "Rd 3",
+        "name": "Round 3",
+        "roundNumber": 3,
+        "byes": [
+          {
+            "id": 3,
+            "providerId": "CD_T40",
+            "name": "Collingwood",
+            "abbreviation": "COLL",
+            "nickname": "Magpies",
+            "club": {
+              "id": 12,
+              "providerId": "CD_O6",
+              "name": "Collingwood",
+              "abbreviation": "Magpies",
+              "nickname": "Magpies"
+            },
+            "teamType": "MEN"
+          },
+          {
+            "id": 13,
+            "providerId": "CD_T160",
+            "name": "Sydney Swans",
+            "abbreviation": "SYD",
+            "nickname": "Swans",
+            "club": {
+              "id": 24,
+              "providerId": "CD_O28",
+              "name": "Sydney Swans",
+              "abbreviation": "Swans",
+              "nickname": "Swans"
+            },
+            "teamType": "MEN"
+          }
+        ]
+      },
+      "home": {
+        "team": {
+          "id": 2,
+          "providerId": "CD_T20",
+          "name": "Brisbane Lions",
+          "abbreviation": "BL",
+          "nickname": "Lions",
+          "club": {
+            "id": 13,
+            "providerId": "CD_O3",
+            "name": "Brisbane Lions",
+            "abbreviation": "Lions",
+            "nickname": "Lions"
+          },
+          "teamType": "MEN"
+        },
+        "score": {
+          "goals": 10,
+          "behinds": 10,
+          "totalScore": 70,
+          "superGoals": 0
+        }
+      },
+      "away": {
+        "team": {
+          "id": 10,
+          "providerId": "CD_T70",
+          "name": "Geelong Cats",
+          "abbreviation": "GEEL",
+          "nickname": "Cats",
+          "club": {
+            "id": 15,
+            "providerId": "CD_O11",
+            "name": "Geelong Cats",
+            "abbreviation": "Cats",
+            "nickname": "Cats"
+          },
+          "teamType": "MEN"
+        },
+        "score": {
+          "goals": 9,
+          "behinds": 7,
+          "totalScore": 61,
+          "superGoals": 0
+        }
+      },
+      "venue": {
+        "id": 22,
+        "providerId": "CD_V20",
+        "name": "Gabba",
+        "abbreviation": "G",
+        "location": "Brisbane",
+        "state": "QLD",
+        "timezone": "Australia/Brisbane",
+        "landOwner": "Yuggera - Toorabul"
+      },
+      "utcStartTime": "2025-03-29T08:35:00.000+0000",
+      "status": "CONCLUDED",
+      "metadata": {
+        "prematch_label": "Rescheduled Match",
+        "k2k_link": "https://www.afl.com.au/matches/kick-2-kick",
+        "ticket_link": "https://www.ticketmaster.com.au/brisbane-lions-v-geelong-cats-2025-toyota-afl-premiership-season-woolloongabba-06-03-2025/event/1300617AA8AF378C"
+      }
+    },
+    {
+      "id": 6998,
+      "providerId": "CD_M20250140306",
+      "compSeason": {
+        "id": 73,
+        "providerId": "CD_S2025014",
+        "name": "2025 Toyota AFL Premiership",
+        "shortName": "Premiership",
+        "currentRoundNumber": 25
+      },
+      "round": {
+        "id": 1149,
+        "providerId": "CD_R202501403",
+        "abbreviation": "Rd 3",
+        "name": "Round 3",
+        "roundNumber": 3,
+        "byes": [
+          {
+            "id": 3,
+            "providerId": "CD_T40",
+            "name": "Collingwood",
+            "abbreviation": "COLL",
+            "nickname": "Magpies",
+            "club": {
+              "id": 12,
+              "providerId": "CD_O6",
+              "name": "Collingwood",
+              "abbreviation": "Magpies",
+              "nickname": "Magpies"
+            },
+            "teamType": "MEN"
+          },
+          {
+            "id": 13,
+            "providerId": "CD_T160",
+            "name": "Sydney Swans",
+            "abbreviation": "SYD",
+            "nickname": "Swans",
+            "club": {
+              "id": 24,
+              "providerId": "CD_O28",
+              "name": "Sydney Swans",
+              "abbreviation": "Swans",
+              "nickname": "Swans"
+            },
+            "teamType": "MEN"
+          }
+        ]
+      },
+      "home": {
+        "team": {
+          "id": 1,
+          "providerId": "CD_T10",
+          "name": "Adelaide Crows",
+          "abbreviation": "ADEL",
+          "nickname": "Crows",
+          "club": {
+            "id": 3,
+            "providerId": "CD_O1",
+            "name": "Adelaide Crows",
+            "abbreviation": "Crows",
+            "nickname": "Crows"
+          },
+          "teamType": "MEN"
+        },
+        "score": {
+          "goals": 17,
+          "behinds": 12,
+          "totalScore": 114,
+          "superGoals": 0
+        }
+      },
+      "away": {
+        "team": {
+          "id": 6,
+          "providerId": "CD_T100",
+          "name": "North Melbourne",
+          "abbreviation": "NMFC",
+          "nickname": "Kangaroos",
+          "club": {
+            "id": 20,
+            "providerId": "CD_O20",
+            "name": "North Melbourne",
+            "abbreviation": "Kangaroos",
+            "nickname": "Kangaroos"
+          },
+          "teamType": "MEN"
+        },
+        "score": {
+          "goals": 12,
+          "behinds": 6,
+          "totalScore": 78,
+          "superGoals": 0
+        }
+      },
+      "venue": {
+        "id": 31,
+        "providerId": "CD_V6",
+        "name": "Adelaide Oval",
+        "abbreviation": "AO",
+        "location": "Adelaide",
+        "state": "SA",
+        "timezone": "Australia/Adelaide",
+        "landOwner": "Kaurna"
+      },
+      "utcStartTime": "2025-03-30T04:20:00.000+0000",
+      "status": "CONCLUDED",
+      "metadata": {
+        "k2k_link": "https://www.afl.com.au/matches/kick-2-kick",
+        "ticket_link": "https://premier.ticketek.com.au/shows/Show.aspx?sh=ADELC0325"
+      }
+    },
+    {
+      "id": 6993,
+      "providerId": "CD_M20250140307",
+      "compSeason": {
+        "id": 73,
+        "providerId": "CD_S2025014",
+        "name": "2025 Toyota AFL Premiership",
+        "shortName": "Premiership",
+        "currentRoundNumber": 25
+      },
+      "round": {
+        "id": 1149,
+        "providerId": "CD_R202501403",
+        "abbreviation": "Rd 3",
+        "name": "Round 3",
+        "roundNumber": 3,
+        "byes": [
+          {
+            "id": 3,
+            "providerId": "CD_T40",
+            "name": "Collingwood",
+            "abbreviation": "COLL",
+            "nickname": "Magpies",
+            "club": {
+              "id": 12,
+              "providerId": "CD_O6",
+              "name": "Collingwood",
+              "abbreviation": "Magpies",
+              "nickname": "Magpies"
+            },
+            "teamType": "MEN"
+          },
+          {
+            "id": 13,
+            "providerId": "CD_T160",
+            "name": "Sydney Swans",
+            "abbreviation": "SYD",
+            "nickname": "Swans",
+            "club": {
+              "id": 24,
+              "providerId": "CD_O28",
+              "name": "Sydney Swans",
+              "abbreviation": "Swans",
+              "nickname": "Swans"
+            },
+            "teamType": "MEN"
+          }
+        ]
+      },
+      "home": {
+        "team": {
+          "id": 18,
+          "providerId": "CD_T150",
+          "name": "West Coast Eagles",
+          "abbreviation": "WCE",
+          "nickname": "Eagles",
+          "club": {
+            "id": 23,
+            "providerId": "CD_O30",
+            "name": "West Coast Eagles",
+            "abbreviation": "Eagles",
+            "nickname": "Eagles"
+          },
+          "teamType": "MEN"
+        },
+        "score": {
+          "goals": 10,
+          "behinds": 8,
+          "totalScore": 68,
+          "superGoals": 0
+        }
+      },
+      "away": {
+        "team": {
+          "id": 14,
+          "providerId": "CD_T60",
+          "name": "Fremantle",
+          "abbreviation": "FRE",
+          "nickname": "Dockers",
+          "club": {
+            "id": 6,
+            "providerId": "CD_O10",
+            "name": "Fremantle",
+            "abbreviation": "Dockers",
+            "nickname": "Dockers"
+          },
+          "teamType": "MEN"
+        },
+        "score": {
+          "goals": 15,
+          "behinds": 16,
+          "totalScore": 106,
+          "superGoals": 0
+        }
+      },
+      "venue": {
+        "id": 65,
+        "providerId": "CD_V2925",
+        "name": "Optus Stadium",
+        "abbreviation": "OS",
+        "location": "Perth",
+        "state": "WA",
+        "timezone": "Australia/Perth",
+        "landOwner": "Whadjuk"
+      },
+      "utcStartTime": "2025-03-30T07:10:00.000+0000",
+      "status": "CONCLUDED",
+      "metadata": {
+        "ticket_link": "https://www.ticketmaster.com.au/west-coast-eagles-v-fremantle-dockers-burswood-30-03-2025/event/25006244F6D419C7"
+      }
+    }
+  ]
+}

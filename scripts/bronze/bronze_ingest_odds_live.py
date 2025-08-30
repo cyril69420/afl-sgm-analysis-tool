@@ -3,14 +3,15 @@
 Bronze: ingest live odds snapshots (Sportsbet, PointsBet) using
 declanwalpole/sportsbook-odds-scraper EventScraper.
 
-Repo & usage:
-- https://github.com/declanwalpole/sportsbook-odds-scraper
-  Example usage in README: from event_scraper import EventScraper; scraper.scrape(url); pandas df in scraper.odds_df. :contentReference[oaicite:0]{index=0}
-- Supported books include SportsBet (AU), PointsBet (AU). :contentReference[oaicite:1]{index=1}
+- Reads per-game event URLs from:
+    bronze/event_urls/season=<year>/round=*/bookmaker=*/
+- Scrapes each URL and writes snapshots to:
+    bronze/odds/snapshots/season=<year>/round=<round>/bookmaker=<bookmaker>/
 
-Assumptions:
-- Event URLs live under bronze/event_urls/season=<year>/round=*/bookmaker=*/
-- Output written to bronze/odds/snapshots/ partitioned by season/round/bookmaker.
+Guarantees:
+- Each output row has the real per-game event_url (the page you scraped).
+- Deterministic dedupe via stable hash on key columns.
+- Fails fast if any row would have a blank/NULL event_url.
 """
 
 from __future__ import annotations
@@ -32,13 +33,14 @@ REPO = HERE.parent.parent
 DEFAULT_BRONZE_DIR = REPO / "bronze"
 DEFAULT_CSV_MIRROR_DIR = REPO / "bronze_csv_mirror"
 
+
 # ---------- CLI ----------
 
 def parse_args() -> argparse.Namespace:
     p = argparse.ArgumentParser(description="Bronze: ingest live odds snapshots via EventScraper.")
     p.add_argument("--season", type=int, required=True)
     p.add_argument("--round", type=str, default=None, help="Optional round filter (e.g. 'R1' or 'finals_w1').")
-    p.add_argument("--bookmakers", type=str, default="sportsbet,pointsbet")
+    p.add_argument("--bookmakers", type=str, default="sportsbet,pointsbet", help="Comma-separated (default: sportsbet,pointsbet)")
     p.add_argument("--bronze-dir", type=str, default=str(DEFAULT_BRONZE_DIR))
     p.add_argument("--csv-mirror", action="store_true")
     p.add_argument("--overwrite", action="store_true")
@@ -46,6 +48,7 @@ def parse_args() -> argparse.Namespace:
     p.add_argument("--limit", type=int, default=None)
     p.add_argument("--log-level", type=str, default="INFO")
     return p.parse_args()
+
 
 # ---------- logging ----------
 
@@ -58,7 +61,8 @@ def get_logger(name: str, level: str) -> logging.Logger:
         logger.addHandler(h)
     return logger
 
-# ---------- small utils ----------
+
+# ---------- utils ----------
 
 def now_utc_iso() -> str:
     return datetime.now(timezone.utc).replace(microsecond=0).isoformat()
@@ -85,17 +89,27 @@ def _read_event_urls(bronze_dir: Path, season: int, round_filter: Optional[str],
     if not files:
         return pl.DataFrame([])
     con = _duck()
-    file_list_sql = _quote_list_for_duckdb(files)
-    pdf = con.execute("SELECT * FROM read_parquet(" + file_list_sql + ", hive_partitioning=1)").df()
+    pdf = con.execute("SELECT * FROM read_parquet(" + _quote_list_for_duckdb(files) + ", hive_partitioning=1)").df()
     if pdf is None or pdf.empty:
         return pl.DataFrame([])
+
     df = pl.from_pandas(pdf)
     df = df.filter(pl.col("season") == season)
     if round_filter:
         df = df.filter(pl.col("round") == round_filter)
+
+    # Keep only requested bookmakers (lowercased)
+    req = [b.lower() for b in requested_books]
     if "bookmaker" in df.columns:
-        df = df.filter(pl.col("bookmaker").str.to_lowercase().is_in([b.lower() for b in requested_books]))
-    # Ensure only the columns we use are present
+        df = df.with_columns(pl.col("bookmaker").cast(pl.Utf8).str.to_lowercase())
+        df = df.filter(pl.col("bookmaker").is_in(req))
+
+    # Sportsbet/PointsBet per-game URLs only
+    df = df.filter(
+        pl.col("event_url").is_not_null()
+        & pl.col("event_url").cast(pl.Utf8).str.contains("sportsbet.com.au|pointsbet.com.au")
+    )
+
     keep = [c for c in ["event_url", "bookmaker", "round", "season"] if c in df.columns]
     return df.select(keep).unique()
 
@@ -115,94 +129,92 @@ def _write_csv_mirror(df: pl.DataFrame, csv_dir: Path, stem: str) -> None:
     ts = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
     df.write_csv(csv_dir / (stem + "_" + ts + ".csv"))
 
-# ---------- EventScraper integration ----------
+
+# ---------- EventScraper loader ----------
 
 def _import_event_scraper(log: logging.Logger):
-    """
-    Try import from environment; else try typical vendored locations;
-    else print clear instructions to install from GitHub.
-    """
     try:
         from event_scraper import EventScraper  # type: ignore
         return EventScraper
     except Exception:
         pass
-
-    # Try vendored paths
-    candidates = [
+    # try repo-relative fallbacks
+    for cand in [
         REPO / "external" / "sportsbook-odds-scraper",
         REPO / "sportsbook-odds-scraper",
         REPO.parent / "sportsbook-odds-scraper",
-    ]
-    for c in candidates:
-        if c.exists():
-            sys.path.insert(0, str(c))
+    ]:
+        if cand.exists():
+            sys.path.insert(0, str(cand))
             try:
                 from event_scraper import EventScraper  # type: ignore
-                log.info("Imported EventScraper from %s", c)
+                log.info("Imported EventScraper from %s", cand)
                 return EventScraper
             except Exception:
-                pass
-
+                continue
     log.error(
         "Could not import EventScraper. Install it with:\n"
         "  pip install git+https://github.com/declanwalpole/sportsbook-odds-scraper\n"
-        "Repo & usage example in README. :contentReference[oaicite:2]{index=2}"
     )
     return None
 
-def _normalise_from_odds_df(url: str, season: int, round_of_url: Optional[str], odds_pdf) -> List[Dict[str, Any]]:
+
+# ---------- normalize one scrape (pandas -> rows dicts) ----------
+
+def _normalize_scrape(url: str, season: int, round_code: str, odds_pdf) -> List[Dict[str, Any]]:
     """
-    Map sportsbook-odds-scraper columns to our Bronze schema.
-    We handle multiple possible column names defensively.
+    Map sportsbook-odds-scraper pandas DataFrame to our Bronze schema.
+    Ensures event_url is the exact page we scraped (url).
     """
     rows: List[Dict[str, Any]] = []
-    if odds_pdf is None or getattr(odds_pdf, "empty", True):
+    if odds_pdf is None:
+        return rows
+    # pandas only
+    try:
+        _ = odds_pdf.iterrows  # attribute check
+    except Exception:
         return rows
 
     cols = list(odds_pdf.columns)
-    has = lambda name: name in cols
+    has = set(cols)
 
-    # likely columns based on README/examples
     for _, r in odds_pdf.iterrows():
+        # bookmaker
         bookmaker = (r.get("sportsbook_name") or r.get("sportsbook") or "").strip().lower()
+        if not bookmaker:
+            if "sportsbet.com.au" in url:
+                bookmaker = "sportsbet"
+            elif "pointsbet.com.au" in url:
+                bookmaker = "pointsbet"
+            else:
+                bookmaker = "unknown"
+
         market_group = r.get("market_group") or r.get("market_type") or r.get("market_name") or "Unknown"
-        market_name = r.get("market_name") or market_group
-        selection = r.get("selection_name") or r.get("selection") or r.get("outcome_name") or ""
-        line_val = r.get("line")
-        try:
-            line = float(line_val) if line_val is not None and str(line_val) != "" else None
-        except Exception:
-            line = None
-        dec_val = r.get("odds") or r.get("decimal_odds")
-        try:
-            decimal_odds = float(dec_val) if dec_val is not None and str(dec_val) != "" else None
-        except Exception:
-            decimal_odds = None
+        market_name  = r.get("market_name") or market_group
+        selection    = r.get("selection_name") or r.get("selection") or r.get("outcome_name") or ""
 
-        payload_keys = [k for k in ["event_name", "event_id", "market_id", "selection_id"] if has(k)]
-        payload = {k: r.get(k) for k in payload_keys}
-        raw_payload = json.dumps(payload) if payload else None
-
-        captured = r.get("timestamp") or r.get("scrape_ts") or None
-        if captured is None:
-            captured_at_utc = now_utc_iso()
-        else:
+        # numerics
+        def _to_float(x):
             try:
-                # pandas timestamp or string to ISO
-                ts = str(captured)
-                if "T" in ts:
-                    captured_at_utc = ts
-                else:
-                    captured_at_utc = ts
+                return float(x) if x not in (None, "", "None") else None
             except Exception:
-                captured_at_utc = now_utc_iso()
+                return None
+
+        line         = _to_float(r.get("line"))
+        decimal_odds = _to_float(r.get("odds") or r.get("decimal_odds"))
+
+        payload_keys = [k for k in ["event_name", "event_id", "market_id", "selection_id"] if k in has]
+        raw_payload  = json.dumps({k: r.get(k) for k in payload_keys}) if payload_keys else None
+
+        captured     = r.get("timestamp") or r.get("scrape_ts")
+        captured_at  = str(captured) if captured else now_utc_iso()
 
         hk = stable_hash(bookmaker, url, market_group, market_name, selection, line, decimal_odds)
+
         rows.append({
-            "captured_at_utc": captured_at_utc,
+            "captured_at_utc": captured_at,
             "bookmaker": bookmaker,
-            "event_url": url,
+            "event_url": url,                # <— the actual page we scraped
             "market_group": market_group,
             "market_name": market_name,
             "selection": selection,
@@ -210,10 +222,13 @@ def _normalise_from_odds_df(url: str, season: int, round_of_url: Optional[str], 
             "decimal_odds": decimal_odds,
             "raw_payload": raw_payload,
             "hash_key": hk,
-            "season": season,
-            "round": round_of_url,
+            "season": int(season),
+            "round": str(round_code),
         })
     return rows
+
+
+# ---------- main ----------
 
 def main() -> int:
     args = parse_args()
@@ -226,15 +241,13 @@ def main() -> int:
 
     ev = _read_event_urls(bronze_dir, args.season, args.round, requested)
     if ev.is_empty():
-        log.error("No event_urls under %s/season=%s/** for bookmakers=%s", bronze_dir / "event_urls", args.season, requested)
+        log.error("No per-game event_urls under %s/season=%s/** for bookmakers=%s",
+                  bronze_dir / "event_urls", args.season, requested)
         return 2
 
-    # Collect URL -> round mapping
-    url_round: Dict[str, Optional[str]] = {}
-    for rec in ev.select(["event_url", "round"]).unique().iter_rows(named=True):
-        url_round[rec["event_url"]] = rec.get("round")
-
-    urls = [r["event_url"] for r in ev.select(["event_url"]).unique().iter_rows(named=True)]
+    # URL -> round map
+    url_round = {r["event_url"]: r.get("round") for r in ev.select(["event_url", "round"]).iter_rows(named=True)}
+    urls      = [r["event_url"] for r in ev.select(["event_url"]).unique().iter_rows(named=True)]
     if args.limit:
         urls = urls[: args.limit]
 
@@ -246,12 +259,12 @@ def main() -> int:
     for i, url in enumerate(urls, 1):
         try:
             scraper = EventScraper()  # type: ignore
-            scraper.scrape(url)       # per README usage pattern :contentReference[oaicite:3]{index=3}
+            scraper.scrape(url)
             if getattr(scraper, "error_message", None):
                 log.warning("Scraper error for %s: %s", url, scraper.error_message)
                 continue
             odds_pdf = getattr(scraper, "odds_df", None)
-            rows = _normalise_from_odds_df(url, args.season, url_round.get(url), odds_pdf)
+            rows = _normalize_scrape(url, args.season, url_round.get(url, None) or "unknown", odds_pdf)
             all_rows.extend(rows)
             if i % 5 == 0:
                 log.info("Scraped %d/%d urls", i, len(urls))
@@ -262,7 +275,26 @@ def main() -> int:
         log.warning("No odds rows scraped; nothing to write.")
         return 0
 
-    df = pl.DataFrame(all_rows).unique(subset=["hash_key"])
+    df = pl.DataFrame(all_rows)
+
+    # Hard guarantees: event_url exists and is non-empty everywhere
+    df = df.with_columns(
+        pl.col("event_url")
+          .cast(pl.Utf8)
+          .fill_null("")
+          .str.strip_chars()   # <<-- use strip_chars for wider Polars compatibility
+          .alias("event_url")
+    )
+    total = df.height
+    bad   = df.filter(pl.col("event_url") == "").height
+    if bad > 0:
+        sample = df.filter(pl.col("event_url") == "").select(["bookmaker", "season", "round"]).head(10)
+        log.error("FATAL: %d/%d rows missing event_url. Sample:\n%s", bad, total, sample)
+        return 4
+
+    # Dedup deterministically if hash_key present
+    if "hash_key" in df.columns:
+        df = df.unique(subset=["hash_key"])
 
     if args.dry_run:
         log.info("DRY RUN: %d rows, columns=%s", df.height, df.columns)
@@ -272,10 +304,13 @@ def main() -> int:
 
     out_dir = bronze_dir / "odds" / "snapshots"
     _write_partitioned_parquet(df, out_dir, partition_cols=["season", "round", "bookmaker"], overwrite=args.overwrite)
+
     if args.csv_mirror:
         _write_csv_mirror(df, DEFAULT_CSV_MIRROR_DIR / "odds_snapshots", stem="odds_snapshots")
+
     log.info("Wrote odds snapshots → %s (partitioned by season/round/bookmaker)", out_dir)
     return 0
+
 
 if __name__ == "__main__":
     raise SystemExit(main())

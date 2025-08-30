@@ -1,0 +1,1000 @@
+{
+  "meta": {
+    "code": 200,
+    "pagination": {
+      "page": 0,
+      "numPages": 1,
+      "pageSize": 50,
+      "numEntries": 7
+    }
+  },
+  "matches": [
+    {
+      "id": 7095,
+      "providerId": "CD_M20250141601",
+      "compSeason": {
+        "id": 73,
+        "providerId": "CD_S2025014",
+        "name": "2025 Toyota AFL Premiership",
+        "shortName": "Premiership",
+        "currentRoundNumber": 25
+      },
+      "round": {
+        "id": 1162,
+        "providerId": "CD_R202501416",
+        "abbreviation": "Rd 16",
+        "name": "Round 16",
+        "roundNumber": 16,
+        "byes": [
+          {
+            "id": 2,
+            "providerId": "CD_T20",
+            "name": "Brisbane Lions",
+            "abbreviation": "BL",
+            "nickname": "Lions",
+            "club": {
+              "id": 13,
+              "providerId": "CD_O3",
+              "name": "Brisbane Lions",
+              "abbreviation": "Lions",
+              "nickname": "Lions"
+            },
+            "teamType": "MEN"
+          },
+          {
+            "id": 10,
+            "providerId": "CD_T70",
+            "name": "Geelong Cats",
+            "abbreviation": "GEEL",
+            "nickname": "Cats",
+            "club": {
+              "id": 15,
+              "providerId": "CD_O11",
+              "name": "Geelong Cats",
+              "abbreviation": "Cats",
+              "nickname": "Cats"
+            },
+            "teamType": "MEN"
+          },
+          {
+            "id": 12,
+            "providerId": "CD_T50",
+            "name": "Essendon",
+            "abbreviation": "ESS",
+            "nickname": "Bombers",
+            "club": {
+              "id": 10,
+              "providerId": "CD_O9",
+              "name": "Essendon",
+              "abbreviation": "Bombers",
+              "nickname": "Bombers"
+            },
+            "teamType": "MEN"
+          },
+          {
+            "id": 15,
+            "providerId": "CD_T1010",
+            "name": "GWS GIANTS",
+            "abbreviation": "GWS",
+            "nickname": "GIANTS",
+            "club": {
+              "id": 5,
+              "providerId": "CD_O16",
+              "name": "GWS GIANTS",
+              "abbreviation": "GIANTS",
+              "nickname": "GIANTS"
+            },
+            "teamType": "MEN"
+          }
+        ]
+      },
+      "home": {
+        "team": {
+          "id": 7,
+          "providerId": "CD_T110",
+          "name": "Port Adelaide",
+          "abbreviation": "PORT",
+          "nickname": "Power",
+          "club": {
+            "id": 19,
+            "providerId": "CD_O24",
+            "name": "Port Adelaide",
+            "abbreviation": "Power",
+            "nickname": "Power"
+          },
+          "teamType": "MEN"
+        },
+        "score": {
+          "goals": 16,
+          "behinds": 14,
+          "totalScore": 110,
+          "superGoals": 0
+        }
+      },
+      "away": {
+        "team": {
+          "id": 5,
+          "providerId": "CD_T30",
+          "name": "Carlton",
+          "abbreviation": "CARL",
+          "nickname": "Blues",
+          "club": {
+            "id": 1,
+            "providerId": "CD_O5",
+            "name": "Carlton",
+            "abbreviation": "Blues",
+            "nickname": "Blues"
+          },
+          "teamType": "MEN"
+        },
+        "score": {
+          "goals": 8,
+          "behinds": 12,
+          "totalScore": 60,
+          "superGoals": 0
+        }
+      },
+      "venue": {
+        "id": 31,
+        "providerId": "CD_V6",
+        "name": "Adelaide Oval",
+        "abbreviation": "AO",
+        "location": "Adelaide",
+        "state": "SA",
+        "timezone": "Australia/Adelaide",
+        "landOwner": "Kaurna"
+      },
+      "utcStartTime": "2025-06-26T09:30:00.000+0000",
+      "status": "CONCLUDED",
+      "metadata": {
+        "ticket_link": "https://premier.ticketek.com.au/shows/show.aspx?sh=PORTA1625"
+      }
+    },
+    {
+      "id": 7092,
+      "providerId": "CD_M20250141606",
+      "compSeason": {
+        "id": 73,
+        "providerId": "CD_S2025014",
+        "name": "2025 Toyota AFL Premiership",
+        "shortName": "Premiership",
+        "currentRoundNumber": 25
+      },
+      "round": {
+        "id": 1162,
+        "providerId": "CD_R202501416",
+        "abbreviation": "Rd 16",
+        "name": "Round 16",
+        "roundNumber": 16,
+        "byes": [
+          {
+            "id": 2,
+            "providerId": "CD_T20",
+            "name": "Brisbane Lions",
+            "abbreviation": "BL",
+            "nickname": "Lions",
+            "club": {
+              "id": 13,
+              "providerId": "CD_O3",
+              "name": "Brisbane Lions",
+              "abbreviation": "Lions",
+              "nickname": "Lions"
+            },
+            "teamType": "MEN"
+          },
+          {
+            "id": 10,
+            "providerId": "CD_T70",
+            "name": "Geelong Cats",
+            "abbreviation": "GEEL",
+            "nickname": "Cats",
+            "club": {
+              "id": 15,
+              "providerId": "CD_O11",
+              "name": "Geelong Cats",
+              "abbreviation": "Cats",
+              "nickname": "Cats"
+            },
+            "teamType": "MEN"
+          },
+          {
+            "id": 12,
+            "providerId": "CD_T50",
+            "name": "Essendon",
+            "abbreviation": "ESS",
+            "nickname": "Bombers",
+            "club": {
+              "id": 10,
+              "providerId": "CD_O9",
+              "name": "Essendon",
+              "abbreviation": "Bombers",
+              "nickname": "Bombers"
+            },
+            "teamType": "MEN"
+          },
+          {
+            "id": 15,
+            "providerId": "CD_T1010",
+            "name": "GWS GIANTS",
+            "abbreviation": "GWS",
+            "nickname": "GIANTS",
+            "club": {
+              "id": 5,
+              "providerId": "CD_O16",
+              "name": "GWS GIANTS",
+              "abbreviation": "GIANTS",
+              "nickname": "GIANTS"
+            },
+            "teamType": "MEN"
+          }
+        ]
+      },
+      "home": {
+        "team": {
+          "id": 13,
+          "providerId": "CD_T160",
+          "name": "Sydney Swans",
+          "abbreviation": "SYD",
+          "nickname": "Swans",
+          "club": {
+            "id": 24,
+            "providerId": "CD_O28",
+            "name": "Sydney Swans",
+            "abbreviation": "Swans",
+            "nickname": "Swans"
+          },
+          "teamType": "MEN"
+        },
+        "score": {
+          "goals": 14,
+          "behinds": 12,
+          "totalScore": 96,
+          "superGoals": 0
+        }
+      },
+      "away": {
+        "team": {
+          "id": 8,
+          "providerId": "CD_T140",
+          "name": "Western Bulldogs",
+          "abbreviation": "WB",
+          "nickname": "Bulldogs",
+          "club": {
+            "id": 25,
+            "providerId": "CD_O31",
+            "name": "Western Bulldogs",
+            "abbreviation": "Bulldogs",
+            "nickname": "Bulldogs"
+          },
+          "teamType": "MEN"
+        },
+        "score": {
+          "goals": 16,
+          "behinds": 9,
+          "totalScore": 105,
+          "superGoals": 0
+        }
+      },
+      "venue": {
+        "id": 9,
+        "providerId": "CD_V60",
+        "name": "SCG",
+        "abbreviation": "SCG",
+        "location": "Sydney",
+        "state": "NSW",
+        "timezone": "Australia/Sydney",
+        "landOwner": "Gadigal"
+      },
+      "utcStartTime": "2025-06-27T09:40:00.000+0000",
+      "status": "CONCLUDED",
+      "metadata": {
+        "ticket_link": "https://premier.ticketek.com.au/shows/show.aspx?sh=SWANS1625"
+      }
+    },
+    {
+      "id": 7116,
+      "providerId": "CD_M20250141604",
+      "compSeason": {
+        "id": 73,
+        "providerId": "CD_S2025014",
+        "name": "2025 Toyota AFL Premiership",
+        "shortName": "Premiership",
+        "currentRoundNumber": 25
+      },
+      "round": {
+        "id": 1162,
+        "providerId": "CD_R202501416",
+        "abbreviation": "Rd 16",
+        "name": "Round 16",
+        "roundNumber": 16,
+        "byes": [
+          {
+            "id": 2,
+            "providerId": "CD_T20",
+            "name": "Brisbane Lions",
+            "abbreviation": "BL",
+            "nickname": "Lions",
+            "club": {
+              "id": 13,
+              "providerId": "CD_O3",
+              "name": "Brisbane Lions",
+              "abbreviation": "Lions",
+              "nickname": "Lions"
+            },
+            "teamType": "MEN"
+          },
+          {
+            "id": 10,
+            "providerId": "CD_T70",
+            "name": "Geelong Cats",
+            "abbreviation": "GEEL",
+            "nickname": "Cats",
+            "club": {
+              "id": 15,
+              "providerId": "CD_O11",
+              "name": "Geelong Cats",
+              "abbreviation": "Cats",
+              "nickname": "Cats"
+            },
+            "teamType": "MEN"
+          },
+          {
+            "id": 12,
+            "providerId": "CD_T50",
+            "name": "Essendon",
+            "abbreviation": "ESS",
+            "nickname": "Bombers",
+            "club": {
+              "id": 10,
+              "providerId": "CD_O9",
+              "name": "Essendon",
+              "abbreviation": "Bombers",
+              "nickname": "Bombers"
+            },
+            "teamType": "MEN"
+          },
+          {
+            "id": 15,
+            "providerId": "CD_T1010",
+            "name": "GWS GIANTS",
+            "abbreviation": "GWS",
+            "nickname": "GIANTS",
+            "club": {
+              "id": 5,
+              "providerId": "CD_O16",
+              "name": "GWS GIANTS",
+              "abbreviation": "GIANTS",
+              "nickname": "GIANTS"
+            },
+            "teamType": "MEN"
+          }
+        ]
+      },
+      "home": {
+        "team": {
+          "id": 4,
+          "providerId": "CD_T1000",
+          "name": "Gold Coast SUNS",
+          "abbreviation": "GCFC",
+          "nickname": "SUNS",
+          "club": {
+            "id": 9,
+            "providerId": "CD_O14",
+            "name": "Gold Coast SUNS",
+            "abbreviation": "SUNS",
+            "nickname": "SUNS"
+          },
+          "teamType": "MEN"
+        },
+        "score": {
+          "goals": 15,
+          "behinds": 14,
+          "totalScore": 104,
+          "superGoals": 0
+        }
+      },
+      "away": {
+        "team": {
+          "id": 17,
+          "providerId": "CD_T90",
+          "name": "Melbourne",
+          "abbreviation": "MELB",
+          "nickname": "Demons",
+          "club": {
+            "id": 14,
+            "providerId": "CD_O18",
+            "name": "Melbourne",
+            "abbreviation": "Demons",
+            "nickname": "Demons"
+          },
+          "teamType": "MEN"
+        },
+        "score": {
+          "goals": 12,
+          "behinds": 13,
+          "totalScore": 85,
+          "superGoals": 0
+        }
+      },
+      "venue": {
+        "id": 11,
+        "providerId": "CD_V81",
+        "name": "People First Stadium",
+        "abbreviation": "PFS",
+        "location": "Gold Coast",
+        "state": "QLD",
+        "timezone": "Australia/Brisbane",
+        "landOwner": "Yugambeh"
+      },
+      "utcStartTime": "2025-06-28T03:20:00.000+0000",
+      "status": "CONCLUDED",
+      "metadata": {
+        "ticket_link": "https://premier.ticketek.com.au/shows/show.aspx?sh=SUNS1625"
+      }
+    },
+    {
+      "id": 7091,
+      "providerId": "CD_M20250141607",
+      "compSeason": {
+        "id": 73,
+        "providerId": "CD_S2025014",
+        "name": "2025 Toyota AFL Premiership",
+        "shortName": "Premiership",
+        "currentRoundNumber": 25
+      },
+      "round": {
+        "id": 1162,
+        "providerId": "CD_R202501416",
+        "abbreviation": "Rd 16",
+        "name": "Round 16",
+        "roundNumber": 16,
+        "byes": [
+          {
+            "id": 2,
+            "providerId": "CD_T20",
+            "name": "Brisbane Lions",
+            "abbreviation": "BL",
+            "nickname": "Lions",
+            "club": {
+              "id": 13,
+              "providerId": "CD_O3",
+              "name": "Brisbane Lions",
+              "abbreviation": "Lions",
+              "nickname": "Lions"
+            },
+            "teamType": "MEN"
+          },
+          {
+            "id": 10,
+            "providerId": "CD_T70",
+            "name": "Geelong Cats",
+            "abbreviation": "GEEL",
+            "nickname": "Cats",
+            "club": {
+              "id": 15,
+              "providerId": "CD_O11",
+              "name": "Geelong Cats",
+              "abbreviation": "Cats",
+              "nickname": "Cats"
+            },
+            "teamType": "MEN"
+          },
+          {
+            "id": 12,
+            "providerId": "CD_T50",
+            "name": "Essendon",
+            "abbreviation": "ESS",
+            "nickname": "Bombers",
+            "club": {
+              "id": 10,
+              "providerId": "CD_O9",
+              "name": "Essendon",
+              "abbreviation": "Bombers",
+              "nickname": "Bombers"
+            },
+            "teamType": "MEN"
+          },
+          {
+            "id": 15,
+            "providerId": "CD_T1010",
+            "name": "GWS GIANTS",
+            "abbreviation": "GWS",
+            "nickname": "GIANTS",
+            "club": {
+              "id": 5,
+              "providerId": "CD_O16",
+              "name": "GWS GIANTS",
+              "abbreviation": "GIANTS",
+              "nickname": "GIANTS"
+            },
+            "teamType": "MEN"
+          }
+        ]
+      },
+      "home": {
+        "team": {
+          "id": 9,
+          "providerId": "CD_T80",
+          "name": "Hawthorn",
+          "abbreviation": "HAW",
+          "nickname": "Hawks",
+          "club": {
+            "id": 16,
+            "providerId": "CD_O17",
+            "name": "Hawthorn",
+            "abbreviation": "Hawks",
+            "nickname": "Hawks"
+          },
+          "teamType": "MEN"
+        },
+        "score": {
+          "goals": 23,
+          "behinds": 12,
+          "totalScore": 150,
+          "superGoals": 0
+        }
+      },
+      "away": {
+        "team": {
+          "id": 6,
+          "providerId": "CD_T100",
+          "name": "North Melbourne",
+          "abbreviation": "NMFC",
+          "nickname": "Kangaroos",
+          "club": {
+            "id": 20,
+            "providerId": "CD_O20",
+            "name": "North Melbourne",
+            "abbreviation": "Kangaroos",
+            "nickname": "Kangaroos"
+          },
+          "teamType": "MEN"
+        },
+        "score": {
+          "goals": 9,
+          "behinds": 11,
+          "totalScore": 65,
+          "superGoals": 0
+        }
+      },
+      "venue": {
+        "id": 4,
+        "providerId": "CD_V200",
+        "name": "UTAS Stadium",
+        "abbreviation": "UTAS",
+        "location": "Launceston",
+        "state": "TAS",
+        "timezone": "Australia/Hobart",
+        "landOwner": "Palawa"
+      },
+      "utcStartTime": "2025-06-28T06:15:00.000+0000",
+      "status": "CONCLUDED",
+      "metadata": {
+        "ticket_link": "https://www.ticketmaster.com.au/hawthorn-v-north-melbourne-launceston-28-06-2025/event/25006227DACB30E3"
+      }
+    },
+    {
+      "id": 7090,
+      "providerId": "CD_M20250141602",
+      "compSeason": {
+        "id": 73,
+        "providerId": "CD_S2025014",
+        "name": "2025 Toyota AFL Premiership",
+        "shortName": "Premiership",
+        "currentRoundNumber": 25
+      },
+      "round": {
+        "id": 1162,
+        "providerId": "CD_R202501416",
+        "abbreviation": "Rd 16",
+        "name": "Round 16",
+        "roundNumber": 16,
+        "byes": [
+          {
+            "id": 2,
+            "providerId": "CD_T20",
+            "name": "Brisbane Lions",
+            "abbreviation": "BL",
+            "nickname": "Lions",
+            "club": {
+              "id": 13,
+              "providerId": "CD_O3",
+              "name": "Brisbane Lions",
+              "abbreviation": "Lions",
+              "nickname": "Lions"
+            },
+            "teamType": "MEN"
+          },
+          {
+            "id": 10,
+            "providerId": "CD_T70",
+            "name": "Geelong Cats",
+            "abbreviation": "GEEL",
+            "nickname": "Cats",
+            "club": {
+              "id": 15,
+              "providerId": "CD_O11",
+              "name": "Geelong Cats",
+              "abbreviation": "Cats",
+              "nickname": "Cats"
+            },
+            "teamType": "MEN"
+          },
+          {
+            "id": 12,
+            "providerId": "CD_T50",
+            "name": "Essendon",
+            "abbreviation": "ESS",
+            "nickname": "Bombers",
+            "club": {
+              "id": 10,
+              "providerId": "CD_O9",
+              "name": "Essendon",
+              "abbreviation": "Bombers",
+              "nickname": "Bombers"
+            },
+            "teamType": "MEN"
+          },
+          {
+            "id": 15,
+            "providerId": "CD_T1010",
+            "name": "GWS GIANTS",
+            "abbreviation": "GWS",
+            "nickname": "GIANTS",
+            "club": {
+              "id": 5,
+              "providerId": "CD_O16",
+              "name": "GWS GIANTS",
+              "abbreviation": "GIANTS",
+              "nickname": "GIANTS"
+            },
+            "teamType": "MEN"
+          }
+        ]
+      },
+      "home": {
+        "team": {
+          "id": 3,
+          "providerId": "CD_T40",
+          "name": "Collingwood",
+          "abbreviation": "COLL",
+          "nickname": "Magpies",
+          "club": {
+            "id": 12,
+            "providerId": "CD_O6",
+            "name": "Collingwood",
+            "abbreviation": "Magpies",
+            "nickname": "Magpies"
+          },
+          "teamType": "MEN"
+        },
+        "score": {
+          "goals": 13,
+          "behinds": 10,
+          "totalScore": 88,
+          "superGoals": 0
+        }
+      },
+      "away": {
+        "team": {
+          "id": 18,
+          "providerId": "CD_T150",
+          "name": "West Coast Eagles",
+          "abbreviation": "WCE",
+          "nickname": "Eagles",
+          "club": {
+            "id": 23,
+            "providerId": "CD_O30",
+            "name": "West Coast Eagles",
+            "abbreviation": "Eagles",
+            "nickname": "Eagles"
+          },
+          "teamType": "MEN"
+        },
+        "score": {
+          "goals": 8,
+          "behinds": 11,
+          "totalScore": 59,
+          "superGoals": 0
+        }
+      },
+      "venue": {
+        "id": 3,
+        "providerId": "CD_V190",
+        "name": "Marvel Stadium",
+        "abbreviation": "MRVL",
+        "location": "Melbourne",
+        "state": "VIC",
+        "timezone": "Australia/Melbourne",
+        "landOwner": "Wurundjeri"
+      },
+      "utcStartTime": "2025-06-28T09:35:00.000+0000",
+      "status": "CONCLUDED",
+      "metadata": {
+        "ticket_link": "https://www.ticketmaster.com.au/collingwood-v-west-coast-eagles-docklands-28-06-2025/event/25006236A6121231"
+      }
+    },
+    {
+      "id": 7094,
+      "providerId": "CD_M20250141603",
+      "compSeason": {
+        "id": 73,
+        "providerId": "CD_S2025014",
+        "name": "2025 Toyota AFL Premiership",
+        "shortName": "Premiership",
+        "currentRoundNumber": 25
+      },
+      "round": {
+        "id": 1162,
+        "providerId": "CD_R202501416",
+        "abbreviation": "Rd 16",
+        "name": "Round 16",
+        "roundNumber": 16,
+        "byes": [
+          {
+            "id": 2,
+            "providerId": "CD_T20",
+            "name": "Brisbane Lions",
+            "abbreviation": "BL",
+            "nickname": "Lions",
+            "club": {
+              "id": 13,
+              "providerId": "CD_O3",
+              "name": "Brisbane Lions",
+              "abbreviation": "Lions",
+              "nickname": "Lions"
+            },
+            "teamType": "MEN"
+          },
+          {
+            "id": 10,
+            "providerId": "CD_T70",
+            "name": "Geelong Cats",
+            "abbreviation": "GEEL",
+            "nickname": "Cats",
+            "club": {
+              "id": 15,
+              "providerId": "CD_O11",
+              "name": "Geelong Cats",
+              "abbreviation": "Cats",
+              "nickname": "Cats"
+            },
+            "teamType": "MEN"
+          },
+          {
+            "id": 12,
+            "providerId": "CD_T50",
+            "name": "Essendon",
+            "abbreviation": "ESS",
+            "nickname": "Bombers",
+            "club": {
+              "id": 10,
+              "providerId": "CD_O9",
+              "name": "Essendon",
+              "abbreviation": "Bombers",
+              "nickname": "Bombers"
+            },
+            "teamType": "MEN"
+          },
+          {
+            "id": 15,
+            "providerId": "CD_T1010",
+            "name": "GWS GIANTS",
+            "abbreviation": "GWS",
+            "nickname": "GIANTS",
+            "club": {
+              "id": 5,
+              "providerId": "CD_O16",
+              "name": "GWS GIANTS",
+              "abbreviation": "GIANTS",
+              "nickname": "GIANTS"
+            },
+            "teamType": "MEN"
+          }
+        ]
+      },
+      "home": {
+        "team": {
+          "id": 16,
+          "providerId": "CD_T120",
+          "name": "Richmond",
+          "abbreviation": "RICH",
+          "nickname": "Tigers",
+          "club": {
+            "id": 22,
+            "providerId": "CD_O25",
+            "name": "Richmond",
+            "abbreviation": "Tigers",
+            "nickname": "Tigers"
+          },
+          "teamType": "MEN"
+        },
+        "score": {
+          "goals": 8,
+          "behinds": 6,
+          "totalScore": 54,
+          "superGoals": 0
+        }
+      },
+      "away": {
+        "team": {
+          "id": 1,
+          "providerId": "CD_T10",
+          "name": "Adelaide Crows",
+          "abbreviation": "ADEL",
+          "nickname": "Crows",
+          "club": {
+            "id": 3,
+            "providerId": "CD_O1",
+            "name": "Adelaide Crows",
+            "abbreviation": "Crows",
+            "nickname": "Crows"
+          },
+          "teamType": "MEN"
+        },
+        "score": {
+          "goals": 18,
+          "behinds": 14,
+          "totalScore": 122,
+          "superGoals": 0
+        }
+      },
+      "venue": {
+        "id": 13,
+        "providerId": "CD_V40",
+        "name": "MCG",
+        "abbreviation": "MCG",
+        "location": "Melbourne",
+        "state": "VIC",
+        "timezone": "Australia/Melbourne",
+        "landOwner": "Wurundjeri"
+      },
+      "utcStartTime": "2025-06-29T05:15:00.000+0000",
+      "status": "CONCLUDED",
+      "metadata": {
+        "ticket_link": "https://premier.ticketek.com.au/shows/show.aspx?sh=RICHM1625"
+      }
+    },
+    {
+      "id": 7096,
+      "providerId": "CD_M20250141605",
+      "compSeason": {
+        "id": 73,
+        "providerId": "CD_S2025014",
+        "name": "2025 Toyota AFL Premiership",
+        "shortName": "Premiership",
+        "currentRoundNumber": 25
+      },
+      "round": {
+        "id": 1162,
+        "providerId": "CD_R202501416",
+        "abbreviation": "Rd 16",
+        "name": "Round 16",
+        "roundNumber": 16,
+        "byes": [
+          {
+            "id": 2,
+            "providerId": "CD_T20",
+            "name": "Brisbane Lions",
+            "abbreviation": "BL",
+            "nickname": "Lions",
+            "club": {
+              "id": 13,
+              "providerId": "CD_O3",
+              "name": "Brisbane Lions",
+              "abbreviation": "Lions",
+              "nickname": "Lions"
+            },
+            "teamType": "MEN"
+          },
+          {
+            "id": 10,
+            "providerId": "CD_T70",
+            "name": "Geelong Cats",
+            "abbreviation": "GEEL",
+            "nickname": "Cats",
+            "club": {
+              "id": 15,
+              "providerId": "CD_O11",
+              "name": "Geelong Cats",
+              "abbreviation": "Cats",
+              "nickname": "Cats"
+            },
+            "teamType": "MEN"
+          },
+          {
+            "id": 12,
+            "providerId": "CD_T50",
+            "name": "Essendon",
+            "abbreviation": "ESS",
+            "nickname": "Bombers",
+            "club": {
+              "id": 10,
+              "providerId": "CD_O9",
+              "name": "Essendon",
+              "abbreviation": "Bombers",
+              "nickname": "Bombers"
+            },
+            "teamType": "MEN"
+          },
+          {
+            "id": 15,
+            "providerId": "CD_T1010",
+            "name": "GWS GIANTS",
+            "abbreviation": "GWS",
+            "nickname": "GIANTS",
+            "club": {
+              "id": 5,
+              "providerId": "CD_O16",
+              "name": "GWS GIANTS",
+              "abbreviation": "GIANTS",
+              "nickname": "GIANTS"
+            },
+            "teamType": "MEN"
+          }
+        ]
+      },
+      "home": {
+        "team": {
+          "id": 14,
+          "providerId": "CD_T60",
+          "name": "Fremantle",
+          "abbreviation": "FRE",
+          "nickname": "Dockers",
+          "club": {
+            "id": 6,
+            "providerId": "CD_O10",
+            "name": "Fremantle",
+            "abbreviation": "Dockers",
+            "nickname": "Dockers"
+          },
+          "teamType": "MEN"
+        },
+        "score": {
+          "goals": 11,
+          "behinds": 15,
+          "totalScore": 81,
+          "superGoals": 0
+        }
+      },
+      "away": {
+        "team": {
+          "id": 11,
+          "providerId": "CD_T130",
+          "name": "St Kilda",
+          "abbreviation": "STK",
+          "nickname": "Saints",
+          "club": {
+            "id": 21,
+            "providerId": "CD_O27",
+            "name": "St Kilda",
+            "abbreviation": "Saints",
+            "nickname": "Saints"
+          },
+          "teamType": "MEN"
+        },
+        "score": {
+          "goals": 9,
+          "behinds": 15,
+          "totalScore": 69,
+          "superGoals": 0
+        }
+      },
+      "venue": {
+        "id": 65,
+        "providerId": "CD_V2925",
+        "name": "Optus Stadium",
+        "abbreviation": "OS",
+        "location": "Perth",
+        "state": "WA",
+        "timezone": "Australia/Perth",
+        "landOwner": "Whadjuk"
+      },
+      "utcStartTime": "2025-06-29T07:10:00.000+0000",
+      "status": "CONCLUDED",
+      "metadata": {
+        "ticket_link": "https://www.ticketmaster.com.au/fremantle-dockers-v-st-kilda-burswood-29-06-2025/event/2500624DD52118A4"
+      }
+    }
+  ]
+}

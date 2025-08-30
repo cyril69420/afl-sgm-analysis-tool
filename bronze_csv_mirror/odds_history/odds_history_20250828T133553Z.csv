@@ -1,0 +1,415 @@
+captured_at_utc,bookmaker,event_url,market_group,market_name,selection,line,decimal_odds,raw_payload,season,round,hash_key,source_kind
+2025-07-12T23:59:00+00:00,market_consensus,asb:2025:Western Bulldogs_vs_Adelaide:2025-07-12,H2H,Match,Home,,1.52,,2025,,878a4b57410f0f80b356634ae1d9abf16b405de27093b7dbb259ce16b7ee75da,asb_excel
+2025-04-19T23:59:00+00:00,market_consensus,asb:2025:Adelaide_vs_GWS Giants:2025-04-19,H2H,Match,Home,,1.55,,2025,,708ab31fe57a9be2f22a8a77d2add5ff64aea6fa35131a2103abd030829eb0df,asb_excel
+2025-03-15T23:59:00+00:00,market_consensus,asb:2025:Collingwood_vs_Port Adelaide:2025-03-15,H2H,Match,Home,,1.55,,2025,,877831ab9142902de2e9eae98458cdc2e47e17184876d8ed5287a03f27fff013,asb_excel
+2025-06-28T23:59:00+00:00,market_consensus,asb:2025:Gold Coast_vs_Melbourne:2025-06-28,H2H,Match,Away,,3.51,,2025,,636f2031ccb1abf736719a8f437ddf9766cc0ea68ff8b9f90389d674f6512a33,asb_excel
+2025-05-17T23:59:00+00:00,market_consensus,asb:2025:Port Adelaide_vs_Geelong:2025-05-17,H2H,Match,Home,,2.27,,2025,,32bf292929cd43d61f521230537010092cd825858341d747f15fe93669067be3,asb_excel
+2025-06-01T23:59:00+00:00,market_consensus,asb:2025:West Coast_vs_Geelong:2025-06-01,H2H,Match,Home,,7.52,,2025,,07bba060982bc11816ca5854d964a4768e394c9289ab76d2a22ba41ad652e56a,asb_excel
+2025-07-05T23:59:00+00:00,market_consensus,asb:2025:St Kilda_vs_Hawthorn:2025-07-05,H2H,Match,Home,,3.07,,2025,,2fdca2e4eaacd7580c7a08bf17531d7dbb22716b08e34957c37779658b07c398,asb_excel
+2025-06-29T23:59:00+00:00,market_consensus,asb:2025:Richmond_vs_Adelaide:2025-06-29,H2H,Match,Away,,1.11,,2025,,0defe8ed328f12c3a4e1133d998f5eec2f08e3c0a18a2c322834e6e7af3f7077,asb_excel
+2025-05-10T23:59:00+00:00,market_consensus,asb:2025:Gold Coast_vs_Western Bulldogs:2025-05-10,H2H,Match,Away,,1.96,,2025,,7f3fd6ba152379c16ca902f1d54603d1dbe13e04859d0c200067338fb92b57e7,asb_excel
+2025-03-13T23:59:00+00:00,market_consensus,asb:2025:Richmond_vs_Carlton:2025-03-13,H2H,Match,Home,,8.56,,2025,,8ccc24958004bbc6c05c2504d2c422f35cffd377a4f3759a0c16dcce3949c287,asb_excel
+2025-05-25T23:59:00+00:00,market_consensus,asb:2025:Melbourne_vs_Sydney:2025-05-25,H2H,Match,Home,,1.85,,2025,,3a0884187b3b6c0b39fd2b0688b028e6a35bacf108c61d7b4da8df01d1aee68f,asb_excel
+2025-04-06T23:59:00+00:00,market_consensus,asb:2025:Port Adelaide_vs_St Kilda:2025-04-06,H2H,Match,Away,,2.55,,2025,,6a998754ff525d206a2d82488c51d8b8dd233e92c06b20e8a7fcda3eb69d03c6,asb_excel
+2025-05-03T23:59:00+00:00,market_consensus,asb:2025:Adelaide_vs_Carlton:2025-05-03,H2H,Match,Home,,1.55,,2025,,db18648ab8e2098523b2ae6473e0b5f659dc6468d222c61abbe29f0ab61e5b80,asb_excel
+2025-04-27T23:59:00+00:00,market_consensus,asb:2025:Carlton_vs_Geelong:2025-04-27,H2H,Match,Home,,2.29,,2025,,06592c2501238519ee129e1ec699477f7c887b179fad3a58d9696c7aa5242c76,asb_excel
+2025-05-18T23:59:00+00:00,market_consensus,asb:2025:West Coast_vs_St Kilda:2025-05-18,H2H,Match,Away,,1.35,,2025,,53e5f8cd9efe6b4ff3cd857c44674be5c1d190774f1a800ed9755a0421d890e8,asb_excel
+2025-05-03T23:59:00+00:00,market_consensus,asb:2025:Collingwood_vs_Geelong:2025-05-03,H2H,Match,Away,,2.72,,2025,,7087865ee1d75cf60f0e3ac3dde190c34b2e06b13ea44ca087f045ef26df5718,asb_excel
+2025-06-29T23:59:00+00:00,market_consensus,asb:2025:Fremantle_vs_St Kilda:2025-06-29,H2H,Match,Away,,3.77,,2025,,b38c17452693b1e53e80f9d0eb13b100114a9c9c3aa2d4f57ed86f163ebed6d2,asb_excel
+2025-05-10T23:59:00+00:00,market_consensus,asb:2025:Port Adelaide_vs_Adelaide:2025-05-10,H2H,Match,Home,,2.85,,2025,,e576b1204457f7dd6294f53b53c1b5ddc86c95bfbc0eec34d2b513ea92dd2c60,asb_excel
+2025-07-24T23:59:00+00:00,market_consensus,asb:2025:Hawthorn_vs_Carlton:2025-07-24,H2H,Match,Away,,4.29,,2025,,c3dc4b52cec35de01d0d1bc25fd00312274c699560e7305c88f77d9429c8f7b2,asb_excel
+2025-06-01T23:59:00+00:00,market_consensus,asb:2025:Melbourne_vs_St Kilda:2025-06-01,H2H,Match,Home,,1.45,,2025,,80a9328663bf4914c5834a7c915bde60acf7e90e0c0ef322db5474fdad9d83dc,asb_excel
+2025-07-20T23:59:00+00:00,market_consensus,asb:2025:Geelong_vs_St Kilda:2025-07-20,H2H,Match,Away,,5.51,,2025,,79684c57fe065907c4cb0ee226529f4e60db5dc1010f46e9e1b192f69aca8c07,asb_excel
+2025-05-11T23:59:00+00:00,market_consensus,asb:2025:Geelong_vs_GWS Giants:2025-05-11,H2H,Match,Away,,2.85,,2025,,bb48009e4b9cb1dbdbeb4be4553ddcda1cd4ddf1874bc68f1bc96bcf09017bda,asb_excel
+2025-07-05T23:59:00+00:00,market_consensus,asb:2025:St Kilda_vs_Hawthorn:2025-07-05,H2H,Match,Away,,1.35,,2025,,92f4702c1376a5acea96223c9ea11feb654da5ef84da5f17caea00c2a2aaa4d0,asb_excel
+2025-03-09T23:59:00+00:00,market_consensus,asb:2025:GWS Giants_vs_Collingwood:2025-03-09,H2H,Match,Away,,1.7,,2025,,43fccde1e38602bc792c3f2576320ebab1ff01d55db819525638081782c06d5b,asb_excel
+2025-08-02T23:59:00+00:00,market_consensus,asb:2025:Gold Coast_vs_Richmond:2025-08-02,H2H,Match,Home,,1.03,,2025,,81c3bbdb4565c7a07b135b91eb31bf2ca17da0d1fecb79bbb332f5516a0bd643,asb_excel
+2025-07-26T23:59:00+00:00,market_consensus,asb:2025:Adelaide_vs_Port Adelaide:2025-07-26,H2H,Match,Home,,1.16,,2025,,63d1181bfd865045ab18560fd98750b1a25a41432921a6cf59ea723955119b50,asb_excel
+2025-06-26T23:59:00+00:00,market_consensus,asb:2025:Port Adelaide_vs_Carlton:2025-06-26,H2H,Match,Away,,2.0,,2025,,bde76bea7338e8a0e74bc1fd3587ce772601e4ea4065bb8ced17500493229e84,asb_excel
+2025-05-11T23:59:00+00:00,market_consensus,asb:2025:North Melbourne_vs_Brisbane Lions:2025-05-11,H2H,Match,Home,,6.56,,2025,,dc8b6c75013d214d134c8c37d9a4d1412113e024d1087cdd08bd542e46231e42,asb_excel
+2025-08-27T23:59:00+00:00,market_consensus,asb:2025:Gold Coast_vs_Essendon:2025-08-27,H2H,Match,Home,,1.05,,2025,,32032a07707af75e6cde58e246a878fd1ff6a23afdc384c3c323b9979a848914,asb_excel
+2025-08-24T23:59:00+00:00,market_consensus,asb:2025:Brisbane Lions_vs_Hawthorn:2025-08-24,H2H,Match,Away,,2.16,,2025,,85cad4d1aa8139ed83591d35bbd8c97146943ee370b09fbe42123a3d6fa985bf,asb_excel
+2025-06-09T23:59:00+00:00,market_consensus,asb:2025:Melbourne_vs_Collingwood:2025-06-09,H2H,Match,Away,,1.26,,2025,,94e7b96b48d49c63c7abcee6608f4bd1fb52accb2f4fda8eb74e0748456d9f27,asb_excel
+2025-03-16T23:59:00+00:00,market_consensus,asb:2025:Adelaide_vs_St Kilda:2025-03-16,H2H,Match,Home,,1.3,,2025,,5f44e62d6adb256e4e32b4b350cc91f4041be4cd809984a132f94aa4e892782e,asb_excel
+2025-08-02T23:59:00+00:00,market_consensus,asb:2025:Sydney_vs_Essendon:2025-08-02,H2H,Match,Home,,1.07,,2025,,512f2750567995047fa03f1c66d79e7e601e0173f567b7dae5ff97c59f1cb6ee,asb_excel
+2025-06-07T23:59:00+00:00,market_consensus,asb:2025:Richmond_vs_Sydney:2025-06-07,H2H,Match,Away,,1.48,,2025,,9ddd86b565b6cb3bfa7d5237c8875d7ef1394924267f1a2b7b5174b64bd30931,asb_excel
+2025-03-07T23:59:00+00:00,market_consensus,asb:2025:Sydney_vs_Hawthorn:2025-03-07,H2H,Match,Away,,1.81,,2025,,2f8b1207d02aaf7f02558175932757fab7926751413681cf812e1cd7d8d528af,asb_excel
+2025-04-18T23:59:00+00:00,market_consensus,asb:2025:North Melbourne_vs_Carlton:2025-04-18,H2H,Match,Home,,2.94,,2025,,2178dc495600a03ea8760aa6bbec1368f33c3329da98a9f5f773d452e93d704b,asb_excel
+2025-03-15T23:59:00+00:00,market_consensus,asb:2025:Western Bulldogs_vs_North Melbourne:2025-03-15,H2H,Match,Away,,3.16,,2025,,762c91cadf3a3620bbeaa9ebe86a73e2e200d1ab59fe0f51153e7ebbb6f7ed84,asb_excel
+2025-07-13T23:59:00+00:00,market_consensus,asb:2025:Melbourne_vs_North Melbourne:2025-07-13,H2H,Match,Home,,1.2,,2025,,21b08e9e00e3549eb770535abc8e9f08f66288b3380c81d4a5f824976adcd410,asb_excel
+2025-05-10T23:59:00+00:00,market_consensus,asb:2025:Melbourne_vs_Hawthorn:2025-05-10,H2H,Match,Home,,3.75,,2025,,9899dcbf636d08c686fdc4ec2a12d8c6962b58bf56128827c081ed6b51c912a1,asb_excel
+2025-07-26T23:59:00+00:00,market_consensus,asb:2025:Fremantle_vs_West Coast:2025-07-26,H2H,Match,Home,,1.04,,2025,,5d4bce9b9d4dee12c2bf4e5d4431d02e97f80c9595a4ec0d1e0f7a9c70bd4e09,asb_excel
+2025-05-31T23:59:00+00:00,market_consensus,asb:2025:Sydney_vs_Adelaide:2025-05-31,H2H,Match,Away,,1.59,,2025,,e28adf67a4cc0de9d7baa0b54acb32407747c1a2c2125aaef1b9f658d08f7d03,asb_excel
+2025-07-13T23:59:00+00:00,market_consensus,asb:2025:St Kilda_vs_Sydney:2025-07-13,H2H,Match,Home,,2.28,,2025,,b183d3f84e00c211d759f595beefd486b9e253588c017a9c108be4e6762fbd61,asb_excel
+2025-08-23T23:59:00+00:00,market_consensus,asb:2025:North Melbourne_vs_Adelaide:2025-08-23,H2H,Match,Away,,1.13,,2025,,4fdc39b040bfae5ecd900bb1bcca6cd84b3329506e2359f8a8cbc6c1ab224d61,asb_excel
+2025-05-04T23:59:00+00:00,market_consensus,asb:2025:Hawthorn_vs_Richmond:2025-05-04,H2H,Match,Away,,8.16,,2025,,354bcdacabc000257fd282d60ebce44be5fbb7297e19dfa94af32b2c70ff6610,asb_excel
+2025-08-03T23:59:00+00:00,market_consensus,asb:2025:St Kilda_vs_North Melbourne:2025-08-03,H2H,Match,Away,,3.76,,2025,,b15fb572d2291dcb66b4e4b2d4e0b692191b156fd61d3fa04a80c8eecaa792e7,asb_excel
+2025-07-18T23:59:00+00:00,market_consensus,asb:2025:Brisbane Lions_vs_Western Bulldogs:2025-07-18,H2H,Match,Away,,2.33,,2025,,898e208eb2ade231974623098abeed3b6cc8712b24edddf515e9c99ec0d536be,asb_excel
+2025-03-22T23:59:00+00:00,market_consensus,asb:2025:Essendon_vs_Adelaide:2025-03-22,H2H,Match,Away,,1.48,,2025,,0663f7adb761c599e6f55273c303833987d159aae8152f765b4e9ea9fabe04b4,asb_excel
+2025-05-24T23:59:00+00:00,market_consensus,asb:2025:Carlton_vs_GWS Giants:2025-05-24,H2H,Match,Home,,1.59,,2025,,3a85ba5b44f2aeae7470593b6110c98a26321465faf03a8c9605db097bb01ad6,asb_excel
+2025-03-16T23:59:00+00:00,market_consensus,asb:2025:West Coast_vs_Gold Coast:2025-03-16,H2H,Match,Away,,1.53,,2025,,22e15d1a7c9db01bb24ca577aae44d5975fa810da7c345e881961d53458c26b0,asb_excel
+2025-03-15T23:59:00+00:00,market_consensus,asb:2025:Collingwood_vs_Port Adelaide:2025-03-15,H2H,Match,Away,,2.35,,2025,,b94327adf05a3f62da3f2ec396899c73064ba0a71cd75dc1e5cfb7d1f640a7b6,asb_excel
+2025-07-25T23:59:00+00:00,market_consensus,asb:2025:Essendon_vs_Western Bulldogs:2025-07-25,H2H,Match,Away,,1.04,,2025,,3fa66a95958574228deb52c8794845d8f1b2753dce05e1f03170c7b2808211fa,asb_excel
+2025-06-20T23:59:00+00:00,market_consensus,asb:2025:Geelong_vs_Brisbane Lions:2025-06-20,H2H,Match,Away,,3.07,,2025,,2f3665dfdb47666514cd296841c23f9bb2507baa1bbbf763bc2ed326f9b75d4a,asb_excel
+2025-04-12T23:59:00+00:00,market_consensus,asb:2025:Carlton_vs_West Coast:2025-04-12,H2H,Match,Away,,6.34,,2025,,6a5b01c25a12e95807ef6c67dd7266777870fea51bf76621c693fce70f9ea922,asb_excel
+2025-05-03T23:59:00+00:00,market_consensus,asb:2025:West Coast_vs_Melbourne:2025-05-03,H2H,Match,Away,,1.47,,2025,,361b14d21cc40f092786a59e4257fa57c186434cfb09a053c0f6bfc16f19d14b,asb_excel
+2025-08-24T23:59:00+00:00,market_consensus,asb:2025:GWS Giants_vs_St Kilda:2025-08-24,H2H,Match,Away,,4.9,,2025,,c11baa13e58618d5f48cfc080959fbfa283712ac70adf245ad907545e65f5c8e,asb_excel
+2025-07-04T23:59:00+00:00,market_consensus,asb:2025:Carlton_vs_Collingwood:2025-07-04,H2H,Match,Away,,1.2,,2025,,5a0e1068cbd1ed43df0aff65d371b4464a8b0e39f9e62faaaa60e6ba8ef31594,asb_excel
+2025-06-27T23:59:00+00:00,market_consensus,asb:2025:Sydney_vs_Western Bulldogs:2025-06-27,H2H,Match,Home,,2.5,,2025,,c24cddd219c67276fa403ba886ce42e098092f512abc9439cbe6b5465be4844c,asb_excel
+2025-04-05T23:59:00+00:00,market_consensus,asb:2025:North Melbourne_vs_Sydney:2025-04-05,H2H,Match,Home,,2.18,,2025,,8740732772525305806f9d8fd8bbea65708c113e89db4e659c598b2ffbec8d0b,asb_excel
+2025-07-26T23:59:00+00:00,market_consensus,asb:2025:Adelaide_vs_Port Adelaide:2025-07-26,H2H,Match,Away,,4.79,,2025,,1b6ee902ab1c37d9cd06fd5ac123e2edd484eeed4739f8328196d25f7e2d854f,asb_excel
+2025-07-06T23:59:00+00:00,market_consensus,asb:2025:Adelaide_vs_Melbourne:2025-07-06,H2H,Match,Home,,1.19,,2025,,0eab2f608163c2a542126ea578b72b7cd110bd57fa5ccc6c41696f11fde21bd1,asb_excel
+2025-04-10T23:59:00+00:00,market_consensus,asb:2025:Adelaide_vs_Geelong:2025-04-10,H2H,Match,Away,,2.69,,2025,,c4565f44a85b01aae73eb9b227bb77a88a445df6c9f108232ab8f0b3e41d1577,asb_excel
+2025-05-24T23:59:00+00:00,market_consensus,asb:2025:Hawthorn_vs_Brisbane Lions:2025-05-24,H2H,Match,Away,,2.62,,2025,,5ae053d41f20866e34f970be0753ae06dd2d308a8983dc2f6e559be10ee0d790,asb_excel
+2025-07-12T23:59:00+00:00,market_consensus,asb:2025:Western Bulldogs_vs_Adelaide:2025-07-12,H2H,Match,Away,,2.45,,2025,,8ce0c7585da9310b51271e6b7721fa6b852a3d6216809310eb70f9816eeeb10a,asb_excel
+2025-06-14T23:59:00+00:00,market_consensus,asb:2025:Brisbane Lions_vs_GWS Giants:2025-06-14,H2H,Match,Away,,3.97,,2025,,e54f509b10c4d2fc47beb3a4476788305c3e0d2a5401e8d2c496167a71e97251,asb_excel
+2025-05-31T23:59:00+00:00,market_consensus,asb:2025:GWS Giants_vs_Richmond:2025-05-31,H2H,Match,Home,,1.06,,2025,,bbc227394a830cc8989bb7578f167a65ac467d94e766bb8907e231844d6f0002,asb_excel
+2025-04-18T23:59:00+00:00,market_consensus,asb:2025:West Coast_vs_Essendon:2025-04-18,H2H,Match,Home,,3.68,,2025,,08e9ea23e160b415d22ea2bea469f2d973952303049f158196e7253f206f9a5c,asb_excel
+2025-05-30T23:59:00+00:00,market_consensus,asb:2025:Collingwood_vs_Hawthorn:2025-05-30,H2H,Match,Home,,1.59,,2025,,49f8982763fe71ea6ac4ab9a777d5fd3c0b978de9f84b52b0e8767b06f5a5b4b,asb_excel
+2025-08-01T23:59:00+00:00,market_consensus,asb:2025:Adelaide_vs_Hawthorn:2025-08-01,H2H,Match,Away,,2.63,,2025,,526a67842eddbfcd25d9fc9fcf3dcae9ddb8e244473e256cb5d11716e16b1243,asb_excel
+2025-06-21T23:59:00+00:00,market_consensus,asb:2025:Port Adelaide_vs_Sydney:2025-06-21,H2H,Match,Away,,2.02,,2025,,11b678c363f271744d091d9a0bfb098e79873e11a66509ddb3ab0741d6e83878,asb_excel
+2025-05-18T23:59:00+00:00,market_consensus,asb:2025:Brisbane Lions_vs_Melbourne:2025-05-18,H2H,Match,Away,,5.09,,2025,,1aab025c16f439794af12800250492b41d224f81e52a3901c69508892d953ae3,asb_excel
+2025-04-06T23:59:00+00:00,market_consensus,asb:2025:Fremantle_vs_Western Bulldogs:2025-04-06,H2H,Match,Home,,1.6,,2025,,db4774378b121974ef91aae68a2bbfebdaea394ab6c2abdf9762a413f3ff79e6,asb_excel
+2025-07-11T23:59:00+00:00,market_consensus,asb:2025:Gold Coast_vs_Collingwood:2025-07-11,H2H,Match,Home,,2.05,,2025,,ee943639e7dcfa2e8dbf4a3cba2d2dda9085e77639c01023e2df8b9dc978f517,asb_excel
+2025-06-29T23:59:00+00:00,market_consensus,asb:2025:Fremantle_vs_St Kilda:2025-06-29,H2H,Match,Home,,1.26,,2025,,62c0523927a1dad5e11caa65177d0360bb94c592aee4bb8edc2bcf4fb9932220,asb_excel
+2025-03-27T23:59:00+00:00,market_consensus,asb:2025:Essendon_vs_Port Adelaide:2025-03-27,H2H,Match,Home,,2.2,,2025,,d345f19f66110e9dc2215da2308ed20f4035ae76b77eec9abce20c39477040fb,asb_excel
+2025-03-22T23:59:00+00:00,market_consensus,asb:2025:Essendon_vs_Adelaide:2025-03-22,H2H,Match,Home,,2.55,,2025,,64302852143c64946b01daad24b5af09688d8df8ee27461c8ccc1e7af4f970cb,asb_excel
+2025-08-23T23:59:00+00:00,market_consensus,asb:2025:West Coast_vs_Sydney:2025-08-23,H2H,Match,Away,,1.14,,2025,,2bd3f6e6ae5825253f5a21b6710936950674540c501c498803b169b5beb5a785,asb_excel
+2025-04-06T23:59:00+00:00,market_consensus,asb:2025:GWS Giants_vs_West Coast:2025-04-06,H2H,Match,Home,,1.01,,2025,,d0628346c2e1f2f8fbf73204407916e46d709f98f9ddaf47e875c7d7786a4a37,asb_excel
+2025-04-20T23:59:00+00:00,market_consensus,asb:2025:Western Bulldogs_vs_St Kilda:2025-04-20,H2H,Match,Home,,1.54,,2025,,e30966547e177eada2121da332463ee1f734aa5c2106838c30202a8739c5d31c,asb_excel
+2025-05-18T23:59:00+00:00,market_consensus,asb:2025:Richmond_vs_North Melbourne:2025-05-18,H2H,Match,Away,,1.52,,2025,,62b1ce33530a69b0d73bb4bc15f471aa8e07995b484817d5925c33b9a628f45a,asb_excel
+2025-03-23T23:59:00+00:00,market_consensus,asb:2025:Brisbane Lions_vs_West Coast:2025-03-23,H2H,Match,Home,,1.02,,2025,,89707481f5c704cf71dd5f2752a8464d51a38b59b3fb1fd4fce09f8c5149ef43,asb_excel
+2025-04-10T23:59:00+00:00,market_consensus,asb:2025:Adelaide_vs_Geelong:2025-04-10,H2H,Match,Home,,1.43,,2025,,8140d9ece7df20ddffaf2b3b2cd7675756fbaab6139851472bf5f3819c4d1ac2,asb_excel
+2025-08-16T23:59:00+00:00,market_consensus,asb:2025:Gold Coast_vs_GWS Giants:2025-08-16,H2H,Match,Home,,1.42,,2025,,25b0d7b7bebf438f724caa11a6ff636d74c8b984e7ce614c938809198ffec751,asb_excel
+2025-06-19T23:59:00+00:00,market_consensus,asb:2025:Fremantle_vs_Essendon:2025-06-19,H2H,Match,Home,,1.13,,2025,,5997f14a256b99026c83e8ff8c2440ed60e97acb4c48a1fc10de073b18b272d8,asb_excel
+2025-03-22T23:59:00+00:00,market_consensus,asb:2025:Port Adelaide_vs_Richmond:2025-03-22,H2H,Match,Home,,1.1,,2025,,0a9d61cea4542d27ecaf845dc329a2ac13d6bd66c36519821c234676d535e7c7,asb_excel
+2025-08-17T23:59:00+00:00,market_consensus,asb:2025:Western Bulldogs_vs_West Coast:2025-08-17,H2H,Match,Away,,14.95,,2025,,21ef92ae367e094e71f3e71b2617f5e821144049db77bb9756d2cc1396eca70a,asb_excel
+2025-07-19T23:59:00+00:00,market_consensus,asb:2025:Carlton_vs_Melbourne:2025-07-19,H2H,Match,Away,,1.48,,2025,,d3e93a070e135508aa18278f8101b8a29ac9cae5f8b1d7107f09e5af8d405af7,asb_excel
+2025-08-09T23:59:00+00:00,market_consensus,asb:2025:Richmond_vs_St Kilda:2025-08-09,H2H,Match,Away,,1.31,,2025,,18085cf8606e2b3e6badae5fa8054d1d4f094e716b3cb63445749ba80624bd6d,asb_excel
+2025-07-26T23:59:00+00:00,market_consensus,asb:2025:North Melbourne_vs_Geelong:2025-07-26,H2H,Match,Home,,8.53,,2025,,8bc5368c84a0a97c907746f1ae82d5ba0b5e30cd08ebb9bcb90896af808cad43,asb_excel
+2025-05-29T23:59:00+00:00,market_consensus,asb:2025:Brisbane Lions_vs_Essendon:2025-05-29,H2H,Match,Home,,1.06,,2025,,7db1ea04baf05b58e5c0f04e093cfb223ec49b0fc205ca6eba2152d789aa4c82,asb_excel
+2025-04-17T23:59:00+00:00,market_consensus,asb:2025:Brisbane Lions_vs_Collingwood:2025-04-17,H2H,Match,Away,,2.44,,2025,,f79107c7aab4a3e3c14b2aebd221294a4aa8472153bdffc800c1540e27a84869,asb_excel
+2025-04-04T23:59:00+00:00,market_consensus,asb:2025:Geelong_vs_Melbourne:2025-04-04,H2H,Match,Away,,4.41,,2025,,8e37fc046c6381132e679a9309b639949311bcf36217e229533ed21d5f69c7ff,asb_excel
+2025-03-16T23:59:00+00:00,market_consensus,asb:2025:Melbourne_vs_GWS Giants:2025-03-16,H2H,Match,Home,,2.27,,2025,,635ff3c64991969d8621510a9d2dd6c7424d8f288bed14da9e39a9b98c87bb0c,asb_excel
+2025-07-06T23:59:00+00:00,market_consensus,asb:2025:Adelaide_vs_Melbourne:2025-07-06,H2H,Match,Away,,4.46,,2025,,45fd938cc7aa104c1e5d94361878358ae8d522c6a16cf9774982bdd813a5ce96,asb_excel
+2025-05-01T23:59:00+00:00,market_consensus,asb:2025:Essendon_vs_North Melbourne:2025-05-01,H2H,Match,Home,,1.31,,2025,,4b6bd66c89bdabb16200e3f60333584c18b1ae033e1d581312a463650863cd44,asb_excel
+2025-08-22T23:59:00+00:00,market_consensus,asb:2025:Port Adelaide_vs_Gold Coast:2025-08-22,H2H,Match,Away,,1.27,,2025,,5afcafd71c3346205425a2c888f280d369496dd970ebfbbd80500f6a4cb4bc0f,asb_excel
+2025-06-08T23:59:00+00:00,market_consensus,asb:2025:Carlton_vs_Essendon:2025-06-08,H2H,Match,Away,,2.81,,2025,,00d0caa169a3f7ae00b27a82c453007e7ff55c3e9931d88b0ac24e6bb110965a,asb_excel
+2025-07-05T23:59:00+00:00,market_consensus,asb:2025:Essendon_vs_Gold Coast:2025-07-05,H2H,Match,Away,,1.32,,2025,,fe5f44eca465da7faafe19d1622eaefa2c7034e3c6830dcb29bdbd2a2931cde8,asb_excel
+2025-03-15T23:59:00+00:00,market_consensus,asb:2025:Geelong_vs_Fremantle:2025-03-15,H2H,Match,Away,,2.78,,2025,,a1ab40e402ee704239e5b80605f155c0a93f6a0d8016d21d8b7c078dc000272e,asb_excel
+2025-05-03T23:59:00+00:00,market_consensus,asb:2025:West Coast_vs_Melbourne:2025-05-03,H2H,Match,Home,,2.6,,2025,,6f3a3d06fd871aae69f8bf160334bc8b003c5cd0ea527e85cc24a2280cc11d76,asb_excel
+2025-04-06T23:59:00+00:00,market_consensus,asb:2025:Fremantle_vs_Western Bulldogs:2025-04-06,H2H,Match,Away,,2.27,,2025,,40007a2f80d9719868afe0dd805bf2251180ccb41f3cf670e0e32f2b77fb6270,asb_excel
+2025-05-17T23:59:00+00:00,market_consensus,asb:2025:Collingwood_vs_Adelaide:2025-05-17,H2H,Match,Away,,2.5,,2025,,69f374e0e93592aa6e828501514cd01a78ea6ab1663a966571a0c421f179d85e,asb_excel
+2025-04-12T23:59:00+00:00,market_consensus,asb:2025:Melbourne_vs_Essendon:2025-04-12,H2H,Match,Away,,1.87,,2025,,f122e2bf4c051ba9bed6f30679e2089be84c70542a9143b9975a4f9ea15cf8d3,asb_excel
+2025-04-18T23:59:00+00:00,market_consensus,asb:2025:North Melbourne_vs_Carlton:2025-04-18,H2H,Match,Away,,1.38,,2025,,d05305d25893436b14e8f259817354c3a805428a30b8ae0d0a7575d0fcf5715f,asb_excel
+2025-07-20T23:59:00+00:00,market_consensus,asb:2025:Adelaide_vs_Gold Coast:2025-07-20,H2H,Match,Away,,3.28,,2025,,85650d41ccaa27cdc428c06e88ef3eeff92c253c271f894438e225daab48c51e,asb_excel
+2025-07-05T23:59:00+00:00,market_consensus,asb:2025:Brisbane Lions_vs_Port Adelaide:2025-07-05,H2H,Match,Away,,4.06,,2025,,14d50777e38d2bbc5eae51ee3c3facf1bdc1e5693c84bd13e01b25a1e8a454b7,asb_excel
+2025-03-27T23:59:00+00:00,market_consensus,asb:2025:Essendon_vs_Port Adelaide:2025-03-27,H2H,Match,Away,,1.64,,2025,,29049fe0ac18194fb1f2c3692f60e45cd2afb657c40f3b09e7cacf92a40ee007,asb_excel
+2025-03-16T23:59:00+00:00,market_consensus,asb:2025:West Coast_vs_Gold Coast:2025-03-16,H2H,Match,Home,,2.4,,2025,,615bcbf6bfbb4ad3fc1a148f2b783b9d5e0ebd04e657edd126ded49ee670e4b8,asb_excel
+2025-04-05T23:59:00+00:00,market_consensus,asb:2025:Gold Coast_vs_Adelaide:2025-04-05,H2H,Match,Away,,2.15,,2025,,9c0d02bc7bc02119694ba2359b44b5916bfefacfb0811e6b889728f5ce64f8e8,asb_excel
+2025-05-23T23:59:00+00:00,market_consensus,asb:2025:Essendon_vs_Richmond:2025-05-23,H2H,Match,Home,,1.25,,2025,,a55867da10d838b0fe4141fd605d260861166ee08cf88d393b34e406efbc8c78,asb_excel
+2025-08-16T23:59:00+00:00,market_consensus,asb:2025:Carlton_vs_Port Adelaide:2025-08-16,H2H,Match,Home,,1.47,,2025,,00d4bbcbc023dabf9296c7ff33d1ffcce6e3eba2b40de2c916be4465256ff361,asb_excel
+2025-06-14T23:59:00+00:00,market_consensus,asb:2025:Essendon_vs_Geelong:2025-06-14,H2H,Match,Away,,1.14,,2025,,3aa1d352a4b96d8e9a4c4ffbbed860072f081a4ee8bd1c4bf146e271099aaef2,asb_excel
+2025-04-21T23:59:00+00:00,market_consensus,asb:2025:Geelong_vs_Hawthorn:2025-04-21,H2H,Match,Away,,1.84,,2025,,f1ad3da4945c5b55d3262580da18557fe40f99583d0429379c3ad3d43a15d9bc,asb_excel
+2025-07-05T23:59:00+00:00,market_consensus,asb:2025:Geelong_vs_Richmond:2025-07-05,H2H,Match,Home,,1.02,,2025,,3505dd09fe0d4a7bbeb9ec69b820bef38d15b33fca878bdacbab019902b3c776,asb_excel
+2025-04-05T23:59:00+00:00,market_consensus,asb:2025:Gold Coast_vs_Adelaide:2025-04-05,H2H,Match,Home,,1.67,,2025,,627e252ddf455101ea065645287d30215593e4d68f887ae378e8895a8c46ea14,asb_excel
+2025-08-16T23:59:00+00:00,market_consensus,asb:2025:Adelaide_vs_Collingwood:2025-08-16,H2H,Match,Away,,2.67,,2025,,0d35c488e6db0d9e1f08958c5cecdb11f0835a76102fad36dbca71390e8f92b7,asb_excel
+2025-08-09T23:59:00+00:00,market_consensus,asb:2025:Carlton_vs_Gold Coast:2025-08-09,H2H,Match,Away,,1.24,,2025,,c0a49add763dd986880fa6531a85b15d6e4671269a5a1a1a9b01c40bcfdd0a3d,asb_excel
+2025-03-22T23:59:00+00:00,market_consensus,asb:2025:Port Adelaide_vs_Richmond:2025-03-22,H2H,Match,Away,,6.3,,2025,,daf527b2a3df1cbe87cb4f5dfc751737fcd7676480c41a4823c36af710b267be,asb_excel
+2025-08-15T23:59:00+00:00,market_consensus,asb:2025:Essendon_vs_St Kilda:2025-08-15,H2H,Match,Away,,1.22,,2025,,1baf2946d36723dde58a95e8fed8a37a6816a1e1e402d3039abc3c022be4c040,asb_excel
+2025-05-17T23:59:00+00:00,market_consensus,asb:2025:Western Bulldogs_vs_Essendon:2025-05-17,H2H,Match,Home,,1.23,,2025,,44bc6919f861a0cbb75015f3b94e09088484f337aa533d064263e51cc5caa15f,asb_excel
+2025-03-30T23:59:00+00:00,market_consensus,asb:2025:Adelaide_vs_North Melbourne:2025-03-30,H2H,Match,Away,,6.19,,2025,,22c9d95cb8bcfab2387b6be64d0c6f59fa361ee3f12134698b4d215cc16fb1e3,asb_excel
+2025-03-28T23:59:00+00:00,market_consensus,asb:2025:Carlton_vs_Western Bulldogs:2025-03-28,H2H,Match,Home,,1.95,,2025,,597c57084af4762bdd0232ed561c48cb6a01129f14a08002942dd5084d933e6a,asb_excel
+2025-06-26T23:59:00+00:00,market_consensus,asb:2025:Port Adelaide_vs_Carlton:2025-06-26,H2H,Match,Home,,1.79,,2025,,acd05c041143e448dd4b9304bb67a28fa766b1a16b5b5b37f016b3c72dacd43a,asb_excel
+2025-08-24T23:59:00+00:00,market_consensus,asb:2025:Western Bulldogs_vs_Fremantle:2025-08-24,H2H,Match,Away,,3.11,,2025,,4f1d81bd26de984422f05d4bcd0379e91890e6c5d1b2fe764d02d804a0dc4bf9,asb_excel
+2025-06-21T23:59:00+00:00,market_consensus,asb:2025:Collingwood_vs_St Kilda:2025-06-21,H2H,Match,Away,,4.99,,2025,,f42cf037ad6ff40c5485e623210f1fe3ec298109c9612aadf9abf00ab2364310,asb_excel
+2025-03-29T23:59:00+00:00,market_consensus,asb:2025:Hawthorn_vs_GWS Giants:2025-03-29,H2H,Match,Home,,1.53,,2025,,108266141c047803ed7ddd6cbccb3cc0c99a4fd95fea3bc362002d215dd16d50,asb_excel
+2025-03-22T23:59:00+00:00,market_consensus,asb:2025:St Kilda_vs_Geelong:2025-03-22,H2H,Match,Home,,3.45,,2025,,0b73ea1a51511564694e60fec9cd3b751f12e1a22405874068e9c1e386c1359b,asb_excel
+2025-04-25T23:59:00+00:00,market_consensus,asb:2025:Fremantle_vs_Adelaide:2025-04-25,H2H,Match,Away,,2.08,,2025,,2a7cfa38bc64ee10c8f89fba4357dcd48c7a79ed74508ac4f0970d62098e179a,asb_excel
+2025-07-25T23:59:00+00:00,market_consensus,asb:2025:Essendon_vs_Western Bulldogs:2025-07-25,H2H,Match,Home,,9.91,,2025,,0a2d29ebb6d8fb2c244db06ffd0a6b4d07a45f6aa5d66c63d527e2aca36bd916,asb_excel
+2025-03-20T23:59:00+00:00,market_consensus,asb:2025:Carlton_vs_Hawthorn:2025-03-20,H2H,Match,Away,,1.41,,2025,,97948a84ee2e81c4b96faad6d6bb8d853c23f466ad59ccd91339f4c7ba003c81,asb_excel
+2025-07-03T23:59:00+00:00,market_consensus,asb:2025:North Melbourne_vs_Western Bulldogs:2025-07-03,H2H,Match,Away,,1.05,,2025,,3c18c7339744eca169f50ce4c0df5bf56c4dfce6013fec008af797565395ca24,asb_excel
+2025-04-27T23:59:00+00:00,market_consensus,asb:2025:Hawthorn_vs_West Coast:2025-04-27,H2H,Match,Away,,10.12,,2025,,e55925ec3d982d3ac68699ab82382ce634cfc9fd4e4cd77646cc3eccc08ba9fd,asb_excel
+2025-07-05T23:59:00+00:00,market_consensus,asb:2025:Brisbane Lions_vs_Port Adelaide:2025-07-05,H2H,Match,Home,,1.23,,2025,,3f79de428b945267ba7b30018a90f77d57fef2f5d7f6a238cea9d965bbacf677,asb_excel
+2025-04-13T23:59:00+00:00,market_consensus,asb:2025:St Kilda_vs_GWS Giants:2025-04-13,H2H,Match,Away,,1.47,,2025,,6e5aea3f6d8d8103b6f375227bfd6b22676de21ad7c1625dd087a1c6283abeb1,asb_excel
+2025-06-13T23:59:00+00:00,market_consensus,asb:2025:Hawthorn_vs_Adelaide:2025-06-13,H2H,Match,Home,,1.81,,2025,,065d6bb438007eaafa5daf7135b1c608ac7951235126a0d3ccd1531f470f8848,asb_excel
+2025-06-14T23:59:00+00:00,market_consensus,asb:2025:Brisbane Lions_vs_GWS Giants:2025-06-14,H2H,Match,Home,,1.23,,2025,,13e52d4085f8fff890c1e0b6867fb0adf5e75cbd29ba27afa4db8760a56e06fe,asb_excel
+2025-07-27T23:59:00+00:00,market_consensus,asb:2025:St Kilda_vs_Melbourne:2025-07-27,H2H,Match,Home,,1.99,,2025,,5510211566ab891a1e2870e7732da40d15527cdef5e00036f6232a5ccb5e9641,asb_excel
+2025-04-12T23:59:00+00:00,market_consensus,asb:2025:North Melbourne_vs_Gold Coast:2025-04-12,H2H,Match,Home,,3.96,,2025,,c7665d77d6615d00add75f6b974f7d323799176da27608a0a58cdea0c077615a,asb_excel
+2025-08-23T23:59:00+00:00,market_consensus,asb:2025:North Melbourne_vs_Adelaide:2025-08-23,H2H,Match,Home,,5.46,,2025,,984f6254354375bea1453da3697000ef1dd8a96490438928902960b69d86c22e,asb_excel
+2025-07-03T23:59:00+00:00,market_consensus,asb:2025:North Melbourne_vs_Western Bulldogs:2025-07-03,H2H,Match,Home,,9.4,,2025,,b271f1561ce631dc122bd3aeb268b0fa1fa5e24cfd96d2bc2e6a4649d4163a94,asb_excel
+2025-06-22T23:59:00+00:00,market_consensus,asb:2025:Western Bulldogs_vs_Richmond:2025-06-22,H2H,Match,Away,,9.88,,2025,,899fca1f9dc926943477245b6b986097f161651f7f61ef925a0349f61aa54c57,asb_excel
+2025-03-29T23:59:00+00:00,market_consensus,asb:2025:St Kilda_vs_Richmond:2025-03-29,H2H,Match,Home,,1.21,,2025,,c9d25b16aae92be7f8b85d6c584cff003ee9d26ca1448b922d6f75629fd1ec25,asb_excel
+2025-03-29T23:59:00+00:00,market_consensus,asb:2025:Hawthorn_vs_GWS Giants:2025-03-29,H2H,Match,Away,,2.4,,2025,,3545a13b94090a5da338dedfec7d040273eee4a9ec0fba8d0be1b1b3785f8a60,asb_excel
+2025-06-28T23:59:00+00:00,market_consensus,asb:2025:Hawthorn_vs_North Melbourne:2025-06-28,H2H,Match,Home,,1.15,,2025,,0f84b66be6f4ea1b60e900a2ba8337e68481753a9331f375bc2ae915b1e9fee1,asb_excel
+2025-03-09T23:59:00+00:00,market_consensus,asb:2025:GWS Giants_vs_Collingwood:2025-03-09,H2H,Match,Home,,2.07,,2025,,e683d29bf54e4de7b911803deceadcba5bd1e442464faf20eb6fb35e8b867472,asb_excel
+2025-08-22T23:59:00+00:00,market_consensus,asb:2025:Port Adelaide_vs_Gold Coast:2025-08-22,H2H,Match,Home,,3.6,,2025,,978982bac035366b0c512b6143f4a8b3268a55e1204db8a5c5ede3389f677543,asb_excel
+2025-03-07T23:59:00+00:00,market_consensus,asb:2025:Sydney_vs_Hawthorn:2025-03-07,H2H,Match,Home,,1.93,,2025,,3a063c8a24f2673d7c8435c4b48a97fee921079156f7479b7c31f51d172d6f0b,asb_excel
+2025-05-11T23:59:00+00:00,market_consensus,asb:2025:Richmond_vs_West Coast:2025-05-11,H2H,Match,Home,,1.46,,2025,,68b679ddb6a4be3aaf9a78709d7d974b3035109eb23371c14af5349272bd599a,asb_excel
+2025-03-23T23:59:00+00:00,market_consensus,asb:2025:Fremantle_vs_Sydney:2025-03-23,H2H,Match,Home,,1.63,,2025,,83d43088527d793f501ef904540d327c905f1e4ef714878f5a59bc74bca27bd9,asb_excel
+2025-03-23T23:59:00+00:00,market_consensus,asb:2025:North Melbourne_vs_Melbourne:2025-03-23,H2H,Match,Home,,2.88,,2025,,fd46878e29d47a801670fa29661ae2c39d3ad1012e6e1d6d120e9a0db5326200,asb_excel
+2025-04-19T23:59:00+00:00,market_consensus,asb:2025:Richmond_vs_Gold Coast:2025-04-19,H2H,Match,Away,,1.06,,2025,,bd47edb01406213eef8f5fa3c7d544d505c2efeaaa66eea8c97c18db432f04dd,asb_excel
+2025-05-23T23:59:00+00:00,market_consensus,asb:2025:Essendon_vs_Richmond:2025-05-23,H2H,Match,Away,,3.76,,2025,,051352b61ae10c0e8108866b3a3be9cdac1ffe3c5849d56f2b630aca0de9ae48,asb_excel
+2025-03-23T23:59:00+00:00,market_consensus,asb:2025:Fremantle_vs_Sydney:2025-03-23,H2H,Match,Away,,2.19,,2025,,2d7cc93a18070968a786e3867f55d12ebb21ee727e9102d200acecc430309b58,asb_excel
+2025-05-03T23:59:00+00:00,market_consensus,asb:2025:Western Bulldogs_vs_Port Adelaide:2025-05-03,H2H,Match,Home,,1.32,,2025,,81963ffaa59f469724be7863049a9d51a3a9d7989f5e577e497e6c5182a7f9ad,asb_excel
+2025-08-10T23:59:00+00:00,market_consensus,asb:2025:West Coast_vs_Adelaide:2025-08-10,H2H,Match,Home,,12.64,,2025,,f549fd8c0ce8f342cf6ff8f5b6bccc61738035570ea638452da81d5fea43892c,asb_excel
+2025-08-17T23:59:00+00:00,market_consensus,asb:2025:Sydney_vs_Geelong:2025-08-17,H2H,Match,Home,,3.08,,2025,,4ccb2bd1b9b0b8eeff30852690544351d744d421228517f95f2d519fcd3afa84,asb_excel
+2025-08-08T23:59:00+00:00,market_consensus,asb:2025:Geelong_vs_Essendon:2025-08-08,H2H,Match,Home,,1.01,,2025,,9b643c572b97f9cd5a95f5f80a86a0d7ef47b43a69732b62aeb6914bb6a8e050,asb_excel
+2025-05-10T23:59:00+00:00,market_consensus,asb:2025:Melbourne_vs_Hawthorn:2025-05-10,H2H,Match,Away,,1.25,,2025,,04ac1ccbd6ec7636075a6bea5bb67cd826c0987ccf8466a3b008edc528c613fd,asb_excel
+2025-07-04T23:59:00+00:00,market_consensus,asb:2025:West Coast_vs_GWS Giants:2025-07-04,H2H,Match,Home,,3.13,,2025,,e74d54c043ac5696172cebc1e07f33d6dc08c1153474615465f78e3f01b5d079,asb_excel
+2025-07-26T23:59:00+00:00,market_consensus,asb:2025:Gold Coast_vs_Brisbane Lions:2025-07-26,H2H,Match,Home,,2.42,,2025,,c11513f0765b35072671aa23d02903204da72bc5487749814da9328fcee0c1d2,asb_excel
+2025-06-27T23:59:00+00:00,market_consensus,asb:2025:Sydney_vs_Western Bulldogs:2025-06-27,H2H,Match,Away,,1.53,,2025,,376836a5b7e5d6fe405628b8e546e6d87dd478b09d4fd79e75111c178c52a155,asb_excel
+2025-05-02T23:59:00+00:00,market_consensus,asb:2025:St Kilda_vs_Fremantle:2025-05-02,H2H,Match,Away,,1.5,,2025,,3c7e2d2dc88b5ec1bf7d48224eafe010b5a28e2969a499fb85ec378cc8a2afdb,asb_excel
+2025-08-02T23:59:00+00:00,market_consensus,asb:2025:Sydney_vs_Essendon:2025-08-02,H2H,Match,Away,,7.73,,2025,,6c98fca65adc4131be77c92497ea05b957f1b83a5747ba88894b039a9440cb4c,asb_excel
+2025-05-30T23:59:00+00:00,market_consensus,asb:2025:Collingwood_vs_Hawthorn:2025-05-30,H2H,Match,Away,,2.27,,2025,,49a6459c262a783e34b57989b2ae4959a6928a9bd8508a63fbb3d8dce6b8f5ee,asb_excel
+2025-03-20T23:59:00+00:00,market_consensus,asb:2025:Carlton_vs_Hawthorn:2025-03-20,H2H,Match,Home,,2.79,,2025,,96dcb2febadaa574163a6fc2a034c5f07a655bd881e7fb6044b72b9c190d5493,asb_excel
+2025-08-09T23:59:00+00:00,market_consensus,asb:2025:Port Adelaide_vs_Fremantle:2025-08-09,H2H,Match,Away,,1.27,,2025,,60c12a23df055dc6c44f3b7383c1ce699981f96ea09bd233806df2e1dfdc330e,asb_excel
+2025-08-24T23:59:00+00:00,market_consensus,asb:2025:GWS Giants_vs_St Kilda:2025-08-24,H2H,Match,Home,,1.16,,2025,,44be075ba91c2f2aedb85dad05c67c4f5b8618521d995cd08fa415bf4877ee10,asb_excel
+2025-08-10T23:59:00+00:00,market_consensus,asb:2025:Melbourne_vs_Western Bulldogs:2025-08-10,H2H,Match,Away,,1.28,,2025,,77f93b14370482dc9393dc1cbf53503152ce3d46a8804b2d578577b3de1de58d,asb_excel
+2025-07-19T23:59:00+00:00,market_consensus,asb:2025:West Coast_vs_Richmond:2025-07-19,H2H,Match,Home,,1.65,,2025,,37c0ebfde42c88b7f7ae53eb2fc67bd37560311f45c9aab3616477ae9f15a19c,asb_excel
+2025-08-02T23:59:00+00:00,market_consensus,asb:2025:Melbourne_vs_West Coast:2025-08-02,H2H,Match,Away,,9.12,,2025,,4ac6cbd5fd511c2df1a84796c56ae077c953cd7e2480d655bdbe5f88d9f7ea40,asb_excel
+2025-07-27T23:59:00+00:00,market_consensus,asb:2025:Richmond_vs_Collingwood:2025-07-27,H2H,Match,Away,,1.04,,2025,,75301cc41c1564deb7bf4a6255cff2a68d52b913e1e0cbcebd089578f2816e4d,asb_excel
+2025-04-19T23:59:00+00:00,market_consensus,asb:2025:Richmond_vs_Gold Coast:2025-04-19,H2H,Match,Home,,7.67,,2025,,e33e9f795ee155e18387b245e4170b2c14dde9f0b9cb8dd63c0615d9eb62595e,asb_excel
+2025-06-19T23:59:00+00:00,market_consensus,asb:2025:Fremantle_vs_Essendon:2025-06-19,H2H,Match,Away,,5.57,,2025,,03d467f01fb8e3efe18dde0ba2e0004cf246a3e77fde4a850eb7fe6833e217bd,asb_excel
+2025-05-29T23:59:00+00:00,market_consensus,asb:2025:Brisbane Lions_vs_Essendon:2025-05-29,H2H,Match,Away,,8.07,,2025,,6447bd8c7fd891aa1f56fdef7d269e4d668ef40e028d4c625732b00c5299b5bf,asb_excel
+2025-07-26T23:59:00+00:00,market_consensus,asb:2025:Fremantle_vs_West Coast:2025-07-26,H2H,Match,Away,,9.96,,2025,,3f33d815f3a0cac7b7714e598ea6fd4b797c0bba97fbe601ee5302df2877002d,asb_excel
+2025-06-15T23:59:00+00:00,market_consensus,asb:2025:West Coast_vs_Carlton:2025-06-15,H2H,Match,Away,,1.24,,2025,,b8deb716c4113db6dc68d46ae84300fa3cafc19b2d1570fe16174894d26b6b4f,asb_excel
+2025-08-02T23:59:00+00:00,market_consensus,asb:2025:Melbourne_vs_West Coast:2025-08-02,H2H,Match,Home,,1.05,,2025,,bcde31ba8915d3ce800849299791bf52cbfc0afc67b63bb1ce6e31dcd76b213b,asb_excel
+2025-03-29T23:59:00+00:00,market_consensus,asb:2025:Melbourne_vs_Gold Coast:2025-03-29,H2H,Match,Away,,1.71,,2025,,d0e592eeb88d6feee6c0660fe97b48dcaa72f6906c57afc7255ccd5328e0a809,asb_excel
+2025-07-27T23:59:00+00:00,market_consensus,asb:2025:Richmond_vs_Collingwood:2025-07-27,H2H,Match,Home,,9.9,,2025,,cc7350c5ea6e36bb6a29802919135ef3016fc676a0600ed48f3bd4b32145d113,asb_excel
+2025-04-11T23:59:00+00:00,market_consensus,asb:2025:Collingwood_vs_Sydney:2025-04-11,H2H,Match,Home,,1.69,,2025,,dd0e95287c4f99f7a49c80c47d152e03718914ba64ab2eeccec6a093ee8a4a2e,asb_excel
+2025-05-02T23:59:00+00:00,market_consensus,asb:2025:St Kilda_vs_Fremantle:2025-05-02,H2H,Match,Home,,2.5,,2025,,ca1b573edd9b33e77f08a2d25134a04fdb70a62e1bf9517eeb5180867c0a3c0f,asb_excel
+2025-05-04T23:59:00+00:00,market_consensus,asb:2025:Brisbane Lions_vs_Gold Coast:2025-05-04,H2H,Match,Home,,1.5,,2025,,3103cdd2b7780473b84a69ae8fc29e779f9dc56b97d8f19bc4f05e44b6506c27,asb_excel
+2025-03-29T23:59:00+00:00,market_consensus,asb:2025:Brisbane Lions_vs_Geelong:2025-03-29,H2H,Match,Away,,2.65,,2025,,c994db5b437e0c6735196231cbb0444606d91ac9eb1443916e3a65bf4f9adc1b,asb_excel
+2025-06-21T23:59:00+00:00,market_consensus,asb:2025:Carlton_vs_North Melbourne:2025-06-21,H2H,Match,Away,,3.83,,2025,,86a8b3ac9593809e4e409e2c08e9c58a469b678f96f6b578aab5da6cb2ee9c83,asb_excel
+2025-06-22T23:59:00+00:00,market_consensus,asb:2025:GWS Giants_vs_Gold Coast:2025-06-22,H2H,Match,Home,,1.84,,2025,,7d6b228966b9906ab2c4e4ea06f713df3c73464e4c4dd00eb10b27013ad0b8e0,asb_excel
+2025-06-07T23:59:00+00:00,market_consensus,asb:2025:Richmond_vs_Sydney:2025-06-07,H2H,Match,Home,,2.58,,2025,,6e3ab50d40d4aea9bee827a9bb5b3a5c9d8391f427957631badf439dc9c3f39e,asb_excel
+2025-08-07T23:59:00+00:00,market_consensus,asb:2025:Hawthorn_vs_Collingwood:2025-08-07,H2H,Match,Home,,2.24,,2025,,f5c08a6525cc2e26ab1345147c3bba1fd9797f40d7a55b9b8d2f876d67a05dc2,asb_excel
+2025-04-24T23:59:00+00:00,market_consensus,asb:2025:Melbourne_vs_Richmond:2025-04-24,H2H,Match,Home,,1.29,,2025,,80fe6507b1ae34a610f4be0e0ff8c36115dfadae21d0ec5c068286d6fd8d991f,asb_excel
+2025-07-18T23:59:00+00:00,market_consensus,asb:2025:Brisbane Lions_vs_Western Bulldogs:2025-07-18,H2H,Match,Home,,1.57,,2025,,1b7cc6bc6c05509711989114d0a562ec0ada598adcd12b08bddd2559a018f5cb,asb_excel
+2025-04-20T23:59:00+00:00,market_consensus,asb:2025:Sydney_vs_Port Adelaide:2025-04-20,H2H,Match,Away,,2.51,,2025,,707db42ef226fbc46fbcb42f7a0e2760b2d299c7635b8ccfe58eda82f0e7d356,asb_excel
+2025-04-13T23:59:00+00:00,market_consensus,asb:2025:St Kilda_vs_GWS Giants:2025-04-13,H2H,Match,Home,,2.59,,2025,,7ed3a2e8b9304d380c54df777ab238053bbbec51a81c8c3089ad8764ffe14228,asb_excel
+2025-07-12T23:59:00+00:00,market_consensus,asb:2025:Fremantle_vs_Hawthorn:2025-07-12,H2H,Match,Home,,1.8,,2025,,27863aeac559901e0cddb770be425ae77bfbc1fc306ea6b96faf767767e1aedf,asb_excel
+2025-07-12T23:59:00+00:00,market_consensus,asb:2025:GWS Giants_vs_Geelong:2025-07-12,H2H,Match,Away,,1.66,,2025,,d7687ae59ca7d8b3555afb657fa2e7e48c2b79c6a95cd711ee9387aab193f9e4,asb_excel
+2025-03-30T23:59:00+00:00,market_consensus,asb:2025:West Coast_vs_Fremantle:2025-03-30,H2H,Match,Away,,1.24,,2025,,c6e6979a910523212fb3ff4a6ae9a4845a2e42b2ac8004e6ed499b2ad750c2c2,asb_excel
+2025-07-06T23:59:00+00:00,market_consensus,asb:2025:Sydney_vs_Fremantle:2025-07-06,H2H,Match,Away,,2.35,,2025,,a5424f4db5d570b14298503876881ca839b6084abff003efa12e86a244ec682c,asb_excel
+2025-05-03T23:59:00+00:00,market_consensus,asb:2025:Collingwood_vs_Geelong:2025-05-03,H2H,Match,Home,,1.42,,2025,,486bfe8d04f14066bbeaa08d4ea8b9ba380a4a13d1383740800341389bd4b0e4,asb_excel
+2025-05-24T23:59:00+00:00,market_consensus,asb:2025:Carlton_vs_GWS Giants:2025-05-24,H2H,Match,Away,,2.27,,2025,,79bacf2a3b58fa8ebb9f56cd6a6423fa69d9dfd709e5e0cc020e4d5d3cd70f2b,asb_excel
+2025-06-07T23:59:00+00:00,market_consensus,asb:2025:Geelong_vs_Gold Coast:2025-06-07,H2H,Match,Away,,2.9,,2025,,0ede2283512de07a53168fd90dda5c07795b1edf7979a80ebc25aa226ca58f5f,asb_excel
+2025-04-06T23:59:00+00:00,market_consensus,asb:2025:Port Adelaide_vs_St Kilda:2025-04-06,H2H,Match,Home,,1.48,,2025,,3a100071c0b3f2f863c73cd5273b560194b4bb6311d97459f04a9889bd422673,asb_excel
+2025-05-18T23:59:00+00:00,market_consensus,asb:2025:Richmond_vs_North Melbourne:2025-05-18,H2H,Match,Home,,2.45,,2025,,9a87e17807c47cc5b0cdb709e6b9cde5d5c7196d64b2e0ea5c397fbdf838fc04,asb_excel
+2025-05-31T23:59:00+00:00,market_consensus,asb:2025:Gold Coast_vs_Fremantle:2025-05-31,H2H,Match,Away,,2.93,,2025,,d78302e2dbb1a00e334d90a9439bfcc3d74d77cbaa155017f75be4e31894daeb,asb_excel
+2025-06-07T23:59:00+00:00,market_consensus,asb:2025:Geelong_vs_Gold Coast:2025-06-07,H2H,Match,Home,,1.39,,2025,,9520987b1007e643926544524c4db2f250b162371bfa6588ee20a9ee1f325fef,asb_excel
+2025-06-07T23:59:00+00:00,market_consensus,asb:2025:GWS Giants_vs_Port Adelaide:2025-06-07,H2H,Match,Away,,3.25,,2025,,88ac1592a844ebeeb905c92be1bbbb17674cff8e6364fd0bc9d69a477712c4f2,asb_excel
+2025-08-23T23:59:00+00:00,market_consensus,asb:2025:West Coast_vs_Sydney:2025-08-23,H2H,Match,Home,,5.39,,2025,,f5637e28584483bee446fbb5f0d01a23a14221023c169b6b7b57f7b3b08814f6,asb_excel
+2025-05-22T23:59:00+00:00,market_consensus,asb:2025:Geelong_vs_Western Bulldogs:2025-05-22,H2H,Match,Home,,1.79,,2025,,e3bffdd1109acb58652438af95bd7e05632879f6db384071ae23177973e03a99,asb_excel
+2025-07-31T23:59:00+00:00,market_consensus,asb:2025:Western Bulldogs_vs_GWS Giants:2025-07-31,H2H,Match,Home,,1.4,,2025,,28029e2e41fd2135152a6d56b5021bd37dd12097c008e42e52e3dc9b99d778b2,asb_excel
+2025-04-19T23:59:00+00:00,market_consensus,asb:2025:Melbourne_vs_Fremantle:2025-04-19,H2H,Match,Away,,1.3,,2025,,4629a94484510b714f9b330e7892f5cb74a1c16d54d51e58baf7471f8905b2ef,asb_excel
+2025-04-12T23:59:00+00:00,market_consensus,asb:2025:Melbourne_vs_Essendon:2025-04-12,H2H,Match,Home,,1.88,,2025,,01f4f5bf4d6d63ffdfa0edd8bc58966f1e591ab277758879ad68f7a05d0444be,asb_excel
+2025-05-17T23:59:00+00:00,market_consensus,asb:2025:GWS Giants_vs_Fremantle:2025-05-17,H2H,Match,Away,,3.15,,2025,,da5a5c20ffa75a04380f6067aba7e4f13bf63ee048355142d5d77d89b7053a42,asb_excel
+2025-04-25T23:59:00+00:00,market_consensus,asb:2025:Collingwood_vs_Essendon:2025-04-25,H2H,Match,Away,,3.82,,2025,,c771f546b14e0c18b4bd2061f9a13d0c0d928b131bf344da010d8ad4a94d4559,asb_excel
+2025-05-31T23:59:00+00:00,market_consensus,asb:2025:Sydney_vs_Adelaide:2025-05-31,H2H,Match,Home,,2.28,,2025,,ca6a0f10202f14bb86ce61907958c1dbecb15e24b249ca9c53950b34d062d3b6,asb_excel
+2025-04-20T23:59:00+00:00,market_consensus,asb:2025:Western Bulldogs_vs_St Kilda:2025-04-20,H2H,Match,Away,,2.4,,2025,,8150c491c0fc08bb95867cb77913a5dac11faf20371e5fa70f937c443197f3e0,asb_excel
+2025-04-26T23:59:00+00:00,market_consensus,asb:2025:GWS Giants_vs_Western Bulldogs:2025-04-26,H2H,Match,Away,,2.44,,2025,,bc99b531181f2166a84a25d6a9b03fbaa84286a11abea8eaf5ed12f4508c8972,asb_excel
+2025-05-24T23:59:00+00:00,market_consensus,asb:2025:Fremantle_vs_Port Adelaide:2025-05-24,H2H,Match,Away,,3.33,,2025,,af3c81fd51a24b787fd2de44943441b1dfbdc7449ee117de3ad12867e938c062,asb_excel
+2025-03-29T23:59:00+00:00,market_consensus,asb:2025:Brisbane Lions_vs_Geelong:2025-03-29,H2H,Match,Home,,1.45,,2025,,fa0bfb3853cb2ec9b47dfa12222a36a774e3912a76039011bbe7dff5a1be7cba,asb_excel
+2025-07-13T23:59:00+00:00,market_consensus,asb:2025:Port Adelaide_vs_West Coast:2025-07-13,H2H,Match,Away,,8.65,,2025,,47950eae46b2735f08c5c1cd6eacd5fcd7a841dfe12576859aa4da89b2495866,asb_excel
+2025-03-15T23:59:00+00:00,market_consensus,asb:2025:Sydney_vs_Brisbane Lions:2025-03-15,H2H,Match,Home,,2.15,,2025,,08059d0467371ee2e617ceb18fe32b464fba6772fbb296ff05dde4480ceb3b09,asb_excel
+2025-03-15T23:59:00+00:00,market_consensus,asb:2025:Sydney_vs_Brisbane Lions:2025-03-15,H2H,Match,Away,,1.66,,2025,,42bcee4ce975ce24f8a56396ae816fb207f305a15fa8a8ad9502976060ec1973,asb_excel
+2025-04-17T23:59:00+00:00,market_consensus,asb:2025:Brisbane Lions_vs_Collingwood:2025-04-17,H2H,Match,Home,,1.52,,2025,,a8bc80a6635e2ff76414047c3b092bcd7e032a0bc86cac86815de92113157dfd,asb_excel
+2025-08-15T23:59:00+00:00,market_consensus,asb:2025:Fremantle_vs_Brisbane Lions:2025-08-15,H2H,Match,Home,,1.72,,2025,,37cc062a23140353d0603a8c0fb99c2fb641e0a1a82e90e06335dbe06591cddd,asb_excel
+2025-04-13T23:59:00+00:00,market_consensus,asb:2025:Richmond_vs_Fremantle:2025-04-13,H2H,Match,Away,,1.1,,2025,,a4a5f8bfed46b9be669ce85d16bffc4ce239982885f23357b64a540a2081cc5f,asb_excel
+2025-08-24T23:59:00+00:00,market_consensus,asb:2025:Western Bulldogs_vs_Fremantle:2025-08-24,H2H,Match,Home,,1.35,,2025,,a4d6797968f981e9a99154cafd098f208797d683309867f59d3977dd10168c23,asb_excel
+2025-07-12T23:59:00+00:00,market_consensus,asb:2025:GWS Giants_vs_Geelong:2025-07-12,H2H,Match,Home,,2.17,,2025,,abc31a002583daa61da974e5a9405e81481e70b23011db92993f2deb5223ecbe,asb_excel
+2025-05-25T23:59:00+00:00,market_consensus,asb:2025:St Kilda_vs_Gold Coast:2025-05-25,H2H,Match,Away,,1.49,,2025,,855d02efc7f63264671bb1ebccf1a3f70d56e36f1c9773eae3f2729d220c4999,asb_excel
+2025-04-12T23:59:00+00:00,market_consensus,asb:2025:North Melbourne_vs_Gold Coast:2025-04-12,H2H,Match,Away,,1.23,,2025,,30b7f20314d00a4937323f1328e40c636cb4732e672fdaef963215752adac096,asb_excel
+2025-07-13T23:59:00+00:00,market_consensus,asb:2025:Port Adelaide_vs_West Coast:2025-07-13,H2H,Match,Home,,1.06,,2025,,18a3fd1f69aaa519cf0eca92ec049a7157509c3ab7723b463733fa88cfc9ce27,asb_excel
+2025-06-15T23:59:00+00:00,market_consensus,asb:2025:Port Adelaide_vs_Melbourne:2025-06-15,H2H,Match,Home,,1.81,,2025,,46f0f769d66665db01197bf7f250ab7c6c04c4f54f42c58eb1f66c4fb36a92c7,asb_excel
+2025-04-26T23:59:00+00:00,market_consensus,asb:2025:Port Adelaide_vs_North Melbourne:2025-04-26,H2H,Match,Away,,6.44,,2025,,440142a63c9b648da3a1c23031d8b7af74ee4594241b3335ee147b83db002afe,asb_excel
+2025-05-31T23:59:00+00:00,market_consensus,asb:2025:Gold Coast_vs_Fremantle:2025-05-31,H2H,Match,Home,,1.38,,2025,,6511452be9446a11a4ff291d2dcd5d2ffb1243f26827782a90edc22e8170c26e,asb_excel
+2025-08-22T23:59:00+00:00,market_consensus,asb:2025:Collingwood_vs_Melbourne:2025-08-22,H2H,Match,Home,,1.26,,2025,,77688c00f4a3ce1a39023adb689b06daa6eda25db5640f3599ae40d10f9118a5,asb_excel
+2025-06-05T23:59:00+00:00,market_consensus,asb:2025:Western Bulldogs_vs_Hawthorn:2025-06-05,H2H,Match,Away,,3.13,,2025,,888bf0c2119261fb501ba042e6818db2cf1d780140fae7a0e0a6a8bffd85a923,asb_excel
+2025-05-31T23:59:00+00:00,market_consensus,asb:2025:GWS Giants_vs_Richmond:2025-05-31,H2H,Match,Away,,8.35,,2025,,54deb6bee6bb39f795854c4e2d0aab7acfc91c1e367a7d8b485ae83c2b3c5a6e,asb_excel
+2025-06-08T23:59:00+00:00,market_consensus,asb:2025:North Melbourne_vs_West Coast:2025-06-08,H2H,Match,Away,,2.23,,2025,,7e79fbd4e7ceba5cf494ed1c81971ecd49b0d14323d8f7dfdef65cd8b9d5a930,asb_excel
+2025-08-10T23:59:00+00:00,market_consensus,asb:2025:West Coast_vs_Adelaide:2025-08-10,H2H,Match,Away,,1.02,,2025,,698ed7b6ffe9e703980494003855f87850f393ddf1e3631e3a046460698d4364,asb_excel
+2025-04-12T23:59:00+00:00,market_consensus,asb:2025:Western Bulldogs_vs_Brisbane Lions:2025-04-12,H2H,Match,Home,,2.53,,2025,,016d22c0a1cb57d8a1eb1fa271adfe1d0ba030fedd911250646857b52273c4dc,asb_excel
+2025-07-19T23:59:00+00:00,market_consensus,asb:2025:Carlton_vs_Melbourne:2025-07-19,H2H,Match,Home,,2.54,,2025,,a3c0a940d1af905d84a304b98690e94d0cf9bfcdaed7941094b221db5b36a9e2,asb_excel
+2025-05-17T23:59:00+00:00,market_consensus,asb:2025:Port Adelaide_vs_Geelong:2025-05-17,H2H,Match,Away,,1.59,,2025,,e24d469bbb5f50bca31fb11f9aeb2215283bcaa71d780ca932ff89d42208496b,asb_excel
+2025-05-25T23:59:00+00:00,market_consensus,asb:2025:Melbourne_vs_Sydney:2025-05-25,H2H,Match,Away,,1.89,,2025,,a7e4080e79a94cb3aaff566c5373fcc8ef66e5edec1ce19c3ddbebd194594919,asb_excel
+2025-07-27T23:59:00+00:00,market_consensus,asb:2025:St Kilda_vs_Melbourne:2025-07-27,H2H,Match,Away,,1.77,,2025,,1aed7ffd1c6f1cd653acaed977fcb5660f47e57d090125b7760f2523fff5f07e,asb_excel
+2025-03-30T23:59:00+00:00,market_consensus,asb:2025:West Coast_vs_Fremantle:2025-03-30,H2H,Match,Home,,3.82,,2025,,a437323609fc39882569057191441a0d285d524d7802aae66376e560007b0ac1,asb_excel
+2025-07-11T23:59:00+00:00,market_consensus,asb:2025:Gold Coast_vs_Collingwood:2025-07-11,H2H,Match,Away,,1.73,,2025,,66caecec657dc2751d8f5159d0b54771a0de27359eb0ffcd3255f23fe4b43d3e,asb_excel
+2025-05-24T23:59:00+00:00,market_consensus,asb:2025:North Melbourne_vs_Collingwood:2025-05-24,H2H,Match,Home,,4.09,,2025,,8949a056b581188854402d46a8a590c1af2e3a7ffb470428763142409dc39241,asb_excel
+2025-08-09T23:59:00+00:00,market_consensus,asb:2025:Brisbane Lions_vs_Sydney:2025-08-09,H2H,Match,Away,,3.84,,2025,,423c4ce156cd085cd4967b953790a87fb21da2748708385d3b9d1fa0c602b6ab,asb_excel
+2025-06-28T23:59:00+00:00,market_consensus,asb:2025:Gold Coast_vs_Melbourne:2025-06-28,H2H,Match,Home,,1.29,,2025,,fdf7eac0bdf60f3a4e956c3aeede248c202696421386fdf0aff5c85b4dfc2e7d,asb_excel
+2025-08-03T23:59:00+00:00,market_consensus,asb:2025:Fremantle_vs_Carlton:2025-08-03,H2H,Match,Home,,1.07,,2025,,f2c7985b9fffe6549003ac7d71b4f012e7653ddcd0658f2d0ad73be23b59af34,asb_excel
+2025-06-07T23:59:00+00:00,market_consensus,asb:2025:GWS Giants_vs_Port Adelaide:2025-06-07,H2H,Match,Home,,1.32,,2025,,3771c0fdd0797dea02c536f9e70cf75c922e9dbddf89d0376b6384e93866e4d4,asb_excel
+2025-07-12T23:59:00+00:00,market_consensus,asb:2025:Fremantle_vs_Hawthorn:2025-07-12,H2H,Match,Away,,1.96,,2025,,3ef1277447fd529e73a9973d2557be877c9878d81b170134c72afe47377456f2,asb_excel
+2025-07-19T23:59:00+00:00,market_consensus,asb:2025:West Coast_vs_Richmond:2025-07-19,H2H,Match,Away,,2.17,,2025,,9bbf904729b0192a54dc7c55f7bf1b7d71106cbed593b701335fcc5e2cc3ba8c,asb_excel
+2025-05-16T23:59:00+00:00,market_consensus,asb:2025:Sydney_vs_Carlton:2025-05-16,H2H,Match,Home,,1.59,,2025,,41cd2e6878c34f5cc625ed46e29d49b017701f719a03636795154130da57e324,asb_excel
+2025-05-04T23:59:00+00:00,market_consensus,asb:2025:Sydney_vs_GWS Giants:2025-05-04,H2H,Match,Home,,2.13,,2025,,7df3e67cbf70e33e6d40c4f6f299ac4d9e0b101567b4578b5e98fdcf27f730de,asb_excel
+2025-06-14T23:59:00+00:00,market_consensus,asb:2025:North Melbourne_vs_Fremantle:2025-06-14,H2H,Match,Home,,5.6,,2025,,dc92cc743fc7e232e83dddae4f88780284f59a7009f71cf9f3a0f23f58d484bb,asb_excel
+2025-06-22T23:59:00+00:00,market_consensus,asb:2025:GWS Giants_vs_Gold Coast:2025-06-22,H2H,Match,Away,,1.94,,2025,,831036ca8683aac617ecbe0c5b95b14eb9b48a7daaeeec25b05026ed3ac6ffc8,asb_excel
+2025-08-17T23:59:00+00:00,market_consensus,asb:2025:North Melbourne_vs_Richmond:2025-08-17,H2H,Match,Home,,1.61,,2025,,097b4b07c5d597873276ac605e2e4e97e7c54b005ccecc689535d35f27a54dc4,asb_excel
+2025-05-09T23:59:00+00:00,market_consensus,asb:2025:St Kilda_vs_Carlton:2025-05-09,H2H,Match,Home,,2.36,,2025,,e55f4b968df63c9af0cbc5d462210a0d0ada20e243dbf65e8ec5a152a3fed3a4,asb_excel
+2025-05-25T23:59:00+00:00,market_consensus,asb:2025:Adelaide_vs_West Coast:2025-05-25,H2H,Match,Away,,9.15,,2025,,96e4d12b7358490c83647c8746ffeac6b3e095f3c31f5482acc3b2d6bda97acd,asb_excel
+2025-04-03T23:59:00+00:00,market_consensus,asb:2025:Collingwood_vs_Carlton:2025-04-03,H2H,Match,Home,,1.41,,2025,,6c0b0e8f4413f06ba096cd4a470d34ad5fff5b74db82034c3e5d3ce704bfbd48,asb_excel
+2025-08-03T23:59:00+00:00,market_consensus,asb:2025:Geelong_vs_Port Adelaide:2025-08-03,H2H,Match,Home,,1.02,,2025,,0efca030c9bd794be2f05872d8b56338f7a7c7cee302b8116900b35bdaa568bb,asb_excel
+2025-04-20T23:59:00+00:00,market_consensus,asb:2025:Sydney_vs_Port Adelaide:2025-04-20,H2H,Match,Home,,1.5,,2025,,13a5a4b31fa9211352762614da4aa03ddab2e902735d3706a03579121ada6488,asb_excel
+2025-08-09T23:59:00+00:00,market_consensus,asb:2025:Port Adelaide_vs_Fremantle:2025-08-09,H2H,Match,Home,,3.65,,2025,,a691036d1cc1fd3b0f8ac0aee2f35cb5a6357c98337143d49bca154f684f4939,asb_excel
+2025-05-17T23:59:00+00:00,market_consensus,asb:2025:Collingwood_vs_Adelaide:2025-05-17,H2H,Match,Home,,1.49,,2025,,00dad4106d2ef09ba7db0608fc31f0495281adb1d0d5f7e2f0b310f5960c3480,asb_excel
+2025-05-24T23:59:00+00:00,market_consensus,asb:2025:Hawthorn_vs_Brisbane Lions:2025-05-24,H2H,Match,Home,,1.46,,2025,,e06a21c8e5f08c1ff0653e59df151b9fb27b6b278a352c0f76a68b2f6cdeae71,asb_excel
+2025-06-28T23:59:00+00:00,market_consensus,asb:2025:Collingwood_vs_West Coast:2025-06-28,H2H,Match,Away,,12.71,,2025,,407104276e14168bb097840d33e87970525dcdb21383db5b1f82979dd13a8621,asb_excel
+2025-03-21T23:59:00+00:00,market_consensus,asb:2025:Western Bulldogs_vs_Collingwood:2025-03-21,H2H,Match,Away,,1.4,,2025,,bd9f7933d1f3a9c4d1718e99c206dbda9f97581d5af291ff0b1506d6fbd32302,asb_excel
+2025-05-11T23:59:00+00:00,market_consensus,asb:2025:Richmond_vs_West Coast:2025-05-11,H2H,Match,Away,,2.6,,2025,,f20e67afe2c24d3ed61d4c7253f6f0251e2121e9193535c235a655a2b6107175,asb_excel
+2025-08-16T23:59:00+00:00,market_consensus,asb:2025:Gold Coast_vs_GWS Giants:2025-08-16,H2H,Match,Away,,2.81,,2025,,607a99b42aad3f7ce1f1f76ffdb15a3ff9ad121138398cb3f553b06bc76a9bd3,asb_excel
+2025-04-26T23:59:00+00:00,market_consensus,asb:2025:Port Adelaide_vs_North Melbourne:2025-04-26,H2H,Match,Home,,1.1,,2025,,dd9f846e3088b0888331d753217485fd15f217b37b91478b685368713d96344e,asb_excel
+2025-06-01T23:59:00+00:00,market_consensus,asb:2025:Melbourne_vs_St Kilda:2025-06-01,H2H,Match,Away,,2.64,,2025,,94052c1af91ffc65fd523bfe62ce17d4b2c49e219c5adec9a2c16423ff468421,asb_excel
+2025-05-25T23:59:00+00:00,market_consensus,asb:2025:St Kilda_vs_Gold Coast:2025-05-25,H2H,Match,Home,,2.53,,2025,,2e36f49d2d393b8ef35a0d5261d6af1ce219df6e22afd5f5f13eebefed172e34,asb_excel
+2025-06-29T23:59:00+00:00,market_consensus,asb:2025:Richmond_vs_Adelaide:2025-06-29,H2H,Match,Home,,6.43,,2025,,edaf41260561317fbf5ed31d9b4a973adb1965df729b75ab58d7d553bc8bd806,asb_excel
+2025-07-04T23:59:00+00:00,market_consensus,asb:2025:Carlton_vs_Collingwood:2025-07-04,H2H,Match,Home,,4.31,,2025,,fb74f52c30455c513662579bd81f60cd3ee4bd30253cb1091268ccc49323944d,asb_excel
+2025-07-20T23:59:00+00:00,market_consensus,asb:2025:Geelong_vs_St Kilda:2025-07-20,H2H,Match,Home,,1.13,,2025,,4078aec79a6ded9a4faf87eda4e3fe0051efc4c128006a15705e05d5494d7aa2,asb_excel
+2025-04-05T23:59:00+00:00,market_consensus,asb:2025:Richmond_vs_Brisbane Lions:2025-04-05,H2H,Match,Home,,8.28,,2025,,bdcc0e8fc9452515f79a4dc76f982414a9730b0e9c44539f97766ec890e6b78e,asb_excel
+2025-08-03T23:59:00+00:00,market_consensus,asb:2025:Fremantle_vs_Carlton:2025-08-03,H2H,Match,Away,,7.42,,2025,,65441b0af932e9b9da12ed85979bbb95a5dd8dcd4c9ca39a920d0bfd076645d3,asb_excel
+2025-03-21T23:59:00+00:00,market_consensus,asb:2025:Western Bulldogs_vs_Collingwood:2025-03-21,H2H,Match,Home,,2.83,,2025,,4562eeecd1dbc83e45205add2326865e6275b64fc2e9c0084e360b7135cd4d93,asb_excel
+2025-04-26T23:59:00+00:00,market_consensus,asb:2025:St Kilda_vs_Brisbane Lions:2025-04-26,H2H,Match,Home,,2.71,,2025,,bb804ebd233b9d06f9ab36c3f1e4d24b05c618dc55544ec3d0e1b055ce720db3,asb_excel
+2025-07-31T23:59:00+00:00,market_consensus,asb:2025:Western Bulldogs_vs_GWS Giants:2025-07-31,H2H,Match,Away,,2.83,,2025,,1ad2accafc48c02dd5e309d337f402f86e7b7741babeba0bb0ccbdad65242cbd,asb_excel
+2025-08-16T23:59:00+00:00,market_consensus,asb:2025:Hawthorn_vs_Melbourne:2025-08-16,H2H,Match,Away,,3.33,,2025,,a7bd35e829a6a4906d6bffe7fd9a7bb40e60f18ed72a5be45c668ea2abe5380d,asb_excel
+2025-08-09T23:59:00+00:00,market_consensus,asb:2025:Carlton_vs_Gold Coast:2025-08-09,H2H,Match,Home,,3.92,,2025,,b0ff78e5a35d7905dc44f00995608500ccae9a912f1443b3cce0903df09a9aa2,asb_excel
+2025-08-02T23:59:00+00:00,market_consensus,asb:2025:Collingwood_vs_Brisbane Lions:2025-08-02,H2H,Match,Home,,1.49,,2025,,90f62ca4908828fbdeb76807fb528126d50ae8de8f17c2897932d480c785d802,asb_excel
+2025-05-01T23:59:00+00:00,market_consensus,asb:2025:Essendon_vs_North Melbourne:2025-05-01,H2H,Match,Away,,3.3,,2025,,06982ca403a21d6447dea5df792049e7f4a2d4a6255f514cb2b8f924477456ad,asb_excel
+2025-07-26T23:59:00+00:00,market_consensus,asb:2025:North Melbourne_vs_Geelong:2025-07-26,H2H,Match,Away,,1.06,,2025,,b2db36e12d899f58dfc343e22b1c82fa491e597d0969f576fb14481f6b66dc37,asb_excel
+2025-04-25T23:59:00+00:00,market_consensus,asb:2025:Fremantle_vs_Adelaide:2025-04-25,H2H,Match,Home,,1.71,,2025,,1336592e04edd183d0809380909345d8532a4d9ce65c0e3abfa934f9bf1b4713,asb_excel
+2025-07-05T23:59:00+00:00,market_consensus,asb:2025:Geelong_vs_Richmond:2025-07-05,H2H,Match,Away,,12.27,,2025,,899c82ec64d1e25bd050121f8e8bb8d3a8e30d764227b1d4e963319f268c1a58,asb_excel
+2025-04-04T23:59:00+00:00,market_consensus,asb:2025:Geelong_vs_Melbourne:2025-04-04,H2H,Match,Home,,1.19,,2025,,4923496ce8d6493823b91aeb00ab6787329c0fb17f3bf4564a94d89d054a88ad,asb_excel
+2025-06-15T23:59:00+00:00,market_consensus,asb:2025:Port Adelaide_vs_Melbourne:2025-06-15,H2H,Match,Away,,1.94,,2025,,61478c5df56a2e60fa11b61c7f10d7f4e8a18c1d5469a5cc86f984abffb08d97,asb_excel
+2025-03-29T23:59:00+00:00,market_consensus,asb:2025:St Kilda_vs_Richmond:2025-03-29,H2H,Match,Away,,4.12,,2025,,8d91dfdc72aedd1760645010e5be07dc8f7f8517fb074b2be826a36c09b017c1,asb_excel
+2025-03-30T23:59:00+00:00,market_consensus,asb:2025:Adelaide_vs_North Melbourne:2025-03-30,H2H,Match,Home,,1.1,,2025,,acc6262b23dac2c582c2ff87a05d46a5d359e2c84ccd25251aed892f0652d10c,asb_excel
+2025-05-10T23:59:00+00:00,market_consensus,asb:2025:Essendon_vs_Sydney:2025-05-10,H2H,Match,Away,,1.59,,2025,,b297a82598625ad37b643e2a0819b7e62f2776aba78a58d04d9aac0e8fbd8901,asb_excel
+2025-05-08T23:59:00+00:00,market_consensus,asb:2025:Fremantle_vs_Collingwood:2025-05-08,H2H,Match,Away,,1.76,,2025,,dbeb75d03e4c1af23b5816be55a4546d6e3281c3cda9cd5655b4bddcd26cb9ff,asb_excel
+2025-08-16T23:59:00+00:00,market_consensus,asb:2025:Carlton_vs_Port Adelaide:2025-08-16,H2H,Match,Away,,2.63,,2025,,f19fb4d522e15ae2d6bc62d45af2ab0055da6a981c6436544daa398a93012daa,asb_excel
+2025-06-06T23:59:00+00:00,market_consensus,asb:2025:Adelaide_vs_Brisbane Lions:2025-06-06,H2H,Match,Home,,1.52,,2025,,64143af453f3bdee3716d0fdaa81472335e1c84429bd128621885a3a1aa511af,asb_excel
+2025-06-14T23:59:00+00:00,market_consensus,asb:2025:Essendon_vs_Geelong:2025-06-14,H2H,Match,Home,,5.44,,2025,,5a94ca3b6b63213f979ff3b05499bfeec3c6f4941874f0d049c8b1344244e396,asb_excel
+2025-08-27T23:59:00+00:00,market_consensus,asb:2025:Gold Coast_vs_Essendon:2025-08-27,H2H,Match,Away,,9.19,,2025,,328889b21bef23adad02a348eca549e8a558a3195a8003fdcbb4ca1d311da9f9,asb_excel
+2025-08-15T23:59:00+00:00,market_consensus,asb:2025:Fremantle_vs_Brisbane Lions:2025-08-15,H2H,Match,Away,,2.1,,2025,,ece91423140c80a27dd77926b375d52edd617bbd39211825a29ee7ddfe82ee86,asb_excel
+2025-04-03T23:59:00+00:00,market_consensus,asb:2025:Collingwood_vs_Carlton:2025-04-03,H2H,Match,Away,,2.81,,2025,,e4f541a81fbb8b7bec2ae9cb55c86437924cc5004eddecf3bd7670308f0d4b24,asb_excel
+2025-07-06T23:59:00+00:00,market_consensus,asb:2025:Sydney_vs_Fremantle:2025-07-06,H2H,Match,Home,,1.57,,2025,,98e6e2ae2658190b561e50a94bc32ef1af420438a726b33c824077e430c0b75b,asb_excel
+2025-07-10T23:59:00+00:00,market_consensus,asb:2025:Carlton_vs_Brisbane Lions:2025-07-10,H2H,Match,Home,,4.58,,2025,,ce14d8f65d8f0c417893676d1330556b43d3235fece8121116f158c280234240,asb_excel
+2025-07-20T23:59:00+00:00,market_consensus,asb:2025:Adelaide_vs_Gold Coast:2025-07-20,H2H,Match,Home,,1.32,,2025,,e86dbdb9dedc7fc88cb7c132756c5334a4235144df821da4a3a93aae8c033d9b,asb_excel
+2025-08-17T23:59:00+00:00,market_consensus,asb:2025:Sydney_vs_Geelong:2025-08-17,H2H,Match,Away,,1.36,,2025,,067621cb0b5e4a55f7f8aadf1f8e26fb3196335a72221db9ac8b34c9ceb8b83d,asb_excel
+2025-03-13T23:59:00+00:00,market_consensus,asb:2025:Richmond_vs_Carlton:2025-03-13,H2H,Match,Away,,1.05,,2025,,e1c99f47b653dcd7c05e2ba8a504929bd897a0c6e2c426ee24ca6190cc3af499,asb_excel
+2025-08-09T23:59:00+00:00,market_consensus,asb:2025:Brisbane Lions_vs_Sydney:2025-08-09,H2H,Match,Home,,1.25,,2025,,176c84a25bc11dd51ca13ee51db667babe65bcdd999ed4eeda6b2cd5bf1c025b,asb_excel
+2025-06-08T23:59:00+00:00,market_consensus,asb:2025:North Melbourne_vs_West Coast:2025-06-08,H2H,Match,Home,,1.62,,2025,,68b2b7379a51388540d064e60d734298b84fd0048ec01026ea24e021ab7619a2,asb_excel
+2025-06-28T23:59:00+00:00,market_consensus,asb:2025:Hawthorn_vs_North Melbourne:2025-06-28,H2H,Match,Away,,5.24,,2025,,4f55a9020dcd4ea76f7a7adf0ec0769a8499fd6e4fb1545a7d3394b218012163,asb_excel
+2025-05-11T23:59:00+00:00,market_consensus,asb:2025:North Melbourne_vs_Brisbane Lions:2025-05-11,H2H,Match,Away,,1.09,,2025,,35c18dc18f106aac94098aa16bfe7122430931535cdc41722994cff292fc26f5,asb_excel
+2025-08-17T23:59:00+00:00,market_consensus,asb:2025:Western Bulldogs_vs_West Coast:2025-08-17,H2H,Match,Home,,1.01,,2025,,70bf07ce9f114e005f32494f29fd4e7f4212cc6c43db12adc04718e2bb056397,asb_excel
+2025-07-19T23:59:00+00:00,market_consensus,asb:2025:Hawthorn_vs_Port Adelaide:2025-07-19,H2H,Match,Home,,1.14,,2025,,f0246efea12f66c490105b4ee915088afaf4e2d355bafa46f8db86a35e37aa0b,asb_excel
+2025-07-13T23:59:00+00:00,market_consensus,asb:2025:St Kilda_vs_Sydney:2025-07-13,H2H,Match,Away,,1.6,,2025,,cd45061acec6a5587edce486b842de3f39b49669a81c36eee5f0abbed5189bcb,asb_excel
+2025-08-21T23:59:00+00:00,market_consensus,asb:2025:Essendon_vs_Carlton:2025-08-21,H2H,Match,Home,,3.69,,2025,,4700c875cfc6f9c7928fa74da7615e161f212ae64c36f969778eb007bd15880b,asb_excel
+2025-06-06T23:59:00+00:00,market_consensus,asb:2025:Adelaide_vs_Brisbane Lions:2025-06-06,H2H,Match,Away,,2.45,,2025,,1b3d1f9ee2c031d3a61059c0510c6f3308437e0fd0576f6b85f0d74b3342a6fa,asb_excel
+2025-07-13T23:59:00+00:00,market_consensus,asb:2025:Melbourne_vs_North Melbourne:2025-07-13,H2H,Match,Away,,4.32,,2025,,4f977beb3e14bc5bf4adcea86b10665cb551dc33b427321b2e7ddb8e95a224e4,asb_excel
+2025-06-28T23:59:00+00:00,market_consensus,asb:2025:Collingwood_vs_West Coast:2025-06-28,H2H,Match,Home,,1.02,,2025,,6464f450a5b138e27128bf4293beefe796b540bd0bb526722b71b4e8dc44673a,asb_excel
+2025-04-12T23:59:00+00:00,market_consensus,asb:2025:Western Bulldogs_vs_Brisbane Lions:2025-04-12,H2H,Match,Away,,1.48,,2025,,c6c8559d71f4dd0cdda73c58f1ff304c090d5ca6e26ddbe81a4b8a6d71d932ad,asb_excel
+2025-07-12T23:59:00+00:00,market_consensus,asb:2025:Richmond_vs_Essendon:2025-07-12,H2H,Match,Away,,1.39,,2025,,5d1243a0d8ffc5a9289b709ed04b28ec8e423ab2b310981cbbfda12875ac5923,asb_excel
+2025-08-08T23:59:00+00:00,market_consensus,asb:2025:Geelong_vs_Essendon:2025-08-08,H2H,Match,Away,,16.55,,2025,,59f601ef7974d2b844e53fac1cbf5ce7093f58f1e1636341e42e9e9b8c4eaf19,asb_excel
+2025-07-04T23:59:00+00:00,market_consensus,asb:2025:West Coast_vs_GWS Giants:2025-07-04,H2H,Match,Away,,1.34,,2025,,24d91cba1760a82c494c472a0b060967afe62ab05fe8b0d5d20e3f4142d4d449,asb_excel
+2025-08-23T23:59:00+00:00,market_consensus,asb:2025:Richmond_vs_Geelong:2025-08-23,H2H,Match,Home,,13.33,,2025,,33a53bbf70eff37eda0d670ce8ec55c9ffc839f8d00e0cd316bb49a6af451dd6,asb_excel
+2025-04-19T23:59:00+00:00,market_consensus,asb:2025:Adelaide_vs_GWS Giants:2025-04-19,H2H,Match,Away,,2.36,,2025,,a17a04ee8b65c1df9dbef8c3109bf2584e02cbf9f9f15478819293b4ea61d0b5,asb_excel
+2025-05-03T23:59:00+00:00,market_consensus,asb:2025:Western Bulldogs_vs_Port Adelaide:2025-05-03,H2H,Match,Away,,3.27,,2025,,5b170a58646a8951fac589fef444a74db0f53fd61cbcbd674e80a2eb81b22588,asb_excel
+2025-03-14T23:59:00+00:00,market_consensus,asb:2025:Hawthorn_vs_Essendon:2025-03-14,H2H,Match,Home,,1.27,,2025,,ff78faec8cf9454ead6007c2694956e32d9e19ae3746f228667fa0bb12d0506f,asb_excel
+2025-08-24T23:59:00+00:00,market_consensus,asb:2025:Brisbane Lions_vs_Hawthorn:2025-08-24,H2H,Match,Home,,1.66,,2025,,0e38749cab289b47e5895fa42e08728566b48d067764b18958a74ce22a484725,asb_excel
+2025-06-15T23:59:00+00:00,market_consensus,asb:2025:West Coast_vs_Carlton:2025-06-15,H2H,Match,Home,,3.87,,2025,,58341b362356866cea4e522271788174afd4c86c2b7cd491d916b61f03a86109,asb_excel
+2025-04-24T23:59:00+00:00,market_consensus,asb:2025:Melbourne_vs_Richmond:2025-04-24,H2H,Match,Away,,3.41,,2025,,c7de2c1d4fb7700727b1f4a035876090956ded9d055aefe1d1f97d0fdbc70e33,asb_excel
+2025-03-22T23:59:00+00:00,market_consensus,asb:2025:St Kilda_vs_Geelong:2025-03-22,H2H,Match,Away,,1.29,,2025,,eda653b3a897c0a6391839046d9077916e6479731e117aceceeff33d50cda375,asb_excel
+2025-05-11T23:59:00+00:00,market_consensus,asb:2025:Geelong_vs_GWS Giants:2025-05-11,H2H,Match,Home,,1.39,,2025,,5c9c6ec54a7acf82b64d2a017048d98b08d1a957f738fcb714dcf4ea054a6f12,asb_excel
+2025-03-15T23:59:00+00:00,market_consensus,asb:2025:Western Bulldogs_vs_North Melbourne:2025-03-15,H2H,Match,Home,,1.33,,2025,,24c710b8e306138282e691fb181f3a5f04aa45f96b67534a6d5bd32d25ad8e2b,asb_excel
+2025-08-09T23:59:00+00:00,market_consensus,asb:2025:Richmond_vs_St Kilda:2025-08-09,H2H,Match,Home,,3.34,,2025,,0e00b3523d65304a608a88a2fa71fdcfd78cd7fc9261b3bf6168792130186d77,asb_excel
+2025-04-18T23:59:00+00:00,market_consensus,asb:2025:West Coast_vs_Essendon:2025-04-18,H2H,Match,Away,,1.26,,2025,,205b4f85867ddd19523583a8783bb56b6bfb023c1248103569c5c6f42d554674,asb_excel
+2025-05-22T23:59:00+00:00,market_consensus,asb:2025:Geelong_vs_Western Bulldogs:2025-05-22,H2H,Match,Away,,1.97,,2025,,2115797c96ffbf4a8dbc48e4a5fd8a3811aacb1e260cad8ea4e02b7d1655c12a,asb_excel
+2025-06-05T23:59:00+00:00,market_consensus,asb:2025:Western Bulldogs_vs_Hawthorn:2025-06-05,H2H,Match,Home,,1.34,,2025,,5251c8259f17af9ece07affabffa04f81087f08369794a09d259eff08f364ef9,asb_excel
+2025-03-23T23:59:00+00:00,market_consensus,asb:2025:Brisbane Lions_vs_West Coast:2025-03-23,H2H,Match,Away,,12.59,,2025,,a6bea439edb4e429e4bd61a461fa7394fbb6ca22debc7cb354b27a0bd3c3b7c6,asb_excel
+2025-06-21T23:59:00+00:00,market_consensus,asb:2025:Port Adelaide_vs_Sydney:2025-06-21,H2H,Match,Home,,1.78,,2025,,9b4647465972c760bfb50f355184d58a41b311468950bc9655f4a042d0384cee,asb_excel
+2025-06-20T23:59:00+00:00,market_consensus,asb:2025:Geelong_vs_Brisbane Lions:2025-06-20,H2H,Match,Home,,1.37,,2025,,5b566058bf2d41606a374f46418cced52836eaa572a7956749515b83eef61180,asb_excel
+2025-04-27T23:59:00+00:00,market_consensus,asb:2025:Gold Coast_vs_Sydney:2025-04-27,H2H,Match,Home,,1.44,,2025,,7eecd84ad3bb2e41f92e25e607ab3c9fc3e78b504ec1c62b2d00f17a52881900,asb_excel
+2025-08-10T23:59:00+00:00,market_consensus,asb:2025:Melbourne_vs_Western Bulldogs:2025-08-10,H2H,Match,Home,,3.56,,2025,,93efac768a67628caceeee3f0a13d92f34ae27bde15765f1cb9d69f1f8f33646,asb_excel
+2025-05-17T23:59:00+00:00,market_consensus,asb:2025:Western Bulldogs_vs_Essendon:2025-05-17,H2H,Match,Away,,3.89,,2025,,ebffc179e5b2f40972d156487cd1321bb27ac30c1b0496bd95bd5918ccf45b0d,asb_excel
+2025-05-10T23:59:00+00:00,market_consensus,asb:2025:Port Adelaide_vs_Adelaide:2025-05-10,H2H,Match,Away,,1.4,,2025,,d0e26587617d4ed559aa74352c9364b3c58f1a4841297d4713b20bdb3d5debd7,asb_excel
+2025-03-23T23:59:00+00:00,market_consensus,asb:2025:North Melbourne_vs_Melbourne:2025-03-23,H2H,Match,Away,,1.39,,2025,,8205cff0df3e6fb32de7dc95f26667e7ee57415ce064d42e346895f709c01024,asb_excel
+2025-05-18T23:59:00+00:00,market_consensus,asb:2025:Brisbane Lions_vs_Melbourne:2025-05-18,H2H,Match,Home,,1.15,,2025,,87f4517a909d76347b4b21a83fbaabd3ff144b3c5d4cbc4ce3354b497fc3e444,asb_excel
+2025-08-15T23:59:00+00:00,market_consensus,asb:2025:Essendon_vs_St Kilda:2025-08-15,H2H,Match,Home,,4.19,,2025,,d7e5baa438803bfa8e9da46b43be4d3be1f9b6225561037cd152005b351119ee,asb_excel
+2025-08-03T23:59:00+00:00,market_consensus,asb:2025:Geelong_vs_Port Adelaide:2025-08-03,H2H,Match,Away,,12.14,,2025,,c6de1457965b9a8b7d917213dbd33457bc46fd9679ed4127d43f108379e2461d,asb_excel
+2025-07-12T23:59:00+00:00,market_consensus,asb:2025:Richmond_vs_Essendon:2025-07-12,H2H,Match,Home,,2.93,,2025,,544718023afd3467b10913f7ae3ed5e07dd3196684a552cc3a6a2b11d4795664,asb_excel
+2025-08-02T23:59:00+00:00,market_consensus,asb:2025:Gold Coast_vs_Richmond:2025-08-02,H2H,Match,Away,,11.19,,2025,,73e0ae07ad96106afca03767112fc904579d6bff2a6ae0887ea48eee3355fad8,asb_excel
+2025-04-05T23:59:00+00:00,market_consensus,asb:2025:Richmond_vs_Brisbane Lions:2025-04-05,H2H,Match,Away,,1.06,,2025,,dfc51aecbb6e86c3d92431c906c9adfa220d19cb8f4a3c89279e517da39be340,asb_excel
+2025-06-09T23:59:00+00:00,market_consensus,asb:2025:Melbourne_vs_Collingwood:2025-06-09,H2H,Match,Home,,3.69,,2025,,ac5e79a24ada6905f1121e6a373848bade73cb79bb8c958a16078d5afc0ec4fc,asb_excel
+2025-06-14T23:59:00+00:00,market_consensus,asb:2025:North Melbourne_vs_Fremantle:2025-06-14,H2H,Match,Away,,1.13,,2025,,55befe5bf9fabd6811d1e5b6402dd3838fd1834bd2ab984e75fe24a0afd8633e,asb_excel
+2025-05-24T23:59:00+00:00,market_consensus,asb:2025:North Melbourne_vs_Collingwood:2025-05-24,H2H,Match,Away,,1.21,,2025,,2f028be13172cf2a1836f8bc090aa60ae79499c5f116ffee262c608098eb2091,asb_excel
+2025-04-13T23:59:00+00:00,market_consensus,asb:2025:Richmond_vs_Fremantle:2025-04-13,H2H,Match,Home,,6.44,,2025,,73f93375689feb02d919a3a5552e8771047b431952815ce488d792e1f32df185,asb_excel
+2025-04-12T23:59:00+00:00,market_consensus,asb:2025:Carlton_vs_West Coast:2025-04-12,H2H,Match,Home,,1.1,,2025,,e1609d6872ecc55777d163fdf8739eb23abab049d3e8cc151a951e8dccf61649,asb_excel
+2025-05-16T23:59:00+00:00,market_consensus,asb:2025:Sydney_vs_Carlton:2025-05-16,H2H,Match,Away,,2.27,,2025,,94045842b22de32807afba7a9db882d54376838880326549bbb6e5a7c3fc0437,asb_excel
+2025-04-19T23:59:00+00:00,market_consensus,asb:2025:Melbourne_vs_Fremantle:2025-04-19,H2H,Match,Home,,3.35,,2025,,866363d43c981e7126885573826bfa85043bb4ae072114c697ab8c4af4d66b59,asb_excel
+2025-04-27T23:59:00+00:00,market_consensus,asb:2025:Carlton_vs_Geelong:2025-04-27,H2H,Match,Away,,1.59,,2025,,79ca1f3283fe2fed9c6cf6e83e0b13e36471244efee90d9d866cfa2694978b53,asb_excel
+2025-07-26T23:59:00+00:00,market_consensus,asb:2025:Gold Coast_vs_Brisbane Lions:2025-07-26,H2H,Match,Away,,1.54,,2025,,01ab2192152a5b4ef606a18dbdd1bbe183c967bd25cb26fc15ffa7e82c70affa,asb_excel
+2025-08-02T23:59:00+00:00,market_consensus,asb:2025:Collingwood_vs_Brisbane Lions:2025-08-02,H2H,Match,Away,,2.56,,2025,,d112ef3f38d7d399249c910bde2dc08c0b1c85118813def568f628bd12a92ed3,asb_excel
+2025-05-24T23:59:00+00:00,market_consensus,asb:2025:Fremantle_vs_Port Adelaide:2025-05-24,H2H,Match,Home,,1.3,,2025,,250b8db53fa0ed18f63cd7c469687c2c209e4c053a99afef23dfc2ae7c3fb5bd,asb_excel
+2025-04-13T23:59:00+00:00,market_consensus,asb:2025:Port Adelaide_vs_Hawthorn:2025-04-13,H2H,Match,Away,,1.42,,2025,,c86ea5d89be2a1b19171e016a29d1f9067b17f51fab6fe4175517902b5b99f22,asb_excel
+2025-04-25T23:59:00+00:00,market_consensus,asb:2025:Collingwood_vs_Essendon:2025-04-25,H2H,Match,Home,,1.24,,2025,,d015fa58ad2dcee4b167279257afd86aef9b93c9bcce664dd3a7ec7b6c9534f5,asb_excel
+2025-07-25T23:59:00+00:00,market_consensus,asb:2025:GWS Giants_vs_Sydney:2025-07-25,H2H,Match,Home,,1.43,,2025,,6639d8f276a4d0f0de0ea631dc99f3ad6944aad568f1ea397666b67b648abfd9,asb_excel
+2025-04-27T23:59:00+00:00,market_consensus,asb:2025:Hawthorn_vs_West Coast:2025-04-27,H2H,Match,Home,,1.03,,2025,,83c30f973b748ad4a42f1f131f80bdb8a1a909df3f4c0814363d46840c123809,asb_excel
+2025-05-04T23:59:00+00:00,market_consensus,asb:2025:Hawthorn_vs_Richmond:2025-05-04,H2H,Match,Home,,1.06,,2025,,e48689f3dc9b4cd8dc413d7422bc7d2ab66202c373da06f44122099829f5037a,asb_excel
+2025-05-10T23:59:00+00:00,market_consensus,asb:2025:Gold Coast_vs_Western Bulldogs:2025-05-10,H2H,Match,Home,,1.79,,2025,,c431130154ea5127a241a20ae8bd9f14075776d91771487db2fd6de1b8192c98,asb_excel
+2025-07-19T23:59:00+00:00,market_consensus,asb:2025:Sydney_vs_North Melbourne:2025-07-19,H2H,Match,Home,,1.08,,2025,,d06d458ef96e48233655825a1ff3c4d1618e10b12a529dca7df7fa1420974ea6,asb_excel
+2025-05-25T23:59:00+00:00,market_consensus,asb:2025:Adelaide_vs_West Coast:2025-05-25,H2H,Match,Home,,1.04,,2025,,662e07a3aabd24b1a51f0b97370655890bcbd55ce8085a5f20fb67f84fd8b949,asb_excel
+2025-04-21T23:59:00+00:00,market_consensus,asb:2025:Geelong_vs_Hawthorn:2025-04-21,H2H,Match,Home,,1.91,,2025,,831c3e2a192a7c22d32515e38aaf4fad973c7df38b5d8cc4c1ba04f69730c22e,asb_excel
+2025-05-15T23:59:00+00:00,market_consensus,asb:2025:Gold Coast_vs_Hawthorn:2025-05-15,H2H,Match,Home,,1.55,,2025,,524af65021f5c6c8a46cd8fca7e7dda133485ad25c48c81745bd01a278b490bd,asb_excel
+2025-04-27T23:59:00+00:00,market_consensus,asb:2025:Gold Coast_vs_Sydney:2025-04-27,H2H,Match,Away,,2.7,,2025,,f01b2ae5a1b5afc41607170b3e3ea75db6ebbb6610ccbcbc970def568f7944f4,asb_excel
+2025-08-21T23:59:00+00:00,market_consensus,asb:2025:Essendon_vs_Carlton:2025-08-21,H2H,Match,Away,,1.26,,2025,,36cc25a574459a432cce52dae242f9735f76d70be3f29b7056d5c1fc144f322b,asb_excel
+2025-06-13T23:59:00+00:00,market_consensus,asb:2025:Hawthorn_vs_Adelaide:2025-06-13,H2H,Match,Away,,1.95,,2025,,e512dde498b99626477b7270fb565e8e7c1740be2c184087d50271384108b1b3,asb_excel
+2025-05-17T23:59:00+00:00,market_consensus,asb:2025:GWS Giants_vs_Fremantle:2025-05-17,H2H,Match,Home,,1.34,,2025,,005bc73ea237e787413b1df8821337ef3bd242ab28dea431e1566cbba4f64952,asb_excel
+2025-07-20T23:59:00+00:00,market_consensus,asb:2025:Collingwood_vs_Fremantle:2025-07-20,H2H,Match,Away,,3.12,,2025,,42f9de296685014d4a9e895ca33d232cac338bd5d46b46183ea10ffd7c655c26,asb_excel
+2025-07-19T23:59:00+00:00,market_consensus,asb:2025:Sydney_vs_North Melbourne:2025-07-19,H2H,Match,Away,,7.13,,2025,,73c73cf10bc4cc2be5fbce7ec82b19d239a5119b6f7a42a9512d5327b8690459,asb_excel
+2025-08-16T23:59:00+00:00,market_consensus,asb:2025:Hawthorn_vs_Melbourne:2025-08-16,H2H,Match,Home,,1.31,,2025,,272bebd6efbabb09b5df0e05753ff1f60f6ca8847894393e69629ebebb412398,asb_excel
+2025-08-10T23:59:00+00:00,market_consensus,asb:2025:GWS Giants_vs_North Melbourne:2025-08-10,H2H,Match,Away,,8.97,,2025,,aa9b5fa2a8b35f7453ea605ec4cb5b29cb71c459a127fb59e3397376bf9b3981,asb_excel
+2025-07-17T23:59:00+00:00,market_consensus,asb:2025:Essendon_vs_GWS Giants:2025-07-17,H2H,Match,Away,,1.08,,2025,,7394045b7de71ce0860b9dcddfbe221f6b315c9e97a7fc2a4a3dc814f6c877d1,asb_excel
+2025-03-29T23:59:00+00:00,market_consensus,asb:2025:Melbourne_vs_Gold Coast:2025-03-29,H2H,Match,Home,,2.07,,2025,,bb091431abe0c714c1f081067dd907dff7315006b89969d294c7761ac087009e,asb_excel
+2025-05-04T23:59:00+00:00,market_consensus,asb:2025:Brisbane Lions_vs_Gold Coast:2025-05-04,H2H,Match,Away,,2.49,,2025,,7670ac94722e5ad4b3ee9ee20cfa0308b110987e469d60e5e596af3e5166f4c8,asb_excel
+2025-03-15T23:59:00+00:00,market_consensus,asb:2025:Geelong_vs_Fremantle:2025-03-15,H2H,Match,Home,,1.41,,2025,,4b727d90649d27c04b3f427174a8bf7eeb1f6b2f33bd6232242fdfe730a8bc2d,asb_excel
+2025-05-09T23:59:00+00:00,market_consensus,asb:2025:St Kilda_vs_Carlton:2025-05-09,H2H,Match,Away,,1.55,,2025,,86b074d56da67f6c60f1303472a9c12f00512129ff64e1b438b57c9c9fa7c56e,asb_excel
+2025-06-21T23:59:00+00:00,market_consensus,asb:2025:Collingwood_vs_St Kilda:2025-06-21,H2H,Match,Home,,1.16,,2025,,81912ac3f4224209a921fa69e0fbdcdf50d8274497385993113b48a7a3174053,asb_excel
+2025-05-15T23:59:00+00:00,market_consensus,asb:2025:Gold Coast_vs_Hawthorn:2025-05-15,H2H,Match,Away,,2.34,,2025,,1d754a296e1fa69c98edb95201a991b6967e9062871046093d8cae1a41df9330,asb_excel
+2025-04-13T23:59:00+00:00,market_consensus,asb:2025:Port Adelaide_vs_Hawthorn:2025-04-13,H2H,Match,Home,,2.76,,2025,,5b1eb3bf30fad7de0fe077ac81e5259f12ac5fc96bb994ca0e3f9cfe6e6c877d,asb_excel
+2025-04-05T23:59:00+00:00,market_consensus,asb:2025:North Melbourne_vs_Sydney:2025-04-05,H2H,Match,Away,,1.65,,2025,,6b1125f75f56457940abc6b48985e29fc9f0327cbb496ba369de7a7cf5027be8,asb_excel
+2025-07-17T23:59:00+00:00,market_consensus,asb:2025:Essendon_vs_GWS Giants:2025-07-17,H2H,Match,Home,,7.22,,2025,,be0fe1a4101fbae59f344f918ab2f45a0d76bd241264742cb21df0f7b856fb87,asb_excel
+2025-05-04T23:59:00+00:00,market_consensus,asb:2025:Sydney_vs_GWS Giants:2025-05-04,H2H,Match,Away,,1.67,,2025,,46234330b629a79021014bbaf0c84f72a6905e553853261142631bd5d3001921,asb_excel
+2025-05-18T23:59:00+00:00,market_consensus,asb:2025:West Coast_vs_St Kilda:2025-05-18,H2H,Match,Home,,3.04,,2025,,48e2ec26f70e5274dde93267de491879728fb954822e1ab2610da3ef05bb35fb,asb_excel
+2025-06-12T23:59:00+00:00,market_consensus,asb:2025:St Kilda_vs_Western Bulldogs:2025-06-12,H2H,Match,Home,,3.65,,2025,,1055ac0e11c04fdd324444e2d09ce2699f7e2916c984d2160822d31d16a17c96,asb_excel
+2025-07-05T23:59:00+00:00,market_consensus,asb:2025:Essendon_vs_Gold Coast:2025-07-05,H2H,Match,Home,,3.28,,2025,,b046f2672d4423baa18fb0eb753c04a2a3390a7e012f2c904026658425fefb04,asb_excel
+2025-08-10T23:59:00+00:00,market_consensus,asb:2025:GWS Giants_vs_North Melbourne:2025-08-10,H2H,Match,Home,,1.05,,2025,,894c89a976a1e06476a88072414cf637c935b97e873697ff9251e4e149a1c6dd,asb_excel
+2025-05-08T23:59:00+00:00,market_consensus,asb:2025:Fremantle_vs_Collingwood:2025-05-08,H2H,Match,Home,,1.99,,2025,,3c736a19a0b857eabb9004390fc49a7098d854d539a468e48a0512e5ca91649d,asb_excel
+2025-06-12T23:59:00+00:00,market_consensus,asb:2025:St Kilda_vs_Western Bulldogs:2025-06-12,H2H,Match,Away,,1.26,,2025,,b351da22c476d75f0be1fca75f0d2ad965f753ab58d3ac9f65e6b36af5ea9181,asb_excel
+2025-08-23T23:59:00+00:00,market_consensus,asb:2025:Richmond_vs_Geelong:2025-08-23,H2H,Match,Away,,1.01,,2025,,729b7cfedc00aebef89c52a27b1e4b79acf2b2e0cef1b1222d9fd5f8bac8df9c,asb_excel
+2025-05-03T23:59:00+00:00,market_consensus,asb:2025:Adelaide_vs_Carlton:2025-05-03,H2H,Match,Away,,2.37,,2025,,73a5092bd33b8acc44639d6fe14511ae3427cc5f526f0d2c728c12abc4313366,asb_excel
+2025-08-07T23:59:00+00:00,market_consensus,asb:2025:Hawthorn_vs_Collingwood:2025-08-07,H2H,Match,Away,,1.62,,2025,,9b1897da0b036a016aae841ed37324416b15dea31d5d249e6eac6f2afae01761,asb_excel
+2025-04-06T23:59:00+00:00,market_consensus,asb:2025:GWS Giants_vs_West Coast:2025-04-06,H2H,Match,Away,,13.75,,2025,,ce5daa51025c845faea928b1df893d75f08bce87dd0a4bb63f33f876d8134de4,asb_excel
+2025-06-21T23:59:00+00:00,market_consensus,asb:2025:Carlton_vs_North Melbourne:2025-06-21,H2H,Match,Home,,1.25,,2025,,2afef50b1d8bacd0add474a6d8601d969febb98d14699d300a68e9624b9a4650,asb_excel
+2025-04-26T23:59:00+00:00,market_consensus,asb:2025:GWS Giants_vs_Western Bulldogs:2025-04-26,H2H,Match,Home,,1.52,,2025,,ecf2539a53171f7f860087a0ffa1e4e226d6be3db004f0c68a07435ca5f780ae,asb_excel
+2025-07-19T23:59:00+00:00,market_consensus,asb:2025:Hawthorn_vs_Port Adelaide:2025-07-19,H2H,Match,Away,,5.34,,2025,,e5288fd71315c7ee302224c3f0ac5596e6b6d2e58c08103056e9b9d504c9c60c,asb_excel
+2025-07-20T23:59:00+00:00,market_consensus,asb:2025:Collingwood_vs_Fremantle:2025-07-20,H2H,Match,Home,,1.34,,2025,,d03f5a5b1bdf426d7a5d95f3937e36afb21c18cbf5ef42ab2ea358c93e98b2e6,asb_excel
+2025-04-26T23:59:00+00:00,market_consensus,asb:2025:St Kilda_vs_Brisbane Lions:2025-04-26,H2H,Match,Away,,1.43,,2025,,4efa43dfa9ba529a32cf5e8676c9fb5e80d0cce9e9a80076eab94ad70efa3903,asb_excel
+2025-07-25T23:59:00+00:00,market_consensus,asb:2025:GWS Giants_vs_Sydney:2025-07-25,H2H,Match,Away,,2.73,,2025,,ff5ab0cb74ec878e6bc7e5b4583bf23d126bcedd8d3aac0ab0493baa374d4e0f,asb_excel
+2025-03-16T23:59:00+00:00,market_consensus,asb:2025:Adelaide_vs_St Kilda:2025-03-16,H2H,Match,Away,,3.34,,2025,,f772377334c55d4af2ed94164be07d08b8962511676912e1d1d8d5e002a46d42,asb_excel
+2025-08-16T23:59:00+00:00,market_consensus,asb:2025:Adelaide_vs_Collingwood:2025-08-16,H2H,Match,Home,,1.46,,2025,,297caac1598ef42ec24907371eb18acc71cfbbc14396e246314d523eb055af34,asb_excel
+2025-07-24T23:59:00+00:00,market_consensus,asb:2025:Hawthorn_vs_Carlton:2025-07-24,H2H,Match,Home,,1.2,,2025,,02b935c69aeeebe1de4701915ddba6c4389b1dde5d7327fb89326e900e92a152,asb_excel
+2025-06-01T23:59:00+00:00,market_consensus,asb:2025:West Coast_vs_Geelong:2025-06-01,H2H,Match,Away,,1.07,,2025,,f1938398a6b2b9c2001de1383898c8dfe7597440139709f8b4fcfef79ba96dac,asb_excel
+2025-08-03T23:59:00+00:00,market_consensus,asb:2025:St Kilda_vs_North Melbourne:2025-08-03,H2H,Match,Home,,1.25,,2025,,265c44c50bff0f7b6e85ad3c88e8c92de8851c879aa73298acacd97746adc8f7,asb_excel
+2025-03-16T23:59:00+00:00,market_consensus,asb:2025:Melbourne_vs_GWS Giants:2025-03-16,H2H,Match,Away,,1.59,,2025,,4f84392197ee3b29c63d15bd17b1f3d1a690dbeed061d12fac19f9574fefc299,asb_excel
+2025-05-10T23:59:00+00:00,market_consensus,asb:2025:Essendon_vs_Sydney:2025-05-10,H2H,Match,Home,,2.27,,2025,,031ca47becccc5f02632336ffd9b8cf828697bd0acd2250d7a04606623b2a640,asb_excel
+2025-03-28T23:59:00+00:00,market_consensus,asb:2025:Carlton_vs_Western Bulldogs:2025-03-28,H2H,Match,Away,,1.81,,2025,,d2f1989f4dcb2c9601b13ce8b1e4620142d1ac3ad62579a63212450addeedecb,asb_excel
+2025-08-17T23:59:00+00:00,market_consensus,asb:2025:North Melbourne_vs_Richmond:2025-08-17,H2H,Match,Away,,2.29,,2025,,648b67583479c7c8c6e1e36f692cb94e9d9ddb5ccefb0684e3cbdcfef0031ac1,asb_excel
+2025-03-14T23:59:00+00:00,market_consensus,asb:2025:Hawthorn_vs_Essendon:2025-03-14,H2H,Match,Away,,3.52,,2025,,1e062ddca4201fd1993d8308acf5f449cb7f5b892d9217e7a0786e22c4e16903,asb_excel
+2025-06-22T23:59:00+00:00,market_consensus,asb:2025:Western Bulldogs_vs_Richmond:2025-06-22,H2H,Match,Home,,1.05,,2025,,51212b7c1475475c35719575f637dca16cecdec657045af95cb52c7edddfffae,asb_excel
+2025-08-01T23:59:00+00:00,market_consensus,asb:2025:Adelaide_vs_Hawthorn:2025-08-01,H2H,Match,Home,,1.46,,2025,,a514635a5890de67b74e018b9f083c437652c59ae6c8a08e35dbea167b712dcd,asb_excel
+2025-08-22T23:59:00+00:00,market_consensus,asb:2025:Collingwood_vs_Melbourne:2025-08-22,H2H,Match,Away,,3.7,,2025,,cdcbec4e0360f268e326fc431ba8c0e3674309afd8ce96b16bf02420f2f1d9d1,asb_excel
+2025-04-11T23:59:00+00:00,market_consensus,asb:2025:Collingwood_vs_Sydney:2025-04-11,H2H,Match,Away,,2.11,,2025,,fda4ef883411f4d38af6c8524679ea063275d4a4460a3283b175fc47dace6c71,asb_excel
+2025-07-10T23:59:00+00:00,market_consensus,asb:2025:Carlton_vs_Brisbane Lions:2025-07-10,H2H,Match,Away,,1.18,,2025,,8e9cd223be3eb1abade26774cc1fbf55d262a862f18eec28a8acb10e0258ac48,asb_excel
+2025-06-08T23:59:00+00:00,market_consensus,asb:2025:Carlton_vs_Essendon:2025-06-08,H2H,Match,Home,,1.41,,2025,,a84b679fe8c20a1f6db86fd73abb03a3d009aac265422c93b666fbb043a7c555,asb_excel

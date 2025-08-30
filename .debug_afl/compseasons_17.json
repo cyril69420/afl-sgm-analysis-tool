@@ -1,0 +1,20 @@
+{
+  "meta": {
+    "code": 200,
+    "pagination": {
+      "page": 0,
+      "numPages": 1,
+      "pageSize": 1,
+      "numEntries": 1
+    }
+  },
+  "compSeasons": [
+    {
+      "id": 76,
+      "providerId": "CD_S2025944",
+      "name": "2025 Toyota AFL Indigenous All Stars",
+      "shortName": "AFL Indigenous All Stars",
+      "currentRoundNumber": 1
+    }
+  ]
+}

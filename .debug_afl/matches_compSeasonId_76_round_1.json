@@ -1,0 +1,88 @@
+{
+  "meta": {
+    "code": 200,
+    "pagination": {
+      "page": 0,
+      "numPages": 1,
+      "pageSize": 50,
+      "numEntries": 1
+    }
+  },
+  "matches": [
+    {
+      "id": 7274,
+      "providerId": "CD_M20259440101",
+      "compSeason": {
+        "id": 76,
+        "providerId": "CD_S2025944",
+        "name": "2025 Toyota AFL Indigenous All Stars",
+        "shortName": "AFL Indigenous All Stars",
+        "currentRoundNumber": 1
+      },
+      "round": {
+        "id": 1194,
+        "providerId": "CD_R202594401",
+        "abbreviation": "IAS",
+        "name": "IAS",
+        "roundNumber": 1,
+        "byes": [],
+        "utcStartTime": "2025-02-15T08:30:00.000+0000",
+        "utcEndTime": "2025-02-15T08:30:00.000+0000"
+      },
+      "home": {
+        "team": {
+          "id": 145,
+          "providerId": "CD_T9886",
+          "name": "Indigenous All Stars",
+          "abbreviation": "IAS",
+          "nickname": "Indigenous All Stars",
+          "teamType": "MEN"
+        },
+        "score": {
+          "goals": 16,
+          "behinds": 12,
+          "totalScore": 108,
+          "superGoals": 0
+        }
+      },
+      "away": {
+        "team": {
+          "id": 14,
+          "providerId": "CD_T60",
+          "name": "Fremantle",
+          "abbreviation": "FRE",
+          "nickname": "Dockers",
+          "club": {
+            "id": 6,
+            "providerId": "CD_O10",
+            "name": "Fremantle",
+            "abbreviation": "Dockers",
+            "nickname": "Dockers"
+          },
+          "teamType": "MEN"
+        },
+        "score": {
+          "goals": 9,
+          "behinds": 11,
+          "totalScore": 65,
+          "superGoals": 0
+        }
+      },
+      "venue": {
+        "id": 65,
+        "providerId": "CD_V2925",
+        "name": "Optus Stadium",
+        "abbreviation": "OS",
+        "location": "Perth",
+        "state": "WA",
+        "timezone": "Australia/Perth",
+        "landOwner": "Whadjuk"
+      },
+      "utcStartTime": "2025-02-15T08:30:00.000+0000",
+      "status": "CONCLUDED",
+      "metadata": {
+        "ticket_link": "https://www.ticketmaster.com.au/event/2500618C95590C10"
+      }
+    }
+  ]
+}

@@ -1,0 +1,297 @@
+{
+  "meta": {
+    "code": 200,
+    "pagination": {
+      "page": 0,
+      "numPages": 1,
+      "pageSize": 50,
+      "numEntries": 4
+    }
+  },
+  "matches": [
+    {
+      "id": 7993,
+      "providerId": "CD_M20250142501",
+      "compSeason": {
+        "id": 73,
+        "providerId": "CD_S2025014",
+        "name": "2025 Toyota AFL Premiership",
+        "shortName": "Premiership",
+        "currentRoundNumber": 25
+      },
+      "round": {
+        "id": 1321,
+        "providerId": "CD_R202501425",
+        "abbreviation": "FW1",
+        "name": "Finals Week 1",
+        "roundNumber": 25,
+        "byes": [],
+        "utcStartTime": "2025-09-04T09:40:00.000+0000",
+        "utcEndTime": "2025-09-06T09:35:00.000+0000"
+      },
+      "home": {
+        "team": {
+          "id": 1,
+          "providerId": "CD_T10",
+          "name": "Adelaide Crows",
+          "abbreviation": "ADEL",
+          "nickname": "Crows",
+          "club": {
+            "id": 3,
+            "providerId": "CD_O1",
+            "name": "Adelaide Crows",
+            "abbreviation": "Crows",
+            "nickname": "Crows"
+          },
+          "teamType": "MEN"
+        }
+      },
+      "away": {
+        "team": {
+          "id": 3,
+          "providerId": "CD_T40",
+          "name": "Collingwood",
+          "abbreviation": "COLL",
+          "nickname": "Magpies",
+          "club": {
+            "id": 12,
+            "providerId": "CD_O6",
+            "name": "Collingwood",
+            "abbreviation": "Magpies",
+            "nickname": "Magpies"
+          },
+          "teamType": "MEN"
+        }
+      },
+      "venue": {
+        "id": 31,
+        "providerId": "CD_V6",
+        "name": "Adelaide Oval",
+        "abbreviation": "AO",
+        "location": "Adelaide",
+        "state": "SA",
+        "timezone": "Australia/Adelaide",
+        "landOwner": "Kaurna"
+      },
+      "utcStartTime": "2025-09-04T09:40:00.000+0000",
+      "status": "SCHEDULED",
+      "metadata": {
+        "prematch_label": "1st Qualifying Final",
+        "ticket_link": "https://premier.ticketek.com.au/shows/show.aspx?sh=QUALI0525"
+      }
+    },
+    {
+      "id": 7992,
+      "providerId": "CD_M20250142502",
+      "compSeason": {
+        "id": 73,
+        "providerId": "CD_S2025014",
+        "name": "2025 Toyota AFL Premiership",
+        "shortName": "Premiership",
+        "currentRoundNumber": 25
+      },
+      "round": {
+        "id": 1321,
+        "providerId": "CD_R202501425",
+        "abbreviation": "FW1",
+        "name": "Finals Week 1",
+        "roundNumber": 25,
+        "byes": [],
+        "utcStartTime": "2025-09-04T09:40:00.000+0000",
+        "utcEndTime": "2025-09-06T09:35:00.000+0000"
+      },
+      "home": {
+        "team": {
+          "id": 10,
+          "providerId": "CD_T70",
+          "name": "Geelong Cats",
+          "abbreviation": "GEEL",
+          "nickname": "Cats",
+          "club": {
+            "id": 15,
+            "providerId": "CD_O11",
+            "name": "Geelong Cats",
+            "abbreviation": "Cats",
+            "nickname": "Cats"
+          },
+          "teamType": "MEN"
+        }
+      },
+      "away": {
+        "team": {
+          "id": 2,
+          "providerId": "CD_T20",
+          "name": "Brisbane Lions",
+          "abbreviation": "BL",
+          "nickname": "Lions",
+          "club": {
+            "id": 13,
+            "providerId": "CD_O3",
+            "name": "Brisbane Lions",
+            "abbreviation": "Lions",
+            "nickname": "Lions"
+          },
+          "teamType": "MEN"
+        }
+      },
+      "venue": {
+        "id": 13,
+        "providerId": "CD_V40",
+        "name": "MCG",
+        "abbreviation": "MCG",
+        "location": "Melbourne",
+        "state": "VIC",
+        "timezone": "Australia/Melbourne",
+        "landOwner": "Wurundjeri"
+      },
+      "utcStartTime": "2025-09-05T09:40:00.000+0000",
+      "status": "SCHEDULED",
+      "metadata": {
+        "prematch_label": "2nd Qualifying Final",
+        "ticket_link": "https://premier.ticketek.com.au/shows/show.aspx?sh=QUALI0125"
+      }
+    },
+    {
+      "id": 8004,
+      "providerId": "CD_M20250142503",
+      "compSeason": {
+        "id": 73,
+        "providerId": "CD_S2025014",
+        "name": "2025 Toyota AFL Premiership",
+        "shortName": "Premiership",
+        "currentRoundNumber": 25
+      },
+      "round": {
+        "id": 1321,
+        "providerId": "CD_R202501425",
+        "abbreviation": "FW1",
+        "name": "Finals Week 1",
+        "roundNumber": 25,
+        "byes": [],
+        "utcStartTime": "2025-09-04T09:40:00.000+0000",
+        "utcEndTime": "2025-09-06T09:35:00.000+0000"
+      },
+      "home": {
+        "team": {
+          "id": 15,
+          "providerId": "CD_T1010",
+          "name": "GWS GIANTS",
+          "abbreviation": "GWS",
+          "nickname": "GIANTS",
+          "club": {
+            "id": 5,
+            "providerId": "CD_O16",
+            "name": "GWS GIANTS",
+            "abbreviation": "GIANTS",
+            "nickname": "GIANTS"
+          },
+          "teamType": "MEN"
+        }
+      },
+      "away": {
+        "team": {
+          "id": 9,
+          "providerId": "CD_T80",
+          "name": "Hawthorn",
+          "abbreviation": "HAW",
+          "nickname": "Hawks",
+          "club": {
+            "id": 16,
+            "providerId": "CD_O17",
+            "name": "Hawthorn",
+            "abbreviation": "Hawks",
+            "nickname": "Hawks"
+          },
+          "teamType": "MEN"
+        }
+      },
+      "venue": {
+        "id": 8,
+        "providerId": "CD_V43",
+        "name": "ENGIE Stadium",
+        "abbreviation": "ES",
+        "location": "Sydney",
+        "state": "NSW",
+        "timezone": "Australia/Sydney",
+        "landOwner": "Wangal"
+      },
+      "utcStartTime": "2025-09-06T05:15:00.000+0000",
+      "status": "SCHEDULED",
+      "metadata": {
+        "prematch_label": "1st Elimination Final",
+        "ticket_link": "https://www.ticketmaster.com.au/event/13006314706D0A2A"
+      }
+    },
+    {
+      "id": 8005,
+      "providerId": "CD_M20250142504",
+      "compSeason": {
+        "id": 73,
+        "providerId": "CD_S2025014",
+        "name": "2025 Toyota AFL Premiership",
+        "shortName": "Premiership",
+        "currentRoundNumber": 25
+      },
+      "round": {
+        "id": 1321,
+        "providerId": "CD_R202501425",
+        "abbreviation": "FW1",
+        "name": "Finals Week 1",
+        "roundNumber": 25,
+        "byes": [],
+        "utcStartTime": "2025-09-04T09:40:00.000+0000",
+        "utcEndTime": "2025-09-06T09:35:00.000+0000"
+      },
+      "home": {
+        "team": {
+          "id": 14,
+          "providerId": "CD_T60",
+          "name": "Fremantle",
+          "abbreviation": "FRE",
+          "nickname": "Dockers",
+          "club": {
+            "id": 6,
+            "providerId": "CD_O10",
+            "name": "Fremantle",
+            "abbreviation": "Dockers",
+            "nickname": "Dockers"
+          },
+          "teamType": "MEN"
+        }
+      },
+      "away": {
+        "team": {
+          "id": 4,
+          "providerId": "CD_T1000",
+          "name": "Gold Coast SUNS",
+          "abbreviation": "GCFC",
+          "nickname": "SUNS",
+          "club": {
+            "id": 9,
+            "providerId": "CD_O14",
+            "name": "Gold Coast SUNS",
+            "abbreviation": "SUNS",
+            "nickname": "SUNS"
+          },
+          "teamType": "MEN"
+        }
+      },
+      "venue": {
+        "id": 65,
+        "providerId": "CD_V2925",
+        "name": "Optus Stadium",
+        "abbreviation": "OS",
+        "location": "Perth",
+        "state": "WA",
+        "timezone": "Australia/Perth",
+        "landOwner": "Whadjuk"
+      },
+      "utcStartTime": "2025-09-06T09:35:00.000+0000",
+      "status": "SCHEDULED",
+      "metadata": {
+        "prematch_label": "2nd Elimination Final",
+        "ticket_link": "https://www.ticketmaster.com.au/event/25006319786A0CC9"
+      }
+    }
+  ]
+}

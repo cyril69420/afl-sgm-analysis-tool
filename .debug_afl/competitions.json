@@ -1,0 +1,108 @@
+{
+  "meta": {
+    "code": 200,
+    "pagination": {
+      "page": 0,
+      "numPages": 1,
+      "pageSize": 100,
+      "numEntries": 16
+    }
+  },
+  "competitions": [
+    {
+      "id": 1,
+      "providerId": "CD_C014",
+      "code": "AFL",
+      "name": "Toyota AFL Premiership"
+    },
+    {
+      "id": 2,
+      "providerId": "CD_C101",
+      "code": "AFL",
+      "name": "AFL Preseason"
+    },
+    {
+      "id": 3,
+      "providerId": "CD_C264",
+      "code": "AFLW",
+      "name": "NAB AFLW"
+    },
+    {
+      "id": 4,
+      "providerId": "CD_C584",
+      "code": "U18B",
+      "name": "NAB League Boys"
+    },
+    {
+      "id": 5,
+      "providerId": "CD_C574",
+      "code": "U18G",
+      "name": "Coates Talent League Girls"
+    },
+    {
+      "id": 6,
+      "providerId": "CD_C644",
+      "code": "U18G",
+      "name": "NAB League Girls"
+    },
+    {
+      "id": 7,
+      "providerId": "CD_C015",
+      "code": "VFL",
+      "name": "VFL Premiership"
+    },
+    {
+      "id": 8,
+      "providerId": "CD_C136",
+      "name": ""
+    },
+    {
+      "id": 9,
+      "providerId": "CD_C664",
+      "code": "AFL",
+      "name": "State of Origin"
+    },
+    {
+      "id": 11,
+      "providerId": "CD_C464",
+      "code": "VFLW",
+      "name": "VFLW"
+    },
+    {
+      "id": 12,
+      "providerId": "CD_C120",
+      "code": "WAFL",
+      "name": "WAFL Premiership"
+    },
+    {
+      "id": 13,
+      "providerId": "CD_C011",
+      "code": "U18B",
+      "name": "Coates Talent League Boys"
+    },
+    {
+      "id": 14,
+      "providerId": "CD_C016",
+      "code": "SANFL",
+      "name": "SANFL Premiership"
+    },
+    {
+      "id": 15,
+      "providerId": "CD_C414",
+      "code": "U18CG",
+      "name": "Under 18 Girls National Championships"
+    },
+    {
+      "id": 16,
+      "providerId": "CD_C019",
+      "code": "U18CB",
+      "name": "Under 18 Boys National Championships"
+    },
+    {
+      "id": 17,
+      "providerId": "CD_C944",
+      "code": "AFL",
+      "name": "Toyota AFL Indigenous All Stars"
+    }
+  ]
+}

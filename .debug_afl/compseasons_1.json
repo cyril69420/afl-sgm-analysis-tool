@@ -1,0 +1,111 @@
+{
+  "meta": {
+    "code": 200,
+    "pagination": {
+      "page": 0,
+      "numPages": 1,
+      "pageSize": 14,
+      "numEntries": 14
+    }
+  },
+  "compSeasons": [
+    {
+      "id": 73,
+      "providerId": "CD_S2025014",
+      "name": "2025 Toyota AFL Premiership",
+      "shortName": "Premiership",
+      "currentRoundNumber": 25
+    },
+    {
+      "id": 62,
+      "providerId": "CD_S2024014",
+      "name": "2024 Toyota AFL Premiership",
+      "shortName": "Premiership",
+      "currentRoundNumber": 28
+    },
+    {
+      "id": 52,
+      "providerId": "CD_S2023014",
+      "name": "2023 Toyota AFL Premiership",
+      "shortName": "Premiership",
+      "currentRoundNumber": 28
+    },
+    {
+      "id": 43,
+      "providerId": "CD_S2022014",
+      "name": "2022 Toyota AFL Premiership",
+      "shortName": "Premiership",
+      "currentRoundNumber": 27
+    },
+    {
+      "id": 34,
+      "providerId": "CD_S2021014",
+      "name": "2021 Toyota AFL Premiership",
+      "shortName": "Premiership",
+      "currentRoundNumber": 27
+    },
+    {
+      "id": 20,
+      "providerId": "CD_S2020014",
+      "name": "2020 Toyota AFL Premiership",
+      "shortName": "Premiership",
+      "currentRoundNumber": 22
+    },
+    {
+      "id": 18,
+      "providerId": "CD_S2019014",
+      "name": "2019 Toyota AFL Premiership",
+      "shortName": "Premiership",
+      "currentRoundNumber": 27
+    },
+    {
+      "id": 14,
+      "providerId": "CD_S2018014",
+      "name": "2018 Toyota AFL Premiership",
+      "shortName": "Premiership",
+      "currentRoundNumber": 27
+    },
+    {
+      "id": 11,
+      "providerId": "CD_S2017014",
+      "name": "2017 Toyota AFL Premiership",
+      "shortName": "Premiership",
+      "currentRoundNumber": 27
+    },
+    {
+      "id": 9,
+      "providerId": "CD_S2016014",
+      "name": "2016 Toyota AFL Premiership",
+      "shortName": "Premiership",
+      "currentRoundNumber": 27
+    },
+    {
+      "id": 7,
+      "providerId": "CD_S2015014",
+      "name": "2015 Toyota AFL Premiership",
+      "shortName": "Premiership",
+      "currentRoundNumber": 27
+    },
+    {
+      "id": 5,
+      "providerId": "CD_S2014014",
+      "name": "2014 Toyota AFL Premiership",
+      "shortName": "Premiership",
+      "currentRoundNumber": 27
+    },
+    {
+      "id": 4,
+      "providerId": "CD_S2013014",
+      "name": "2013 Toyota AFL Premiership",
+      "shortName": "Premiership",
+      "currentRoundNumber": 27
+    },
+    {
+      "id": 2,
+      "providerId": "CD_S2012014",
+      "name": "2012 Toyota AFL Premiership",
+      "shortName": "Premiership",
+      "currentRoundNumber": 27
+    }
+  ]
+}

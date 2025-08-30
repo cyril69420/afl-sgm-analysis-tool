@@ -1,0 +1,862 @@
+{
+  "meta": {
+    "code": 200
+  },
+  "squad": {
+    "compSeason": {
+      "id": 73,
+      "providerId": "CD_S2025014",
+      "name": "2025 Toyota AFL Premiership",
+      "shortName": "Premiership",
+      "currentRoundNumber": 25
+    },
+    "team": {
+      "id": 13,
+      "providerId": "CD_T160",
+      "name": "Sydney Swans",
+      "abbreviation": "SYD",
+      "nickname": "Swans",
+      "club": {
+        "id": 24,
+        "providerId": "CD_O28",
+        "name": "Sydney Swans",
+        "abbreviation": "Swans",
+        "nickname": "Swans"
+      },
+      "metadata": {
+        "social_youtubeUrl": "https://www.youtube.com/user/sydneyswansofficial",
+        "social_tiktokUrl": "https://www.tiktok.com/@sydneyswans",
+        "social_instagramUrl": "https://www.instagram.com/sydneyswans/",
+        "captainIds": "1133",
+        "clubSiteUrl": "https://www.sydneyswans.com.au/",
+        "social_facebookUrl": "https://www.facebook.com/sydneyswans",
+        "homeVenue": "SCG",
+        "social_twitterUrl": "https://twitter.com/sydneyswans"
+      },
+      "teamType": "MEN"
+    },
+    "players": [
+      {
+        "player": {
+          "id": 1956,
+          "providerId": "CD_I1003203",
+          "firstName": "Hayden",
+          "surname": "McLean",
+          "dateOfBirth": "1999-01-20",
+          "draftYear": "2018",
+          "heightInCm": 197,
+          "weightInKg": 0,
+          "recruitedFrom": "Beaumaris (Vic)/St Bede's College (Vic)/Sandr U18/Sandr (VFL)",
+          "debutYear": "2019",
+          "draftType": "preseason",
+          "metadata": {}
+        },
+        "jumperNumber": 2,
+        "position": "KEY_FORWARD"
+      },
+      {
+        "player": {
+          "id": 1765,
+          "providerId": "CD_I1004985",
+          "firstName": "Ben",
+          "surname": "Paton",
+          "dateOfBirth": "1998-10-19",
+          "draftYear": "2024",
+          "heightInCm": 187,
+          "weightInKg": 0,
+          "recruitedFrom": "Mitta United (Vic)/North Albury (NSW)/Murray U18/St Kilda",
+          "debutYear": "2018",
+          "draftType": "rookieElevation",
+          "draftPosition": "25",
+          "metadata": {}
+        },
+        "jumperNumber": 25,
+        "position": "MEDIUM_DEFENDER"
+      },
+      {
+        "player": {
+          "id": 1948,
+          "providerId": "CD_I1006028",
+          "firstName": "Nick",
+          "surname": "Blakey",
+          "dateOfBirth": "2000-02-27",
+          "draftYear": "2018",
+          "heightInCm": 196,
+          "weightInKg": 0,
+          "recruitedFrom": "University of NSW-Eastern Suburbs (NSW)",
+          "debutYear": "2019",
+          "draftType": "nationalDraft",
+          "draftPosition": "10",
+          "metadata": {}
+        },
+        "jumperNumber": 22,
+        "position": "MEDIUM_DEFENDER"
+      },
+      {
+        "player": {
+          "id": 1908,
+          "providerId": "CD_I1006126",
+          "firstName": "James",
+          "surname": "Rowbottom",
+          "dateOfBirth": "2000-09-19",
+          "draftYear": "2018",
+          "heightInCm": 186,
+          "weightInKg": 0,
+          "recruitedFrom": "Camberwell (Vic)/St Kevin's College (Vic)/Oakleigh U18",
+          "debutYear": "2019",
+          "draftType": "nationalDraft",
+          "draftPosition": "25",
+          "metadata": {}
+        },
+        "jumperNumber": 8,
+        "position": "MIDFIELDER"
+      },
+      {
+        "player": {
+          "id": 1903,
+          "providerId": "CD_I1006232",
+          "firstName": "Sam",
+          "surname": "Wicks",
+          "dateOfBirth": "1999-09-14",
+          "draftYear": "2018",
+          "heightInCm": 181,
+          "weightInKg": 0,
+          "recruitedFrom": "Manly-Warringah (NSW)/Sydney (NEAFL)",
+          "debutYear": "2020",
+          "draftType": "other",
+          "metadata": {}
+        },
+        "jumperNumber": 15,
+        "position": "MEDIUM_DEFENDER"
+      },
+      {
+        "player": {
+          "id": 1598,
+          "providerId": "CD_I1008091",
+          "firstName": "Joel",
+          "surname": "Amartey",
+          "dateOfBirth": "1999-09-02",
+          "draftYear": "2017",
+          "heightInCm": 195,
+          "weightInKg": 0,
+          "recruitedFrom": "Beaumaris (Vic)/Mentone Grammar (Vic)/Sandringham U18",
+          "debutYear": "2020",
+          "draftType": "rookieElevation",
+          "draftPosition": "28",
+          "metadata": {}
+        },
+        "jumperNumber": 36,
+        "position": "KEY_FORWARD"
+      },
+      {
+        "player": {
+          "id": 1786,
+          "providerId": "CD_I1008198",
+          "firstName": "Tom",
+          "surname": "McCartin",
+          "dateOfBirth": "1999-12-30",
+          "draftYear": "2017",
+          "heightInCm": 194,
+          "weightInKg": 0,
+          "recruitedFrom": "St Joseph's, Geel (Vic)/St Joseph's Coll, Geel (Vic)/Geel Gram (Vic)/Geel U18",
+          "debutYear": "2018",
+          "draftType": "nationalDraft",
+          "draftPosition": "33",
+          "metadata": {}
+        },
+        "jumperNumber": 30,
+        "position": "KEY_DEFENDER"
+      },
+      {
+        "player": {
+          "id": 8470,
+          "providerId": "CD_I1008224",
+          "firstName": "Riley",
+          "surname": "Bice",
+          "dateOfBirth": "2000-09-26",
+          "draftYear": "2024",
+          "heightInCm": 186,
+          "weightInKg": 0,
+          "recruitedFrom": "Albury FC/Werribee (VFL)",
+          "debutYear": "2025",
+          "draftType": "nationalDraft",
+          "draftPosition": "41",
+          "metadata": {}
+        },
+        "jumperNumber": 26,
+        "position": "MEDIUM_DEFENDER"
+      },
+      {
+        "player": {
+          "id": 6858,
+          "providerId": "CD_I1009392",
+          "firstName": "Jack",
+          "surname": "Buller",
+          "dateOfBirth": "2001-05-16",
+          "draftYear": "2023",
+          "heightInCm": 199,
+          "weightInKg": 0,
+          "recruitedFrom": "Cottesloe (WA)/Scotch College (WA)/Claremont (WAFL)",
+          "debutYear": "2023",
+          "draftType": "other",
+          "draftPosition": "13",
+          "metadata": {}
+        },
+        "jumperNumber": 39,
+        "position": "KEY_FORWARD"
+      },
+      {
+        "player": {
+          "id": 1864,
+          "providerId": "CD_I1011936",
+          "firstName": "Justin",
+          "surname": "McInerney",
+          "dateOfBirth": "2000-08-18",
+          "draftYear": "2018",
+          "heightInCm": 189,
+          "weightInKg": 0,
+          "recruitedFrom": "Banyule (Vic)/Marcellin College (Vic)/Northern U18",
+          "debutYear": "2019",
+          "draftType": "nationalDraft",
+          "draftPosition": "44",
+          "metadata": {}
+        },
+        "jumperNumber": 27,
+        "position": "MIDFIELDER_FORWARD"
+      },
+      {
+        "player": {
+          "id": 3735,
+          "providerId": "CD_I1012014",
+          "firstName": "Chad",
+          "surname": "Warner",
+          "dateOfBirth": "2001-05-19",
+          "draftYear": "2019",
+          "heightInCm": 185,
+          "weightInKg": 0,
+          "recruitedFrom": "Willetton (WA)/Aquinas College (WA)/East Fremantle (WAFL)",
+          "debutYear": "2020",
+          "draftType": "nationalDraft",
+          "draftPosition": "39",
+          "metadata": {}
+        },
+        "jumperNumber": 1,
+        "position": "MIDFIELDER"
+      },
+      {
+        "player": {
+          "id": 5696,
+          "providerId": "CD_I1012210",
+          "firstName": "Matt",
+          "surname": "Roberts",
+          "dateOfBirth": "2003-07-31",
+          "draftYear": "2021",
+          "heightInCm": 184,
+          "weightInKg": 0,
+          "recruitedFrom": "Langhorne Creek (SA)/St Peter's Coll (SA)/South Adelaide (SANFL)",
+          "debutYear": "2022",
+          "draftType": "nationalDraft",
+          "draftPosition": "34",
+          "metadata": {}
+        },
+        "jumperNumber": 34,
+        "position": "MEDIUM_DEFENDER"
+      },
+      {
+        "player": {
+          "id": 3336,
+          "providerId": "CD_I1013128",
+          "firstName": "Errol",
+          "surname": "Gulden",
+          "dateOfBirth": "2002-07-18",
+          "draftYear": "2020",
+          "heightInCm": 175,
+          "weightInKg": 0,
+          "recruitedFrom": "UNSW-Eastern Suburbs (NSW)",
+          "debutYear": "2021",
+          "draftType": "nationalDraft",
+          "draftPosition": "32",
+          "metadata": {}
+        },
+        "jumperNumber": 21,
+        "position": "MIDFIELDER"
+      },
+      {
+        "player": {
+          "id": 2941,
+          "providerId": "CD_I1013133",
+          "firstName": "Braeden",
+          "surname": "Campbell",
+          "dateOfBirth": "2002-02-04",
+          "draftYear": "2020",
+          "heightInCm": 181,
+          "weightInKg": 0,
+          "recruitedFrom": "Pennant Hills (NSW)",
+          "debutYear": "2021",
+          "draftType": "nationalDraft",
+          "draftPosition": "5",
+          "metadata": {}
+        },
+        "jumperNumber": 16,
+        "position": "MEDIUM_FORWARD"
+      },
+      {
+        "player": {
+          "id": 4074,
+          "providerId": "CD_I1013230",
+          "firstName": "Logan",
+          "surname": "McDonald",
+          "dateOfBirth": "2002-04-04",
+          "draftYear": "2020",
+          "heightInCm": 195,
+          "weightInKg": 0,
+          "recruitedFrom": "Applecross (WA)/Aquinas College (WA)/Perth (WAFL)",
+          "debutYear": "2021",
+          "draftType": "nationalDraft",
+          "draftPosition": "4",
+          "metadata": {}
+        },
+        "jumperNumber": 6,
+        "position": "KEY_FORWARD"
+      },
+      {
+        "player": {
+          "id": 1813,
+          "providerId": "CD_I1013409",
+          "firstName": "James",
+          "surname": "Jordon",
+          "dateOfBirth": "2000-12-20",
+          "draftYear": "2018",
+          "heightInCm": 187,
+          "weightInKg": 0,
+          "recruitedFrom": "Yarrawonga (Vic)/Caulfield Grammar (Vic)/Oakleigh U18/Melbourne",
+          "debutYear": "2021",
+          "draftType": "nationalDraft",
+          "draftPosition": "33",
+          "metadata": {}
+        },
+        "jumperNumber": 17,
+        "position": "MIDFIELDER"
+      },
+      {
+        "player": {
+          "id": 5488,
+          "providerId": "CD_I1017757",
+          "firstName": "William",
+          "surname": "Edwards",
+          "dateOfBirth": "2003-05-08",
+          "draftYear": "2022",
+          "heightInCm": 197,
+          "weightInKg": 0,
+          "recruitedFrom": "North Shore (NSW)",
+          "draftType": "other",
+          "metadata": {}
+        },
+        "jumperNumber": 28,
+        "position": "KEY_DEFENDER"
+      },
+      {
+        "player": {
+          "id": 5697,
+          "providerId": "CD_I1018424",
+          "firstName": "Corey",
+          "surname": "Warner",
+          "dateOfBirth": "2003-10-07",
+          "draftYear": "2021",
+          "heightInCm": 182,
+          "weightInKg": 0,
+          "recruitedFrom": "Willetton (WA)/Aquinas College (WA)/East Fremantle (WAFL)",
+          "debutYear": "2023",
+          "draftType": "nationalDraft",
+          "draftPosition": "40",
+          "metadata": {}
+        },
+        "jumperNumber": 37,
+        "position": "MIDFIELDER_FORWARD"
+      },
+      {
+        "player": {
+          "id": 5698,
+          "providerId": "CD_I1020339",
+          "firstName": "Angus",
+          "surname": "Sheldrick",
+          "dateOfBirth": "2003-11-07",
+          "draftYear": "2021",
+          "heightInCm": 178,
+          "weightInKg": 0,
+          "recruitedFrom": "Mosman Park (WA)/Christ Church Grammar (WA)/Claremont (WAFL)",
+          "debutYear": "2022",
+          "draftType": "nationalDraft",
+          "draftPosition": "18",
+          "metadata": {}
+        },
+        "jumperNumber": 12,
+        "position": "MIDFIELDER"
+      },
+      {
+        "player": {
+          "id": 6816,
+          "providerId": "CD_I1024057",
+          "firstName": "Caiden",
+          "surname": "Cleary",
+          "dateOfBirth": "2005-03-05",
+          "draftYear": "2023",
+          "heightInCm": 182,
+          "weightInKg": 0,
+          "recruitedFrom": "Newtown Swans JAFC (NSW)/Sydney University (NSW)",
+          "debutYear": "2024",
+          "draftType": "nationalDraft",
+          "draftPosition": "24",
+          "metadata": {}
+        },
+        "jumperNumber": 33,
+        "position": "MEDIUM_FORWARD"
+      },
+      {
+        "player": {
+          "id": 5615,
+          "providerId": "CD_I1024096",
+          "firstName": "Caleb",
+          "surname": "Mitchell",
+          "dateOfBirth": "2004-08-10",
+          "draftYear": "2022",
+          "heightInCm": 186,
+          "weightInKg": 0,
+          "recruitedFrom": "Yarrawonga (Vic)/Murray U18",
+          "debutYear": "2024",
+          "draftType": "nationalDraft",
+          "draftPosition": "40",
+          "metadata": {}
+        },
+        "jumperNumber": 35,
+        "position": "MEDIUM_DEFENDER"
+      },
+      {
+        "player": {
+          "id": 9038,
+          "providerId": "CD_I1024685",
+          "firstName": "Patrick",
+          "surname": "Snell",
+          "dateOfBirth": "2005-07-18",
+          "draftYear": "2023",
+          "heightInCm": 194,
+          "weightInKg": 0,
+          "recruitedFrom": "Southern Districts (NT)/Wilston Grange AFC (Qld)",
+          "draftType": "nationalDraft",
+          "draftPosition": "53",
+          "metadata": {}
+        },
+        "jumperNumber": 41,
+        "position": "KEY_DEFENDER"
+      },
+      {
+        "player": {
+          "id": 6687,
+          "providerId": "CD_I1027058",
+          "firstName": "Indhi",
+          "surname": "Kirk",
+          "dateOfBirth": "2004-08-31",
+          "draftYear": "2023",
+          "heightInCm": 181,
+          "weightInKg": 0,
+          "recruitedFrom": "UNSW-ES Bulldogs (NSW)/Sydney Swans Academy",
+          "draftType": "other",
+          "metadata": {}
+        },
+        "jumperNumber": 31,
+        "position": "MIDFIELDER"
+      },
+      {
+        "player": {
+          "id": 10298,
+          "providerId": "CD_I1027406",
+          "firstName": "Ned",
+          "surname": "Bowman",
+          "dateOfBirth": "2006-09-12",
+          "draftYear": "2024",
+          "heightInCm": 187,
+          "weightInKg": 0,
+          "recruitedFrom": "Orroroo FC/Norwood (SANFL)",
+          "draftType": "nationalDraft",
+          "draftPosition": "26",
+          "metadata": {}
+        },
+        "jumperNumber": 23,
+        "position": "MEDIUM_FORWARD"
+      },
+      {
+        "player": {
+          "id": 6426,
+          "providerId": "CD_I1027659",
+          "firstName": "Riak",
+          "surname": "Andrew",
+          "dateOfBirth": "2005-02-17",
+          "draftYear": "2024",
+          "heightInCm": 193,
+          "weightInKg": 0,
+          "recruitedFrom": "Berwick JFC/Dandenong U18",
+          "draftType": "nationalDraft",
+          "draftPosition": "55",
+          "metadata": {}
+        },
+        "jumperNumber": 20,
+        "position": "KEY_DEFENDER"
+      },
+      {
+        "player": {
+          "id": 6489,
+          "providerId": "CD_I1027687",
+          "firstName": "Tom",
+          "surname": "Hanily",
+          "dateOfBirth": "2005-05-31",
+          "draftYear": "2024",
+          "heightInCm": 179,
+          "weightInKg": 0,
+          "recruitedFrom": "Gippsland U18",
+          "debutYear": "2025",
+          "draftType": "other",
+          "draftPosition": "14",
+          "metadata": {}
+        },
+        "jumperNumber": 40,
+        "position": "MEDIUM_FORWARD"
+      },
+      {
+        "player": {
+          "id": 6600,
+          "providerId": "CD_I1027901",
+          "firstName": "William",
+          "surname": "Green",
+          "dateOfBirth": "2005-09-08",
+          "draftYear": "2023",
+          "heightInCm": 204,
+          "weightInKg": 0,
+          "recruitedFrom": "Northcote Junior Football Club YJFL (Vic)/Northern Knights U18",
+          "draftType": "nationalDraft",
+          "draftPosition": "16",
+          "metadata": {}
+        },
+        "jumperNumber": 45,
+        "position": "RUCK"
+      },
+      {
+        "player": {
+          "id": 9343,
+          "providerId": "CD_I1028564",
+          "firstName": "Blake",
+          "surname": "Leidler",
+          "dateOfBirth": "2006-03-20",
+          "draftYear": "2024",
+          "heightInCm": 181,
+          "weightInKg": 0,
+          "recruitedFrom": "Surrey Park/Oakleigh U18",
+          "draftType": "rookieElevation",
+          "draftPosition": "14",
+          "metadata": {}
+        },
+        "jumperNumber": 32,
+        "position": "MEDIUM_DEFENDER"
+      },
+      {
+        "player": {
+          "id": 8509,
+          "providerId": "CD_I1029589",
+          "firstName": "Jesse",
+          "surname": "Dattoli",
+          "dateOfBirth": "2006-08-07",
+          "draftYear": "2024",
+          "heightInCm": 180,
+          "weightInKg": 0,
+          "recruitedFrom": "Ivanhoe JFC/Northern U18",
+          "debutYear": "2025",
+          "draftType": "nationalDraft",
+          "draftPosition": "22",
+          "metadata": {}
+        },
+        "jumperNumber": 18,
+        "position": "MEDIUM_FORWARD"
+      },
+      {
+        "player": {
+          "id": 727,
+          "providerId": "CD_I290307",
+          "firstName": "Dane",
+          "surname": "Rampe",
+          "dateOfBirth": "1990-06-02",
+          "draftYear": "2013",
+          "heightInCm": 187,
+          "weightInKg": 0,
+          "recruitedFrom": "Williamstown (VFL)/Eastern Suburbs (NSW)/Uni of NSW (NSW)",
+          "debutYear": "2013",
+          "draftType": "rookieElevation",
+          "draftPosition": "90",
+          "metadata": {}
+        },
+        "jumperNumber": 24,
+        "position": "MEDIUM_DEFENDER"
+      },
+      {
+        "player": {
+          "id": 145,
+          "providerId": "CD_I291776",
+          "firstName": "Taylor",
+          "surname": "Adams",
+          "dateOfBirth": "1993-09-20",
+          "draftYear": "2011",
+          "heightInCm": 181,
+          "weightInKg": 0,
+          "recruitedFrom": "St Joseph's Geel (Vic)/St Joseph's Coll, Geel (Vic)/Geel U18/GWS/Collingwood",
+          "debutYear": "2012",
+          "draftType": "nationalDraft",
+          "draftPosition": "13",
+          "metadata": {}
+        },
+        "jumperNumber": 3,
+        "position": "MEDIUM_FORWARD"
+      },
+      {
+        "player": {
+          "id": 1351,
+          "providerId": "CD_I291848",
+          "firstName": "Robbie",
+          "surname": "Fox",
+          "dateOfBirth": "1993-04-16",
+          "draftYear": "2016",
+          "heightInCm": 185,
+          "weightInKg": 0,
+          "recruitedFrom": "Burnie Dockers (Tas)/Coburg (VFL)",
+          "debutYear": "2017",
+          "draftType": "rookieElevation",
+          "draftPosition": "34",
+          "metadata": {}
+        },
+        "jumperNumber": 42,
+        "position": "MEDIUM_DEFENDER"
+      },
+      {
+        "player": {
+          "id": 559,
+          "providerId": "CD_I291978",
+          "firstName": "Harry",
+          "surname": "Cunningham",
+          "dateOfBirth": "1993-12-06",
+          "draftYear": "2012",
+          "heightInCm": 181,
+          "weightInKg": 0,
+          "recruitedFrom": "Turvey Park (NSW)/NSW-ACT U18/Wagga (NSW)",
+          "debutYear": "2012",
+          "draftType": "rookieElevation",
+          "draftPosition": "107",
+          "metadata": {}
+        },
+        "jumperNumber": 7,
+        "position": "MEDIUM_DEFENDER"
+      },
+      {
+        "player": {
+          "id": 113,
+          "providerId": "CD_I293957",
+          "firstName": "Brodie",
+          "surname": "Grundy",
+          "dateOfBirth": "1994-04-15",
+          "draftYear": "2012",
+          "heightInCm": 202,
+          "weightInKg": 0,
+          "recruitedFrom": "Unley (SA)/Sturt (SANFL)/Collingwood/Melbourne",
+          "debutYear": "2013",
+          "draftType": "nationalDraft",
+          "draftPosition": "18",
+          "metadata": {}
+        },
+        "jumperNumber": 4,
+        "position": "RUCK"
+      },
+      {
+        "player": {
+          "id": 458,
+          "providerId": "CD_I295222",
+          "firstName": "Joel",
+          "surname": "Hamling",
+          "dateOfBirth": "1993-04-09",
+          "draftYear": "2024",
+          "heightInCm": 194,
+          "weightInKg": 0,
+          "recruitedFrom": "Cable Beach (WA)/Claremont (WAFL)/Geelong List/Western Bulldogs/Fremantle/Sydney Swans",
+          "debutYear": "2015",
+          "draftType": "rookieElevation",
+          "draftPosition": "33",
+          "metadata": {}
+        },
+        "jumperNumber": 29,
+        "position": "KEY_DEFENDER"
+      },
+      {
+        "player": {
+          "id": 844,
+          "providerId": "CD_I295342",
+          "firstName": "Jake",
+          "surname": "Lloyd",
+          "dateOfBirth": "1993-09-20",
+          "draftYear": "2014",
+          "heightInCm": 182,
+          "weightInKg": 0,
+          "recruitedFrom": "Horsham Demons (Vic)/North Ballarat U18",
+          "debutYear": "2014",
+          "draftType": "rookieElevation",
+          "metadata": {}
+        },
+        "jumperNumber": 44,
+        "position": "MIDFIELDER"
+      },
+      {
+        "player": {
+          "id": 966,
+          "providerId": "CD_I298539",
+          "firstName": "Isaac",
+          "surname": "Heeney",
+          "dateOfBirth": "1996-05-05",
+          "draftYear": "2014",
+          "heightInCm": 185,
+          "weightInKg": 0,
+          "recruitedFrom": "Cardiff (NSW)",
+          "debutYear": "2015",
+          "draftType": "nationalDraft",
+          "draftPosition": "18",
+          "metadata": {}
+        },
+        "jumperNumber": 5,
+        "position": "MIDFIELDER"
+      },
+      {
+        "player": {
+          "id": 934,
+          "providerId": "CD_I990816",
+          "firstName": "Aaron",
+          "surname": "Francis",
+          "dateOfBirth": "1997-08-10",
+          "draftYear": "2024",
+          "heightInCm": 192,
+          "weightInKg": 0,
+          "recruitedFrom": "Loxton North (SA)/West Adelaide (SANFL)/Essendon",
+          "debutYear": "2016",
+          "draftType": "rookieElevation",
+          "draftPosition": "32",
+          "metadata": {}
+        },
+        "jumperNumber": 10,
+        "position": "KEY_FORWARD"
+      },
+      {
+        "player": {
+          "id": 1133,
+          "providerId": "CD_I993905",
+          "firstName": "Callum",
+          "surname": "Mills",
+          "dateOfBirth": "1997-04-02",
+          "draftYear": "2015",
+          "heightInCm": 188,
+          "weightInKg": 0,
+          "recruitedFrom": "North Shore (NSW)",
+          "debutYear": "2016",
+          "draftType": "nationalDraft",
+          "draftPosition": "3",
+          "metadata": {}
+        },
+        "jumperNumber": 14,
+        "position": "MEDIUM_DEFENDER"
+      },
+      {
+        "player": {
+          "id": 1040,
+          "providerId": "CD_I996743",
+          "firstName": "Lewis",
+          "surname": "Melican",
+          "dateOfBirth": "1996-11-04",
+          "draftYear": "2017",
+          "heightInCm": 194,
+          "weightInKg": 0,
+          "recruitedFrom": "Birregurra (Vic)/Geelong U18",
+          "debutYear": "2017",
+          "draftType": "rookieElevation",
+          "metadata": {}
+        },
+        "jumperNumber": 43,
+        "position": "KEY_DEFENDER"
+      },
+      {
+        "player": {
+          "id": 1135,
+          "providerId": "CD_I996765",
+          "firstName": "Tom",
+          "surname": "Papley",
+          "dateOfBirth": "1996-07-13",
+          "draftYear": "2016",
+          "heightInCm": 177,
+          "weightInKg": 0,
+          "recruitedFrom": "Bunyip (Vic)/Gippsland U18",
+          "debutYear": "2016",
+          "draftType": "rookieElevation",
+          "metadata": {}
+        },
+        "jumperNumber": 11,
+        "position": "MEDIUM_FORWARD"
+      },
+      {
+        "player": {
+          "id": 1413,
+          "providerId": "CD_I997100",
+          "firstName": "Will",
+          "surname": "Hayward",
+          "dateOfBirth": "1998-10-26",
+          "draftYear": "2016",
+          "heightInCm": 186,
+          "weightInKg": 0,
+          "recruitedFrom": "Walkerville (SA)/St Peter's College (SA)/North Adelaide (SANFL)",
+          "debutYear": "2017",
+          "draftType": "nationalDraft",
+          "draftPosition": "21",
+          "metadata": {}
+        },
+        "jumperNumber": 9,
+        "position": "MEDIUM_FORWARD"
+      },
+      {
+        "player": {
+          "id": 1371,
+          "providerId": "CD_I997142",
+          "firstName": "Peter",
+          "surname": "Ladhams",
+          "dateOfBirth": "1998-01-14",
+          "draftYear": "2021",
+          "heightInCm": 204,
+          "weightInKg": 0,
+          "recruitedFrom": "Modbury (SA)/Norwood (SANFL)/Port Adelaide",
+          "debutYear": "2019",
+          "draftType": "other",
+          "metadata": {}
+        },
+        "jumperNumber": 19,
+        "position": "RUCK"
+      },
+      {
+        "player": {
+          "id": 1363,
+          "providerId": "CD_I998103",
+          "firstName": "Oliver",
+          "surname": "Florent",
+          "dateOfBirth": "1998-07-22",
+          "draftYear": "2016",
+          "heightInCm": 184,
+          "weightInKg": 0,
+          "recruitedFrom": "Beaumaris (Vic)/Mentone Grammar (Vic)/Sandringham U18",
+          "debutYear": "2017",
+          "draftType": "nationalDraft",
+          "draftPosition": "11",
+          "metadata": {}
+        },
+        "jumperNumber": 13,
+        "position": "MIDFIELDER"
+      }
+    ]
+  }
+}

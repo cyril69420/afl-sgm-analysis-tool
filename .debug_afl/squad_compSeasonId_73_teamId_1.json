@@ -1,0 +1,656 @@
+{
+  "meta": {
+    "code": 200
+  },
+  "squad": {
+    "compSeason": {
+      "id": 73,
+      "providerId": "CD_S2025014",
+      "name": "2025 Toyota AFL Premiership",
+      "shortName": "Premiership",
+      "currentRoundNumber": 25
+    },
+    "team": {
+      "id": 1,
+      "providerId": "CD_T10",
+      "name": "Adelaide Crows",
+      "abbreviation": "ADEL",
+      "nickname": "Crows",
+      "club": {
+        "id": 3,
+        "providerId": "CD_O1",
+        "name": "Adelaide Crows",
+        "abbreviation": "Crows",
+        "nickname": "Crows"
+      },
+      "metadata": {
+        "social_youtubeUrl": "https://www.youtube.com/user/adelaidefootballclub",
+        "social_instagramUrl": "https://www.instagram.com/adelaide_fc/",
+        "captainIds": "1080",
+        "clubSiteUrl": "https://www.afc.com.au/",
+        "social_facebookUrl": "https://www.facebook.com/adelaidecrows/",
+        "homeVenue": "Adelaide Oval",
+        "social_twitterUrl": "https://twitter.com/Adelaide_FC"
+      },
+      "teamType": "MEN"
+    },
+    "players": [
+      {
+        "player": {
+          "id": 1910,
+          "providerId": "CD_I1000068",
+          "firstName": "Chris",
+          "surname": "Burgess",
+          "dateOfBirth": "1995-11-26",
+          "heightInCm": 193,
+          "weightInKg": 0,
+          "metadata": {}
+        },
+        "jumperNumber": 21,
+        "position": "KEY_FORWARD"
+      },
+      {
+        "player": {
+          "id": 1723,
+          "providerId": "CD_I1000998",
+          "firstName": "Lachlan",
+          "surname": "Murphy",
+          "dateOfBirth": "1998-12-04",
+          "heightInCm": 178,
+          "weightInKg": 0,
+          "metadata": {}
+        },
+        "jumperNumber": 4,
+        "position": "MEDIUM_FORWARD"
+      },
+      {
+        "player": {
+          "id": 1815,
+          "providerId": "CD_I1001195",
+          "firstName": "Izak",
+          "surname": "Rankine",
+          "dateOfBirth": "2000-04-23",
+          "heightInCm": 179,
+          "weightInKg": 0,
+          "metadata": {}
+        },
+        "jumperNumber": 23,
+        "position": "MIDFIELDER_FORWARD"
+      },
+      {
+        "player": {
+          "id": 1386,
+          "providerId": "CD_I1001396",
+          "firstName": "Isaac",
+          "surname": "Cumming",
+          "dateOfBirth": "1998-08-11",
+          "heightInCm": 188,
+          "weightInKg": 0,
+          "metadata": {}
+        },
+        "jumperNumber": 44,
+        "position": "MIDFIELDER"
+      },
+      {
+        "player": {
+          "id": 1292,
+          "providerId": "CD_I1004863",
+          "firstName": "Mitchell",
+          "surname": "Hinge",
+          "dateOfBirth": "1998-06-28",
+          "heightInCm": 187,
+          "weightInKg": 0,
+          "metadata": {}
+        },
+        "jumperNumber": 20,
+        "position": "MEDIUM_DEFENDER"
+      },
+      {
+        "player": {
+          "id": 1824,
+          "providerId": "CD_I1004995",
+          "firstName": "Jordon",
+          "surname": "Butts",
+          "dateOfBirth": "1999-12-31",
+          "heightInCm": 195,
+          "weightInKg": 0,
+          "metadata": {}
+        },
+        "jumperNumber": 41,
+        "position": "KEY_DEFENDER"
+      },
+      {
+        "player": {
+          "id": 2541,
+          "providerId": "CD_I1006013",
+          "firstName": "James",
+          "surname": "Peatling",
+          "dateOfBirth": "2000-08-21",
+          "heightInCm": 186,
+          "weightInKg": 0,
+          "metadata": {}
+        },
+        "jumperNumber": 25,
+        "position": "MIDFIELDER"
+      },
+      {
+        "player": {
+          "id": 1761,
+          "providerId": "CD_I1006136",
+          "firstName": "Lachlan",
+          "surname": "Sholl",
+          "dateOfBirth": "2000-03-07",
+          "heightInCm": 186,
+          "weightInKg": 0,
+          "metadata": {}
+        },
+        "jumperNumber": 38,
+        "position": "MIDFIELDER"
+      },
+      {
+        "player": {
+          "id": 1782,
+          "providerId": "CD_I1006203",
+          "firstName": "Chayce",
+          "surname": "Jones",
+          "dateOfBirth": "2000-01-14",
+          "heightInCm": 180,
+          "weightInKg": 0,
+          "metadata": {}
+        },
+        "jumperNumber": 1,
+        "position": "MIDFIELDER"
+      },
+      {
+        "player": {
+          "id": 2474,
+          "providerId": "CD_I1008230",
+          "firstName": "Nick",
+          "surname": "Murray",
+          "dateOfBirth": "2000-12-18",
+          "heightInCm": 195,
+          "weightInKg": 0,
+          "metadata": {}
+        },
+        "jumperNumber": 9,
+        "position": "KEY_DEFENDER"
+      },
+      {
+        "player": {
+          "id": 4046,
+          "providerId": "CD_I1008384",
+          "firstName": "Riley",
+          "surname": "Thilthorpe",
+          "dateOfBirth": "2002-07-07",
+          "heightInCm": 201,
+          "weightInKg": 0,
+          "metadata": {}
+        },
+        "jumperNumber": 7,
+        "position": "KEY_FORWARD"
+      },
+      {
+        "player": {
+          "id": 3711,
+          "providerId": "CD_I1008543",
+          "firstName": "Harry",
+          "surname": "Schoenberg",
+          "dateOfBirth": "2001-02-21",
+          "heightInCm": 180,
+          "weightInKg": 0,
+          "metadata": {}
+        },
+        "jumperNumber": 26,
+        "position": "MIDFIELDER"
+      },
+      {
+        "player": {
+          "id": 1894,
+          "providerId": "CD_I1008752",
+          "firstName": "Kieran",
+          "surname": "Strachan",
+          "dateOfBirth": "1995-10-05",
+          "heightInCm": 202,
+          "weightInKg": 0,
+          "metadata": {}
+        },
+        "jumperNumber": 45,
+        "position": "RUCK"
+      },
+      {
+        "player": {
+          "id": 4050,
+          "providerId": "CD_I1009029",
+          "firstName": "James",
+          "surname": "Borlase",
+          "dateOfBirth": "2002-07-18",
+          "heightInCm": 192,
+          "weightInKg": 0,
+          "metadata": {}
+        },
+        "jumperNumber": 35,
+        "position": "KEY_DEFENDER"
+      },
+      {
+        "player": {
+          "id": 2696,
+          "providerId": "CD_I1011981",
+          "firstName": "Josh",
+          "surname": "Worrell",
+          "dateOfBirth": "2001-04-11",
+          "heightInCm": 195,
+          "weightInKg": 0,
+          "metadata": {}
+        },
+        "jumperNumber": 24,
+        "position": "MEDIUM_DEFENDER"
+      },
+      {
+        "player": {
+          "id": 4049,
+          "providerId": "CD_I1012218",
+          "firstName": "Luke",
+          "surname": "Pedlar",
+          "dateOfBirth": "2002-05-17",
+          "heightInCm": 183,
+          "weightInKg": 0,
+          "metadata": {}
+        },
+        "jumperNumber": 10,
+        "position": "MEDIUM_FORWARD"
+      },
+      {
+        "player": {
+          "id": 2465,
+          "providerId": "CD_I1012807",
+          "firstName": "Sam",
+          "surname": "Berry",
+          "dateOfBirth": "2002-02-12",
+          "heightInCm": 181,
+          "weightInKg": 0,
+          "metadata": {}
+        },
+        "jumperNumber": 3,
+        "position": "MIDFIELDER"
+      },
+      {
+        "player": {
+          "id": 1901,
+          "providerId": "CD_I1013974",
+          "firstName": "Mark",
+          "surname": "Keane",
+          "dateOfBirth": "2000-03-17",
+          "heightInCm": 194,
+          "weightInKg": 0,
+          "metadata": {}
+        },
+        "jumperNumber": 48,
+        "position": "KEY_DEFENDER"
+      },
+      {
+        "player": {
+          "id": 8619,
+          "providerId": "CD_I1015329",
+          "firstName": "Billy",
+          "surname": "Dowling",
+          "dateOfBirth": "2004-07-01",
+          "heightInCm": 187,
+          "weightInKg": 0,
+          "metadata": {}
+        },
+        "jumperNumber": 31,
+        "position": "MIDFIELDER_FORWARD"
+      },
+      {
+        "player": {
+          "id": 8620,
+          "providerId": "CD_I1015370",
+          "firstName": "Max",
+          "surname": "Michalanney",
+          "dateOfBirth": "2004-02-26",
+          "heightInCm": 190,
+          "weightInKg": 0,
+          "metadata": {}
+        },
+        "jumperNumber": 16,
+        "position": "MEDIUM_DEFENDER"
+      },
+      {
+        "player": {
+          "id": 3232,
+          "providerId": "CD_I1017051",
+          "firstName": "Josh",
+          "surname": "Rachele",
+          "dateOfBirth": "2003-04-11",
+          "heightInCm": 180,
+          "weightInKg": 0,
+          "metadata": {}
+        },
+        "jumperNumber": 8,
+        "position": "MEDIUM_FORWARD"
+      },
+      {
+        "player": {
+          "id": 2378,
+          "providerId": "CD_I1017065",
+          "firstName": "Zac",
+          "surname": "Taylor",
+          "dateOfBirth": "2003-01-31",
+          "heightInCm": 180,
+          "weightInKg": 0,
+          "metadata": {}
+        },
+        "jumperNumber": 19,
+        "position": "MEDIUM_FORWARD"
+      },
+      {
+        "player": {
+          "id": 2770,
+          "providerId": "CD_I1017109",
+          "firstName": "Jake",
+          "surname": "Soligo",
+          "dateOfBirth": "2003-01-25",
+          "heightInCm": 179,
+          "weightInKg": 0,
+          "metadata": {}
+        },
+        "jumperNumber": 14,
+        "position": "MIDFIELDER"
+      },
+      {
+        "player": {
+          "id": 4048,
+          "providerId": "CD_I1018335",
+          "firstName": "Brayden",
+          "surname": "Cook",
+          "dateOfBirth": "2002-07-18",
+          "heightInCm": 189,
+          "weightInKg": 0,
+          "metadata": {}
+        },
+        "jumperNumber": 15,
+        "position": "MIDFIELDER_FORWARD"
+      },
+      {
+        "player": {
+          "id": 5185,
+          "providerId": "CD_I1020950",
+          "firstName": "Toby",
+          "surname": "Murray",
+          "dateOfBirth": "2003-11-03",
+          "heightInCm": 200,
+          "weightInKg": 0,
+          "metadata": {}
+        },
+        "jumperNumber": 39,
+        "position": "RUCK"
+      },
+      {
+        "player": {
+          "id": 5304,
+          "providerId": "CD_I1021031",
+          "firstName": "Luke",
+          "surname": "Nankervis",
+          "dateOfBirth": "2003-05-25",
+          "heightInCm": 189,
+          "weightInKg": 0,
+          "metadata": {}
+        },
+        "jumperNumber": 27,
+        "position": "MIDFIELDER"
+      },
+      {
+        "player": {
+          "id": 4951,
+          "providerId": "CD_I1021200",
+          "firstName": "Lachlan",
+          "surname": "McAndrew",
+          "dateOfBirth": "2000-05-26",
+          "heightInCm": 210,
+          "weightInKg": 0,
+          "metadata": {}
+        },
+        "jumperNumber": 42,
+        "position": "RUCK"
+      },
+      {
+        "player": {
+          "id": 10575,
+          "providerId": "CD_I1022447",
+          "firstName": "Tyler",
+          "surname": "Welsh",
+          "dateOfBirth": "2006-08-15",
+          "heightInCm": 192,
+          "weightInKg": 0,
+          "metadata": {}
+        },
+        "jumperNumber": 17,
+        "position": "KEY_FORWARD"
+      },
+      {
+        "player": {
+          "id": 10256,
+          "providerId": "CD_I1022607",
+          "firstName": "Sid",
+          "surname": "Draper",
+          "dateOfBirth": "2006-07-05",
+          "heightInCm": 182,
+          "weightInKg": 0,
+          "metadata": {}
+        },
+        "jumperNumber": 34,
+        "position": "MIDFIELDER_FORWARD"
+      },
+      {
+        "player": {
+          "id": 5404,
+          "providerId": "CD_I1023534",
+          "firstName": "Hugh",
+          "surname": "Bond",
+          "dateOfBirth": "2004-09-25",
+          "heightInCm": 185,
+          "weightInKg": 0,
+          "metadata": {}
+        },
+        "jumperNumber": 40,
+        "position": "MEDIUM_DEFENDER"
+      },
+      {
+        "player": {
+          "id": 7336,
+          "providerId": "CD_I1024023",
+          "firstName": "Daniel",
+          "surname": "Curtin",
+          "dateOfBirth": "2005-03-08",
+          "heightInCm": 197,
+          "weightInKg": 0,
+          "metadata": {}
+        },
+        "jumperNumber": 6,
+        "position": "MIDFIELDER"
+      },
+      {
+        "player": {
+          "id": 6623,
+          "providerId": "CD_I1027893",
+          "firstName": "Oscar",
+          "surname": "Ryan",
+          "dateOfBirth": "2005-05-15",
+          "heightInCm": 187,
+          "weightInKg": 0,
+          "metadata": {}
+        },
+        "jumperNumber": 22,
+        "position": "MEDIUM_DEFENDER"
+      },
+      {
+        "player": {
+          "id": 8381,
+          "providerId": "CD_I1028671",
+          "firstName": "Charlie",
+          "surname": "Edwards",
+          "dateOfBirth": "2005-05-18",
+          "heightInCm": 191,
+          "weightInKg": 0,
+          "metadata": {}
+        },
+        "jumperNumber": 11,
+        "position": "MEDIUM_DEFENDER"
+      },
+      {
+        "player": {
+          "id": 12083,
+          "providerId": "CD_I1035372",
+          "firstName": "Karl",
+          "surname": "Gallagher",
+          "dateOfBirth": "2002-02-21",
+          "heightInCm": 185,
+          "weightInKg": 0,
+          "metadata": {}
+        },
+        "jumperNumber": 36,
+        "position": "MEDIUM_FORWARD"
+      },
+      {
+        "player": {
+          "id": 35,
+          "providerId": "CD_I280506",
+          "firstName": "Taylor",
+          "surname": "Walker",
+          "dateOfBirth": "1990-04-25",
+          "heightInCm": 192,
+          "weightInKg": 0,
+          "metadata": {}
+        },
+        "jumperNumber": 13,
+        "position": "KEY_FORWARD"
+      },
+      {
+        "player": {
+          "id": 34,
+          "providerId": "CD_I291748",
+          "firstName": "Brodie",
+          "surname": "Smith",
+          "dateOfBirth": "1992-01-14",
+          "heightInCm": 194,
+          "weightInKg": 0,
+          "metadata": {}
+        },
+        "jumperNumber": 33,
+        "position": "MEDIUM_DEFENDER"
+      },
+      {
+        "player": {
+          "id": 193,
+          "providerId": "CD_I293222",
+          "firstName": "Rory",
+          "surname": "Laird",
+          "dateOfBirth": "1993-12-29",
+          "heightInCm": 178,
+          "weightInKg": 0,
+          "metadata": {}
+        },
+        "jumperNumber": 29,
+        "position": "MEDIUM_DEFENDER"
+      },
+      {
+        "player": {
+          "id": 893,
+          "providerId": "CD_I296420",
+          "firstName": "Alex",
+          "surname": "Neal-Bullen",
+          "dateOfBirth": "1996-01-09",
+          "heightInCm": 182,
+          "weightInKg": 0,
+          "metadata": {}
+        },
+        "jumperNumber": 28,
+        "position": "MEDIUM_FORWARD"
+      },
+      {
+        "player": {
+          "id": 210,
+          "providerId": "CD_I297401",
+          "firstName": "Matt",
+          "surname": "Crouch",
+          "dateOfBirth": "1995-04-21",
+          "heightInCm": 181,
+          "weightInKg": 0,
+          "metadata": {}
+        },
+        "jumperNumber": 5,
+        "position": "MIDFIELDER"
+      },
+      {
+        "player": {
+          "id": 763,
+          "providerId": "CD_I297523",
+          "firstName": "Reilly",
+          "surname": "O'Brien",
+          "dateOfBirth": "1995-08-20",
+          "heightInCm": 201,
+          "weightInKg": 0,
+          "metadata": {}
+        },
+        "jumperNumber": 43,
+        "position": "RUCK"
+      },
+      {
+        "player": {
+          "id": 830,
+          "providerId": "CD_I990882",
+          "firstName": "Wayne",
+          "surname": "Milera",
+          "dateOfBirth": "1997-09-14",
+          "heightInCm": 185,
+          "weightInKg": 0,
+          "metadata": {}
+        },
+        "jumperNumber": 30,
+        "position": "MEDIUM_DEFENDER"
+      },
+      {
+        "player": {
+          "id": 1080,
+          "providerId": "CD_I992242",
+          "firstName": "Jordan",
+          "surname": "Dawson",
+          "dateOfBirth": "1997-04-09",
+          "heightInCm": 190,
+          "weightInKg": 0,
+          "metadata": {}
+        },
+        "jumperNumber": 12,
+        "position": "MIDFIELDER"
+      },
+      {
+        "player": {
+          "id": 886,
+          "providerId": "CD_I993946",
+          "firstName": "Ben",
+          "surname": "Keays",
+          "dateOfBirth": "1997-02-23",
+          "heightInCm": 185,
+          "weightInKg": 0,
+          "metadata": {}
+        },
+        "jumperNumber": 2,
+        "position": "MEDIUM_FORWARD"
+      },
+      {
+        "player": {
+          "id": 1555,
+          "providerId": "CD_I999331",
+          "firstName": "Darcy",
+          "surname": "Fogarty",
+          "dateOfBirth": "1999-09-25",
+          "heightInCm": 192,
+          "weightInKg": 0,
+          "metadata": {}
+        },
+        "jumperNumber": 32,
+        "position": "KEY_FORWARD"
+      }
+    ]
+  }
+}
