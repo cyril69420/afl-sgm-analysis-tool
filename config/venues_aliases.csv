@@ -1,0 +1,33 @@
+alias,venue_name_canon
+# --- Melbourne Cricket Ground family ---
+MCG,the MCG
+the mcg,the MCG
+Melbourne Cricket Ground,the MCG
+M.C.G.,the MCG
+The Melbourne Cricket Ground,the MCG
+MCG (Melbourne Cricket Ground),the MCG
+
+# --- Sydney Showground / ENGIE / GIANTS family ---
+ENGIE Stadium,Engie Stadium
+Engie Stadium,Engie Stadium
+Giants Stadium,Engie Stadium
+GIANTS Stadium,Engie Stadium
+Sydney Showground Stadium,Engie Stadium
+Sydney Showground,Engie Stadium
+The Showground,Engie Stadium
+Showground,Engie Stadium
+
+# --- Perth / Optus family ---
+Optus,Optus Stadium
+Optus Stadium,Optus Stadium
+Perth Stadium,Optus Stadium
+Perth (Optus Stadium),Optus Stadium
+Burswood,Optus Stadium
+
+# --- Adelaide family ---
+Adelaide Oval,Adelaide Oval
+AO,Adelaide Oval
+The Adelaide Oval,Adelaide Oval
+
+# --- (Optional) Example stub to keep examples self-mapped if present ---
+Example Stadium,Example Stadium
