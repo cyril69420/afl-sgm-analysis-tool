@@ -6,11 +6,6 @@ Outputs (under --silver-dir, default 'silver/'):
   - silver/dim_team.parquet
   - silver/dim_venue.parquet
   - silver/f_fixture.parquet
-
-Assumptions:
-  - Bronze fixtures written under bronze/fixtures/season=YYYY/round=*/...parquet
-  - Columns commonly present: game_key, season, round, home, away, venue, scheduled_time_utc
-  - We also tolerate older/alternate names via COALESCE after padding missing columns with NULLs.
 """
 from __future__ import annotations
 
@@ -58,7 +53,6 @@ def build(silver_dir: Path, bronze_dir: Path, config_dir: Path) -> None:
     fixtures_glob = str(bronze_dir / "fixtures/**/*.parquet").replace("\\", "/")
     logging.info("Scanning fixtures from %s", fixtures_glob)
 
-    # Pad possibly-missing columns with NULLs first, THEN COALESCE safely.
     q = f"""
     WITH raw0 AS (
       SELECT *
@@ -97,7 +91,7 @@ def build(silver_dir: Path, bronze_dir: Path, config_dir: Path) -> None:
         TRY_CAST(COALESCE(scheduled_time_utc, scheduled_utc, kickoff_utc, start_time_utc)
                  AS TIMESTAMP)                                                                AS scheduled_time_utc,
         TRY_CAST(season AS INTEGER)                                                           AS season,
-        TRY_CAST(round AS INTEGER)                                                            AS round
+        CAST(round AS VARCHAR)                                                                AS round   -- keep finals codes like 'finals_w1'
       FROM raw
     )
     SELECT *
@@ -124,12 +118,10 @@ def build(silver_dir: Path, bronze_dir: Path, config_dir: Path) -> None:
         fixtures["home_team_canon"] = fixtures["home_team"].astype(str).str.strip()
         fixtures["away_team_canon"] = fixtures["away_team"].astype(str).str.strip()
 
-    # Venue normalisation (simple)
     fixtures["venue_name_canon"] = (
         fixtures["venue_name"].astype(str).str.replace(r"\s+", " ", regex=True).str.strip()
     )
 
-    # Build dims with stable IDs
     teams = pd.DataFrame(
         sorted(set(fixtures["home_team_canon"]) | set(fixtures["away_team_canon"])),
         columns=["team_name"],
@@ -139,7 +131,6 @@ def build(silver_dir: Path, bronze_dir: Path, config_dir: Path) -> None:
     venues = pd.DataFrame(sorted(set(fixtures["venue_name_canon"])), columns=["venue_name"])
     venues["venue_id"] = venues["venue_name"].map(lambda s: _stable_id("vn", s))
 
-    # Join IDs into fixtures → f_fixture
     fixt = fixtures.merge(
         teams, left_on="home_team_canon", right_on="team_name", how="left"
     ).rename(columns={"team_id": "home_team_id"}).drop(columns=["team_name"])
@@ -175,12 +166,7 @@ def build(silver_dir: Path, bronze_dir: Path, config_dir: Path) -> None:
         .sort_values(["season", "round", "scheduled_time_utc", "game_key"])
     )
 
-    # Write outputs
     silver_dir.mkdir(parents=True, exist_ok=True)
-    (silver_dir / "dim_team.parquet").write_bytes(
-        teams[["team_id", "team_name"]].to_parquet(index=False)
-        if hasattr(pd.DataFrame, "to_parquet") else b""
-    )
     teams[["team_id", "team_name"]].to_parquet(silver_dir / "dim_team.parquet", index=False)
     venues[["venue_id", "venue_name"]].to_parquet(silver_dir / "dim_venue.parquet", index=False)
     f_fixture.to_parquet(silver_dir / "f_fixture.parquet", index=False)

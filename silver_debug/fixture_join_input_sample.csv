@@ -1,0 +1,5 @@
+game_key,season,round,home_team_id,away_team_id,venue_id,scheduled_time_utc,home_team_name,away_team_name,venue_name,venue_name_1,venue_norm,venue_norm_canon
+2025_finals_w1_adelaide-crows_collingwood_20250904T094000Z,2025,finals_w1,tm_a2d1dd5919d4,tm_b2d2123c2827,vn_0635dce461b5,2025-09-04 17:40:00+00:00,Adelaide Crows,collingwood,Adelaide Oval,Adelaide Oval,adelaide oval,adelaide oval
+2025_finals_w1_geelong-cats_brisbane-lions_20250905T094000Z,2025,finals_w1,tm_ecde29703dd0,tm_3422f94784a3,vn_23749d6cd7ec,2025-09-05 17:40:00+00:00,Geelong Cats,brisbane_lions,the MCG,the MCG,the mcg,the mcg
+2025_finals_w1_gws-giants_hawthorn-hawks_20250906T051500Z,2025,finals_w1,tm_d4e3cf381610,tm_98bda8fb8d21,vn_ee1cb541f6bc,2025-09-06 13:15:00+00:00,greater_western_sydney_giants,Hawthorn Hawks,Engie Stadium,Engie Stadium,engie stadium,engie stadium
+2025_finals_w1_fremantle-dockers_gold-coast-suns_20250906T093500Z,2025,finals_w1,tm_438a929a9424,tm_8518b5e7e358,vn_8c5a7154a509,2025-09-06 17:35:00+00:00,Fremantle Dockers,Gold Coast Suns,Optus Stadium,Optus Stadium,optus stadium,optus stadium

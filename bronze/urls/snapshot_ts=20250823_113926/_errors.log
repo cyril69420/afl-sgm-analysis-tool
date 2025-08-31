@@ -1,7 +1,0 @@
-tab 2024_ID35700: error Error: Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.tab.com.au/sports/betting/Australian%20Rules/AFL
-Call log:
-  - navigating to "https://www.tab.com.au/sports/betting/Australian%20Rules/AFL", waiting until "load"
-
-tab 2024_ID35701: error Error: Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.tab.com.au/sports/betting/Australian%20Rules/AFL
-Call log:
-  - navigating to "https://www.tab.com.au/sports/betting/Australian%20Rules/AFL", waiting until "load"
