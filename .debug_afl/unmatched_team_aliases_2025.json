@@ -1,0 +1,1346 @@
+[
+  {
+    "season": 2025,
+    "round": 0,
+    "home": "Sydney",
+    "away": "Hawthorn",
+    "home_norm": "sydney",
+    "away_norm": "hawthorn"
+  },
+  {
+    "season": 2025,
+    "round": 1,
+    "home": "Richmond",
+    "away": "Carlton",
+    "home_norm": "richmond",
+    "away_norm": "carlton"
+  },
+  {
+    "season": 2025,
+    "round": 1,
+    "home": "Hawthorn",
+    "away": "Essendon",
+    "home_norm": "hawthorn",
+    "away_norm": "essendon"
+  },
+  {
+    "season": 2025,
+    "round": 1,
+    "home": "Sydney",
+    "away": "Brisbane Lions",
+    "home_norm": "sydney",
+    "away_norm": "brisbane lions"
+  },
+  {
+    "season": 2025,
+    "round": 1,
+    "home": "Collingwood",
+    "away": "Port Adelaide",
+    "home_norm": "collingwood",
+    "away_norm": "port adelaide"
+  },
+  {
+    "season": 2025,
+    "round": 1,
+    "home": "Western Bulldogs",
+    "away": "North Melbourne",
+    "home_norm": "western bulldogs",
+    "away_norm": "north melbourne"
+  },
+  {
+    "season": 2025,
+    "round": 1,
+    "home": "Adelaide",
+    "away": "St Kilda",
+    "home_norm": "adelaide",
+    "away_norm": "st kilda"
+  },
+  {
+    "season": 2025,
+    "round": 1,
+    "home": "Melbourne",
+    "away": "Greater Western Sydney",
+    "home_norm": "melbourne",
+    "away_norm": "giants"
+  },
+  {
+    "season": 2025,
+    "round": 1,
+    "home": "West Coast",
+    "away": "Gold Coast",
+    "home_norm": "west coast",
+    "away_norm": "gold coast"
+  },
+  {
+    "season": 2025,
+    "round": 10,
+    "home": "Sydney",
+    "away": "Carlton",
+    "home_norm": "sydney",
+    "away_norm": "carlton"
+  },
+  {
+    "season": 2025,
+    "round": 10,
+    "home": "Port Adelaide",
+    "away": "Geelong",
+    "home_norm": "port adelaide",
+    "away_norm": "geelong"
+  },
+  {
+    "season": 2025,
+    "round": 10,
+    "home": "Western Bulldogs",
+    "away": "Essendon",
+    "home_norm": "western bulldogs",
+    "away_norm": "essendon"
+  },
+  {
+    "season": 2025,
+    "round": 10,
+    "home": "Richmond",
+    "away": "North Melbourne",
+    "home_norm": "richmond",
+    "away_norm": "north melbourne"
+  },
+  {
+    "season": 2025,
+    "round": 10,
+    "home": "Brisbane Lions",
+    "away": "Melbourne",
+    "home_norm": "brisbane lions",
+    "away_norm": "melbourne"
+  },
+  {
+    "season": 2025,
+    "round": 10,
+    "home": "West Coast",
+    "away": "St Kilda",
+    "home_norm": "west coast",
+    "away_norm": "st kilda"
+  },
+  {
+    "season": 2025,
+    "round": 11,
+    "home": "Geelong",
+    "away": "Western Bulldogs",
+    "home_norm": "geelong",
+    "away_norm": "western bulldogs"
+  },
+  {
+    "season": 2025,
+    "round": 11,
+    "home": "Essendon",
+    "away": "Richmond",
+    "home_norm": "essendon",
+    "away_norm": "richmond"
+  },
+  {
+    "season": 2025,
+    "round": 11,
+    "home": "Carlton",
+    "away": "Greater Western Sydney",
+    "home_norm": "carlton",
+    "away_norm": "giants"
+  },
+  {
+    "season": 2025,
+    "round": 11,
+    "home": "North Melbourne",
+    "away": "Collingwood",
+    "home_norm": "north melbourne",
+    "away_norm": "collingwood"
+  },
+  {
+    "season": 2025,
+    "round": 11,
+    "home": "Fremantle",
+    "away": "Port Adelaide",
+    "home_norm": "fremantle",
+    "away_norm": "port adelaide"
+  },
+  {
+    "season": 2025,
+    "round": 11,
+    "home": "Adelaide",
+    "away": "West Coast",
+    "home_norm": "adelaide",
+    "away_norm": "west coast"
+  },
+  {
+    "season": 2025,
+    "round": 11,
+    "home": "Melbourne",
+    "away": "Sydney",
+    "home_norm": "melbourne",
+    "away_norm": "sydney"
+  },
+  {
+    "season": 2025,
+    "round": 11,
+    "home": "St Kilda",
+    "away": "Gold Coast",
+    "home_norm": "st kilda",
+    "away_norm": "gold coast"
+  },
+  {
+    "season": 2025,
+    "round": 12,
+    "home": "Brisbane Lions",
+    "away": "Essendon",
+    "home_norm": "brisbane lions",
+    "away_norm": "essendon"
+  },
+  {
+    "season": 2025,
+    "round": 12,
+    "home": "Greater Western Sydney",
+    "away": "Richmond",
+    "home_norm": "giants",
+    "away_norm": "richmond"
+  },
+  {
+    "season": 2025,
+    "round": 12,
+    "home": "Sydney",
+    "away": "Adelaide",
+    "home_norm": "sydney",
+    "away_norm": "adelaide"
+  },
+  {
+    "season": 2025,
+    "round": 12,
+    "home": "Melbourne",
+    "away": "St Kilda",
+    "home_norm": "melbourne",
+    "away_norm": "st kilda"
+  },
+  {
+    "season": 2025,
+    "round": 12,
+    "home": "West Coast",
+    "away": "Geelong",
+    "home_norm": "west coast",
+    "away_norm": "geelong"
+  },
+  {
+    "season": 2025,
+    "round": 13,
+    "home": "Western Bulldogs",
+    "away": "Hawthorn",
+    "home_norm": "western bulldogs",
+    "away_norm": "hawthorn"
+  },
+  {
+    "season": 2025,
+    "round": 13,
+    "home": "Richmond",
+    "away": "Sydney",
+    "home_norm": "richmond",
+    "away_norm": "sydney"
+  },
+  {
+    "season": 2025,
+    "round": 13,
+    "home": "Greater Western Sydney",
+    "away": "Port Adelaide",
+    "home_norm": "giants",
+    "away_norm": "port adelaide"
+  },
+  {
+    "season": 2025,
+    "round": 13,
+    "home": "North Melbourne",
+    "away": "West Coast",
+    "home_norm": "north melbourne",
+    "away_norm": "west coast"
+  },
+  {
+    "season": 2025,
+    "round": 13,
+    "home": "Carlton",
+    "away": "Essendon",
+    "home_norm": "carlton",
+    "away_norm": "essendon"
+  },
+  {
+    "season": 2025,
+    "round": 13,
+    "home": "Melbourne",
+    "away": "Collingwood",
+    "home_norm": "melbourne",
+    "away_norm": "collingwood"
+  },
+  {
+    "season": 2025,
+    "round": 14,
+    "home": "St Kilda",
+    "away": "Western Bulldogs",
+    "home_norm": "st kilda",
+    "away_norm": "western bulldogs"
+  },
+  {
+    "season": 2025,
+    "round": 14,
+    "home": "Essendon",
+    "away": "Geelong",
+    "home_norm": "essendon",
+    "away_norm": "geelong"
+  },
+  {
+    "season": 2025,
+    "round": 14,
+    "home": "North Melbourne",
+    "away": "Fremantle",
+    "home_norm": "north melbourne",
+    "away_norm": "fremantle"
+  },
+  {
+    "season": 2025,
+    "round": 14,
+    "home": "Port Adelaide",
+    "away": "Melbourne",
+    "home_norm": "port adelaide",
+    "away_norm": "melbourne"
+  },
+  {
+    "season": 2025,
+    "round": 14,
+    "home": "West Coast",
+    "away": "Carlton",
+    "home_norm": "west coast",
+    "away_norm": "carlton"
+  },
+  {
+    "season": 2025,
+    "round": 15,
+    "home": "Fremantle",
+    "away": "Essendon",
+    "home_norm": "fremantle",
+    "away_norm": "essendon"
+  },
+  {
+    "season": 2025,
+    "round": 15,
+    "home": "Carlton",
+    "away": "North Melbourne",
+    "home_norm": "carlton",
+    "away_norm": "north melbourne"
+  },
+  {
+    "season": 2025,
+    "round": 15,
+    "home": "Port Adelaide",
+    "away": "Sydney",
+    "home_norm": "port adelaide",
+    "away_norm": "sydney"
+  },
+  {
+    "season": 2025,
+    "round": 15,
+    "home": "Collingwood",
+    "away": "St Kilda",
+    "home_norm": "collingwood",
+    "away_norm": "st kilda"
+  },
+  {
+    "season": 2025,
+    "round": 15,
+    "home": "Western Bulldogs",
+    "away": "Richmond",
+    "home_norm": "western bulldogs",
+    "away_norm": "richmond"
+  },
+  {
+    "season": 2025,
+    "round": 16,
+    "home": "Port Adelaide",
+    "away": "Carlton",
+    "home_norm": "port adelaide",
+    "away_norm": "carlton"
+  },
+  {
+    "season": 2025,
+    "round": 16,
+    "home": "Sydney",
+    "away": "Western Bulldogs",
+    "home_norm": "sydney",
+    "away_norm": "western bulldogs"
+  },
+  {
+    "season": 2025,
+    "round": 16,
+    "home": "Gold Coast",
+    "away": "Melbourne",
+    "home_norm": "gold coast",
+    "away_norm": "melbourne"
+  },
+  {
+    "season": 2025,
+    "round": 16,
+    "home": "Hawthorn",
+    "away": "North Melbourne",
+    "home_norm": "hawthorn",
+    "away_norm": "north melbourne"
+  },
+  {
+    "season": 2025,
+    "round": 16,
+    "home": "Collingwood",
+    "away": "West Coast",
+    "home_norm": "collingwood",
+    "away_norm": "west coast"
+  },
+  {
+    "season": 2025,
+    "round": 16,
+    "home": "Richmond",
+    "away": "Adelaide",
+    "home_norm": "richmond",
+    "away_norm": "adelaide"
+  },
+  {
+    "season": 2025,
+    "round": 16,
+    "home": "Fremantle",
+    "away": "St Kilda",
+    "home_norm": "fremantle",
+    "away_norm": "st kilda"
+  },
+  {
+    "season": 2025,
+    "round": 17,
+    "home": "North Melbourne",
+    "away": "Western Bulldogs",
+    "home_norm": "north melbourne",
+    "away_norm": "western bulldogs"
+  },
+  {
+    "season": 2025,
+    "round": 17,
+    "home": "Carlton",
+    "away": "Collingwood",
+    "home_norm": "carlton",
+    "away_norm": "collingwood"
+  },
+  {
+    "season": 2025,
+    "round": 17,
+    "home": "West Coast",
+    "away": "Greater Western Sydney",
+    "home_norm": "west coast",
+    "away_norm": "giants"
+  },
+  {
+    "season": 2025,
+    "round": 17,
+    "home": "Essendon",
+    "away": "Gold Coast",
+    "home_norm": "essendon",
+    "away_norm": "gold coast"
+  },
+  {
+    "season": 2025,
+    "round": 17,
+    "home": "Geelong",
+    "away": "Richmond",
+    "home_norm": "geelong",
+    "away_norm": "richmond"
+  },
+  {
+    "season": 2025,
+    "round": 17,
+    "home": "Brisbane Lions",
+    "away": "Port Adelaide",
+    "home_norm": "brisbane lions",
+    "away_norm": "port adelaide"
+  },
+  {
+    "season": 2025,
+    "round": 17,
+    "home": "St Kilda",
+    "away": "Hawthorn",
+    "home_norm": "st kilda",
+    "away_norm": "hawthorn"
+  },
+  {
+    "season": 2025,
+    "round": 17,
+    "home": "Sydney",
+    "away": "Fremantle",
+    "home_norm": "sydney",
+    "away_norm": "fremantle"
+  },
+  {
+    "season": 2025,
+    "round": 17,
+    "home": "Adelaide",
+    "away": "Melbourne",
+    "home_norm": "adelaide",
+    "away_norm": "melbourne"
+  },
+  {
+    "season": 2025,
+    "round": 18,
+    "home": "Carlton",
+    "away": "Brisbane Lions",
+    "home_norm": "carlton",
+    "away_norm": "brisbane lions"
+  },
+  {
+    "season": 2025,
+    "round": 18,
+    "home": "Western Bulldogs",
+    "away": "Adelaide",
+    "home_norm": "western bulldogs",
+    "away_norm": "adelaide"
+  },
+  {
+    "season": 2025,
+    "round": 18,
+    "home": "Richmond",
+    "away": "Essendon",
+    "home_norm": "richmond",
+    "away_norm": "essendon"
+  },
+  {
+    "season": 2025,
+    "round": 18,
+    "home": "Melbourne",
+    "away": "North Melbourne",
+    "home_norm": "melbourne",
+    "away_norm": "north melbourne"
+  },
+  {
+    "season": 2025,
+    "round": 18,
+    "home": "St Kilda",
+    "away": "Sydney",
+    "home_norm": "st kilda",
+    "away_norm": "sydney"
+  },
+  {
+    "season": 2025,
+    "round": 18,
+    "home": "Port Adelaide",
+    "away": "West Coast",
+    "home_norm": "port adelaide",
+    "away_norm": "west coast"
+  },
+  {
+    "season": 2025,
+    "round": 19,
+    "home": "Essendon",
+    "away": "Greater Western Sydney",
+    "home_norm": "essendon",
+    "away_norm": "giants"
+  },
+  {
+    "season": 2025,
+    "round": 19,
+    "home": "Brisbane Lions",
+    "away": "Western Bulldogs",
+    "home_norm": "brisbane lions",
+    "away_norm": "western bulldogs"
+  },
+  {
+    "season": 2025,
+    "round": 19,
+    "home": "Hawthorn",
+    "away": "Port Adelaide",
+    "home_norm": "hawthorn",
+    "away_norm": "port adelaide"
+  },
+  {
+    "season": 2025,
+    "round": 19,
+    "home": "Sydney",
+    "away": "North Melbourne",
+    "home_norm": "sydney",
+    "away_norm": "north melbourne"
+  },
+  {
+    "season": 2025,
+    "round": 19,
+    "home": "Carlton",
+    "away": "Melbourne",
+    "home_norm": "carlton",
+    "away_norm": "melbourne"
+  },
+  {
+    "season": 2025,
+    "round": 19,
+    "home": "West Coast",
+    "away": "Richmond",
+    "home_norm": "west coast",
+    "away_norm": "richmond"
+  },
+  {
+    "season": 2025,
+    "round": 19,
+    "home": "Geelong",
+    "away": "St Kilda",
+    "home_norm": "geelong",
+    "away_norm": "st kilda"
+  },
+  {
+    "season": 2025,
+    "round": 2,
+    "home": "Carlton",
+    "away": "Hawthorn",
+    "home_norm": "carlton",
+    "away_norm": "hawthorn"
+  },
+  {
+    "season": 2025,
+    "round": 2,
+    "home": "Western Bulldogs",
+    "away": "Collingwood",
+    "home_norm": "western bulldogs",
+    "away_norm": "collingwood"
+  },
+  {
+    "season": 2025,
+    "round": 2,
+    "home": "Essendon",
+    "away": "Adelaide",
+    "home_norm": "essendon",
+    "away_norm": "adelaide"
+  },
+  {
+    "season": 2025,
+    "round": 2,
+    "home": "Port Adelaide",
+    "away": "Richmond",
+    "home_norm": "port adelaide",
+    "away_norm": "richmond"
+  },
+  {
+    "season": 2025,
+    "round": 2,
+    "home": "St Kilda",
+    "away": "Geelong",
+    "home_norm": "st kilda",
+    "away_norm": "geelong"
+  },
+  {
+    "season": 2025,
+    "round": 2,
+    "home": "Brisbane Lions",
+    "away": "West Coast",
+    "home_norm": "brisbane lions",
+    "away_norm": "west coast"
+  },
+  {
+    "season": 2025,
+    "round": 2,
+    "home": "North Melbourne",
+    "away": "Melbourne",
+    "home_norm": "north melbourne",
+    "away_norm": "melbourne"
+  },
+  {
+    "season": 2025,
+    "round": 2,
+    "home": "Fremantle",
+    "away": "Sydney",
+    "home_norm": "fremantle",
+    "away_norm": "sydney"
+  },
+  {
+    "season": 2025,
+    "round": 20,
+    "home": "Hawthorn",
+    "away": "Carlton",
+    "home_norm": "hawthorn",
+    "away_norm": "carlton"
+  },
+  {
+    "season": 2025,
+    "round": 20,
+    "home": "Essendon",
+    "away": "Western Bulldogs",
+    "home_norm": "essendon",
+    "away_norm": "western bulldogs"
+  },
+  {
+    "season": 2025,
+    "round": 20,
+    "home": "Greater Western Sydney",
+    "away": "Sydney",
+    "home_norm": "giants",
+    "away_norm": "sydney"
+  },
+  {
+    "season": 2025,
+    "round": 20,
+    "home": "Fremantle",
+    "away": "West Coast",
+    "home_norm": "fremantle",
+    "away_norm": "west coast"
+  },
+  {
+    "season": 2025,
+    "round": 20,
+    "home": "North Melbourne",
+    "away": "Geelong",
+    "home_norm": "north melbourne",
+    "away_norm": "geelong"
+  },
+  {
+    "season": 2025,
+    "round": 20,
+    "home": "Adelaide",
+    "away": "Port Adelaide",
+    "home_norm": "adelaide",
+    "away_norm": "port adelaide"
+  },
+  {
+    "season": 2025,
+    "round": 20,
+    "home": "Richmond",
+    "away": "Collingwood",
+    "home_norm": "richmond",
+    "away_norm": "collingwood"
+  },
+  {
+    "season": 2025,
+    "round": 20,
+    "home": "St Kilda",
+    "away": "Melbourne",
+    "home_norm": "st kilda",
+    "away_norm": "melbourne"
+  },
+  {
+    "season": 2025,
+    "round": 21,
+    "home": "Western Bulldogs",
+    "away": "Greater Western Sydney",
+    "home_norm": "western bulldogs",
+    "away_norm": "giants"
+  },
+  {
+    "season": 2025,
+    "round": 21,
+    "home": "Melbourne",
+    "away": "West Coast",
+    "home_norm": "melbourne",
+    "away_norm": "west coast"
+  },
+  {
+    "season": 2025,
+    "round": 21,
+    "home": "Gold Coast",
+    "away": "Richmond",
+    "home_norm": "gold coast",
+    "away_norm": "richmond"
+  },
+  {
+    "season": 2025,
+    "round": 21,
+    "home": "Sydney",
+    "away": "Essendon",
+    "home_norm": "sydney",
+    "away_norm": "essendon"
+  },
+  {
+    "season": 2025,
+    "round": 21,
+    "home": "St Kilda",
+    "away": "North Melbourne",
+    "home_norm": "st kilda",
+    "away_norm": "north melbourne"
+  },
+  {
+    "season": 2025,
+    "round": 21,
+    "home": "Geelong",
+    "away": "Port Adelaide",
+    "home_norm": "geelong",
+    "away_norm": "port adelaide"
+  },
+  {
+    "season": 2025,
+    "round": 21,
+    "home": "Fremantle",
+    "away": "Carlton",
+    "home_norm": "fremantle",
+    "away_norm": "carlton"
+  },
+  {
+    "season": 2025,
+    "round": 22,
+    "home": "Geelong",
+    "away": "Essendon",
+    "home_norm": "geelong",
+    "away_norm": "essendon"
+  },
+  {
+    "season": 2025,
+    "round": 22,
+    "home": "Richmond",
+    "away": "St Kilda",
+    "home_norm": "richmond",
+    "away_norm": "st kilda"
+  },
+  {
+    "season": 2025,
+    "round": 22,
+    "home": "Brisbane Lions",
+    "away": "Sydney",
+    "home_norm": "brisbane lions",
+    "away_norm": "sydney"
+  },
+  {
+    "season": 2025,
+    "round": 22,
+    "home": "Carlton",
+    "away": "Gold Coast",
+    "home_norm": "carlton",
+    "away_norm": "gold coast"
+  },
+  {
+    "season": 2025,
+    "round": 22,
+    "home": "Port Adelaide",
+    "away": "Fremantle",
+    "home_norm": "port adelaide",
+    "away_norm": "fremantle"
+  },
+  {
+    "season": 2025,
+    "round": 22,
+    "home": "Greater Western Sydney",
+    "away": "North Melbourne",
+    "home_norm": "giants",
+    "away_norm": "north melbourne"
+  },
+  {
+    "season": 2025,
+    "round": 22,
+    "home": "Melbourne",
+    "away": "Western Bulldogs",
+    "home_norm": "melbourne",
+    "away_norm": "western bulldogs"
+  },
+  {
+    "season": 2025,
+    "round": 22,
+    "home": "West Coast",
+    "away": "Adelaide",
+    "home_norm": "west coast",
+    "away_norm": "adelaide"
+  },
+  {
+    "season": 2025,
+    "round": 23,
+    "home": "Essendon",
+    "away": "St Kilda",
+    "home_norm": "essendon",
+    "away_norm": "st kilda"
+  },
+  {
+    "season": 2025,
+    "round": 23,
+    "home": "Carlton",
+    "away": "Port Adelaide",
+    "home_norm": "carlton",
+    "away_norm": "port adelaide"
+  },
+  {
+    "season": 2025,
+    "round": 23,
+    "home": "Hawthorn",
+    "away": "Melbourne",
+    "home_norm": "hawthorn",
+    "away_norm": "melbourne"
+  },
+  {
+    "season": 2025,
+    "round": 23,
+    "home": "North Melbourne",
+    "away": "Richmond",
+    "home_norm": "north melbourne",
+    "away_norm": "richmond"
+  },
+  {
+    "season": 2025,
+    "round": 23,
+    "home": "Sydney",
+    "away": "Geelong",
+    "home_norm": "sydney",
+    "away_norm": "geelong"
+  },
+  {
+    "season": 2025,
+    "round": 23,
+    "home": "Western Bulldogs",
+    "away": "West Coast",
+    "home_norm": "western bulldogs",
+    "away_norm": "west coast"
+  },
+  {
+    "season": 2025,
+    "round": 24,
+    "home": "Essendon",
+    "away": "Carlton",
+    "home_norm": "essendon",
+    "away_norm": "carlton"
+  },
+  {
+    "season": 2025,
+    "round": 24,
+    "home": "Collingwood",
+    "away": "Melbourne",
+    "home_norm": "collingwood",
+    "away_norm": "melbourne"
+  },
+  {
+    "season": 2025,
+    "round": 24,
+    "home": "Port Adelaide",
+    "away": "Gold Coast",
+    "home_norm": "port adelaide",
+    "away_norm": "gold coast"
+  },
+  {
+    "season": 2025,
+    "round": 24,
+    "home": "North Melbourne",
+    "away": "Adelaide",
+    "home_norm": "north melbourne",
+    "away_norm": "adelaide"
+  },
+  {
+    "season": 2025,
+    "round": 24,
+    "home": "Richmond",
+    "away": "Geelong",
+    "home_norm": "richmond",
+    "away_norm": "geelong"
+  },
+  {
+    "season": 2025,
+    "round": 24,
+    "home": "West Coast",
+    "away": "Sydney",
+    "home_norm": "west coast",
+    "away_norm": "sydney"
+  },
+  {
+    "season": 2025,
+    "round": 24,
+    "home": "Greater Western Sydney",
+    "away": "St Kilda",
+    "home_norm": "giants",
+    "away_norm": "st kilda"
+  },
+  {
+    "season": 2025,
+    "round": 24,
+    "home": "Western Bulldogs",
+    "away": "Fremantle",
+    "home_norm": "western bulldogs",
+    "away_norm": "fremantle"
+  },
+  {
+    "season": 2025,
+    "round": 24,
+    "home": "Gold Coast",
+    "away": "Essendon",
+    "home_norm": "gold coast",
+    "away_norm": "essendon"
+  },
+  {
+    "season": 2025,
+    "round": 3,
+    "home": "Essendon",
+    "away": "Port Adelaide",
+    "home_norm": "essendon",
+    "away_norm": "port adelaide"
+  },
+  {
+    "season": 2025,
+    "round": 3,
+    "home": "Carlton",
+    "away": "Western Bulldogs",
+    "home_norm": "carlton",
+    "away_norm": "western bulldogs"
+  },
+  {
+    "season": 2025,
+    "round": 3,
+    "home": "Melbourne",
+    "away": "Gold Coast",
+    "home_norm": "melbourne",
+    "away_norm": "gold coast"
+  },
+  {
+    "season": 2025,
+    "round": 3,
+    "home": "St Kilda",
+    "away": "Richmond",
+    "home_norm": "st kilda",
+    "away_norm": "richmond"
+  },
+  {
+    "season": 2025,
+    "round": 3,
+    "home": "Adelaide",
+    "away": "North Melbourne",
+    "home_norm": "adelaide",
+    "away_norm": "north melbourne"
+  },
+  {
+    "season": 2025,
+    "round": 3,
+    "home": "West Coast",
+    "away": "Fremantle",
+    "home_norm": "west coast",
+    "away_norm": "fremantle"
+  },
+  {
+    "season": 2025,
+    "round": 4,
+    "home": "Collingwood",
+    "away": "Carlton",
+    "home_norm": "collingwood",
+    "away_norm": "carlton"
+  },
+  {
+    "season": 2025,
+    "round": 4,
+    "home": "Geelong",
+    "away": "Melbourne",
+    "home_norm": "geelong",
+    "away_norm": "melbourne"
+  },
+  {
+    "season": 2025,
+    "round": 4,
+    "home": "Richmond",
+    "away": "Brisbane Lions",
+    "home_norm": "richmond",
+    "away_norm": "brisbane lions"
+  },
+  {
+    "season": 2025,
+    "round": 4,
+    "home": "North Melbourne",
+    "away": "Sydney",
+    "home_norm": "north melbourne",
+    "away_norm": "sydney"
+  },
+  {
+    "season": 2025,
+    "round": 4,
+    "home": "Greater Western Sydney",
+    "away": "West Coast",
+    "home_norm": "giants",
+    "away_norm": "west coast"
+  },
+  {
+    "season": 2025,
+    "round": 4,
+    "home": "Port Adelaide",
+    "away": "St Kilda",
+    "home_norm": "port adelaide",
+    "away_norm": "st kilda"
+  },
+  {
+    "season": 2025,
+    "round": 4,
+    "home": "Fremantle",
+    "away": "Western Bulldogs",
+    "home_norm": "fremantle",
+    "away_norm": "western bulldogs"
+  },
+  {
+    "season": 2025,
+    "round": 5,
+    "home": "Collingwood",
+    "away": "Sydney",
+    "home_norm": "collingwood",
+    "away_norm": "sydney"
+  },
+  {
+    "season": 2025,
+    "round": 5,
+    "home": "North Melbourne",
+    "away": "Gold Coast",
+    "home_norm": "north melbourne",
+    "away_norm": "gold coast"
+  },
+  {
+    "season": 2025,
+    "round": 5,
+    "home": "Carlton",
+    "away": "West Coast",
+    "home_norm": "carlton",
+    "away_norm": "west coast"
+  },
+  {
+    "season": 2025,
+    "round": 5,
+    "home": "Western Bulldogs",
+    "away": "Brisbane Lions",
+    "home_norm": "western bulldogs",
+    "away_norm": "brisbane lions"
+  },
+  {
+    "season": 2025,
+    "round": 5,
+    "home": "Melbourne",
+    "away": "Essendon",
+    "home_norm": "melbourne",
+    "away_norm": "essendon"
+  },
+  {
+    "season": 2025,
+    "round": 5,
+    "home": "Richmond",
+    "away": "Fremantle",
+    "home_norm": "richmond",
+    "away_norm": "fremantle"
+  },
+  {
+    "season": 2025,
+    "round": 5,
+    "home": "St Kilda",
+    "away": "Greater Western Sydney",
+    "home_norm": "st kilda",
+    "away_norm": "giants"
+  },
+  {
+    "season": 2025,
+    "round": 5,
+    "home": "Port Adelaide",
+    "away": "Hawthorn",
+    "home_norm": "port adelaide",
+    "away_norm": "hawthorn"
+  },
+  {
+    "season": 2025,
+    "round": 6,
+    "home": "North Melbourne",
+    "away": "Carlton",
+    "home_norm": "north melbourne",
+    "away_norm": "carlton"
+  },
+  {
+    "season": 2025,
+    "round": 6,
+    "home": "West Coast",
+    "away": "Essendon",
+    "home_norm": "west coast",
+    "away_norm": "essendon"
+  },
+  {
+    "season": 2025,
+    "round": 6,
+    "home": "Melbourne",
+    "away": "Fremantle",
+    "home_norm": "melbourne",
+    "away_norm": "fremantle"
+  },
+  {
+    "season": 2025,
+    "round": 6,
+    "home": "Richmond",
+    "away": "Gold Coast",
+    "home_norm": "richmond",
+    "away_norm": "gold coast"
+  },
+  {
+    "season": 2025,
+    "round": 6,
+    "home": "Sydney",
+    "away": "Port Adelaide",
+    "home_norm": "sydney",
+    "away_norm": "port adelaide"
+  },
+  {
+    "season": 2025,
+    "round": 6,
+    "home": "Western Bulldogs",
+    "away": "St Kilda",
+    "home_norm": "western bulldogs",
+    "away_norm": "st kilda"
+  },
+  {
+    "season": 2025,
+    "round": 7,
+    "home": "Melbourne",
+    "away": "Richmond",
+    "home_norm": "melbourne",
+    "away_norm": "richmond"
+  },
+  {
+    "season": 2025,
+    "round": 7,
+    "home": "Collingwood",
+    "away": "Essendon",
+    "home_norm": "collingwood",
+    "away_norm": "essendon"
+  },
+  {
+    "season": 2025,
+    "round": 7,
+    "home": "St Kilda",
+    "away": "Brisbane Lions",
+    "home_norm": "st kilda",
+    "away_norm": "brisbane lions"
+  },
+  {
+    "season": 2025,
+    "round": 7,
+    "home": "Port Adelaide",
+    "away": "North Melbourne",
+    "home_norm": "port adelaide",
+    "away_norm": "north melbourne"
+  },
+  {
+    "season": 2025,
+    "round": 7,
+    "home": "Greater Western Sydney",
+    "away": "Western Bulldogs",
+    "home_norm": "giants",
+    "away_norm": "western bulldogs"
+  },
+  {
+    "season": 2025,
+    "round": 7,
+    "home": "Gold Coast",
+    "away": "Sydney",
+    "home_norm": "gold coast",
+    "away_norm": "sydney"
+  },
+  {
+    "season": 2025,
+    "round": 7,
+    "home": "Carlton",
+    "away": "Geelong",
+    "home_norm": "carlton",
+    "away_norm": "geelong"
+  },
+  {
+    "season": 2025,
+    "round": 7,
+    "home": "Hawthorn",
+    "away": "West Coast",
+    "home_norm": "hawthorn",
+    "away_norm": "west coast"
+  },
+  {
+    "season": 2025,
+    "round": 8,
+    "home": "Essendon",
+    "away": "North Melbourne",
+    "home_norm": "essendon",
+    "away_norm": "north melbourne"
+  },
+  {
+    "season": 2025,
+    "round": 8,
+    "home": "St Kilda",
+    "away": "Fremantle",
+    "home_norm": "st kilda",
+    "away_norm": "fremantle"
+  },
+  {
+    "season": 2025,
+    "round": 8,
+    "home": "Western Bulldogs",
+    "away": "Port Adelaide",
+    "home_norm": "western bulldogs",
+    "away_norm": "port adelaide"
+  },
+  {
+    "season": 2025,
+    "round": 8,
+    "home": "Adelaide",
+    "away": "Carlton",
+    "home_norm": "adelaide",
+    "away_norm": "carlton"
+  },
+  {
+    "season": 2025,
+    "round": 8,
+    "home": "West Coast",
+    "away": "Melbourne",
+    "home_norm": "west coast",
+    "away_norm": "melbourne"
+  },
+  {
+    "season": 2025,
+    "round": 8,
+    "home": "Sydney",
+    "away": "Greater Western Sydney",
+    "home_norm": "sydney",
+    "away_norm": "giants"
+  },
+  {
+    "season": 2025,
+    "round": 8,
+    "home": "Hawthorn",
+    "away": "Richmond",
+    "home_norm": "hawthorn",
+    "away_norm": "richmond"
+  },
+  {
+    "season": 2025,
+    "round": 9,
+    "home": "St Kilda",
+    "away": "Carlton",
+    "home_norm": "st kilda",
+    "away_norm": "carlton"
+  },
+  {
+    "season": 2025,
+    "round": 9,
+    "home": "Melbourne",
+    "away": "Hawthorn",
+    "home_norm": "melbourne",
+    "away_norm": "hawthorn"
+  },
+  {
+    "season": 2025,
+    "round": 9,
+    "home": "Essendon",
+    "away": "Sydney",
+    "home_norm": "essendon",
+    "away_norm": "sydney"
+  },
+  {
+    "season": 2025,
+    "round": 9,
+    "home": "Gold Coast",
+    "away": "Western Bulldogs",
+    "home_norm": "gold coast",
+    "away_norm": "western bulldogs"
+  },
+  {
+    "season": 2025,
+    "round": 9,
+    "home": "Port Adelaide",
+    "away": "Adelaide",
+    "home_norm": "port adelaide",
+    "away_norm": "adelaide"
+  },
+  {
+    "season": 2025,
+    "round": 9,
+    "home": "Richmond",
+    "away": "West Coast",
+    "home_norm": "richmond",
+    "away_norm": "west coast"
+  },
+  {
+    "season": 2025,
+    "round": 9,
+    "home": "North Melbourne",
+    "away": "Brisbane Lions",
+    "home_norm": "north melbourne",
+    "away_norm": "brisbane lions"
+  }
+]
