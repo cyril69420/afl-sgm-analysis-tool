@@ -1,0 +1,2 @@
+game_key,season,round,venue_id,home_team_id,away_team_id,scheduled_time_utc,status,source_kind,payload_json
+eb06e748c741008eff1808f646a67d36b7296653,2025,regular,616587401c5854a3afa318304fe55a1c034448e7,82288be517a94cbee7c6d2591e863affbac457d4,ab34436b356772b6f0c830d1e15cd26889335139,2025-03-25 08:40:00+00:00,scheduled,fixtures,

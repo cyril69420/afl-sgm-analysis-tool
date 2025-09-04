@@ -1,3 +1,11 @@
 team_id,team_name_canon,aliases_json,created_utc,updated_utc
-82288be517a94cbee7c6d2591e863affbac457d4,example_home,"[""example_home""]",2025-08-28T02:06:27Z,2025-08-28T02:06:27Z
-ab34436b356772b6f0c830d1e15cd26889335139,example_away,"[""example_away""]",2025-08-28T02:06:27Z,2025-08-28T02:06:27Z
+f36abca66a42f91ede6e6949520fc052c92c8a17,adelaide_crows,"[""adelaide_crows""]",2025-09-02T09:30:11Z,2025-09-02T09:30:11Z
+bd12ce27cae1a14a2e63829c114a863978693ead,greater_western_sydney_giants,"[""greater_western_sydney_giants""]",2025-09-02T09:30:11Z,2025-09-02T09:30:11Z
+01e679bfc6d265bfd2e8b84cff0652815ce6ab0c,hawthorn_hawks,"[""hawthorn_hawks""]",2025-09-02T09:30:11Z,2025-09-02T09:30:11Z
+82288be517a94cbee7c6d2591e863affbac457d4,example_home,"[""example_home""]",2025-09-02T09:30:11Z,2025-09-02T09:30:11Z
+ab34436b356772b6f0c830d1e15cd26889335139,example_away,"[""example_away""]",2025-09-02T09:30:11Z,2025-09-02T09:30:11Z
+abac2d055027ccf9b2cb30e03eb9bfa38e561ba7,gold_coast_suns,"[""gold_coast_suns""]",2025-09-02T09:30:11Z,2025-09-02T09:30:11Z
+e465c5d0a514e5fd4a72d66611e1fc5864ea14be,fremantle_dockers,"[""fremantle_dockers""]",2025-09-02T09:30:11Z,2025-09-02T09:30:11Z
+2cc7dcbdb6678bfc418545cd1e594aba97c10989,geelong_cats,"[""geelong_cats""]",2025-09-02T09:30:11Z,2025-09-02T09:30:11Z
+11d8c80872895da495d18bf88fbbb05e0c80401d,collingwood,"[""collingwood""]",2025-09-02T09:30:11Z,2025-09-02T09:30:11Z
+4064edbbf8a87d0b281be668cabfa76286491511,brisbane_lions,"[""brisbane_lions""]",2025-09-02T09:30:11Z,2025-09-02T09:30:11Z

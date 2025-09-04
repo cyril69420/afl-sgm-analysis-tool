@@ -12,175 +12,180 @@ import argparse
 import logging
 import subprocess
 import sys
+from typing import List
 
 
-def sh(cmd: list[str]) -> None:
-    """Run a subprocess command and exit on failure."""
-    logging.info("$ %s", " ".join(cmd))
-    r = subprocess.run(cmd)
-    if r.returncode != 0:
-        logging.error("Command failed with exit code %s", r.returncode)
-        sys.exit(r.returncode)
+def setup_logging(level: str) -> None:
+    logging.basicConfig(
+        level=getattr(logging, level.upper(), logging.INFO),
+        format="%(asctime)s | %(levelname)s | %(message)s",
+        datefmt="%Y-%m-%d %H:%M:%S",
+    )
 
 
-def main():
-    ap = argparse.ArgumentParser(description="Bronze → Silver ETL Orchestrator")
-    ap.add_argument("--season", type=int, required=True, help="Season to process, e.g., 2025")
-    ap.add_argument(
-        "--phase",
-        choices=["all", "bronze", "silver"],
-        default="all",
-        help="Run only bronze, only silver, or the full pipeline",
-    )
-    ap.add_argument(
-        "--overwrite",
-        action="store_true",
-        help="Allow writers to overwrite existing Parquet partitions",
-    )
-    ap.add_argument(
-        "--csv-mirror",
-        action="store_true",
-        help="If supported by the called script, also mirror outputs to CSV",
-    )
-    ap.add_argument(
-        "--headless",
-        action="store_true",
-        help="Run scraping steps that support it in headless mode (Playwright)",
-    )
-    ap.add_argument("--log-level", default="INFO", help="Logging level for child processes")
+def sh(cmd: List[str]) -> None:
+    """Run a shell command with logging and failure surfacing."""
+    logging.info("RUN: %s", " ".join(cmd))
+    proc = subprocess.run(cmd)
+    if proc.returncode != 0:
+        raise SystemExit(proc.returncode)
+
+
+def common_flags(args: argparse.Namespace) -> List[str]:
+    flags: List[str] = ["--log-level", args.log_level]
+    if args.overwrite:
+        flags.append("--overwrite")
+    if args.csv_mirror:
+        flags.append("--csv-mirror")
+    return flags
+
+
+def main() -> None:
+    ap = argparse.ArgumentParser(description="Bronze → Silver ETL runner")
+    ap.add_argument("--season", type=int, required=True)
+    ap.add_argument("--phase", choices=["all", "bronze", "silver"], default="all")
+    ap.add_argument("--overwrite", action="store_true")
+    ap.add_argument("--csv-mirror", action="store_true")
+    ap.add_argument("--headless", action="store_true", help="(reserved) keep for compatibility")
+    ap.add_argument("--log-level", default="INFO")
     args = ap.parse_args()
 
-    logging.basicConfig(
-        format="%(asctime)s | %(levelname)s | %(message)s",
-        level=getattr(logging, args.log_level.upper(), logging.INFO),
-    )
+    setup_logging(args.log_level)
+    py = [sys.executable, "-m"]
 
-    py = [sys.executable, "-m"]  # invoke modules consistently
+    logging.info("ETL start | season=%s phase=%s overwrite=%s csv_mirror=%s",
+                 args.season, args.phase, args.overwrite, args.csv_mirror)
 
+    # -------------------- BRONZE --------------------
     if args.phase in ("all", "bronze"):
-        # 1) Bronze – Fixtures & URLs
+        logging.info("=== BRONZE: begin ===")
+
+        # Upcoming fixtures
         sh(
             py
             + [
                 "scripts.bronze.bronze_ingest_games",
                 "--season",
                 str(args.season),
-                "--log-level",
-                args.log_level,
             ]
-            + (["--overwrite"] if args.overwrite else [])
-            + (["--csv-mirror"] if args.csv_mirror else [])
+            + common_flags(args)
         )
 
-        # Playwright-backed discovery (supports --headless)
+        # Event URL discovery (bookmakers)
         sh(
             py
             + [
                 "scripts.bronze.bronze_discover_event_urls",
                 "--season",
                 str(args.season),
-                "--log-level",
-                args.log_level,
-                "--bookmakers",
-                "sportsbet,pointsbet",
             ]
-            + (["--overwrite"] if args.overwrite else [])
-            + (["--csv-mirror"] if args.csv_mirror else [])
-            + (["--headless"] if args.headless else [])
+            + common_flags(args)
         )
 
-        # 2) Bronze – Odds & Weather
-        # If your odds scraper also supports --headless, you can safely add the same flag below.
+        # Live odds
         sh(
             py
             + [
                 "scripts.bronze.bronze_ingest_odds_live",
                 "--season",
                 str(args.season),
-                "--log-level",
-                args.log_level,
             ]
-            + (["--overwrite"] if args.overwrite else [])
-            + (["--csv-mirror"] if args.csv_mirror else [])
-            # + (["--headless"] if args.headless else [])  # uncomment if supported by your script
+            + common_flags(args)
         )
 
+        # Historic odds
         sh(
             py
             + [
                 "scripts.bronze.bronze_ingest_historic_odds",
                 "--season",
                 str(args.season),
-                "--log-level",
-                args.log_level,
             ]
-            + (["--overwrite"] if args.overwrite else [])
-            + (["--csv-mirror"] if args.csv_mirror else [])
+            + common_flags(args)
         )
 
+        # Weather forecast
         sh(
             py
             + [
                 "scripts.bronze.bronze_ingest_weather_forecast",
                 "--season",
                 str(args.season),
-                "--log-level",
-                args.log_level,
             ]
-            + (["--overwrite"] if args.overwrite else [])
-            + (["--csv-mirror"] if args.csv_mirror else [])
+            + common_flags(args)
         )
 
+        # 🔥 NEW: Historical match results (Squiggle by default)
+        sh(
+            py
+            + [
+                "scripts.bronze.bronze_ingest_results",
+                "--season",
+                str(args.season),
+            ]
+            + common_flags(args)
+        )
+
+        logging.info("=== BRONZE: done ===")
+
+    # -------------------- SILVER --------------------
     if args.phase in ("all", "silver"):
-        # 3) Silver – core dims/facts
+        logging.info("=== SILVER: begin ===")
+
+        # Core (dims + upcoming + final + union)
         sh(
             py
             + [
                 "scripts.silver.silver_build_core",
-                "--log-level",
-                args.log_level,
+                "--season",
+                str(args.season),
             ]
+            + common_flags(args)
         )
 
+        # Odds snapshot (from bronze odds)
         sh(
             py
             + [
                 "scripts.silver.silver_build_odds_snapshot",
-                "--log-level",
-                args.log_level,
+                "--season",
+                str(args.season),
             ]
-            + (["--overwrite"] if args.overwrite else [])
+            + common_flags(args)
         )
 
+        # Latest odds view
         sh(
             py
             + [
                 "scripts.silver.silver_views_odds_latest",
-                "--log-level",
-                args.log_level,
+                "--season",
+                str(args.season),
             ]
-            + (["--overwrite"] if args.overwrite else [])
+            + common_flags(args)
         )
 
+        # Weather build
         sh(
             py
             + [
                 "scripts.silver.silver_build_weather",
-                "--log-level",
-                args.log_level,
+                "--season",
+                str(args.season),
             ]
-            + (["--overwrite"] if args.overwrite else [])
+            + common_flags(args)
         )
 
-        # Optional: bookmaker dim for referential integrity
+        # Bookmaker dims
         sh(
             py
             + [
                 "scripts.silver.silver_dims_bookmaker",
-                "--log-level",
-                args.log_level,
             ]
+            + ["--log-level", args.log_level]
         )
+
+        logging.info("=== SILVER: done ===")
 
     logging.info("ETL complete.")
 

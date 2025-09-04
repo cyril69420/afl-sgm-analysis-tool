@@ -1,5 +1,5 @@
 game_key,season,round,home,away,venue,scheduled_time_utc,source_tz,discovered_utc,bookmaker_event_url
-2025_finals_w1_adelaide-crows_collingwood_20250904T094000Z,2025,finals_w1,Adelaide Crows,Collingwood,Adelaide Oval,2025-09-04T09:40:00.000000+0000,Australia/Adelaide,2025-08-31T07:51:35.443147+0000,
-2025_finals_w1_geelong-cats_brisbane-lions_20250905T094000Z,2025,finals_w1,Geelong Cats,Brisbane Lions,the MCG,2025-09-05T09:40:00.000000+0000,Australia/Sydney,2025-08-31T07:51:35.443147+0000,
-2025_finals_w1_gws-giants_hawthorn-hawks_20250906T051500Z,2025,finals_w1,GWS Giants,Hawthorn Hawks,Engie Stadium,2025-09-06T05:15:00.000000+0000,Australia/Sydney,2025-08-31T07:51:35.443147+0000,
-2025_finals_w1_fremantle-dockers_gold-coast-suns_20250906T093500Z,2025,finals_w1,Fremantle Dockers,Gold Coast Suns,Optus Stadium,2025-09-06T09:35:00.000000+0000,Australia/Perth,2025-08-31T07:51:35.443147+0000,
+2025_finals_w1_adelaide-crows_collingwood_20250904T094000Z,2025,finals_w1,Adelaide Crows,Collingwood,Adelaide Oval,2025-09-04T09:40:00.000000+0000,Australia/Adelaide,2025-09-04T07:45:31.335604+0000,
+2025_finals_w1_geelong-cats_brisbane-lions_20250905T094000Z,2025,finals_w1,Geelong Cats,Brisbane Lions,the MCG,2025-09-05T09:40:00.000000+0000,Australia/Sydney,2025-09-04T07:45:31.335604+0000,
+2025_finals_w1_gws-giants_hawthorn-hawks_20250906T051500Z,2025,finals_w1,GWS Giants,Hawthorn Hawks,Engie Stadium,2025-09-06T05:15:00.000000+0000,Australia/Sydney,2025-09-04T07:45:31.335604+0000,
+2025_finals_w1_fremantle-dockers_gold-coast-suns_20250906T093500Z,2025,finals_w1,Fremantle Dockers,Gold Coast Suns,Optus Stadium,2025-09-06T09:35:00.000000+0000,Australia/Perth,2025-09-04T07:45:31.335604+0000,
